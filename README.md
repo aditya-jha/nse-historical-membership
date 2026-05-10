@@ -10,8 +10,6 @@ Open-source point-in-time membership tables for NSE (India) — both **index mem
 
 For backtests on Indian equities, you cannot ask "was X in Nifty 500 on 2021-08-15?" today using NSE's own portal — they publish only the current snapshot. This repository fills that gap.
 
-There is, to our knowledge, no equivalent open dataset for India. Compare to [fja05680/sp500](https://github.com/fja05680/sp500), which does the same job for the S&P 500 (837 stars, MIT). This repo is the Indian counterpart.
-
 ## Data quality at a glance
 
 | Check | Status |

@@ -52,7 +52,7 @@ Sector indices wanted (in priority order): Nifty Bank, Nifty IT, Nifty FMCG, Nif
 ### R6 — Notebook companion for `quickstart.py`
 **Status:** open · **Skill:** none · **Time:** 1 hour
 
-A Jupyter notebook (`examples/01_pit_queries.ipynb`) covering the same five questions plus 2–3 visualizations (Nifty 500 churn over time, average tenure of a Nifty 50 member, etc.). fja05680/sp500's three notebooks drove most of its 837 stars; ours has none.
+A Jupyter notebook (`examples/01_pit_queries.ipynb`) covering the same five questions plus 2–3 visualizations (Nifty 500 churn over time, average tenure of a Nifty 50 member, etc.). Notebooks render inline on GitHub and are by far the highest-leverage way to onboard new users.
 
 ### R7 — Parquet/SQLite distribution alongside CSV
 **Status:** open · **Skill:** small · **Time:** 1 hour
