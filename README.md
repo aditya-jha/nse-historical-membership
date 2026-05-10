@@ -1,6 +1,12 @@
 # NSE Historical Membership (Point-in-Time)
 
+[![CI](https://github.com/aditya-jha/nse-historical-membership/actions/workflows/ci.yml/badge.svg)](https://github.com/aditya-jha/nse-historical-membership/actions/workflows/ci.yml)
+[![License: MIT (code)](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
+[![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC%20BY%204.0-green.svg)](LICENSE-DATA)
+
 Open-source point-in-time membership tables for NSE (India) — both **index membership** (Nifty 50 / Next 50 / 100 / 500 / Midcap 150 / Smallcap 250) and **F&O segment membership** — derived by parsing public NSE press releases and circulars.
+
+![Nifty index churn 2017–2026](docs/churn.png)
 
 For backtests on Indian equities, you cannot ask "was X in Nifty 500 on 2021-08-15?" today using NSE's own portal — they publish only the current snapshot. This repository fills that gap.
 
@@ -34,6 +40,7 @@ This answers 5 PIT questions out of the box (HDFC pre/post-merger, Nifty 50 on a
 index_history/
 ├── data/
 │   ├── index_membership_history.csv     # ← headline file (2,820 intervals)
+│   ├── current_snapshot/                # NSE Indices' authoritative current CSVs (the seed)
 │   ├── parsed/                          # one JSON per parsed press release
 │   └── manual_overrides/                # mergers, renames, hand-curated edits
 ├── code/                                # fetch / parse / build / validate
@@ -46,7 +53,16 @@ fno_history/
 │   ├── fno_membership_history.csv       # ← headline file (311 intervals, 270 symbols)
 │   └── parsed/                          # one JSON per parsed circular
 ├── code/
-└── docs/
+└── README.md
+
+examples/
+├── quickstart.py                        # 5 PIT queries in 30 lines
+└── plot_churn.py                        # regenerates docs/churn.png
+
+tests/
+└── test_pit_lookups.py                  # 16 asserts (famous transitions + invariants)
+
+CHANGELOG.md · CONTRIBUTING.md · ROADMAP.md
 ```
 
 ## Headline CSVs
@@ -168,19 +184,31 @@ This data is provided "as-is" with documented coverage gaps. **Independently ver
 
 ## Contributing
 
-Issues and PRs welcome — particularly:
-- Pre-2018 NSE index PRs the parser missed (cardinality gate currently flags 2014–2018 windows).
-- Pre-2014 F&O introductions (would close the open-interval gap from 140 → ~220).
-- Hand-curated entries to `index_history/data/manual_overrides/` for mergers and rename events.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the five contribution paths and PR conventions, and [`ROADMAP.md`](ROADMAP.md) for an explicit list of open tasks (R1–R12) ranked by leverage. Highest-impact contributions: backfilling pre-2017 NSE Indices PRs (R1), pre-2014 F&O introductions (R2), and adding sector indices like Nifty Bank / Nifty IT (R3).
 
-When opening a PR, please include the upstream NSE source URL (or a Wayback Machine snapshot) for any factual change.
+To request a new task or report a data-quality issue, open a GitHub Issue. Issues that block production use of the dataset jump the queue.
 
 ## Citation
 
-If this dataset informs published research:
+If this dataset informs published research or a derivative work:
 
+```bibtex
+@misc{nse_historical_membership_2026,
+  author       = {Jha, Aditya},
+  title        = {{NSE} Historical Membership (Point-in-Time)},
+  year         = {2026},
+  howpublished = {\url{https://github.com/aditya-jha/nse-historical-membership}},
+  note         = {Derived from public NSE Indices Limited press releases
+                  and NSE Exchange circulars. CC BY 4.0.}
+}
 ```
-NSE Historical Membership (Point-in-Time), 2026.
-https://github.com/<handle>/nse-historical-membership
-Source: NSE Indices Limited press releases + NSE Exchange circulars (public).
-```
+
+Plain-text form:
+
+> Jha, A. (2026). *NSE Historical Membership (Point-in-Time)*. GitHub. https://github.com/aditya-jha/nse-historical-membership
+
+The CC BY 4.0 license requires attribution. A link to this repository plus the citation above satisfies the license; a [Zenodo DOI](ROADMAP.md#r11--zenodo-doi-registration) will be added at v0.1.0 tag for academic-style citations.
+
+## Used by
+
+If your work depends on this dataset, open an Issue with `[Used by]` in the title — we'll add a line here. Empty until the first user adds themselves.
