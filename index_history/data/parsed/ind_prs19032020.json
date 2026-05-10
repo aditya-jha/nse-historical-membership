@@ -14,16 +14,6 @@
       ]
     },
     {
-      "index_name": "Nifty Midcap 150",
-      "index_id": 223,
-      "excluded": [
-        "YESBANK"
-      ],
-      "included": [
-        "PVR"
-      ]
-    },
-    {
       "index_name": "Nifty Smallcap 250",
       "index_id": 227,
       "excluded": [
@@ -32,9 +22,28 @@
       "included": [
         "ALKYLAMINE"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [],
+      "included": [
+        "NIITTECH"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "PVR"
+      ],
+      "included": [
+        "FLFL"
+      ]
     }
   ],
   "notes": [
-    "Nifty 500: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+    "Nifty 500: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 50: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
   ]
 }

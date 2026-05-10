@@ -24,6 +24,98 @@
       "included": [
         "JSWCEMENT"
       ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "SKFINDIA"
+      ],
+      "included": [
+        "NAM-INDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "DABUR",
+        "HDFCBANK",
+        "HEROMOTOCO"
+      ],
+      "included": [
+        "HINDZINC",
+        "MAZDOCK",
+        "SOLARINDS"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BOSCHLTD",
+        "CDSL",
+        "COFORGE",
+        "DIVISLAB",
+        "DIXON",
+        "ETERNAL",
+        "INDHOTEL",
+        "KAYNES",
+        "KFINTECH",
+        "MOTILALOFS",
+        "POLICYBZR",
+        "PERSISTENT",
+        "PGEL",
+        "RPOWER",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "ASHOKLEY",
+        "AUBANK",
+        "BAJAJFINSV",
+        "BANKINDIA",
+        "CANBK",
+        "CHOLAFIN",
+        "NYKAA",
+        "IIFL",
+        "INDIANB",
+        "NAVINFLUOR",
+        "POONAWALLA",
+        "RADICO",
+        "SBILIFE",
+        "SHRIRAMFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "BEL",
+        "CANBK",
+        "PGEL",
+        "PNB",
+        "RBLBANK",
+        "ZEEL"
+      ],
+      "included": [
+        "AMBER",
+        "CDSL",
+        "KALYANKJIL",
+        "KPITTECH",
+        "POLICYBZR",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "PIIND"
+      ],
+      "included": [
+        "SBIN"
+      ]
     }
   ],
   "notes": []

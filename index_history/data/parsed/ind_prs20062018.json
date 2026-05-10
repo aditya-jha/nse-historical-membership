@@ -4,6 +4,40 @@
   "publication_date": null,
   "effective_date": "2018-06-29",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "HTMEDIA"
+      ],
+      "included": [
+        "ASTERDM"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "HTMEDIA"
+      ],
+      "included": [
+        "ASTERDM"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "HTMEDIA"
+      ],
+      "included": [
+        "ENIL",
+        "IDFC"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Media: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

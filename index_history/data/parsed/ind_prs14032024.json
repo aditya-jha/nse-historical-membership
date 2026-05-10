@@ -4,6 +4,89 @@
   "publication_date": "2024-03-14",
   "effective_date": "2024-03-28",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "APLAPOLLO",
+        "CGPOWER",
+        "CHOLAFIN",
+        "ESCORTS",
+        "IDFCFIRSTB",
+        "IDFC",
+        "ITC",
+        "KTKBANK",
+        "M&MFIN",
+        "PAYTM",
+        "POLYCAB",
+        "SIEMENS"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "ADANIPOWER",
+        "BAJAJ-AUTO",
+        "DIXON",
+        "DLF",
+        "GICRE",
+        "HINDCOPPER",
+        "JSL",
+        "KALYANKJIL",
+        "LUPIN",
+        "LODHA",
+        "OFSS"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ADANIENSOL",
+        "ANGELONE",
+        "BAJFINANCE",
+        "BAJAJFINSV",
+        "CHOLAFIN",
+        "KTKBANK",
+        "LTTS",
+        "POONAWALLA",
+        "ZOMATO"
+      ],
+      "included": [
+        "AARTIIND",
+        "ADANIPOWER",
+        "ABCAPITAL",
+        "GICRE",
+        "HINDCOPPER",
+        "IRFC",
+        "PEL",
+        "RECLTD",
+        "IDEA"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BERGEPAINT",
+        "IOC",
+        "TORNTPHARM"
+      ],
+      "included": [
+        "DMART",
+        "JSWSTEEL",
+        "SRF"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "IOC"
+      ],
+      "included": [
+        "TITAN"
+      ]
+    }
+  ],
   "notes": []
 }

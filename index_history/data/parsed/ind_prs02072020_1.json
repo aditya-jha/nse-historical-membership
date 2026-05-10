@@ -44,7 +44,61 @@
       "included": [
         "SBICARD"
       ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "VEDL"
+      ],
+      "included": [
+        "MIDHANI"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "VEDL"
+      ],
+      "included": [
+        "COROMANDEL"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "VEDL"
+      ],
+      "included": [
+        "NAM-INDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "VEDL"
+      ],
+      "included": [
+        "HINDALCO"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "VEDL"
+      ],
+      "included": [
+        "IDFCFIRSTB",
+        "TOTAL",
+        "UNIVASTU"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty High Beta 50: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

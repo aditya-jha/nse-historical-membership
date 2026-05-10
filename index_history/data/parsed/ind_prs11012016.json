@@ -4,6 +4,69 @@
   "publication_date": null,
   "effective_date": "2016-01-18",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ALSTOMT&D",
+        "AMARAJABAT",
+        "BAJAJCORP",
+        "BHARATFORG",
+        "DCBBANK",
+        "GDL",
+        "GRUH",
+        "NCC",
+        "REPCOHOME",
+        "SADBHAV"
+      ],
+      "included": [
+        "BAJAJFINSV",
+        "FCEL",
+        "FORTIS",
+        "KAJARIACER",
+        "KEC",
+        "NIITTECH",
+        "PIPAVAVDOC",
+        "TV18BRDCST",
+        "VAKRANGEE",
+        "VOLTAS"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "STRTECH",
+        "UNITECH"
+      ],
+      "included": [
+        "IBREALEST",
+        "TATAELXSI"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "CADILAHC",
+        "SUNPHARMA"
+      ],
+      "included": [
+        "NHPC",
+        "TITAN"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "STRTECH"
+      ],
+      "included": [
+        "SCHNEIDER"
+      ]
+    }
+  ],
   "notes": []
 }

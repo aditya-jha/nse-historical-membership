@@ -4,6 +4,60 @@
   "publication_date": null,
   "effective_date": "2017-01-10",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BALRAMCHIN",
+        "GODFRYPHLP",
+        "INDHOTEL",
+        "JETAIRWAYS",
+        "LAKSHVILAS",
+        "MPHASIS",
+        "NATCOPHARM",
+        "RELINFRA",
+        "SRTRANSFIN",
+        "TV18BRDCST"
+      ],
+      "included": [
+        "BALKRISIND",
+        "CANFINHOME",
+        "GNFC",
+        "INDIANB",
+        "IOC",
+        "NATIONALUM",
+        "SUNDRMFAST",
+        "TATACOMM",
+        "UPL",
+        "VGUARD"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "JETAIRWAYS"
+      ],
+      "included": [
+        "JUBILANT"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "DIVISLAB",
+        "L&TFH"
+      ],
+      "included": [
+        "GSKCONS",
+        "HCLTECH",
+        "IISL"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Low Volatility 50: |excluded|=2 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

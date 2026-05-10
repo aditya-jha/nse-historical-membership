@@ -27,7 +27,7 @@
     {"old": "DUMMYRAYMN",   "new": "_DUMMY_DROP", "effective_date": null},
     {"old": "DUMMYABFRL",   "new": "_DUMMY_DROP", "effective_date": null},
     {"old": "TATAMOTORS",   "new": "TMPV",        "effective_date": "2025-10-01", "note": "Tata Motors demerged into TMPV (passenger) + TMCV (commercial) Aug-Oct 2025"},
-    {"old": "TATAMTRDVR",   "new": "TMPV",        "effective_date": "2024-08-14", "note": "DVR class converted to ordinary, then renamed to TMPV in 2025 demerger"},
+    {"old": "TATAMTRDVR",   "new": "_DUMMY_DROP", "effective_date": "2024-08-14", "note": "DVR share class had its own historical index treatment distinct from TATAMOTORS. Collapsing TATAMTRDVR → TMPV caused walk-forward to spuriously close TATAMOTORS' interval when an event excluded TATAMTRDVR. Drop from canon; the DVR class is no longer listed."},
     {"old": "INFRATEL",     "new": "INDUSTOWER",  "effective_date": "2020-11-19", "note": "Bharti Infratel + Indus Towers merger"},
     {"old": "RNAM",         "new": "NAM-INDIA",   "effective_date": null,         "note": "Reliance Nippon AMC ticker change"},
     {"old": "MINDAIND",     "new": "UNOMINDA",    "effective_date": "2022-09-12", "note": "Minda Industries → UNO Minda"},

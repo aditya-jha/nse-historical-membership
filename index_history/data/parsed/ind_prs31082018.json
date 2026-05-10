@@ -24,7 +24,22 @@
       "included": [
         "SHILPAMED"
       ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "KPIT"
+      ],
+      "included": [
+        "NIITTECH",
+        "CYIENT",
+        "LUXIND",
+        "NIFTY"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty IT: |excluded|=1 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

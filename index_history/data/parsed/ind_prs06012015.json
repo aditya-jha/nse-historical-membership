@@ -4,6 +4,63 @@
   "publication_date": null,
   "effective_date": "2015-01-12",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ABAN",
+        "CESC",
+        "CYIENT",
+        "ECLERX",
+        "ESCORTS",
+        "HCLTECH",
+        "JUSTDIAL",
+        "NATCOPHARM",
+        "SUZLON",
+        "TATACOMM"
+      ],
+      "included": [
+        "ASHOKLEY",
+        "BEL",
+        "CEATLTD",
+        "GDL",
+        "GRUH",
+        "MONSANTO",
+        "STAR",
+        "TORNTPHARM",
+        "WHIRLPOOL",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "DENABANK",
+        "HCC",
+        "JPPOWER",
+        "JPINFRATEC",
+        "TV18BRDCST"
+      ],
+      "included": [
+        "ANDHRABANK",
+        "CROMPGREAV",
+        "INDIACEM",
+        "JISLJALEQS",
+        "VOLTAS"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "GLAXO"
+      ],
+      "included": [
+        "BHARTIARTL"
+      ]
+    }
+  ],
   "notes": []
 }

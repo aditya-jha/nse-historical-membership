@@ -28,7 +28,18 @@
         "BURGERKING",
         "INFIBEAM"
       ]
+    },
+    {
+      "index_name": "Nifty India Corporate Group - Tata 25% Cap",
+      "index_id": 3010,
+      "excluded": [
+        "TATASTLBSL",
+        "NSE"
+      ],
+      "included": []
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty India Corporate Group - Tata 25% Cap: |excluded|=2 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

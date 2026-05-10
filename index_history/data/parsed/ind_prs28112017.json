@@ -4,6 +4,21 @@
   "publication_date": null,
   "effective_date": "2017-12-29",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "JSWENERGY"
+      ],
+      "included": [
+        "NBCC",
+        "IISL",
+        "IDFC"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Midcap 50: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

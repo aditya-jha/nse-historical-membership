@@ -39,7 +39,6 @@
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [
-        "8KMILES",
         "AARTIIND",
         "DEN",
         "DREDGECORP",
@@ -143,7 +142,6 @@
       "index_name": "Nifty Smallcap 250",
       "index_id": 227,
       "excluded": [
-        "8KMILES",
         "ATUL",
         "DEN",
         "DREDGECORP",
@@ -204,7 +202,125 @@
         "VAKRANGEE",
         "VSTIND"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "DISHTV",
+        "DIVISLAB",
+        "PAGEIND",
+        "RPOWER",
+        "UBL"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "BEL",
+        "LICHSGFIN",
+        "OIL",
+        "SUNTV"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "BEML",
+        "BOMDYEING",
+        "BSE",
+        "CGPOWER",
+        "INDIACEM",
+        "JPASSOCIAT",
+        "JETAIRWAYS",
+        "SOUTHBANK",
+        "SUZLON",
+        "UJJIVAN"
+      ],
+      "included": [
+        "AVANTIFEED",
+        "CESC",
+        "ITI",
+        "KAJARIACER",
+        "KARURVYSYA",
+        "LINDEINDIA",
+        "MERCK",
+        "PERSISTENT",
+        "TV18BRDCST",
+        "VIPIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Auto",
+      "index_id": 1005,
+      "excluded": [
+        "TATAMTRDVR"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "MFSL"
+      ],
+      "included": [
+        "ICICIGI"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "UFO"
+      ],
+      "included": [
+        "NAVNETEDUL"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "SOUTHBANK"
+      ],
+      "included": [
+        "DCBBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "VOLTAS"
+      ],
+      "included": [
+        "CESC"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "IDEA"
+      ],
+      "included": [
+        "PETRONET"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "HINDPETRO"
+      ],
+      "included": [
+        "JSWSTEEL"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty 500: |excluded|=24 != |included|=25 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Smallcap 250: |excluded|=28 != |included|=29 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Auto: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

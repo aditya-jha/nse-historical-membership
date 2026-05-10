@@ -64,6 +64,56 @@
       "included": [
         "SWSOLAR"
       ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "BANDHANBNK"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "BANDHANBNK"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "BANDHANBNK"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "NMDC"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "ITC"
+      ]
     }
   ],
   "notes": []

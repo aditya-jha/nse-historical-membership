@@ -34,7 +34,93 @@
       "included": [
         "IIFL"
       ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ABFRL",
+        "ASTRAL",
+        "AUROPHARMA",
+        "HAVELLS",
+        "LTTS",
+        "RBLBANK",
+        "SBIN",
+        "TORNTPHARM",
+        "ULTRACEMCO",
+        "VAKRANGEE"
+      ],
+      "included": [
+        "CANFINHOME",
+        "GODREJPROP",
+        "HDFCAMC",
+        "MANAPPURAM",
+        "MCX",
+        "OBEROIRLTY",
+        "PRESTIGE",
+        "RECLTD",
+        "SBILIFE",
+        "SIEMENS",
+        "SOBHA",
+        "TRENT"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "BBTC",
+        "DHFL",
+        "DISHTV",
+        "GSFC",
+        "RELINFRA",
+        "TV18BRDCST"
+      ],
+      "included": [
+        "BAJFINANCE",
+        "BANKINDIA",
+        "BPCL",
+        "IDFC",
+        "NBCC",
+        "IDEA"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "HEROMOTOCO",
+        "INDUSINDBK",
+        "LICHSGFIN",
+        "ONGC",
+        "RBLBANK"
+      ],
+      "included": [
+        "ATUL",
+        "COROMANDEL",
+        "NATCOPHARM",
+        "NESTLEIND",
+        "RELAXO",
+        "SANOFI"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "INDUSINDBK",
+        "MRF",
+        "OFSS"
+      ],
+      "included": [
+        "LT",
+        "MARICO",
+        "NESTLEIND"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Alpha 50: |excluded|=10 != |included|=12 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Low Volatility 50: |excluded|=5 != |included|=6 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

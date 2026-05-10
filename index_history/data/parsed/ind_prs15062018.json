@@ -4,6 +4,67 @@
   "publication_date": null,
   "effective_date": "2018-06-29",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANITRANS",
+        "BBTC",
+        "CANFINHOME",
+        "CEATLTD",
+        "CENTURYTEX",
+        "CROMPTON",
+        "IBREALEST",
+        "JMFINANCIL",
+        "PCJEWELLER",
+        "PETRONET",
+        "PEL",
+        "RAJESHEXPO",
+        "TVSMOTOR",
+        "VOLTAS"
+      ],
+      "included": [
+        "ASHOKLEY",
+        "DMART",
+        "BHARATFIN",
+        "CYIENT",
+        "DIVISLAB",
+        "GRUH",
+        "INFIBEAM",
+        "KPIT",
+        "LTI",
+        "MPHASIS",
+        "PAGEIND",
+        "RADICO",
+        "TATAELXSI",
+        "TECHM"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "BANKINDIA",
+        "BEML",
+        "JMFINANCIL"
+      ],
+      "included": [
+        "GNFC",
+        "RADICO",
+        "RAYMOND"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BHARTIARTL"
+      ],
+      "included": [
+        "RBLBANK"
+      ]
+    }
+  ],
   "notes": []
 }

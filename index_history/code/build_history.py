@@ -30,19 +30,28 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Optional
 
-from sqlalchemy import text
+try:
+    from sqlalchemy import text
+except ImportError:  # only required for DB write path
+    text = None
 
 ROOT = Path(__file__).resolve().parent.parent
 PARSED_DIR = ROOT / "data" / "parsed"
 OVERRIDES_DIR = ROOT / "data" / "manual_overrides"
 
-# Add EntropyTester root to path so `tools.postgres` resolves when this script
-# is run as a module (`python -m nse_index_history.code.build_history`).
+# `tools.postgres.connection` is an internal-dev dependency. Public users run
+# build_history.py with --csv-out (no DB write); the import is therefore
+# lazy and only required when actually writing to the DB.
 sys.path.insert(0, str(ROOT.parent))
-from tools.postgres.connection import engine  # noqa: E402
 
-TARGET_INDEX_IDS = (217, 218, 219, 221, 223, 227)
+from index_history.code import registry as _reg
+
+TARGET_INDEX_IDS: tuple[int, ...] = _reg.target_index_ids()
 DEFAULT_FLOOR = date(2014, 1, 1)
+
+# Per-index inception dates from the registry. Walking back past launch is
+# meaningless — the index didn't exist yet — so we clamp the floor.
+INDEX_LAUNCH: dict[int, date] = _reg.index_launch()
 
 
 @dataclass(frozen=True)
@@ -164,13 +173,9 @@ def _canon_list(syms) -> tuple[str, ...]:
 
 SNAPSHOT_DIR = ROOT / "data" / "current_snapshot"
 
-_SNAPSHOT_FILES = {
-    217: "nifty_50.csv",
-    218: "nifty_next_50.csv",
-    219: "nifty_100.csv",
-    221: "nifty_500.csv",
-    223: "nifty_midcap_150.csv",
-    227: "nifty_smallcap_250.csv",
+# Snapshot filenames come from the registry (slug + .csv).
+_SNAPSHOT_FILES: dict[int, str] = {
+    s.id: f"{s.snapshot_slug}.csv" for s in _reg.load()
 }
 
 
@@ -191,10 +196,12 @@ def _load_current_snapshot() -> dict[int, list[tuple[str, Optional[float]]]]:
             f"Current-snapshot directory not found: {SNAPSHOT_DIR}\n"
             f"Run: python -m nse_index_history.code.fetch_nse_snapshot"
         )
+    missing = []
     for idx, fname in _SNAPSHOT_FILES.items():
         path = SNAPSHOT_DIR / fname
         if not path.exists():
-            raise RuntimeError(f"Missing snapshot CSV: {path}. Run fetch_nse_snapshot.")
+            missing.append(fname)
+            continue
         with path.open() as f:
             rows = list(_csv.DictReader(f))
         out[idx] = [
@@ -204,6 +211,12 @@ def _load_current_snapshot() -> dict[int, list[tuple[str, Optional[float]]]]:
             and not r["symbol"].upper().startswith("DUMMY")
             and not r["symbol"].upper().startswith("TEMP")
         ]
+    if missing:
+        print(
+            f"  WARN: {len(missing)} snapshot CSVs missing — these indices "
+            f"will be skipped. Run fetch_nse_snapshot to populate. Examples: "
+            f"{missing[:3]}"
+        )
     return out
 
 
@@ -224,20 +237,31 @@ def build_intervals(
         weight_lookup = {_canon(s): w for s, w in snapshot if _canon(s)}
         evs = events_by_index.get(index_id, [])
 
-        # Phase 1: walk BACKWARD to find membership at floor.
+        # Per-index floor: never emit intervals that begin before the index
+        # was launched (Nifty Midcap 150 / Smallcap 250 only exist from
+        # 2016-04-01).
+        idx_floor = max(floor, INDEX_LAUNCH.get(index_id, floor))
+
+        # Phase 1: walk BACKWARD to find membership at idx_floor. Stop
+        # walking past idx_floor — events before the launch date are not
+        # meaningful for this index.
         m = set(snapshot_set)
         for ev in reversed(evs):
+            if ev.effective_date <= idx_floor:
+                break
             for s in ev.included:
                 m.discard(s.upper().strip())
             for s in ev.excluded:
                 m.add(s.upper().strip())
 
         # Phase 2: walk FORWARD emitting intervals.
-        active_since: dict[str, date] = {s: floor for s in m}
+        active_since: dict[str, date] = {s: idx_floor for s in m}
         active_source: dict[str, tuple[str, str]] = {
             s: ("snapshot_floor", "") for s in m  # truly unknown — predates coverage
         }
         for ev in evs:
+            if ev.effective_date <= idx_floor:
+                continue
             D = ev.effective_date
             for raw in ev.excluded:
                 s = raw.upper().strip()
@@ -258,7 +282,7 @@ def build_intervals(
                     # cover; record a "pre-floor membership" stub.
                     yield (
                         index_id, s,
-                        floor, D,
+                        idx_floor, D,
                         None,
                         "snapshot_floor", ev.source_url,
                         f"orphan-exclude (no prior include in coverage)",
@@ -319,6 +343,33 @@ def build_intervals(
                     "(closed at next semi-annual review)",
                 )
 
+        # Reverse reconciliation: any symbol in NSE's current snapshot but NOT
+        # currently active in our walk-forward was re-included by a PR we
+        # didn't parse. Open a new interval at the most recent semi-annual
+        # review on or before today (best-guess re-inclusion date). Without
+        # this step, symbols like BANKBARODA (excluded 2021-03-31, re-included
+        # later) drop out of "today's" membership entirely.
+        def _last_review_before_or_eq(d: _date) -> _date:
+            for yr in range(d.year, d.year - 6, -1):
+                for m, day in ((9, 30), (3, 31)):
+                    cand = _date(yr, m, day)
+                    if cand <= d:
+                        return cand
+            return _date(d.year - 6, 3, 31)
+
+        active_now = set(active_since.keys())
+        missing = snapshot_set - active_now
+        for s in sorted(missing):
+            reopen = _last_review_before_or_eq(_date.today())
+            yield (
+                index_id, s,
+                reopen, None,
+                weight_lookup.get(s),
+                "snapshot", "",
+                "inferred-include: in NSE current snapshot, no PR found "
+                "(opened at most-recent semi-annual review)",
+            )
+
 
 def write_to_db(intervals_iter, dry_run: bool = False) -> int:
     rows = list(intervals_iter)
@@ -326,6 +377,7 @@ def write_to_db(intervals_iter, dry_run: bool = False) -> int:
         print(f"[dry-run] {len(rows)} interval rows would be written")
         return len(rows)
 
+    from tools.postgres.connection import engine  # type: ignore  # internal dev dep
     with engine.begin() as conn:
         # Per spec, we DO NOT clobber existing index_equity_map_archive.
         # We DO own index_membership_history fully.
@@ -383,9 +435,8 @@ def main():
         from pathlib import Path as _Path
         out = _Path(args.csv_out)
         out.parent.mkdir(parents=True, exist_ok=True)
-        # Build a name lookup for human-readable output.
-        names = {217: "Nifty 50", 218: "Nifty Next 50", 219: "Nifty 100",
-                 221: "Nifty 500", 223: "Nifty Midcap 150", 227: "Nifty Smallcap 250"}
+        # Name lookup (canonical) for human-readable output.
+        names = {s.id: s.canonical_name for s in _reg.load()}
         with out.open("w", newline="") as f:
             w = _csv.writer(f)
             w.writerow(["index_id", "index_name", "symbol", "valid_from",

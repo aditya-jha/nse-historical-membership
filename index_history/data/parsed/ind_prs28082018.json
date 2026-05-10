@@ -210,7 +210,150 @@
         "ZENSARTECH",
         "ZYDUSWELL"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ADANIPOWER",
+        "BIOCON",
+        "ENGINERSIN",
+        "IDFC",
+        "PCJEWELLER"
+      ],
+      "included": [
+        "CUMMINSIND",
+        "JUBLFOOD",
+        "PFC",
+        "PNB",
+        "RECLTD"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "CARERATING",
+        "ESCORTS",
+        "GRAPHITE",
+        "HEG",
+        "IFCI",
+        "KTKBANK",
+        "REPCOHOME",
+        "SCI",
+        "SPTL",
+        "SREINFRA"
+      ],
+      "included": [
+        "BAJAJELEC",
+        "IDFC",
+        "IBREALEST",
+        "IRB",
+        "KPIT",
+        "NIITTECH",
+        "RADICO",
+        "STAR",
+        "SUZLON",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "GICRE"
+      ],
+      "included": [
+        "HDFCLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "BALAJITELE",
+        "ENIL"
+      ],
+      "included": [
+        "UFO",
+        "ZEEMEDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [
+        "ALBK",
+        "ANDHRABANK"
+      ],
+      "included": [
+        "CENTRALBK",
+        "VIJAYABANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "HDIL"
+      ],
+      "included": [
+        "SUNTECK"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "PIIND"
+      ],
+      "included": [
+        "JINDALSTEL"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [],
+      "included": [
+        "BATAINDIA",
+        "CRISIL",
+        "GLAXO",
+        "HEXAWARE",
+        "HONAUT",
+        "KANSAINER",
+        "MPHASIS",
+        "PFIZER",
+        "PGHH",
+        "SANOFI",
+        "SCHAEFFLER",
+        "SKFINDIA",
+        "STRTECH",
+        "WHIRLPOOL"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "NBCC"
+      ],
+      "included": [
+        "NIACL"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "RECLTD"
+      ],
+      "included": [
+        "RBLBANK"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty MNC: |excluded|=0 != |included|=14 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

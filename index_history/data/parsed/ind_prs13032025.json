@@ -4,6 +4,83 @@
   "publication_date": "2025-03-13",
   "effective_date": "2025-03-28",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ABB",
+        "ABREL",
+        "ARE&M",
+        "APARINDS",
+        "BAJAJ-AUTO",
+        "COLPAL",
+        "CUMMINSIND",
+        "HINDCOPPER",
+        "HINDPETRO",
+        "HUDCO",
+        "IRFC",
+        "KEI",
+        "NBCC",
+        "NHPC",
+        "OIL",
+        "PRESTIGE",
+        "SIEMENS",
+        "SOLARINDS",
+        "VBL",
+        "ZYDUSLIFE"
+      ],
+      "included": [
+        "AEGISLOG",
+        "AMBER",
+        "BAJFINANCE",
+        "BHARTIARTL",
+        "BLUESTARCO",
+        "DIVISLAB",
+        "FSL",
+        "FORTIS",
+        "GVT&D",
+        "POWERINDIA",
+        "NAUKRI",
+        "INDIGO",
+        "JUBLFOOD",
+        "M&M",
+        "MUTHOOTFIN",
+        "PAYTM",
+        "PGEL",
+        "RPOWER",
+        "UPL",
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ACC",
+        "HINDCOPPER",
+        "JINDALSTEL",
+        "JSWSTEEL"
+      ],
+      "included": [
+        "INDUSTOWER",
+        "JSWENERGY",
+        "MAZDOCK",
+        "MOTILALOFS"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "MRF",
+        "SHREECEM"
+      ],
+      "included": [
+        "PIIND",
+        "TORNTPHARM"
+      ]
+    }
+  ],
   "notes": []
 }

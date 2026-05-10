@@ -4,6 +4,75 @@
   "publication_date": null,
   "effective_date": "2017-05-26",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BHARATFIN",
+        "CAPF",
+        "GHCL",
+        "GODREJCP",
+        "M&MFIN",
+        "MARICO",
+        "SRF",
+        "SUNDRMFAST",
+        "TATAMOTORS",
+        "TATASTEEL"
+      ],
+      "included": [
+        "BANKINDIA",
+        "DHFL",
+        "FEDERALBNK",
+        "INFIBEAM",
+        "JMFINANCIL",
+        "LAKSHVILAS",
+        "MRPL",
+        "MRF",
+        "NATCOPHARM",
+        "RECLTD",
+        "SUNTV"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ASHOKLEY",
+        "PTC",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "DELTACORP",
+        "EDELWEISS",
+        "JMFINANCIL"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BIOCON",
+        "PETRONET"
+      ],
+      "included": [
+        "KARURVYSYA",
+        "ONGC",
+        "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [],
+      "included": [
+        "HCLTECH"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Alpha 50: |excluded|=10 != |included|=11 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Low Volatility 50: |excluded|=2 != |included|=3 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty100 Low Volatility 30: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

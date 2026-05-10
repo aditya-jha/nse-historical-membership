@@ -4,6 +4,93 @@
   "publication_date": null,
   "effective_date": "2016-04-29",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "INFRATEL",
+        "CCL",
+        "EMAMILTD",
+        "LUPIN",
+        "MARKSANS",
+        "PAGEIND",
+        "PIIND",
+        "SIEMENS",
+        "SPARC",
+        "SUZLON",
+        "SYMPHONY",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "ABFRL",
+        "GODFRYPHLP",
+        "GODREJCP",
+        "ICIL",
+        "IGL",
+        "INTELLECT",
+        "JSWSTEEL",
+        "KRBL",
+        "PETRONET",
+        "RELIANCE",
+        "RELINFRA",
+        "TORNTPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ALBK",
+        "ANDHRABANK",
+        "IBREALEST",
+        "JSWSTEEL"
+      ],
+      "included": [
+        "ICIL",
+        "INTELLECT",
+        "JETAIRWAYS",
+        "SUZLON"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ADVANTA",
+        "JINDALSAW",
+        "TCI"
+      ],
+      "included": [
+        "GULFOILLUB",
+        "SHK",
+        "TVTODAY"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "JINDALSAW"
+      ],
+      "included": [
+        "APLAPOLLO"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ADVANTA",
+        "JINDALSAW",
+        "TCI"
+      ],
+      "included": [
+        "GULFOILLUB",
+        "SHK",
+        "TVTODAY"
+      ]
+    }
+  ],
   "notes": []
 }

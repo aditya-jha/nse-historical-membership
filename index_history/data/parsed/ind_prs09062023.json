@@ -4,6 +4,75 @@
   "publication_date": "2023-06-09",
   "effective_date": "2023-06-30",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "BAJFINANCE"
+      ],
+      "included": [
+        "PAGEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIPOWER",
+        "AMBUJACEM",
+        "DEEPAKFERT",
+        "FLUOROCHEM",
+        "IIFL",
+        "TIMKEN"
+      ],
+      "included": [
+        "CYIENT",
+        "EQUITASBNK",
+        "FINCABLES",
+        "JSL",
+        "NCC",
+        "SONATSOFTW"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ASHOKLEY",
+        "LODHA",
+        "POLICYBZR"
+      ],
+      "included": [
+        "AWL",
+        "SUZLON",
+        "UNIONBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "CROMPTON",
+        "DIVISLAB"
+      ],
+      "included": [
+        "ALKEM",
+        "GRASIM"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "HDFCLIFE",
+        "TECHM"
+      ],
+      "included": [
+        "ICICIBANK",
+        "TORNTPHARM"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -228,7 +228,168 @@
         "TMCV",
         "UNIONBANK"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "CUMMINSIND",
+        "HDFCAMC",
+        "IRCTC",
+        "JUBLFOOD",
+        "MUTHOOTFIN",
+        "OBEROIRLTY",
+        "OFSS",
+        "PAGEIND",
+        "PIIND"
+      ],
+      "included": [
+        "ALKEM",
+        "NYKAA",
+        "HAVELLS",
+        "ICICIGI",
+        "NAUKRI",
+        "LAURUSLABS",
+        "MCX",
+        "SWIGGY",
+        "WAAREEENER"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "AARTIIND",
+        "ABREL",
+        "CYIENT",
+        "FSL",
+        "IEX",
+        "JBCHEPHARM",
+        "LAURUSLABS",
+        "MCX",
+        "RADICO",
+        "RAMCOCEM",
+        "ZENSARTECH"
+      ],
+      "included": [
+        "ANANDRATHI",
+        "CUB",
+        "COHANCE",
+        "HINDCOPPER",
+        "IGL",
+        "PIRAMALFIN",
+        "RBLBANK",
+        "SAILIFE",
+        "SONACOMS",
+        "SYNGENE",
+        "TATATECH"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumer Durables",
+      "index_id": 1014,
+      "excluded": [
+        "CENTURYPLY",
+        "CERA",
+        "VGUARD"
+      ],
+      "included": [
+        "LGEINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "ICICIPRULI"
+      ],
+      "included": [
+        "MFSL"
+      ]
+    },
+    {
+      "index_name": "Nifty Oil & Gas",
+      "index_id": 1015,
+      "excluded": [
+        "GUJGASLTD"
+      ],
+      "included": [
+        "CHENNPETRO"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "SIGNATURE"
+      ],
+      "included": [
+        "ABREL"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "GUJGASLTD"
+      ],
+      "included": [
+        "NTPCGREEN"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [
+        "CYIENTDLM",
+        "UNIMECH"
+      ],
+      "included": [
+        "AEQUS",
+        "APOLLO",
+        "AXISCADES"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "ABREL",
+        "FLUOROCHEM",
+        "MANKIND"
+      ],
+      "included": [
+        "ANTHEM",
+        "GVT&D",
+        "HINDCOPPER",
+        "LAURUSLABS",
+        "TMCV"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "GODREJPROP"
+      ],
+      "included": [
+        "FORTIS"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "PGHH"
+      ],
+      "included": [
+        "AWL"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Consumer Durables: |excluded|=3 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Defence: |excluded|=2 != |included|=3 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Manufacturing: |excluded|=3 != |included|=5 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

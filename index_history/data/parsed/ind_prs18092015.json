@@ -4,6 +4,47 @@
   "publication_date": null,
   "effective_date": "2015-10-19",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ABIRLANUVO"
+      ],
+      "included": [
+        "IOC"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "ABIRLANUVO"
+      ],
+      "included": [
+        "IOC"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ABIRLANUVO"
+      ],
+      "included": [
+        "PNCINFRA"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ABIRLANUVO"
+      ],
+      "included": [
+        "AJANTPHARM"
+      ]
+    }
+  ],
   "notes": []
 }

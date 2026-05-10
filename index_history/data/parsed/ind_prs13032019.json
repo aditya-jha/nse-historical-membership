@@ -4,6 +4,75 @@
   "publication_date": null,
   "effective_date": "2019-03-29",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANITRANS",
+        "BIOCON",
+        "GODREJCP",
+        "GRAPHITE",
+        "GRUH",
+        "HEG",
+        "HDFC",
+        "JSWSTEEL",
+        "JUBILANT",
+        "PAGEIND",
+        "SONATSOFTW",
+        "STRTECH",
+        "TATAELXSI"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "ABFRL",
+        "ASIANPAINT",
+        "ASTRAL",
+        "AUROPHARMA",
+        "AXISBANK",
+        "GUJFLUORO",
+        "ICICIGI",
+        "JUSTDIAL",
+        "MUTHOOTFIN",
+        "RBLBANK",
+        "UPL",
+        "WIPRO"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ADANITRANS",
+        "INDIANB",
+        "INFIBEAM",
+        "IRB",
+        "JISLJALEQS"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "CHOLAFIN",
+        "ESCORTS",
+        "JUSTDIAL",
+        "VIPIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "EICHERMOT",
+        "IGL",
+        "TVSMOTOR",
+        "ZEEL"
+      ],
+      "included": [
+        "ABB",
+        "ALKEM",
+        "MGL",
+        "PIIND"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -39,15 +39,12 @@
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [
-        "ADANIPOWER",
         "GET&D",
-        "HEXAWARE",
         "HIMATSEIDE",
         "IFCI",
         "ITDC",
         "INDOSTAR",
         "INTELLECT",
-        "JUBILANT",
         "KPRMILL",
         "MAHINDCIE",
         "NBVENTURES",
@@ -98,15 +95,12 @@
       "index_id": 223,
       "excluded": [
         "ADANIGREEN",
-        "ADANIPOWER",
         "ALKEM",
         "BLUEDART",
         "CENTRALBK",
         "EIHOTEL",
-        "HEXAWARE",
         "IDBI",
         "IOB",
-        "JUBILANT",
         "LTI",
         "PNBHOUSING",
         "QUESS",
@@ -182,7 +176,108 @@
         "SUVENPHAR",
         "UCOBANK"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "CESC",
+        "OIL",
+        "TATACONSUM"
+      ],
+      "included": [
+        "ADANIENT",
+        "COFORGE",
+        "PAGEIND",
+        "SRTRANSFIN",
+        "ZEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "CENTURYPLY",
+        "DELTACORP",
+        "HINDCOPPER",
+        "IBREALEST",
+        "ITI",
+        "JUSTDIAL",
+        "KARURVYSYA",
+        "METROPOLIS",
+        "NAVINFLUOR",
+        "RAYMOND"
+      ],
+      "included": [
+        "BDL",
+        "BIRLACORPN",
+        "GMMPFAUDLR",
+        "INDIANB",
+        "IRCON",
+        "MIDHANI",
+        "PNBHOUSING",
+        "RALLIS",
+        "STRTECH",
+        "SPARC"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "OIL"
+      ],
+      "included": [
+        "TORNTPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "ADANITRANS"
+      ],
+      "included": [
+        "ADANIGREEN"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [],
+      "included": [
+        "AAVAS"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "RBLBANK"
+      ],
+      "included": [
+        "ICICIPRULI"
+      ]
+    },
+    {
+      "index_name": "Nifty India Corporate Group - Tata 25% Cap",
+      "index_id": 3010,
+      "excluded": [
+        "TAJGVK"
+      ],
+      "included": [
+        "TATACHEM",
+        "TATACOMM",
+        "TATASTLBSL",
+        "TTML"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty 500: |excluded|=14 != |included|=17 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 150: |excluded|=12 != |included|=15 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 50: |excluded|=3 != |included|=5 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty MNC: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Corporate Group - Tata 25% Cap: |excluded|=1 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

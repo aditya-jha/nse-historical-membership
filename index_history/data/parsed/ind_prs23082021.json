@@ -6,17 +6,252 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ABBOTINDIA",
+        "ALKEM",
+        "PETRONET"
+      ],
+      "included": [
+        "PEIND"
+      ]
+    },
+    {
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [
         "SHTV",
+        "FCONSUMER",
         "SGPC"
       ],
       "included": [
-        "FACT",
-        "IRFC"
+        "FACT"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "ABBOTINDIA",
+        "ALKEM",
+        "PETRONET"
+      ],
+      "included": [
+        "BANKBARODA",
+        "CHOLAFIN",
+        "JINDALSTEL",
+        "PIIND",
+        "SAIL"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "AKZOINDIA",
+        "ASTRAZEN",
+        "BANKBARODA",
+        "BBTC",
+        "CESC",
+        "CHOLAFIN",
+        "CREDITACC",
+        "GILLETTE",
+        "GODREJAGRO"
+      ],
+      "included": [
+        "BLUEDART"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [],
+      "included": [
+        "TRENT"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "NATIONALUM"
+      ],
+      "included": [
+        "HEG"
+      ]
+    },
+    {
+      "index_name": "Nifty FMCG",
+      "index_id": 1003,
+      "excluded": [
+        "JUBLFOOD"
+      ],
+      "included": [
+        "RADICO"
+      ]
+    },
+    {
+      "index_name": "Nifty Healthcare Index",
+      "index_id": 1011,
+      "excluded": [
+        "ABBOTINDIA",
+        "FORTIS",
+        "NATCOPHARM",
+        "SANOFI"
+      ],
+      "included": [
+        "APLLTD",
+        "GRANULES",
+        "METROPOLIS",
+        "STAR"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "OFSS"
+      ],
+      "included": [
+        "LTTS"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "DBCORP",
+        "JAGRAN",
+        "TVTODAY"
+      ],
+      "included": [
+        "HATHWAY",
+        "NAZARA",
+        "SAREGAMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "MOIL"
+      ],
+      "included": [
+        "HINDCOPPER"
+      ]
+    },
+    {
+      "index_name": "Nifty Pharma",
+      "index_id": 1004,
+      "excluded": [],
+      "included": [
+        "ABBOTINDIA",
+        "APLLTD",
+        "GLAND",
+        "GLENMARK",
+        "GRANULES",
+        "IPCALAB",
+        "LAURUSLABS",
+        "NATCOPHARM",
+        "PFIZER",
+        "STAR"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "HEMIPROP",
+        "SOBHA",
+        "SUNTECK"
+      ],
+      "included": [
+        "BIRET",
+        "EMBASSY",
+        "MINDSPACE"
+      ]
+    },
+    {
+      "index_name": "Nifty Oil & Gas",
+      "index_id": 1015,
+      "excluded": [
+        "GULFOILLUB"
+      ],
+      "included": [
+        "MRPL"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "HINDZINC",
+        "TORNTPOWER"
+      ],
+      "included": [
+        "SAIL"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "HINDPETRO"
+      ],
+      "included": [
+        "ADANITRANS"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "EXIDEIND"
+      ],
+      "included": [
+        "GODREJPROP"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "CRISIL",
+        "NAM-INDIA"
+      ],
+      "included": [
+        "GLAND"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "PETRONET"
+      ],
+      "included": [
+        "APOLLOHOSP"
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Next 50: |excluded|=3 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty 500: |excluded|=3 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty 100: |excluded|=3 != |included|=5 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 150: |excluded|=9 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 50: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Pharma: |excluded|=0 != |included|=10 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Private Bank: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Commodities: |excluded|=2 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty MNC: |excluded|=2 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

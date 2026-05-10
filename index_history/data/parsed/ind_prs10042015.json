@@ -4,6 +4,53 @@
   "publication_date": null,
   "effective_date": "2015-04-20",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AMTEKAUTO",
+        "APOLLOTYRE",
+        "ATUL",
+        "NAUKRI",
+        "PERSISTENT",
+        "TECHM",
+        "VOLTAS"
+      ],
+      "included": [
+        "ALSTOMT&D",
+        "EMAMILTD",
+        "NATCOPHARM",
+        "PCJEWELLER",
+        "SADBHAV",
+        "SPARC",
+        "SUZLON"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "DELTACORP",
+        "INDUSINDBK",
+        "JINDALSAW"
+      ],
+      "included": [
+        "ASHOKLEY",
+        "EDELWEISS",
+        "SINTEX"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "IPCALAB"
+      ],
+      "included": [
+        "GSKCONS"
+      ]
+    }
+  ],
   "notes": []
 }

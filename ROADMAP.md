@@ -4,16 +4,26 @@ Anyone can pick one of these up. Each task lists its scope, leverage, and entry 
 
 ---
 
+## Completed in v0.2.0 (2026-05-11)
+
+- **R1a — Pre-2017 PR parser overhaul**. CNX legacy aliases, OCR fallback for the early-2014 PDF font glitch, robust symbol-row regex. All 55 previously-empty pre-2017 IM PDFs now re-parse cleanly.
+- **R3 — Sector / strategy / thematic indices**. Coverage went from 6 → **41** indices (6 broad + 15 sector + 9 strategy + 11 thematic) via a single registry (`index_history/data/index_registry.json`). Adding a new index is now one JSON record + a re-fetch.
+- **R5 — Postgres-free validation**. `validate.py` rewritten to read CSV + registry only. Five gates (snapshot match, internal consistency, famous transitions, cardinality, Wayback cross-check). No database required.
+
+---
+
 ## High leverage (move the needle most for users)
 
-### R1 — Backfill pre-2017 NSE Indices PRs
-**Status:** open · **Skill:** patient PDF/OCR work · **Time:** 1–2 days
+### R1b — 2014-01-01 seed snapshots per index
+**Status:** open · **Skill:** sourcing · **Time:** 0.5–1 day
 
-The pre-2017 daily cardinality gate fails by ±5–7 symbols because we don't have all the replacement events for that era. A `niftyindices.com` PR scraper exists (`fetch_press_releases.py`) but ~40 of the 2014–2016 PR PDFs are image-only or use older table layouts the parser can't decode.
+Walk-back from current snapshot through balanced events isn't idempotent when symbols moved laterally between indices over time (e.g. a stock that joined Nifty Next 50 in 2014, was promoted to Nifty 50 in 2018, then exited entirely in 2024 cannot be fully reconstructed by walking Nifty Next 50 events alone).
 
-Concrete output: every December 31 from 2014 onward should have exactly 50/50/100/500/150/250 members in the published CSV. Right now, 2014-12-31 has 56/104/518/157/282 — that gap is what this task closes.
+**Symptoms today**: Gate 4 reports ±2–13 cardinality drift on pre-2018 dates for broad indices and somewhat more for sparse-PR strategy/thematic families. Gate 2 reports subset violations (e.g. `Nifty Next 50 ⊆ Nifty 100`) on the same pre-2018 dates. Gate 3 (famous transitions) is unaffected — per-symbol membership transitions are correct.
 
-Entry point: `index_history/docs/validation_report.md` lists every failing date. Pick one, find the missing PR (Wayback Machine has most of them at `web.archive.org/web/*/niftyindices.com/Press_Release/*`), parse it.
+**Fix**: source authoritative 2014-01-01 (or earliest available) member CSVs per index from Wayback's CDX of `archives.nseindia.com/.../ind_<name>list.csv`, drop them in `index_history/data/seed_snapshots/<slug>.csv`, and switch `build_history.py` to walk *forward* from those seeds (instead of backward from current). Once the seeds are sourced this is a one-PR change to `build_intervals` in `build_history.py`.
+
+`validate.py:gate_wayback` already has a working CDX fetcher you can lift for the sourcing step.
 
 ### R2 — Pre-2014 F&O introductions
 **Status:** open · **Skill:** sourcing · **Time:** 0.5–2 days
@@ -26,15 +36,6 @@ Two acceptable approaches:
 
 If you find approach 1, this becomes a one-PR task: drop a 2014-01-01 seed CSV into `fno_history/data/manual_overrides/` and adjust `build_history` to merge it.
 
-### R3 — Add Nifty Bank / Nifty IT / sector indices
-**Status:** open · **Skill:** parser extension · **Time:** 1 day
-
-Right now the dataset covers only the broad-market indices (Nifty 50/Next 50/100/500/Midcap 150/Smallcap 250). NSE publishes 30+ sector indices in the same press releases. The parser already extracts every section it sees; we just don't keep them.
-
-Concrete change: extend `INDEX_NAME_TO_ID` in `parse_press_release.py` and `TARGET_INDEX_IDS` in `build_history.py`. Fetch the corresponding `archives.nseindia.com/.../ind_<sector>list.csv` for the seed.
-
-Sector indices wanted (in priority order): Nifty Bank, Nifty IT, Nifty FMCG, Nifty Pharma, Nifty Auto, Nifty Metal, Nifty Realty, Nifty Energy, Nifty PSU Bank, Nifty Private Bank.
-
 ---
 
 ## Medium leverage
@@ -44,20 +45,15 @@ Sector indices wanted (in priority order): Nifty Bank, Nifty IT, Nifty FMCG, Nif
 
 `detect_renames.py` exists but is run manually. Wire it into `build_history` as a preflight: any walk-back symbol absent from NSE's current snapshot but with a similarly-named entry should suggest a rename for human review. Output goes to `docs/symbol_renames_diagnostic.json` (already exists). Convert that into a "candidate renames" PR template.
 
-### R5 — Sub-daily snapshots for index_equity_map_archive
-**Status:** open · **Skill:** none — pure refactor · **Time:** 0.5 day
-
-`validate.py`'s Gate 1 reads from a Postgres `index_equity_map_archive` table, but most contributors don't have that. Replace the Postgres dependency with periodic CSV snapshots committed to `index_history/data/archive_snapshots/<YYYY-MM-DD>.csv`. Validation becomes runnable in CI without any database.
-
 ### R6 — Notebook companion for `quickstart.py`
 **Status:** open · **Skill:** none · **Time:** 1 hour
 
-A Jupyter notebook (`examples/01_pit_queries.ipynb`) covering the same five questions plus 2–3 visualizations (Nifty 500 churn over time, average tenure of a Nifty 50 member, etc.). Notebooks render inline on GitHub and are by far the highest-leverage way to onboard new users.
+A Jupyter notebook (`examples/01_pit_queries.ipynb`) covering the same five questions plus 2–3 visualizations (Nifty 500 churn over time, average tenure of a Nifty 50 member, sector-rotation plot, etc.). Notebooks render inline on GitHub and are by far the highest-leverage way to onboard new users — especially now that we have 41 indices to explore.
 
 ### R7 — Parquet/SQLite distribution alongside CSV
 **Status:** open · **Skill:** small · **Time:** 1 hour
 
-A 2,820-row CSV is fine but pandas users on slow connections benefit from `.parquet` (1/3 the size, faster load) and SQLite users want a `.sqlite` file with both tables and indexes already built. A `make build` target that produces all three formats from a single source-of-truth.
+A 5,919-row CSV is fine but pandas users on slow connections benefit from `.parquet` (1/3 the size, faster load) and SQLite users want a `.sqlite` file with both tables and indexes already built. A `make build` target that produces all three formats from a single source-of-truth.
 
 ### R8 — DuckDB recipe in README
 **Status:** open · **Skill:** doc · **Time:** 30 min
@@ -69,22 +65,25 @@ Show how to run PIT queries directly from the CSV via DuckDB without loading any
 ## Lower leverage (nice but not blocking)
 
 ### R9 — Continuous monitoring
-NSE publishes new PRs continuously. A weekly GitHub Actions workflow that runs `fetch_press_releases.py + parse_all + build_history + pytest` and opens a PR on diff would keep the dataset auto-updated. Triage volunteers welcome.
+NSE publishes new PRs continuously. A weekly GitHub Actions workflow that runs `fetch_press_releases.py + parse_all + build_history + pytest + validate --skip-wayback` and opens a PR on diff would keep the dataset auto-updated. Triage volunteers welcome.
 
 ### R10 — Visual gallery
-A `docs/gallery.md` with 5–10 charts derived from the dataset (sector-rotation plot, churn distribution, longest-tenured Nifty 50 members, etc.). Each is a 20-line script + PNG.
+A `docs/gallery.md` with 5–10 charts derived from the dataset (sector-rotation plot across the 15 sector indices, churn distribution per family, longest-tenured Nifty 50 members, etc.). Each is a 20-line script + PNG.
 
 ### R11 — Zenodo DOI registration
-Once v0.1.0 is tagged, register on Zenodo for a citable DOI. One-time, ~10 minutes. Owner-only task (requires GitHub repo admin).
+Once a release is tagged, register on Zenodo for a citable DOI. One-time, ~10 minutes. Owner-only task (requires GitHub repo admin).
 
 ### R12 — Add corporate-action overlays
 Splits, bonuses, demergers — useful for any backtest that consumes this. Probably a separate dataset with cross-references, not folded into the membership table.
+
+### R13 — Per-family famous-transitions backfill
+Gate 3 currently has 29 hand-curated PIT checks. Most are on broad indices (Nifty 50 / Nifty 500). Backfilling 3–5 famous events per sector / strategy / thematic index would tighten regression detection considerably. Source: NSE Indices factsheets + press releases.
 
 ---
 
 ## How to claim a task
 
-1. Comment on the existing GitHub Issue (or open a new one referencing the task ID, e.g. `[R3] Adding Nifty Bank`).
+1. Comment on the existing GitHub Issue (or open a new one referencing the task ID, e.g. `[R1b] 2014 seed snapshots`).
 2. State your timeline. If a task has been claimed for >30 days without progress, others can pick it up.
 3. Open a PR linked to the issue.
 

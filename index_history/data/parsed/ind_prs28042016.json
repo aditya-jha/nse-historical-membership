@@ -4,6 +4,19 @@
   "publication_date": null,
   "effective_date": "2016-05-27",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "IOB",
+        "UCOBANK"
+      ],
+      "included": [
+        "PCJEWELLER",
+        "SRF"
+      ]
+    }
+  ],
   "notes": []
 }

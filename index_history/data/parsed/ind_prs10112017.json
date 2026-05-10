@@ -4,6 +4,27 @@
   "publication_date": null,
   "effective_date": "2017-11-20",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "GAYAPROJ"
+      ],
+      "included": [
+        "STARCEMENT"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "GAYAPROJ"
+      ],
+      "included": [
+        "STARCEMENT"
+      ]
+    }
+  ],
   "notes": []
 }

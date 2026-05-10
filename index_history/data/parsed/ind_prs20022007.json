@@ -4,6 +4,26 @@
   "publication_date": null,
   "effective_date": "2007-04-04",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "IISL"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [],
+      "included": [
+        "IISL"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty 100: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Bank: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

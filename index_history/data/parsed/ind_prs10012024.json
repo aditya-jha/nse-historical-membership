@@ -4,6 +4,17 @@
   "publication_date": "2024-01-10",
   "effective_date": "2024-01-19",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty India Corporate Group - Tata 25% Cap",
+      "index_id": 3010,
+      "excluded": [
+        "TINPLATE"
+      ],
+      "included": []
+    }
+  ],
+  "notes": [
+    "Nifty India Corporate Group - Tata 25% Cap: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

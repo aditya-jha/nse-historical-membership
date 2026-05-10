@@ -34,7 +34,104 @@
       "included": [
         "GLAND"
       ]
+    },
+    {
+      "index_name": "Nifty Auto",
+      "index_id": 1005,
+      "excluded": [
+        "MOTHERSUMI"
+      ],
+      "included": [
+        "TIINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "CONCOR"
+      ],
+      "included": [
+        "LTI"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "APLLTD",
+        "CIPLA",
+        "DRREDDY",
+        "ESCORTS",
+        "GMMPFAUDLR",
+        "HCLTECH",
+        "NAUKRI",
+        "IPCALAB",
+        "JBCHEPHARM",
+        "PIIND",
+        "RELIANCE",
+        "STLTECH",
+        "IDEA"
+      ],
+      "included": [
+        "ASTRAL",
+        "CGPOWER",
+        "CYIENT",
+        "DALBHARAT",
+        "EMAMILTD",
+        "GRAPHITE",
+        "IDFC",
+        "INTELLECT",
+        "JSWENERGY",
+        "JSWSTEEL",
+        "KAJARIACER",
+        "SONATSOFTW",
+        "TATASTEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "COFORGE",
+        "ICICIPRULI",
+        "MFSL",
+        "UJJIVAN"
+      ],
+      "included": [
+        "ADANIENT",
+        "AUBANK",
+        "GRAPHITE",
+        "NCC",
+        "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "ATUL",
+        "NATCOPHARM",
+        "SANOFI"
+      ],
+      "included": [
+        "BATAINDIA",
+        "HDFCLIFE",
+        "SBILIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "BOSCHLTD"
+      ],
+      "included": [
+        "HDFCLIFE"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty High Beta 50: |excluded|=4 != |included|=5 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

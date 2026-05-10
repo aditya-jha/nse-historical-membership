@@ -32,6 +32,66 @@
         "LEMONTREE",
         "UCOBANK"
       ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "TITAN"
+      ],
+      "included": [
+        "HDFCAMC"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BCG",
+        "BSE",
+        "CHAMBLFERT",
+        "HFCL",
+        "IRCTC",
+        "LINDEINDIA",
+        "LODHA",
+        "OBEROIRLTY",
+        "TATAMOTORS",
+        "TATAPOWER",
+        "TTML",
+        "TITAN",
+        "UNOMINDA",
+        "IDEA",
+        "ZEEL"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "AMBUJACEM",
+        "CUMMINSIND",
+        "DEEPAKFERT",
+        "ELGIEQUIP",
+        "FINEORG",
+        "FLUOROCHEM",
+        "IDFC",
+        "IIFL",
+        "INDIANB",
+        "KARURVYSYA",
+        "PHOENIXLTD",
+        "SCHAEFFLER",
+        "TIMKEN",
+        "UNIONBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "AXISBANK",
+        "CANFINHOME"
+      ],
+      "included": [
+        "NAUKRI",
+        "POLICYBZR"
+      ]
     }
   ],
   "notes": []

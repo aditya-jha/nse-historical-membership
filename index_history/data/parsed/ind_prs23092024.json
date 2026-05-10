@@ -4,6 +4,67 @@
   "publication_date": "2024-09-23",
   "effective_date": "2024-09-30",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIGREEN",
+        "ANGELONE",
+        "BSOFT",
+        "CANBK",
+        "GICRE",
+        "INDIANB",
+        "JPPOWER",
+        "NCC",
+        "PNB",
+        "SUPREMEIND",
+        "TITAGARH",
+        "UNIONBANK"
+      ],
+      "included": [
+        "ARE&M",
+        "CDSL",
+        "CENTURYTEX",
+        "COCHINSHIP",
+        "COLPAL",
+        "HINDPETRO",
+        "POWERINDIA",
+        "INDUSTOWER",
+        "INOXWIND",
+        "OIL",
+        "PHOENIXLTD",
+        "SOLARINDS"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "NTPC",
+        "ONGC"
+      ],
+      "included": [
+        "APOLLOHOSP",
+        "DIVISLAB"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "BERGEPAINT",
+        "COLPAL",
+        "MARICO",
+        "NTPC"
+      ],
+      "included": [
+        "APOLLOHOSP",
+        "BAJAJFINSV",
+        "INFY",
+        "MARUTI"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -46,11 +46,17 @@
     {
       "index_name": "Nifty Midcap 150",
       "index_id": 223,
-      "excluded": [
-        "TATAPOWER"
-      ],
+      "excluded": [],
       "included": [
         "DELHIVERY"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [],
+      "included": [
+        "POLYCAB"
       ]
     },
     {
@@ -62,7 +68,69 @@
       "included": [
         "CAMPUS"
       ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "PEL"
+      ],
+      "included": [
+        "IEX"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "NMDC"
+      ],
+      "included": [
+        "MOIL"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "NMDC"
+      ],
+      "included": [
+        "NAVINFLUOR"
+      ]
+    },
+    {
+      "index_name": "Nifty CPSE",
+      "index_id": 3003,
+      "excluded": [
+        "NMDC"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "NMDC"
+      ],
+      "included": [
+        "LICI"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "PEL"
+      ],
+      "included": [
+        "MINDTREE"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Midcap 150: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 50: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty CPSE: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

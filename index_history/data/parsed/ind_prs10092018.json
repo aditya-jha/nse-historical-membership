@@ -4,6 +4,65 @@
   "publication_date": null,
   "effective_date": "2018-09-28",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AVANTIFEED",
+        "DELTACORP",
+        "EDELWEISS",
+        "FCONSUMER",
+        "KPIT",
+        "L&TFH",
+        "QUESS",
+        "RAYMOND",
+        "SUNTV",
+        "TATAGLOBAL",
+        "VGUARD"
+      ],
+      "included": [
+        "ADANITRANS",
+        "BATAINDIA",
+        "BBTC",
+        "DABUR",
+        "GSKCONS",
+        "GODREJCP",
+        "HINDUNILVR",
+        "OD",
+        "NAUKRI",
+        "INFY",
+        "PFIZER",
+        "TORNTPHARM",
+        "VIPIND"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ADANIPOWER",
+        "JPASSOCIAT",
+        "JSWENERGY"
+      ],
+      "included": [
+        "BBTC",
+        "STRTECH",
+        "TORNTPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "APOLLOHOSP"
+      ],
+      "included": [
+        "BHARATFIN"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Alpha 50: |excluded|=11 != |included|=13 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

@@ -36,7 +36,131 @@
       "included": [
         "CHALET"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "AJANTPHARM",
+        "GODREJIND",
+        "INDIANB",
+        "MRPL"
+      ],
+      "included": [
+        "BATAINDIA",
+        "MANAPPURAM",
+        "MFSL",
+        "TORNTPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "CGPOWER",
+        "IRB",
+        "NHPC",
+        "RPOWER",
+        "SUZLON"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "BEL",
+        "LICHSGFIN",
+        "SUNTV",
+        "YESBANK"
+      ],
+      "included": [
+        "AUROPHARMA",
+        "IBULHSGFIN",
+        "PAGEIND",
+        "TECHM"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ASIANPAINT",
+        "DMART",
+        "BERGEPAINT",
+        "BRITANNIA",
+        "COLPAL",
+        "DABUR",
+        "EXIDEIND",
+        "IBVENTURES",
+        "JUBLFOOD",
+        "LTI",
+        "MINDTREE",
+        "MPHASIS",
+        "PFIZER",
+        "RADICO",
+        "TECHM",
+        "VIPIND"
+      ],
+      "included": [
+        "ABB",
+        "APOLLOHOSP",
+        "BAJAJHLDNG",
+        "DCBBANK",
+        "FEDERALBNK",
+        "ICICIBANK",
+        "IGL",
+        "INDIGO",
+        "MERCK",
+        "PIIND",
+        "PFC",
+        "PVR",
+        "SHREECEM",
+        "SBIN",
+        "ULTRACEMCO",
+        "VAKRANGEE",
+        "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "BANKINDIA",
+        "JMFINANCIL",
+        "RELCAPITAL",
+        "VOLTAS"
+      ],
+      "included": [
+        "CANFINHOME",
+        "DISHTV",
+        "HINDPETRO",
+        "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "CUMMINSIND"
+      ],
+      "included": [
+        "FORTIS"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "NHPC"
+      ],
+      "included": [
+        "MRF"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Infrastructure: |excluded|=5 != |included|=0 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Alpha 50: |excluded|=16 != |included|=17 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

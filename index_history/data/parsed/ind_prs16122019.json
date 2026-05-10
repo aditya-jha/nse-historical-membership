@@ -62,7 +62,136 @@
         "TRITURBINE",
         "WESTLIFE"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "TATACHEM"
+      ],
+      "included": [
+        "NAUKRI"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ANDHRABANK",
+        "POLYCAB",
+        "SYNDIBANK"
+      ],
+      "included": [
+        "INDIAMART",
+        "JUSTDIAL",
+        "MCX"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "TATACHEM"
+      ],
+      "included": [
+        "AARTIIND"
+      ]
+    },
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [
+        "ALBK",
+        "ORIENTBANK",
+        "SYNDIBANK"
+      ],
+      "included": [
+        "MAHABANK",
+        "IOB",
+        "UCOBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "RELIANCE"
+      ],
+      "included": [
+        "ZEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "HINDZINC",
+        "OFSS"
+      ],
+      "included": [
+        "BERGEPAINT",
+        "NESTLEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIPOWER",
+        "DRREDDY",
+        "FEDERALBNK",
+        "INFY",
+        "SOBHA",
+        "TCS",
+        "UBL",
+        "WIPRO"
+      ],
+      "included": [
+        "AAVAS",
+        "ABBOTINDIA",
+        "ADANIGAS",
+        "ADANIGREEN",
+        "LALPATHLAB",
+        "GUJGASLTD",
+        "ICICIPRULI",
+        "RNAM"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "GNFC",
+        "JUSTDIAL",
+        "RAYMOND",
+        "RECLTD",
+        "TORNTPOWER"
+      ],
+      "included": [
+        "ASHOKLEY",
+        "BHEL",
+        "INDUSINDBK",
+        "MOTHERSUMI",
+        "RBLBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "MARUTI",
+        "NHPC",
+        "RELAXO"
+      ],
+      "included": [
+        "DRREDDY",
+        "GODREJIND",
+        "HINDZINC",
+        "NIITTECH"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Low Volatility 50: |excluded|=3 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

@@ -4,6 +4,61 @@
   "publication_date": null,
   "effective_date": "2014-01-13",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "DEN",
+        "ESSAROIL",
+        "GLENMARK",
+        "GRUH",
+        "HATHWAY",
+        "L&TFH",
+        "SHREECEM",
+        "STAR",
+        "TATACOFFEE",
+        "UBL"
+      ],
+      "included": [
+        "AJANTPHARM",
+        "APLLTD",
+        "BIOCON",
+        "DELTACORP",
+        "ESCORTS",
+        "ESSDEE",
+        "INFOTECENT",
+        "NATCOPHARM",
+        "PERSISTENT",
+        "TVSMOTOR"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ARVIND",
+        "PUNJLLOYD",
+        "SINTEX"
+      ],
+      "included": [
+        "BANKBARODA",
+        "FRL",
+        "PNB"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BAJAJHLDNG",
+        "ERAINFRA"
+      ],
+      "included": [
+        "SHREECEM",
+        "TRENT"
+      ]
+    }
+  ],
   "notes": []
 }

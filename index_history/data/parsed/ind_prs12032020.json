@@ -6,14 +6,90 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "BANDHANBNK"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AXISBANK",
+        "BAJAJHLDNG",
+        "DCBBANK",
+        "HCLTECH",
+        "JUSTDIAL",
+        "OBEROIRLTY",
+        "PFC",
+        "PGHL",
+        "RECLTD",
+        "RELIANCE",
+        "UPL"
+      ],
+      "included": [
+        "AUBANK",
+        "DMART",
+        "BERGEPAINT",
+        "BHARTIARTL",
+        "CREDITACC",
+        "DEEPAKNTR",
+        "DIXON",
+        "ISEC",
+        "NAVINFLUOR",
+        "RELAXO",
+        "TATACONSUM"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "BANKINDIA",
+        "IDFC",
+        "IBREALEST",
+        "KTKBANK",
+        "UNIONBANK",
+        "VIPIND"
+      ],
+      "included": [
+        "BHARATFORG",
+        "EQUITAS",
+        "JSWSTEEL",
+        "LICHSGFIN",
+        "SRTRANSFIN",
+        "SUNTV"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "ATUL",
+        "CASTROLIND",
+        "GODREJIND",
+        "OIL",
+        "OFSS"
+      ],
+      "included": [
+        "BATAINDIA",
+        "GLAXO",
+        "PETRONET",
+        "RAMCOCEM",
+        "UBL"
+      ]
+    },
+    {
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [
         "GAYAPROJ"
       ],
-      "included": [
-        "SHILPAMED"
-      ]
+      "included": []
     },
     {
       "index_name": "Nifty Smallcap 250",
@@ -21,10 +97,11 @@
       "excluded": [
         "GAYAPROJ"
       ],
-      "included": [
-        "SHILPAMED"
-      ]
+      "included": []
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty 500: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Smallcap 250: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

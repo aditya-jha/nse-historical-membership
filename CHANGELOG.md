@@ -1,5 +1,88 @@
 # Changelog
 
+## v0.2.0 — 2026-05-11 — Multi-family coverage, registry, validation overhaul
+
+**Index history — coverage 6 → 41 indices** (broad + sector + strategy + thematic).
+The dataset previously tracked only the six broad-market indices. v0.2.0 adds
+35 more across three new families.
+
+- New `index_history/data/index_registry.json` is the single source of truth
+  for every tracked index: `id`, `canonical_name`, `family`, `launch_date`,
+  `target_size`, `aliases`, `snapshot_slug`, `snapshot_url`. Adding a new
+  index is one JSON record + a re-fetch + rebuild.
+- `parse_press_release.py`, `build_history.py`, `validate.py`, and
+  `fetch_nse_snapshot.py` all consume the registry — no more hardcoded
+  index lists across files.
+- Sector indices (15): Bank, IT, FMCG, Pharma, Auto, Metal, Realty, Energy,
+  PSU Bank, Private Bank, Healthcare, Financial Services, Media, Consumer
+  Durables, Oil & Gas.
+- Strategy indices (9): Alpha 50, High Beta 50, Low Volatility 50, Nifty50
+  Value 20, Nifty100 Equal Weight, Nifty100 Low Volatility 30, Nifty100
+  Quality 30, Midcap 50, Smallcap 50.
+- Thematic indices (11): Commodities, Consumption, CPSE, Infrastructure, MNC,
+  PSE, Services Sector, India Manufacturing, India Defence, Tata 25% Cap,
+  MAATR.
+- `fetch_nse_snapshot.py` gained an `nseapi:<INDEX NAME>` URL transport that
+  uses nseindia.com's `/api/equity-stockIndices` JSON endpoint (warmed-up
+  cookie session) for indices not mirrored on `archives.nseindia.com`.
+
+**Pre-2017 PR parser overhaul.**
+- Recognises legacy "CNX"/"S&P CNX" prefixes (`CNX Nifty`, `CNX Nifty Junior`,
+  `CNX 100`, `CNX 500`, `CNX Bank`, `CNX IT`, etc.) so 2014–2016 PRs map onto
+  the post-rebrand canonical names.
+- Recognises the parenthesised "(N) Section Name Index" header form used in
+  pre-2017 PRs (post-2017 PRs use bare "1) Section Name").
+- Auto-detects the early-2014 NSE PDF font glitch where pdfplumber extracts
+  each glyph twice ("IInnddeexx") and falls back to OCR (`pdftoppm` +
+  `tesseract`) on those documents.
+- More robust symbol-row regex: handles OCR output that drops the "Sr. No."
+  column or inserts cell-border pipes (`| 6 | Some Co. SYMBOL`).
+- All 55 previously-empty pre-2017 Index-Maintenance PDFs now re-parse cleanly.
+- Total parsed PRs with at least one event for a tracked index: 130 (was ~100).
+
+**Build pipeline.**
+- Per-index launch-date floor — `build_history.py` no longer emits intervals
+  before an index existed. Nifty Midcap 150 / Smallcap 250 clamped to
+  2016-04-01; sector indices clamped per their own launch.
+- **Reverse-reconciliation fix**: build opens an inferred-include interval
+  for any symbol present in NSE's current snapshot but absent from our
+  walk-forward (the symbol was excluded in some PR we parsed, then
+  re-included in a later PR we did not parse). Without this, symbols like
+  BANKBARODA (excluded from Nifty Next 50 in 2021-03-31, re-included later)
+  silently dropped from "today's" membership. Drove Gate 1 to 0/41.
+- `tools.postgres` is now a lazy import — `build_history --csv-out` runs on
+  a clean public clone with no database.
+- Symbol-rename `TATAMTRDVR → TMPV` changed to `_DUMMY_DROP`. Collapsing the
+  DVR class into TMPV caused walk-forward to spuriously close TATAMOTORS'
+  Nifty 50 interval at the 2017 PR that excluded TATAMTRDVR from a different
+  index. The DVR is no longer listed; dropping it from canon is safe.
+
+**Validation overhaul — 5 gates, no Postgres.**
+`validate.py` rewritten to read from CSV + registry only. Runs on a clean
+public clone.
+- **G1 snapshot match** — `members(today, idx)` must equal NSE's published
+  current CSV (DUMMY*/TEMP* placeholders filtered). Currently **0/41**.
+- **G2 internal consistency** — Nifty 50 ⊆ Nifty 100, Nifty 100 ⊆ Nifty 500,
+  each sector ⊆ Nifty 500. 19 semi-annual sample dates.
+- **G3 famous transitions** — 29 hand-curated PIT checks covering all four
+  families (broad, sector, strategy, thematic). Currently **0/29**.
+- **G4 cardinality** — fixed-size indices' member count == target on
+  quarterly samples; pre-launch dates skipped per index.
+- **G5 Wayback cross-check** — pulls every Wayback Machine snapshot of each
+  index's `archives.nseindia.com/.../ind_<name>list.csv`, samples up to 8
+  evenly across time, diffs against our reconstruction at the snapshot's
+  exact date. Nifty 50 currently has **mean drift 0.0** across 5 snapshots.
+  Skip with `--skip-wayback` for a 30-second run.
+
+**Numbers.** CSV grew from 2,820 → ~5,920 intervals across 41 indices.
+838 events from 130 PRs. 16/16 pytest pass.
+
+**Known limitations** — pre-2018 cardinality drifts ±2–13 on broad indices
+and somewhat more on sparse-PR strategy/thematic indices, all due to
+walk-back from current snapshot through balanced events not being
+idempotent under lateral inter-index moves. ROADMAP R1b (2014-01-01 seed
+snapshot per index) closes the gap.
+
 ## v0.1.0 — 2026-05-10 — Initial public release
 
 First open release. Two datasets, both as CSV + parsed-JSON intermediate.

@@ -28,6 +28,16 @@
         "CORPBANK",
         "CREDITACC"
       ]
+    },
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [
+        "VIJAYABANK"
+      ],
+      "included": [
+        "J&KBANK"
+      ]
     }
   ],
   "notes": []

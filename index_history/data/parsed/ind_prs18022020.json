@@ -198,7 +198,153 @@
         "VARROC",
         "VESUVIUS"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "CASTROLIND",
+        "HEXAWARE",
+        "NAUKRI",
+        "NBCC",
+        "TORNTPHARM"
+      ],
+      "included": [
+        "ASHOKLEY",
+        "IBULHSGFIN",
+        "L&TFH",
+        "IDEA",
+        "YESBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ARVINDFASN",
+        "DISHTV",
+        "GNFC",
+        "GSFC",
+        "IBREALEST",
+        "IRB",
+        "MMTC",
+        "NIITTECH",
+        "STAR",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "CENTURYTEX",
+        "DEEPAKNTR",
+        "GRAPHITE",
+        "HEG",
+        "NBCC",
+        "SPANDANA",
+        "SPICEJET",
+        "SWSOLAR",
+        "STRTECH",
+        "SPARC"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumer Durables",
+      "index_id": 1014,
+      "excluded": [
+        "BAJAJELEC"
+      ],
+      "included": [
+        "DIXON"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "EDELWEISS"
+      ],
+      "included": [
+        "PEL"
+      ]
+    },
+    {
+      "index_name": "Nifty FMCG",
+      "index_id": 1003,
+      "excluded": [
+        "GODREJIND"
+      ],
+      "included": [
+        "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "HEXAWARE",
+        "TATAELXSI"
+      ],
+      "included": [
+        "NAUKRI",
+        "MPHASIS"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "BALAJITELE",
+        "JUMPNET",
+        "SAREGAMA",
+        "ZEEMEDIA"
+      ],
+      "included": [
+        "HATHWAY",
+        "NAVNETEDUL"
+      ]
+    },
+    {
+      "index_name": "Nifty Pharma",
+      "index_id": 1004,
+      "excluded": [
+        "GLENMARK",
+        "PEL"
+      ],
+      "included": [
+        "ALKEM",
+        "TORNTPHARM"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "SAIL"
+      ],
+      "included": [
+        "ATUL"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "STRTECH"
+      ],
+      "included": [
+        "NAM-INDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "IBULHSGFIN"
+      ],
+      "included": [
+        "ICICIGI"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Media: |excluded|=4 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

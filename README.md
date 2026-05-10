@@ -4,7 +4,7 @@
 [![License: MIT (code)](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
 [![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC%20BY%204.0-green.svg)](LICENSE-DATA)
 
-Open-source point-in-time membership tables for NSE (India) — both **index membership** (Nifty 50 / Next 50 / 100 / 500 / Midcap 150 / Smallcap 250) and **F&O segment membership** — derived by parsing public NSE press releases and circulars.
+Open-source point-in-time membership tables for NSE (India) — **41 equity indices** across broad-market, sector, strategy and thematic families, plus **F&O segment membership** — derived by parsing public NSE press releases and circulars.
 
 ![Nifty index churn 2017–2026](docs/churn.png)
 
@@ -14,10 +14,11 @@ For backtests on Indian equities, you cannot ask "was X in Nifty 500 on 2021-08-
 
 | Check | Status |
 |---|---|
-| Famous-transition test (HDFC merger, ZOMATO→ETERNAL, INDIGO/MAXHEALTH inclusion, MINDTREE→LTM, ADANIGAS→ATGL, etc.) | **13/13 PASS** |
-| 2024+ archive cross-check (NSE-published constituent count) | ±1 to ±8 symbols |
-| 2017+ daily cardinality | Clean |
-| Pre-2017 daily cardinality | ±5 to ±7 symbols (incomplete pre-2017 PR coverage) |
+| Famous-transition test (29 PIT facts across all four index families) | **29/29 PASS** |
+| Snapshot match — `members(today, idx)` == NSE published CSV | **0/41 mismatches** |
+| Internal consistency — Nifty 100 ⊆ Nifty 500, sectors ⊆ Nifty 500, etc. | 13/20 invariants drift on some pre-2018 dates |
+| Wayback cross-check — Nifty 50 reconstruction vs Wayback snapshots | mean drift 0.0 across 5 snapshots |
+| Pre-2018 daily cardinality | ±2 to ±13 symbols (walk-back drift; closes with R1b seed) |
 | Pytest suite (`pytest tests/`) | **16/16 PASS** |
 
 Run the test suite yourself: `pip install pandas pytest && pytest tests/`.
@@ -37,8 +38,9 @@ This answers 5 PIT questions out of the box (HDFC pre/post-merger, Nifty 50 on a
 ```
 index_history/
 ├── data/
-│   ├── index_membership_history.csv     # ← headline file (2,820 intervals)
-│   ├── current_snapshot/                # NSE Indices' authoritative current CSVs (the seed)
+│   ├── index_membership_history.csv     # ← headline file (~5,920 intervals across 41 indices)
+│   ├── index_registry.json              # source of truth for which indices we track
+│   ├── current_snapshot/                # NSE's authoritative current CSVs (the seed)
 │   ├── parsed/                          # one JSON per parsed press release
 │   └── manual_overrides/                # mergers, renames, hand-curated edits
 ├── code/                                # fetch / parse / build / validate
@@ -97,12 +99,12 @@ Half-open intervals: `(symbol, valid_from, valid_to, source, source_url, circula
 
 | Column | Meaning |
 |---|---|
-| `index_id` | NSE Indices Ltd internal id (217=Nifty 50, 218=Next 50, 219=100, 221=500, 223=Midcap 150, 227=Smallcap 250) |
+| `index_id` | NSE Indices Ltd internal id. Broad (217–227), sector (1001–1015), strategy (2001–2010), thematic (3001–3011). Full mapping in `index_history/data/index_registry.json`. |
 | `index_name` | Canonical human-readable name |
 | `symbol` | NSE trading symbol, **canonicalised to the terminal name in any rename chain** (e.g., MINDTREE → LTIMindtree → LTM is stored as LTM throughout). See `index_history/data/manual_overrides/symbol_renames.json`. |
 | `valid_from`, `valid_to` | Half-open interval `[valid_from, valid_to)`. NULL `valid_to` = currently a member. |
 | `weightage` | Free-float weight at the time of the snapshot (only populated for currently-open intervals; NULL for historical) |
-| `source` | One of: `circular` (parsed NSE PR), `merger` (manual override for a merger), `snapshot_floor` (interval predates our coverage window — start date is approximate), `inferred-exclude` (interval was open but symbol is not in NSE's current published list, so it was force-closed at the next semi-annual review) |
+| `source` | One of: `circular` (parsed NSE PR), `merger` (manual override for a merger), `snapshot_floor` (interval predates our coverage window — start date is approximate), `inferred-exclude` (interval was open but symbol is not in NSE's current published list, so it was force-closed at the next semi-annual review), `snapshot` (inferred-include — symbol is in current snapshot but no inclusion PR was found, opened at the most recent semi-annual review) |
 | `source_url` | NSE publication URL the interval is derived from, where available |
 | `notes` | Human-readable provenance (e.g. "closed by ind_prs28022024.pdf") |
 
@@ -110,13 +112,29 @@ Filter on `source` if you want to exclude lower-confidence rows: `source IN ('ci
 
 ## Coverage and known gaps
 
-**Index history** — high confidence from **2017 onward** for all 6 indices.
+**Index history** — high confidence from **2017 onward** across all 41 indices. Coverage tiers:
 
-- **Famous transitions: 13/13 PASS.** HDFC merger (2023-07), ZOMATO→ETERNAL (2025-03), INDIGO/MAXHEALTH inclusion (2025-09), HEROMOTOCO/INDUSINDBK exclusion (2025-09), MINDTREE→LTIM, ADANIGAS→ATGL. Every transition that has ever been documented in the wild reconciles correctly.
-- **2024–2026 archive cross-check**: ±1 to ±8 of NSE's published constituent count on every test date (was ±5 to ±19 before snapshot reconciliation). Remaining drift is one or two missing inclusion events per index that we have not yet captured in PRs.
-- **Pre-2017 cardinality**: ±5 to ±7 over the published target. This is the cost of incomplete pre-2017 PR coverage — older NSE press releases were image-only or used inconsistent table layouts that the parser couldn't decode reliably. Backfilling these is the highest-impact contribution path.
+| Family | Indices | Coverage notes |
+|---|---|---|
+| Broad | 6 (Nifty 50, Next 50, 100, 500, Midcap 150, Smallcap 250) | Best — extensive PR coverage 2014+, dense semi-annual reviews |
+| Sector | 15 (Bank, IT, FMCG, Pharma, Auto, Metal, Realty, Energy, PSU Bank, Private Bank, Healthcare, Financial Services, Media, Consumer Durables, Oil & Gas) | Good 2017+, sparser 2014–2016 |
+| Strategy | 9 (Alpha 50, High Beta 50, Low Volatility 50, Nifty50 Value 20, Nifty100 Equal Weight / Low Volatility 30 / Quality 30, Midcap 50, Smallcap 50) | Good 2017+; pre-2018 cardinality drifts because NSE reviews these quarterly with ~10-stock churn |
+| Thematic | 11 (Commodities, Consumption, CPSE, Infrastructure, MNC, PSE, Services, India Manufacturing, India Defence, Tata 25% Cap, MAATR) | Good post-launch; some thematics launched 2021+ so historical coverage is short by design |
 
-The walk-back is **seeded from NSE Indices' authoritative published CSVs** (`archives.nseindia.com/content/indices/ind_nifty*list.csv`). Any walk-back interval still open today whose symbol is NOT in the official current list is automatically closed at the next semi-annual review date with a `notes='inferred-exclude (no PR found)'` marker, so users can filter on the source-confidence level if needed.
+**Validation status** (run `python -m index_history.code.validate`):
+
+- **G1 snapshot match**: **0/41** indices have today-vs-published drift.
+- **G2 internal consistency** (Nifty 100 ⊆ Nifty 500, sectors ⊆ Nifty 500, etc.): some pre-2018 violations from walk-back drift.
+- **G3 famous transitions**: **29/29 PASS**. HDFC merger (2023-07), ZOMATO→ETERNAL (2025-03), INDIGO/MAXHEALTH inclusion (2025-09), HEROMOTOCO/INDUSINDBK exclusion (2025-09), MINDTREE→LTIM→LTM, ADANIGAS→ATGL, sector membership today (TCS in Nifty IT, MARUTI in Nifty Auto, ONGC in Nifty CPSE, etc.). Every transition that has ever been documented in the wild reconciles correctly.
+- **G4 cardinality**: clean 2018+; drifts ±2–13 on pre-2018 dates (R1b in `ROADMAP.md`).
+- **G5 Wayback cross-check**: Nifty 50 reconstruction has **mean drift 0.0** vs Wayback Machine snapshots of NSE's official constituent CSVs.
+
+The walk-back is **seeded from NSE Indices' authoritative published CSVs** (`archives.nseindia.com/content/indices/ind_nifty*list.csv`) for indices with static mirrors, and from `nseindia.com/api/equity-stockIndices` JSON for the rest. Two reconciliation steps run after walk-forward:
+
+1. Any open interval whose symbol is NOT in NSE's current list is force-closed at the next semi-annual review (`source='inferred-exclude'`).
+2. Any symbol in NSE's current list but absent from our walk-forward (because it was excluded then re-included in a PR we didn't parse) is re-opened at the most recent semi-annual review (`source='snapshot'`, notes `inferred-include`).
+
+Filter on `source IN ('circular', 'merger')` to keep only PR-backed intervals.
 
 **F&O history** — coverage starts **2014**. Symbols added pre-2014 and never excluded since are absent (we don't have an introduction event for them). Of NSE's ~220 currently-tradeable F&O names, this dataset captures 140 in the open intervals; the gap is overwhelmingly long-tenured names like RELIANCE, INFY, TCS that have been in F&O since well before 2014.
 

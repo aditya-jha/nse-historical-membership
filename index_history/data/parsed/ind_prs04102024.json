@@ -24,6 +24,26 @@
       "included": [
         "EMCURE"
       ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "IDFC"
+      ],
+      "included": [
+        "RADICO"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "IDFC"
+      ],
+      "included": [
+        "MCX"
+      ]
     }
   ],
   "notes": []

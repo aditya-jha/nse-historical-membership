@@ -4,6 +4,63 @@
   "publication_date": null,
   "effective_date": "2018-04-02",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIENT",
+        "BEML",
+        "DALMIABHA",
+        "FEDERALBNK",
+        "GSFC",
+        "INFIBEAM",
+        "JPASSOCIAT",
+        "MOTILALOFS",
+        "RBLBANK",
+        "VAKRANGEE"
+      ],
+      "included": [
+        "BIOCON",
+        "BBTC",
+        "BRITANNIA",
+        "DBL",
+        "GRAPHITE",
+        "HEG",
+        "HEXAWARE",
+        "MINDTREE",
+        "NIITTECH",
+        "QUESS"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ADANIENT",
+        "BHARATFIN",
+        "JUBILANT"
+      ],
+      "included": [
+        "BEML",
+        "GSFC",
+        "PCJEWELLER"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "KARURVYSYA",
+        "UBL",
+        "VAKRANGEE"
+      ],
+      "included": [
+        "EICHERMOT",
+        "MRF",
+        "TVSMOTOR"
+      ]
+    }
+  ],
   "notes": []
 }

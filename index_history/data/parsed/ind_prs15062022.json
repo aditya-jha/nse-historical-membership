@@ -4,6 +4,67 @@
   "publication_date": "2022-06-15",
   "effective_date": "2022-06-30",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "AUROPHARMA",
+        "IGL"
+      ],
+      "included": [
+        "MINDTREE",
+        "WIPRO"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BCG",
+        "CAMS",
+        "FSL",
+        "FORTIS",
+        "HAPPSTMNDS",
+        "HINDALCO",
+        "ISEC",
+        "JSWENERGY",
+        "JSWSTEEL",
+        "KEI",
+        "LTI",
+        "TATASTEEL",
+        "WIPRO"
+      ],
+      "included": [
+        "ABB",
+        "ADANIGREEN",
+        "BAJAJHLDNG",
+        "BEL",
+        "GNFC",
+        "HAL",
+        "INDHOTEL",
+        "LODHA",
+        "MINDAIND",
+        "PAGEIND",
+        "PRESTIGE",
+        "SUZLON",
+        "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ICICIBANK",
+        "NAM-INDIA",
+        "NMDC"
+      ],
+      "included": [
+        "ANGELONE",
+        "IDFC",
+        "LODHA"
+      ]
+    }
+  ],
   "notes": []
 }

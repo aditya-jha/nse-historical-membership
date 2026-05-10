@@ -4,6 +4,53 @@
   "publication_date": null,
   "effective_date": "2017-11-13",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "SUNDARMFIN",
+        "SHILPI"
+      ],
+      "included": [
+        "AUBANK",
+        "RELAXO"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "SUNDARMFIN"
+      ],
+      "included": [
+        "AUBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "SHILPI"
+      ],
+      "included": [
+        "RELAXO"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "SUNDARMFIN"
+      ],
+      "included": [
+        "BHARATFIN",
+        "IISL",
+        "IDFC"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Financial Services: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

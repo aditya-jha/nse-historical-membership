@@ -6,6 +6,30 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "GRASIM"
+      ],
+      "included": [
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ABIRLANUVO",
+        "GRASIM",
+        "TUBEINVEST"
+      ],
+      "included": [
+        "LAURUSLABS",
+        "PNBHOUSING",
+        "VBL"
+      ]
+    },
+    {
       "index_name": "Nifty 100",
       "index_id": 219,
       "excluded": [
@@ -39,6 +63,48 @@
       "included": [
         "LAURUSLABS",
         "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "VEDL"
+      ],
+      "included": [
+        "SUNTV"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ABIRLANUVO",
+        "SUNTV"
+      ],
+      "included": [
+        "DALMIABHA",
+        "MUTHOOTFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "MGL"
+      ],
+      "included": [
+        "GNFC"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "GRASIM"
+      ],
+      "included": [
+        "DALMIABHA"
       ]
     }
   ],

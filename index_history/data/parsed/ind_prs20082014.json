@@ -4,6 +4,101 @@
   "publication_date": null,
   "effective_date": "2014-09-19",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "MCDOWELL-N"
+      ],
+      "included": [
+        "ZEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "MPHASIS",
+        "ZEEL"
+      ],
+      "included": [
+        "AUROPHARMA",
+        "MOTHERSUMI"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "MPHASIS",
+        "MCDOWELL-N"
+      ],
+      "included": [
+        "AUROPHARMA",
+        "MOTHERSUMI"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ADANIPOWER",
+        "APTECHT",
+        "COREEDUTEC",
+        "ERAINFRA",
+        "GTOFFSHORE",
+        "INDIAGLYCO",
+        "INDRAMEDCO",
+        "INFINITE",
+        "MANINFRA",
+        "ORBITCORP",
+        "POLARIS",
+        "SKUMARSYNF",
+        "TINPLATE",
+        "MCDOWELL-N",
+        "WSTCSTPAPR"
+      ],
+      "included": [
+        "AJANTPHARM",
+        "APLLTD",
+        "APARINDS",
+        "ASHOKA",
+        "ASTRAL",
+        "CENTURYPLY",
+        "KITEX",
+        "NITINFIRE",
+        "NOCIL",
+        "RATNAMANI",
+        "REPCOHOME",
+        "TVTODAY",
+        "WABAG",
+        "WELCORP",
+        "WHEELS"
+      ]
+    },
+    {
+      "index_name": "Nifty FMCG",
+      "index_id": 1003,
+      "excluded": [
+        "PGHH",
+        "MCDOWELL-N"
+      ],
+      "included": [
+        "GODREJIND",
+        "MARICO"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumption",
+      "index_id": 3002,
+      "excluded": [
+        "MCDOWELL-N"
+      ],
+      "included": [
+        "MARICO"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -24,7 +24,90 @@
       "included": [
         "SHOPERSTOP"
       ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "MINDTREE"
+      ],
+      "included": [
+        "HAL"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "APOLLOHOSP",
+        "BSOFT",
+        "CDSL",
+        "COFORGE",
+        "DEEPAKNTR",
+        "IEX",
+        "LTTS",
+        "LAURUSLABS",
+        "MAXHEALTH",
+        "MPHASIS",
+        "NATIONALUM",
+        "OIL",
+        "PERSISTENT",
+        "PRESTIGE",
+        "RADICO",
+        "TANLA",
+        "TRIDENT",
+        "VTL",
+        "VEDL"
+      ],
+      "included": [
+        "ABFRL",
+        "BANKBARODA",
+        "BCG",
+        "CANBK",
+        "CGPOWER",
+        "CHOLAFIN",
+        "COALINDIA",
+        "ESCORTS",
+        "FEDERALBNK",
+        "ITC",
+        "KEI",
+        "M&M",
+        "NHPC",
+        "OBEROIRLTY",
+        "TATAMOTORS",
+        "TIINDIA",
+        "TVSMOTOR",
+        "IDEA",
+        "YESBANK",
+        "ZEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "DELTACORP",
+        "IBREALEST"
+      ],
+      "included": [
+        "BSE",
+        "POONAWALLA",
+        "ZOMATO"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "OFSS"
+      ],
+      "included": [
+        "SUNPHARMA"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Alpha 50: |excluded|=19 != |included|=20 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty High Beta 50: |excluded|=2 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

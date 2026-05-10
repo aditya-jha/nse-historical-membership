@@ -4,6 +4,71 @@
   "publication_date": "2024-12-11",
   "effective_date": "2024-12-31",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "BERGEPAINT",
+        "COLPAL",
+        "MARICO"
+      ],
+      "included": [
+        "DRREDDY",
+        "UNITDSPR",
+        "ZYDUSLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIPOWER",
+        "AUROPHARMA",
+        "BHEL",
+        "POWERINDIA",
+        "JSL",
+        "LODHA",
+        "PFC",
+        "RECLTD",
+        "SJVN",
+        "TVSMOTOR"
+      ],
+      "included": [
+        "HSCL",
+        "IREDA",
+        "KAYNES",
+        "KFINTECH",
+        "MAZDOCK",
+        "MOTILALOFS",
+        "NATIONALUM",
+        "PPLPHARMA",
+        "SIEMENS",
+        "VOLTAS"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "HINDALCO",
+        "SJVN"
+      ],
+      "included": [
+        "ADANIENSOL",
+        "HAL"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "SIEMENS"
+      ],
+      "included": [
+        "UNITDSPR"
+      ]
+    }
+  ],
   "notes": []
 }

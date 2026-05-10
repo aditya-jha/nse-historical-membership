@@ -4,6 +4,79 @@
   "publication_date": "2025-06-06",
   "effective_date": "2025-06-30",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "IRCTC"
+      ],
+      "included": [
+        "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BLUESTARCO",
+        "COCHINSHIP",
+        "HSCL",
+        "HAL",
+        "IREDA",
+        "INDUSTOWER",
+        "NATIONALUM",
+        "PHOENIXLTD",
+        "RVNL",
+        "TORNTPOWER",
+        "VEDL",
+        "VOLTAS"
+      ],
+      "included": [
+        "BAJAJHLDNG",
+        "BHARTIHEXA",
+        "COFORGE",
+        "COROMANDEL",
+        "HDFCLIFE",
+        "LAURUSLABS",
+        "MFSL",
+        "MAXHEALTH",
+        "NH",
+        "PERSISTENT",
+        "PNBHOUSING",
+        "SOLARINDS"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "AARTIIND",
+        "HFCL",
+        "INDUSINDBK",
+        "MANAPPURAM",
+        "PEL"
+      ],
+      "included": [
+        "ANGELONE",
+        "INOXWIND",
+        "KAYNES",
+        "PGEL",
+        "SHRIRAMFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "ALKEM",
+        "BOSCHLTD"
+      ],
+      "included": [
+        "MRF",
+        "SHREECEM"
+      ]
+    }
+  ],
   "notes": []
 }

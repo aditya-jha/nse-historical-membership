@@ -13,7 +13,7 @@ import sys
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
-from nse_index_history.code.parse_press_release import (
+from index_history.code.parse_press_release import (
     parse_pdf,
     parsed_to_dict,
     ParseFailure,

@@ -220,7 +220,120 @@
         "VIJAYABANK",
         "WELSPUNIND"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ADANIENT",
+        "DALMIABHA",
+        "IRB",
+        "L&TFH",
+        "RCOM"
+      ],
+      "included": [
+        "DHFL",
+        "GLENMARK",
+        "TATAPOWER",
+        "RAMCOCEM",
+        "TORNTPHARM"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ADVENZYMES",
+        "DBL",
+        "FCONSUMER",
+        "HCC",
+        "HDIL",
+        "IBREALEST",
+        "IBVENTURES",
+        "KSCL",
+        "RNAVAL",
+        "STRTECH"
+      ],
+      "included": [
+        "COCHINSHIP",
+        "DELTACORP",
+        "GRAPHITE",
+        "HEG",
+        "HINDCOPPER",
+        "JPASSOCIAT",
+        "RAIN",
+        "RCOM",
+        "SPTL",
+        "SYNDIBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "CANBK"
+      ],
+      "included": [
+        "RBLBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "LICHSGFIN"
+      ],
+      "included": [
+        "EDELWEISS",
+        "GICRE",
+        "ICICIPRULI",
+        "IIFL",
+        "IBULHSGFIN",
+        "MFSL"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "NAVNETEDUL"
+      ],
+      "included": [
+        "BALAJITELE"
+      ]
+    },
+    {
+      "index_name": "Nifty Pharma",
+      "index_id": 1004,
+      "excluded": [
+        "GLAXO"
+      ],
+      "included": [
+        "BIOCON"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "DALMIABHA"
+      ],
+      "included": [
+        "NATIONALUM"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "ENGINERSIN"
+      ],
+      "included": [
+        "GICRE"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Financial Services: |excluded|=1 != |included|=6 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

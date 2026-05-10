@@ -24,7 +24,22 @@
       "included": [
         "TRIVENI"
       ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "JSLHISAR"
+      ],
+      "included": [
+        "JSL",
+        "NIFTY",
+        "NSE",
+        "NSE"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Metal: |excluded|=1 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

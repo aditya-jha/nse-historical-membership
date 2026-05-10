@@ -4,6 +4,79 @@
   "publication_date": null,
   "effective_date": "2018-02-05",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "CESC",
+        "FORTIS",
+        "POLARIS",
+        "STAR"
+      ],
+      "included": [
+        "COCHINSHIP",
+        "HATSUN",
+        "RELCAPITAL",
+        "TIFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "CESC",
+        "FORTIS",
+        "STAR"
+      ],
+      "included": [
+        "HATSUN",
+        "RELCAPITAL",
+        "TIFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "POLARIS"
+      ],
+      "included": [
+        "COCHINSHIP"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "CESC",
+        "STAR"
+      ],
+      "included": [
+        "BALKRISIND",
+        "CHOLAFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "CESC"
+      ],
+      "included": [
+        "GRASIM"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "CESC"
+      ],
+      "included": [
+        "NBCC"
+      ]
+    }
+  ],
   "notes": []
 }

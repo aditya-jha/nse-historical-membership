@@ -4,6 +4,65 @@
   "publication_date": null,
   "effective_date": "2015-10-19",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AIAENG",
+        "CARERATING",
+        "GPPL",
+        "JKLAKSHMI",
+        "KITEX",
+        "MOTHERSUMI",
+        "SUVEN",
+        "THOMASCOOK",
+        "TVSMOTOR",
+        "WHIRLPOOL"
+      ],
+      "included": [
+        "CCL",
+        "CEATLTD",
+        "DCBBANK",
+        "IBULHSGFIN",
+        "JUBILANT",
+        "MARKSANS",
+        "REPCOHOME",
+        "SIEMENS",
+        "SUZLON",
+        "WELSPUNIND"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "EDELWEISS",
+        "IBREALEST",
+        "UCOBANK"
+      ],
+      "included": [
+        "MARKSANS",
+        "STRTECH",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "CAIRN",
+        "CONCOR",
+        "KARURVYSYA",
+        "LAKSHVILAS"
+      ],
+      "included": [
+        "CASTROLIND",
+        "LT",
+        "MPHASIS",
+        "TATAGLOBAL"
+      ]
+    }
+  ],
   "notes": []
 }

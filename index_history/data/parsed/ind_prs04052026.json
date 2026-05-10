@@ -24,6 +24,26 @@
       "included": [
         "CIEINDIA"
       ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "GSPL"
+      ],
+      "included": [
+        "NAVA"
+      ]
+    },
+    {
+      "index_name": "Nifty Oil & Gas",
+      "index_id": 1015,
+      "excluded": [
+        "GSPL"
+      ],
+      "included": [
+        "AEGISVOPAK"
+      ]
     }
   ],
   "notes": []

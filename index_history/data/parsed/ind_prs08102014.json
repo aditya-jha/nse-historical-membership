@@ -4,6 +4,53 @@
   "publication_date": null,
   "effective_date": "2014-10-14",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BIOCON",
+        "DELTACORP",
+        "ESSDEE",
+        "GVKPIL",
+        "HEXAWARE",
+        "IPCALAB",
+        "KPIT",
+        "TCS"
+      ],
+      "included": [
+        "ATUL",
+        "BEML",
+        "CARERATING",
+        "COX&KINGS",
+        "FINCABLES",
+        "HFCL",
+        "JKLAKSHMI",
+        "SINTEX"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "FRL"
+      ],
+      "included": [
+        "HCC"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BEL",
+        "GODREJCP"
+      ],
+      "included": [
+        "TECHM",
+        "WIPRO"
+      ]
+    }
+  ],
   "notes": []
 }

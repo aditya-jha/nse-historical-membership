@@ -24,7 +24,17 @@
       "included": [
         "CGCL"
       ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [
+        "BEML"
+      ],
+      "included": []
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty India Defence: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

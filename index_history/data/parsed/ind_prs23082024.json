@@ -248,7 +248,190 @@
         "VINATIORGA",
         "ZEEL"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "BALKRISIND",
+        "BANDHANBNK",
+        "BHEL",
+        "COFORGE",
+        "DALBHARAT",
+        "ESCORTS",
+        "GUJGASLTD",
+        "JUBLFOOD",
+        "LTTS",
+        "M&MFIN",
+        "MFSL",
+        "PAGEIND",
+        "TIINDIA",
+        "IDEA"
+      ],
+      "included": [
+        "APLAPOLLO",
+        "CGPOWER",
+        "COLPAL",
+        "KPITTECH",
+        "MARICO",
+        "MUTHOOTFIN",
+        "POLICYBZR",
+        "PHOENIXLTD",
+        "SBICARD",
+        "SONACOMS",
+        "SRF",
+        "SUNDARMFIN",
+        "SUPREMEIND",
+        "VOLTAS"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "AAVAS",
+        "CUB",
+        "CREDITACC",
+        "EQUITASBNK",
+        "EXIDEIND",
+        "FIVESTAR",
+        "HAPPSTMNDS",
+        "NAM-INDIA",
+        "RADICO",
+        "RAYMOND",
+        "TANLA"
+      ],
+      "included": [
+        "ATUL",
+        "BRIGADE",
+        "HINDCOPPER",
+        "KPIL",
+        "LAURUSLABS",
+        "NBCC",
+        "PEL",
+        "REDINGTON",
+        "RAMCOCEM",
+        "ZEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "BANDHANBNK"
+      ],
+      "included": [
+        "CANBK"
+      ]
+    },
+    {
+      "index_name": "Nifty Pharma",
+      "index_id": 1004,
+      "excluded": [
+        "SANOFI"
+      ],
+      "included": [
+        "AJANTPHARM"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "SUNTECK"
+      ],
+      "included": [
+        "RAYMOND"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "DALBHARAT",
+        "DEEPAKNTR",
+        "TATACHEM"
+      ],
+      "included": [
+        "JSWENERGY",
+        "NHPC",
+        "NMDC"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "ADANIENSOL"
+      ],
+      "included": [
+        "ADANIPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [],
+      "included": [
+        "DYNAMATECH"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "BATAINDIA",
+        "GRINDWELL",
+        "KAJARIACER",
+        "NAVINFLUOR",
+        "SUNDRMFAST"
+      ],
+      "included": [
+        "BHEL",
+        "COCHINSHIP",
+        "FLUOROCHEM",
+        "HINDCOPPER",
+        "LLOYDSME",
+        "METROBRAND",
+        "TIMKEN"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "BALKRISIND",
+        "PETRONET"
+      ],
+      "included": [
+        "INDUSTOWER",
+        "MOTHERSON"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "MPHASIS"
+      ],
+      "included": [
+        "CASTROLIND"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "LICI"
+      ],
+      "included": [
+        "IRFC"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Smallcap 50: |excluded|=11 != |included|=10 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Defence: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Manufacturing: |excluded|=5 != |included|=7 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

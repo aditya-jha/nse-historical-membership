@@ -4,6 +4,87 @@
   "publication_date": "2023-03-06",
   "effective_date": "2023-03-31",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIENT",
+        "ADANIGREEN",
+        "ATGL",
+        "ADANITRANS",
+        "ABFRL",
+        "ANGELONE",
+        "ELGIEQUIP",
+        "FINEORG",
+        "GNFC",
+        "KEI",
+        "PAGEIND",
+        "SRF",
+        "SUZLON",
+        "TATAELXSI"
+      ],
+      "included": [
+        "ABCAPITAL",
+        "APOLLOTYRE",
+        "BANKINDIA",
+        "BHEL",
+        "BRITANNIA",
+        "IDFCFIRSTB",
+        "JINDALSTEL",
+        "L&TFH",
+        "M&MFIN",
+        "MRF",
+        "PFC",
+        "PNB",
+        "SIEMENS",
+        "ZYDUSLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "AUBANK",
+        "GRASIM",
+        "SHRIRAMFIN",
+        "TATACHEM",
+        "IDEA"
+      ],
+      "included": [
+        "ATGL",
+        "ADANITRANS",
+        "GNFC",
+        "JSWENERGY",
+        "LTTS"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "ACC",
+        "ALKEM",
+        "AMBUJACEM",
+        "MGL"
+      ],
+      "included": [
+        "ABBOTINDIA",
+        "BHARTIARTL",
+        "ICICIBANK",
+        "KOTAKBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "ACC"
+      ],
+      "included": [
+        "SUNPHARMA"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -4,6 +4,79 @@
   "publication_date": null,
   "effective_date": "2021-01-01",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "BPCL",
+        "IOC",
+        "TATASTEEL"
+      ],
+      "included": [
+        "GRASIM",
+        "INDUSINDBK",
+        "UPL"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "PAGEIND"
+      ],
+      "included": [
+        "MUTHOOTFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BHARTIARTL",
+        "IGL",
+        "MANAPPURAM",
+        "WHIRLPOOL"
+      ],
+      "included": [
+        "ADANIGAS",
+        "AMBER",
+        "BSOFT",
+        "GMMPFAUDLR"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "EQUITAS",
+        "HINDPETRO"
+      ],
+      "included": [
+        "GRASIM",
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "KOTAKBANK"
+      ],
+      "included": [
+        "PAGEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "M&M"
+      ],
+      "included": [
+        "IOC"
+      ]
+    }
+  ],
   "notes": []
 }

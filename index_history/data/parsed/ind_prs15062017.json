@@ -4,6 +4,37 @@
   "publication_date": null,
   "effective_date": "2017-06-23",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "IIFL"
+      ],
+      "included": [
+        "SFL"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "IIFL"
+      ],
+      "included": [
+        "KRBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "KRBL"
+      ],
+      "included": [
+        "SFL"
+      ]
+    }
+  ],
   "notes": []
 }

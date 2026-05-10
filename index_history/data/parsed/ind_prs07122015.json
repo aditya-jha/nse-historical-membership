@@ -4,6 +4,19 @@
   "publication_date": null,
   "effective_date": "2015-12-14",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "FRL",
+        "MANDHANA"
+      ],
+      "included": [
+        "ARVIND",
+        "GAYAPROJ"
+      ]
+    }
+  ],
   "notes": []
 }

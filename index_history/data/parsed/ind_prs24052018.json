@@ -4,6 +4,85 @@
   "publication_date": null,
   "effective_date": "2018-06-29",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ARVIND",
+        "COX&KINGS",
+        "TATACOMM"
+      ],
+      "included": [
+        "FRETAIL",
+        "KIOCL",
+        "TIINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ARVIND",
+        "TATACOMM"
+      ],
+      "included": [
+        "FRETAIL",
+        "KIOCL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "COX&KINGS"
+      ],
+      "included": [
+        "TIINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ARVIND",
+        "TATACOMM"
+      ],
+      "included": [
+        "INDIANB",
+        "NATIONALUM"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "COX&KINGS"
+      ],
+      "included": [
+        "BOMDYEING"
+      ]
+    },
+    {
+      "index_name": "Nifty India Corporate Group - Tata 25% Cap",
+      "index_id": 3010,
+      "excluded": [
+        "TATACOMM"
+      ],
+      "included": [
+        "TRENT"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "TATACOMM"
+      ],
+      "included": [
+        "TORNTPOWER"
+      ]
+    }
+  ],
   "notes": []
 }

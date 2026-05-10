@@ -6,6 +6,100 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "ABBOTINDIA",
+        "ALKEM",
+        "COCHINSHIP",
+        "VIPIND"
+      ],
+      "included": [
+        "ENDURANCE",
+        "GLAND",
+        "HEG",
+        "HINDCOPPER",
+        "JINDALSTEL",
+        "LAURUSLABS",
+        "LINDEINDIA",
+        "SAIL"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AFFLE",
+        "AMBER",
+        "BAJAJELEC",
+        "CGPOWER",
+        "CYIENT",
+        "DHANI",
+        "EMAMILTD",
+        "GRANULES",
+        "JKCEMENT",
+        "JINDALSTEL",
+        "KAJARIACER",
+        "SONATSOFTW",
+        "SYNGENE",
+        "TANLA",
+        "TATAMOTORS"
+      ],
+      "included": [
+        "ALKYLAMINE",
+        "APOLLOHOSP",
+        "BALRAMCHIN",
+        "CHAMBLFERT",
+        "COFORGE",
+        "FORTIS",
+        "HFCL",
+        "HINDCOPPER",
+        "IEX",
+        "KPITTECH",
+        "LTTS",
+        "MAXHEALTH",
+        "MINDTREE",
+        "POLYCAB",
+        "TATACHEM"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "MARUTI"
+      ],
+      "included": [
+        "M&M"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "ABBOTINDIA",
+        "FORTIS",
+        "PIIND",
+        "SYNGENE"
+      ],
+      "included": [
+        "HDFCAMC",
+        "HEROMOTOCO",
+        "MARUTI",
+        "PETRONET"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "ALKEM"
+      ],
+      "included": [
+        "SBILIFE"
+      ]
+    },
+    {
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [
@@ -172,7 +266,19 @@
         "TTML",
         "VGUARD"
       ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "HEMIPROP"
+      ],
+      "included": [
+        "LODHA"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty India Manufacturing: |excluded|=4 != |included|=8 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

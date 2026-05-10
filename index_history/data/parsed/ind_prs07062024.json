@@ -4,6 +4,77 @@
   "publication_date": "2024-06-07",
   "effective_date": "2024-06-28",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "MUTHOOTFIN"
+      ],
+      "included": [
+        "ABB"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "APOLLOTYRE",
+        "CYIENT",
+        "DLF",
+        "INDHOTEL",
+        "KPITTECH",
+        "LTF",
+        "POONAWALLA"
+      ],
+      "included": [
+        "BDL",
+        "HUDCO",
+        "JPPOWER",
+        "NBCC",
+        "SJVN",
+        "TITAGARH",
+        "TORNTPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ABFRL",
+        "IDFC",
+        "JSWENERGY",
+        "TATAMOTORS"
+      ],
+      "included": [
+        "HUDCO",
+        "JPPOWER",
+        "NBCC",
+        "SJVN"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "EXIDEIND",
+        "PETRONET"
+      ],
+      "included": [
+        "BAJAJFINSV",
+        "BOSCHLTD"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "POWERGRID"
+      ],
+      "included": [
+        "BHARTIARTL"
+      ]
+    }
+  ],
   "notes": []
 }

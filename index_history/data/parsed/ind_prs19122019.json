@@ -28,7 +28,20 @@
         "KENNAMET",
         "TASTYBITE"
       ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "HATHWAY",
+        "RADIOCITY"
+      ],
+      "included": [
+        "JUMPNET"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Media: |excluded|=2 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

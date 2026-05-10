@@ -4,6 +4,201 @@
   "publication_date": null,
   "effective_date": "2015-03-27",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "DLF",
+        "JINDALSTEL"
+      ],
+      "included": [
+        "IDEA",
+        "YESBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "IDEA",
+        "YESBANK"
+      ],
+      "included": [
+        "IBULHSGFIN",
+        "MCDOWELL-N"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "DLF",
+        "JINDALSTEL"
+      ],
+      "included": [
+        "IBULHSGFIN",
+        "MCDOWELL-N"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "DCW",
+        "EDUCOMP",
+        "ELDERPHARM",
+        "HUBTOWN",
+        "IL&FSENGG",
+        "IMFA",
+        "LOVABLE",
+        "PFOCUS",
+        "RAJTV",
+        "REIAGROLTD",
+        "TI",
+        "VENKEYS"
+      ],
+      "included": [
+        "FCEL",
+        "GULFOILLUB",
+        "IFBIND",
+        "JKCEMENT",
+        "KPRMILL",
+        "KNRCON",
+        "LGBBROSLTD",
+        "MARKSANS",
+        "NDTV",
+        "PENIND",
+        "MCDOWELL-N",
+        "VINATIORGA"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "AUROPHARMA",
+        "BHARATFORG",
+        "DIVISLAB",
+        "UPL"
+      ],
+      "included": [
+        "IRB",
+        "JPASSOCIAT",
+        "SKSMICRO",
+        "STAR"
+      ]
+    },
+    {
+      "index_name": "Nifty Auto",
+      "index_id": 1005,
+      "excluded": [
+        "AMTEKAUTO"
+      ],
+      "included": [
+        "TVSMOTOR"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "BHUSANSTL"
+      ],
+      "included": [
+        "CESC"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumption",
+      "index_id": 3002,
+      "excluded": [
+        "CADILAHC",
+        "TRENT"
+      ],
+      "included": [
+        "HAVELLS",
+        "MCDOWELL-N"
+      ]
+    },
+    {
+      "index_name": "Nifty FMCG",
+      "index_id": 1003,
+      "excluded": [
+        "MCLEODRUSS",
+        "RASOYPR"
+      ],
+      "included": [
+        "PGHH",
+        "MCDOWELL-N"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [],
+      "included": [
+        "ENGINERSIN"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "VAKRANGEE"
+      ],
+      "included": [
+        "FSL"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "DBCORP",
+        "HTMEDIA"
+      ],
+      "included": [
+        "INOXLEISUR",
+        "TVTODAY"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "HINDCOPPER",
+        "MOIL",
+        "ORISSAMINE"
+      ],
+      "included": [
+        "MAHSEAMLES",
+        "TATASPONGE"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "MPHASIS"
+      ],
+      "included": [
+        "MCDOWELL-N"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "RPOWER"
+      ],
+      "included": [
+        "FEDERALBNK"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Infrastructure: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Metal: |excluded|=3 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

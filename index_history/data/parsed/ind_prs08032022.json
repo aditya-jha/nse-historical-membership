@@ -4,6 +4,141 @@
   "publication_date": "2022-03-08",
   "effective_date": "2022-03-31",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "COROMANDEL"
+      ],
+      "included": [
+        "DEEPAKNTR"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [],
+      "included": [
+        "DATAPATTNS",
+        "MIDHANI",
+        "PARAS"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "CASTROLIND",
+        "ENDURANCE",
+        "GMMPFAUDLR",
+        "HINDPETRO",
+        "JINDALSTEL",
+        "SCHAEFFLER"
+      ],
+      "included": [
+        "CGPOWER",
+        "DEEPAKNTR",
+        "GRINDWELL",
+        "MINDAIND",
+        "SONACOMS",
+        "TRIDENT",
+        "WELSPUNIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "RAMCOCEM"
+      ],
+      "included": [
+        "IRCTC"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "AAVAS"
+      ],
+      "included": [
+        "SKFINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "BANDHANBNK",
+        "ICICIPRULI"
+      ],
+      "included": [
+        "ATGL",
+        "ADANITRANS"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIPORTS",
+        "ALKYLAMINE",
+        "ASTRAL",
+        "DALBHARAT",
+        "DIXON",
+        "LALPATHLAB",
+        "GUJGASLTD",
+        "HINDCOPPER",
+        "SAIL",
+        "TATACHEM",
+        "TATACONSUM"
+      ],
+      "included": [
+        "BCG",
+        "ISEC",
+        "NATIONALUM",
+        "OIL",
+        "POONAWALLA",
+        "SRF",
+        "TANLA",
+        "TTML",
+        "TITAN",
+        "TRIDENT",
+        "VTL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "HINDCOPPER",
+        "M&M",
+        "MUTHOOTFIN",
+        "PFC"
+      ],
+      "included": [
+        "ABFRL",
+        "DELTACORP",
+        "HFCL",
+        "PNB"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "COALINDIA",
+        "TORNTPOWER"
+      ],
+      "included": [
+        "ICICIGI",
+        "RELIANCE"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty India Defence: |excluded|=0 != |included|=3 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Manufacturing: |excluded|=6 != |included|=7 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

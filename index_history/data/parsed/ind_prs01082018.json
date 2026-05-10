@@ -4,6 +4,27 @@
   "publication_date": null,
   "effective_date": "2018-08-08",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "TECHNO"
+      ],
+      "included": [
+        "BDL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "TECHNO"
+      ],
+      "included": [
+        "BDL"
+      ]
+    }
+  ],
   "notes": []
 }

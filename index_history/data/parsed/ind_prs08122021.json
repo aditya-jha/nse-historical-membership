@@ -4,6 +4,91 @@
   "publication_date": "2021-12-08",
   "effective_date": "2021-12-31",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "INDUSINDBK",
+        "SUNPHARMA"
+      ],
+      "included": [
+        "BPCL",
+        "IOC"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "INDUSINDBK"
+      ],
+      "included": [
+        "DIVISLAB"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ADANIGREEN",
+        "BALRAMCHIN",
+        "DIVISLAB",
+        "GRAPHITE",
+        "IDFC",
+        "INDIAMART",
+        "INTELLECT",
+        "JUBLFOOD",
+        "NAVINFLUOR"
+      ],
+      "included": [
+        "ANGELONE",
+        "BSE",
+        "CAMS",
+        "HAPPSTMNDS",
+        "IRCTC",
+        "KEI",
+        "LINDEINDIA",
+        "RADICO",
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "BPCL",
+        "ESCORTS",
+        "GRAPHITE",
+        "NCC"
+      ],
+      "included": [
+        "HINDCOPPER",
+        "IBREALEST",
+        "NATIONALUM",
+        "TATACHEM"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "PFIZER"
+      ],
+      "included": [
+        "TATACONSUM"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "COALINDIA"
+      ],
+      "included": [
+        "BERGEPAINT"
+      ]
+    }
+  ],
   "notes": []
 }

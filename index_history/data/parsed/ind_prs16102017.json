@@ -4,6 +4,41 @@
   "publication_date": null,
   "effective_date": "2017-10-30",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "FRETAIL"
+      ],
+      "included": [
+        "HUDCO"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "FRETAIL"
+      ],
+      "included": [
+        "HUDCO"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "FRETAIL"
+      ],
+      "included": [
+        "RAJESHEXPO",
+        "IISL",
+        "IDFC"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Alpha 50: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

@@ -6,6 +6,20 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "SBBJ",
+        "MYSOREBANK",
+        "SBT"
+      ],
+      "included": [
+        "FRETAIL",
+        "MAXINDIA",
+        "MGL"
+      ]
+    },
+    {
       "index_name": "Nifty Smallcap 250",
       "index_id": 227,
       "excluded": [
@@ -17,6 +31,18 @@
         "FRETAIL",
         "MAXINDIA",
         "MGL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "SBBJ",
+        "SBT"
+      ],
+      "included": [
+        "ADVENZYMES",
+        "ESCORTS"
       ]
     }
   ],

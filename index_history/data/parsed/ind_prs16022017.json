@@ -6,6 +6,76 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "BHEL",
+        "IDEA"
+      ],
+      "included": [
+        "IBULHSGFIN",
+        "IOC"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ALOKTEXT",
+        "BRFL",
+        "BRIGADE",
+        "DYNAMATECH",
+        "FLFL",
+        "INGERRAND",
+        "IPAPPM",
+        "JPPOWER",
+        "JPINFRATEC",
+        "JSWHL",
+        "KSBPUMPS",
+        "LAOPALA",
+        "LITL",
+        "LINDEINDIA",
+        "MAHLIFE",
+        "MAYURUNIQ",
+        "SEQUENT",
+        "SHOPERSTOP",
+        "SIMPLEXINF",
+        "SINTEX",
+        "SITINET",
+        "SBBJ",
+        "MYSOREBANK",
+        "SBT",
+        "SUPRAJIT"
+      ],
+      "included": [
+        "DBL",
+        "ENDURANCE",
+        "FMGOETZE",
+        "FRETAIL",
+        "GHCL",
+        "GNFC",
+        "GUJALKALI",
+        "ICICIPRULI",
+        "KNRCON",
+        "LTI",
+        "LTTS",
+        "MAXINDIA",
+        "MGL",
+        "MINDACORP",
+        "MINDAIND",
+        "NAVNETEDUL",
+        "NBVENTURES",
+        "PARAGMILK",
+        "QUESS",
+        "RATNAMANI",
+        "SHILPI",
+        "STRTECH",
+        "SUDARSCHEM",
+        "TATAINVEST",
+        "THYROCARE"
+      ]
+    },
+    {
       "index_name": "Nifty 100",
       "index_id": 219,
       "excluded": [
@@ -123,6 +193,110 @@
         "IDEA",
         "PETRONET",
         "RECLTD"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "HEXAWARE",
+        "PETRONET",
+        "RECLTD"
+      ],
+      "included": [
+        "APOLLOHOSP",
+        "BHARATFORG",
+        "CASTROLIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ASTRAZEN",
+        "GRANULES",
+        "KPIT",
+        "MANAPPURAM",
+        "NIITTECH",
+        "SINTEX",
+        "SBBJ",
+        "SBT",
+        "SUVEN",
+        "TEXRAIL"
+      ],
+      "included": [
+        "ADVENZYMES",
+        "CANFINHOME",
+        "ESCORTS",
+        "JETAIRWAYS",
+        "MGL",
+        "MMTC",
+        "MOIL",
+        "TATAELXSI",
+        "UJJIVAN",
+        "VGUARD"
+      ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "BANKINDIA"
+      ],
+      "included": [
+        "IDFCBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "SITINET"
+      ],
+      "included": [
+        "NAVNETEDUL"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "BHUSANSTL"
+      ],
+      "included": [
+        "RATNAMANI"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "CUB",
+        "KARURVYSYA"
+      ],
+      "included": [
+        "KTKBANK",
+        "SOUTHBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "JINDALSTEL"
+      ],
+      "included": [
+        "PIIND"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "DIVISLAB"
+      ],
+      "included": [
+        "INFY"
       ]
     }
   ],

@@ -4,6 +4,72 @@
   "publication_date": "2023-09-15",
   "effective_date": "2023-09-29",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BAJAJHLDNG",
+        "COALINDIA",
+        "JSL",
+        "KARURVYSYA",
+        "M&M",
+        "PHOENIXLTD",
+        "SCHAEFFLER",
+        "YESBANK"
+      ],
+      "included": [
+        "GLENMARK",
+        "IRFC",
+        "KTKBANK",
+        "PNBHOUSING",
+        "RAYMOND",
+        "RECLTD",
+        "SUPREMEIND",
+        "SUZLON"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "APOLLOTYRE",
+        "BSE",
+        "IBULHSGFIN"
+      ],
+      "included": [
+        "ACC",
+        "BANKINDIA",
+        "KTKBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "ABBOTINDIA",
+        "HDFCAMC",
+        "UBL"
+      ],
+      "included": [
+        "BOSCHLTD",
+        "GODREJCP",
+        "ONGC",
+        "TITAN"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "INFY"
+      ],
+      "included": [
+        "BOSCHLTD"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Low Volatility 50: |excluded|=3 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

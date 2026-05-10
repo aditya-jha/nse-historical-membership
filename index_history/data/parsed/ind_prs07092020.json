@@ -26,6 +26,64 @@
       ]
     },
     {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "APOLLOHOSP",
+        "BATAINDIA",
+        "HDFCAMC",
+        "HINDUNILVR",
+        "ICICIBANK",
+        "ICICIGI",
+        "ICICIPRULI",
+        "NAM-INDIA",
+        "PIDILITIND",
+        "SBILIFE",
+        "SHREECEM"
+      ],
+      "included": [
+        "ADANIENT",
+        "ASTRAZEN",
+        "BAYERCROP",
+        "CDSL",
+        "EIDPARRY",
+        "INDIAMART",
+        "JBCHEPHARM",
+        "JINDALSTEL",
+        "JUBLFOOD",
+        "LAURUSLABS",
+        "IDEA"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ADANIPOWER",
+        "EDELWEISS"
+      ],
+      "included": [
+        "MARUTI",
+        "NAM-INDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BOSCHLTD",
+        "GLAXO",
+        "RAJESHEXPO",
+        "THERMAX"
+      ],
+      "included": [
+        "ABBOTINDIA",
+        "IOC",
+        "RELAXO",
+        "SYNGENE"
+      ]
+    },
+    {
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [

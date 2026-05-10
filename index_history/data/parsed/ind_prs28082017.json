@@ -6,6 +6,21 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "ACC",
+        "BANKBARODA",
+        "TATAPOWER",
+        "TATAMTRDVR"
+      ],
+      "included": [
+        "BAJFINANCE",
+        "HINDPETRO",
+        "UPL"
+      ]
+    },
+    {
       "index_name": "Nifty Next 50",
       "index_id": 218,
       "excluded": [
@@ -21,6 +36,64 @@
         "BANKBARODA",
         "MRF",
         "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "AMTEKAUTO",
+        "ANANTRAJ",
+        "ASAHIINDIA",
+        "FDC",
+        "FMGOETZE",
+        "GRINDWELL",
+        "HMVL",
+        "HONAUT",
+        "JMTAUTOLTD",
+        "KNRCON",
+        "NITINFIRE",
+        "ORISSAMINE",
+        "PUNJLLOYD",
+        "RATNAMANI",
+        "RELAXO",
+        "RELCAPITAL",
+        "RIIL",
+        "ROLTA",
+        "RUCHISOYA",
+        "STCINDIA",
+        "TIDEWATER",
+        "TRITURBINE",
+        "VSTIND",
+        "WONDERLA",
+        "ZYDUSWELL"
+      ],
+      "included": [
+        "DMART",
+        "BRFL",
+        "BRIGADE",
+        "BSE",
+        "FLFL",
+        "HERITGFOOD",
+        "IFBIND",
+        "ITDC",
+        "IBVENTURES",
+        "INGERRAND",
+        "ITI",
+        "JPPOWER",
+        "JINDALSAW",
+        "JSLHISAR",
+        "JSL",
+        "LINDEINDIA",
+        "MFSL",
+        "NFL",
+        "RUPA",
+        "SHOPERSTOP",
+        "SUPRAJIT",
+        "SUPPETRO",
+        "TIMETECHNO",
+        "UNITEDBNK",
+        "VESUVIUS"
       ]
     },
     {
@@ -128,7 +201,161 @@
         "UNITEDBNK",
         "VESUVIUS"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "BATAINDIA",
+        "JUBLFOOD",
+        "MRF",
+        "RELCAPITAL",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "BERGEPAINT",
+        "DIVISLAB",
+        "MRPL",
+        "RBLBANK",
+        "UBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ATUL",
+        "FINCABLES",
+        "FSL",
+        "JKLAKSHMI",
+        "JMFINANCIL",
+        "MONSANTO",
+        "UCOBANK",
+        "VGUARD",
+        "VRLLOG",
+        "ZYDUSWELL"
+      ],
+      "included": [
+        "BSE",
+        "DBL",
+        "FCONSUMER",
+        "HCC",
+        "IBVENTURES",
+        "KTKBANK",
+        "REPCOHOME",
+        "SOUTHBANK",
+        "SREINFRA",
+        "STRTECH"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "JUSTDIAL"
+      ],
+      "included": [
+        "INFIBEAM"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "ORISSAMINE",
+        "RATNAMANI"
+      ],
+      "included": [
+        "HINDCOPPER",
+        "JSLHISAR"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "KTKBANK"
+      ],
+      "included": [
+        "RBLBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [],
+      "included": [
+        "INDIANB"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "DELTACORP"
+      ],
+      "included": [
+        "BRIGADE"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "RPOWER"
+      ],
+      "included": [
+        "CENTURYTEX"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "JSWENERGY",
+        "RCOM"
+      ],
+      "included": [
+        "INDIGO",
+        "SUZLON"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "IFCI"
+      ],
+      "included": [
+        "NBCC"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "PNB"
+      ],
+      "included": [
+        "BAJAJFINSV"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "BANKBARODA"
+      ],
+      "included": [
+        "TECHM",
+        "IISL",
+        "IDFC"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty 50: |excluded|=4 != |included|=3 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty PSU Bank: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty50 Value 20: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

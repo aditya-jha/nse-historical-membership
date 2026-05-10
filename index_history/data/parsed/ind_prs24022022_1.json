@@ -250,10 +250,149 @@
         "VIJAYA",
         "ZYDUSWELL"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "APOLLOTYRE",
+        "BANKINDIA",
+        "EXIDEIND",
+        "GLENMARK",
+        "MANAPPURAM",
+        "MINDTREE",
+        "SRF"
+      ],
+      "included": [
+        "ABB",
+        "ABBOTINDIA",
+        "AUROPHARMA",
+        "HINDPETRO",
+        "JINDALSTEL",
+        "OFSS",
+        "TATACOMM"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "AARTIDRUGS",
+        "AVANTIFEED",
+        "CEATLTD",
+        "GMMPFAUDLR",
+        "HAPPSTMNDS",
+        "IDBI",
+        "IEX",
+        "MMTC",
+        "RVNL",
+        "RALLIS",
+        "STAR",
+        "TV18BRDCST",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "AMARAJABAT",
+        "ANGELONE",
+        "CHEMPLASTS",
+        "DEVYANI",
+        "HFCL",
+        "HINDCOPPER",
+        "KPITTECH",
+        "LATENTVIEW",
+        "LXCHEM",
+        "MEDPLUS",
+        "METROBRAND",
+        "POONAWALLA",
+        "RBLBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Auto",
+      "index_id": 1005,
+      "excluded": [
+        "AMARAJABAT",
+        "EXIDEIND"
+      ],
+      "included": [
+        "ESCORTS",
+        "SONACOMS"
+      ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "RBLBANK"
+      ],
+      "included": [
+        "BANKBARODA"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "M&MFIN"
+      ],
+      "included": [
+        "SBICARD"
+      ]
+    },
+    {
+      "index_name": "Nifty Healthcare Index",
+      "index_id": 1011,
+      "excluded": [
+        "APLLTD",
+        "STAR"
+      ],
+      "included": [
+        "ABBOTINDIA",
+        "SYNGENE"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "COALINDIA"
+      ],
+      "included": [
+        "JSLHISAR"
+      ]
+    },
+    {
+      "index_name": "Nifty Oil & Gas",
+      "index_id": 1015,
+      "excluded": [
+        "MRPL"
+      ],
+      "included": [
+        "AEGISCHEM"
+      ]
+    },
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [
+        "J&KBANK"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "IOC"
+      ],
+      "included": [
+        "BRITANNIA"
+      ]
     }
   ],
   "notes": [
     "Nifty 500: |excluded|=31 != |included|=32 (may be legitimate for off-cycle events but flag for review)",
-    "Nifty Smallcap 250: |excluded|=38 != |included|=39 (may be legitimate for off-cycle events but flag for review)"
+    "Nifty Smallcap 250: |excluded|=38 != |included|=39 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty PSU Bank: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
   ]
 }

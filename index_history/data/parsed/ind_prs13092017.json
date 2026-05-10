@@ -4,6 +4,71 @@
   "publication_date": null,
   "effective_date": "2017-09-29",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BANKINDIA",
+        "BERGEPAINT",
+        "BIOCON",
+        "CHOLAFIN",
+        "COROMANDEL",
+        "HAVELLS",
+        "INDIACEM",
+        "INDIANB",
+        "MANAPPURAM",
+        "NATCOPHARM",
+        "NHPC",
+        "PVR",
+        "RAMCOCEM"
+      ],
+      "included": [
+        "ADANITRANS",
+        "CEATLTD",
+        "FCONSUMER",
+        "FRETAIL",
+        "GSFC",
+        "IBVENTURES",
+        "JPASSOCIAT",
+        "KEC",
+        "L&TFH",
+        "MOTILALOFS",
+        "RAYMOND",
+        "RBLBANK",
+        "STRTECH"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "AXISBANK",
+        "IFCI",
+        "LT"
+      ],
+      "included": [
+        "CAPF",
+        "INDIANB",
+        "MANAPPURAM"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "GSKCONS",
+        "SOUTHBANK",
+        "TATAGLOBAL",
+        "TITAN"
+      ],
+      "included": [
+        "IGL",
+        "RAJESHEXPO",
+        "UBL",
+        "VAKRANGEE"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -4,6 +4,61 @@
   "publication_date": null,
   "effective_date": "2014-07-14",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BAJFINANCE",
+        "DABUR",
+        "DRREDDY",
+        "IDEA",
+        "LUPIN",
+        "M&MFIN",
+        "RCOM",
+        "SUNPHARMA",
+        "TATAMOTORS",
+        "MCDOWELL-N",
+        "ZEEL"
+      ],
+      "included": [
+        "AIAENG",
+        "GUJRATGAS",
+        "GVKPIL",
+        "NAUKRI",
+        "JUSTDIAL",
+        "NCC",
+        "SRF",
+        "SUZLON",
+        "TATACOMM",
+        "UPL",
+        "WABAG"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "JINDALSTEL"
+      ],
+      "included": [
+        "NCC"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "RELIGARE",
+        "THERMAX",
+        "TRENT"
+      ],
+      "included": [
+        "CONCOR",
+        "INFY",
+        "MARICO"
+      ]
+    }
+  ],
   "notes": []
 }

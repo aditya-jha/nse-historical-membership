@@ -182,7 +182,199 @@
         "SUNTV",
         "VENTIVE"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ALKEM",
+        "ASTRAL",
+        "CONCOR",
+        "MAXHEALTH",
+        "MRF",
+        "PETRONET",
+        "SAIL",
+        "TORNTPOWER",
+        "IDEA",
+        "VOLTAS"
+      ],
+      "included": [
+        "APLAPOLLO",
+        "DABUR",
+        "FORTIS",
+        "HEROMOTOCO",
+        "INDUSINDBK",
+        "JUBLFOOD",
+        "MANKIND",
+        "MFSL",
+        "SUZLON",
+        "UPL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "BSOFT",
+        "BRIGADE",
+        "GESHIP",
+        "GSPL",
+        "HFCL",
+        "HINDCOPPER",
+        "NCC",
+        "RKFORGE",
+        "SONATSOFTW",
+        "TEJASNET"
+      ],
+      "included": [
+        "BANDHANBNK",
+        "CHOLAHLDNG",
+        "GLAND",
+        "JBCHEPHARM",
+        "KARURVYSYA",
+        "MANAPPURAM",
+        "NH",
+        "PGEL",
+        "REDINGTON",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Auto",
+      "index_id": 1005,
+      "excluded": [
+        "BALKRISIND",
+        "MRF"
+      ],
+      "included": [
+        "SONACOMS",
+        "UNOMINDA"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "HDFCAMC"
+      ],
+      "included": [
+        "BSE"
+      ]
+    },
+    {
+      "index_name": "Nifty Healthcare Index",
+      "index_id": 1011,
+      "excluded": [
+        "GRANULES"
+      ],
+      "included": [
+        "PPLPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "DISHTV"
+      ],
+      "included": [
+        "PFOCUS"
+      ]
+    },
+    {
+      "index_name": "Nifty Pharma",
+      "index_id": 1004,
+      "excluded": [
+        "GRANULES",
+        "NATCOPHARM"
+      ],
+      "included": [
+        "PPLPHARMA",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "RAYMOND"
+      ],
+      "included": [
+        "SIGNATURE"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "TRITURBINE"
+      ],
+      "included": [
+        "ENRIN"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [
+        "DCXINDIA"
+      ],
+      "included": [
+        "BHARATFORG"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "DEEPAKNTR",
+        "EXIDEIND",
+        "HEROMOTOCO",
+        "HINDCOPPER",
+        "TATACHEM",
+        "TEJASNET"
+      ],
+      "included": [
+        "MANKIND",
+        "NAVINFLUOR",
+        "ENRIN",
+        "UNOMINDA"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "SIEMENS"
+      ],
+      "included": [
+        "SUZLON"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "HONAUT",
+        "JBCHEPHARM"
+      ],
+      "included": [
+        "PGHH",
+        "ENRIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "LTIM"
+      ],
+      "included": [
+        "BSE"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty India Manufacturing: |excluded|=6 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

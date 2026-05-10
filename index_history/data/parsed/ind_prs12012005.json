@@ -5,5 +5,7 @@
   "effective_date": null,
   "is_index_maintenance": true,
   "events": [],
-  "notes": []
+  "notes": [
+    "events extracted but no effective_date \u2014 quarantined; supply via data/manual_overrides if pre-2014 events are needed"
+  ]
 }

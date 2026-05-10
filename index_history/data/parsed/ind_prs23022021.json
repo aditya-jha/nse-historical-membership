@@ -226,7 +226,245 @@
         "VALIANTORG",
         "WABCOINDIA"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ADANIENT",
+        "APOLLOHOSP",
+        "JUBLFOOD",
+        "MRF",
+        "NATIONALUM"
+      ],
+      "included": [
+        "AUBANK",
+        "BANKBARODA",
+        "CONCOR",
+        "IRCTC",
+        "PFC"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "CENTURYTEX",
+        "DCBBANK",
+        "DCMSHRIRAM",
+        "DEEPAKNTR",
+        "DIXON",
+        "GODFRYPHLP",
+        "INDIAMART",
+        "IRCON",
+        "LAURUSLABS",
+        "LINDEINDIA",
+        "MIDHANI",
+        "MOIL",
+        "PERSISTENT",
+        "PGHL",
+        "SPICEJET",
+        "TATAELXSI",
+        "UJJIVANSFB"
+      ],
+      "included": [
+        "AARTIDRUGS",
+        "AFFLE",
+        "ALKYLAMINE",
+        "ALOKINDS",
+        "AMBER",
+        "APLAPOLLO",
+        "BSOFT",
+        "CDSL",
+        "CAMS",
+        "FSL",
+        "FRETAIL",
+        "HAPPSTMNDS",
+        "JBCHEPHARM",
+        "NATIONALUM",
+        "ROUTE",
+        "THYROCARE",
+        "UTIAMC"
+      ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "BANKBARODA"
+      ],
+      "included": [
+        "AUBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumer Durables",
+      "index_id": 1014,
+      "excluded": [
+        "SYMPHONY",
+        "VIPIND"
+      ],
+      "included": [
+        "AMBER",
+        "KAJARIACER"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "BAJAJHLDNG"
+      ],
+      "included": [
+        "MUTHOOTFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Healthcare Index",
+      "index_id": 1011,
+      "excluded": [
+        "GLAXO"
+      ],
+      "included": [
+        "LAURUSLABS"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "NAUKRI"
+      ],
+      "included": [
+        "OFSS"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "HATHWAY"
+      ],
+      "included": [
+        "NETWORK18"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "HINDCOPPER",
+        "MIDHANI"
+      ],
+      "included": [
+        "ADANIENT",
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "CUB"
+      ],
+      "included": [
+        "YESBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [],
+      "included": [
+        "PSB"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "OMAXE"
+      ],
+      "included": [
+        "HEMIPROP"
+      ]
+    },
+    {
+      "index_name": "Nifty Oil & Gas",
+      "index_id": 1015,
+      "excluded": [
+        "AEGISCHEM"
+      ],
+      "included": [
+        "GULFOILLUB"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "NHPC"
+      ],
+      "included": [
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "EICHERMOT"
+      ],
+      "included": [
+        "BALKRISIND"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "SKFINDIA"
+      ],
+      "included": [
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "GICRE",
+        "NIACL"
+      ],
+      "included": [
+        "HAL",
+        "IRCTC"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "CONCOR",
+        "FEDERALBNK"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "DMART"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "GAIL"
+      ],
+      "included": [
+        "SUNPHARMA"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty PSU Bank: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

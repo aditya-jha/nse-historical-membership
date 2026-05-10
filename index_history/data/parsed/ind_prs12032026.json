@@ -4,6 +4,57 @@
   "publication_date": "2026-03-12",
   "effective_date": "2026-03-30",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BAJFINANCE",
+        "BAJAJFINSV",
+        "BAJAJHLDNG",
+        "BHARTIARTL",
+        "CHOLAFIN",
+        "COROMANDEL",
+        "GODFRYPHLP",
+        "HDFCLIFE",
+        "INDIGO",
+        "MAXHEALTH",
+        "MAZDOCK",
+        "UPL"
+      ],
+      "included": [
+        "APARINDS",
+        "BHARATFORG",
+        "CUMMINSIND",
+        "DELHIVERY",
+        "FEDERALBNK",
+        "HINDCOPPER",
+        "KARURVYSYA",
+        "NATIONALUM",
+        "POLYCAB",
+        "SBIN",
+        "UNIONBANK",
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "CONCOR",
+        "GAIL",
+        "HAL",
+        "LICHSGFIN",
+        "UNIONBANK"
+      ],
+      "included": [
+        "APARINDS",
+        "CARTRADE",
+        "COFORGE",
+        "HINDCOPPER",
+        "PRESTIGE"
+      ]
+    }
+  ],
   "notes": []
 }

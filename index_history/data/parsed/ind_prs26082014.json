@@ -4,6 +4,71 @@
   "publication_date": null,
   "effective_date": "2014-09-26",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ADANIENT",
+        "ADANIPOWER",
+        "RCOM"
+      ],
+      "included": [
+        "ARVIND",
+        "JUSTDIAL",
+        "L&TFH"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "GMDCLTD"
+      ],
+      "included": [
+        "ENGINERSIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "JSWENERGY"
+      ],
+      "included": [
+        "IOC"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "ADANIPOWER"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "POLARIS"
+      ],
+      "included": [
+        "TATAELXSI"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "KSERASERA",
+        "PFOCUS"
+      ],
+      "included": []
+    }
+  ],
+  "notes": [
+    "Nifty Infrastructure: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Media: |excluded|=2 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

@@ -2,8 +2,203 @@
   "source_pdf": "ind_prs27022014.pdf",
   "source_url": "https://niftyindices.com/Press_Release/ind_prs27022014.pdf",
   "publication_date": null,
-  "effective_date": null,
+  "effective_date": "2014-03-28",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "JPASSOCIAT",
+        "RANBAXY"
+      ],
+      "included": [
+        "TECHM",
+        "MCDOWELL-N"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "IDBI",
+        "TECHM",
+        "MCDOWELL-N"
+      ],
+      "included": [
+        "INFRATEL",
+        "INGVYSYABK",
+        "RANBAXY"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "IDBI",
+        "JPASSOCIAT"
+      ],
+      "included": [
+        "INFRATEL",
+        "INGVYSYABK"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "BRFL",
+        "DRDATSONS",
+        "DYNAMATECH",
+        "ESSAROIL",
+        "INNOIND",
+        "KGL",
+        "MTNL",
+        "NDTV",
+        "PSL",
+        "SHREEASHTA",
+        "TULIP",
+        "UBHOLDINGS",
+        "ZODIACLOTH"
+      ],
+      "included": [
+        "BAJAJCORP",
+        "CARERATING",
+        "IBULHSGFIN",
+        "INOXLEISUR",
+        "JUSTDIAL",
+        "MAHINDUGIN",
+        "NBCC",
+        "PIIND",
+        "PFS",
+        "SONASTEER",
+        "SPARC",
+        "TRIDENT",
+        "VAIBHAVGBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "HEXAWARE",
+        "HDIL",
+        "JSWSTEEL"
+      ],
+      "included": [
+        "BANKINDIA",
+        "CANBK",
+        "PFC"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "TORNTPOWER"
+      ],
+      "included": [
+        "PIDILITIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumption",
+      "index_id": 3002,
+      "excluded": [
+        "TORNTPOWER"
+      ],
+      "included": [
+        "AUROPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "ASHOKLEY"
+      ],
+      "included": [
+        "BRITANNIA"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "MMTC"
+      ],
+      "included": [
+        "NATIONALUM"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "CANBK"
+      ],
+      "included": [
+        "ADANIPORTS"
+      ]
+    },
+    {
+      "index_name": "Nifty Bank",
+      "index_id": 1001,
+      "excluded": [
+        "UNIONBANK"
+      ],
+      "included": [
+        "FEDERALBNK"
+      ]
+    },
+    {
+      "index_name": "Nifty FMCG",
+      "index_id": 1003,
+      "excluded": [
+        "EIDPARRY"
+      ],
+      "included": [
+        "RASOYPR"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "COREEDUTEC",
+        "FINANTECH"
+      ],
+      "included": [
+        "INFOTECENT",
+        "JUSTDIAL"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "ENIL",
+        "HINDUJAVEN",
+        "NAVNETEDUL",
+        "SHREEASHTA"
+      ],
+      "included": [
+        "KSERASERA",
+        "NETWORK18"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "ANANTRAJ"
+      ],
+      "included": [
+        "DELTACORP"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Media: |excluded|=4 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

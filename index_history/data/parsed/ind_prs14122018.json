@@ -52,7 +52,147 @@
         "RITES",
         "SFL"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "CENTURYTEX"
+      ],
+      "included": [
+        "HEXAWARE"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "BBTC",
+        "CAPF"
+      ],
+      "included": [
+        "FORTIS",
+        "RITES"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "CENTURYTEX"
+      ],
+      "included": [
+        "PIIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "BHARATFIN",
+        "IIFL"
+      ],
+      "included": [
+        "CHOLAFIN",
+        "IBVENTURES"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "AXISBANK",
+        "ICICIBANK",
+        "SBIN"
+      ],
+      "included": [
+        "IOC",
+        "POWERGRID",
+        "VEDL"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "RECLTD"
+      ],
+      "included": [
+        "INDUSINDBK",
+        "NIFTY"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ASHOKLEY",
+        "BALKRISIND",
+        "BBTC",
+        "CYIENT",
+        "DHFL",
+        "DBL",
+        "ESCORTS",
+        "GNFC",
+        "HEXAWARE",
+        "INFIBEAM",
+        "JINDALSTEL",
+        "RAIN",
+        "MCDOWELL-N"
+      ],
+      "included": [
+        "BERGEPAINT",
+        "COLPAL",
+        "DRREDDY",
+        "EXIDEIND",
+        "HAVELLS",
+        "HCLTECH",
+        "HDFC",
+        "IPCALAB",
+        "JUBILANT",
+        "KOTAKBANK",
+        "LTTS",
+        "PIDILITIND",
+        "SONATSOFTW",
+        "SRF"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "IDBI",
+        "INDIACEM",
+        "NATIONALUM",
+        "PCJEWELLER",
+        "SUZLON"
+      ],
+      "included": [
+        "BANKINDIA",
+        "IBULHSGFIN",
+        "INFIBEAM",
+        "JMFINANCIL",
+        "M&MFIN",
+        "PEL",
+        "RELCAPITAL"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "TATAPOWER"
+      ],
+      "included": [
+        "CUB",
+        "OFSS"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty100 Quality 30: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Alpha 50: |excluded|=13 != |included|=14 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty High Beta 50: |excluded|=5 != |included|=7 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Low Volatility 50: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

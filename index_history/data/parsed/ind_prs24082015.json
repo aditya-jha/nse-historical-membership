@@ -4,6 +4,69 @@
   "publication_date": null,
   "effective_date": "2015-09-28",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "CROMPGREAV"
+      ],
+      "included": [
+        "ASHOKLEY"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "CROMPGREAV"
+      ],
+      "included": [
+        "ASHOKLEY"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "CROMPGREAV",
+        "MAX"
+      ],
+      "included": [
+        "ADLABS",
+        "EVEREADY"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "CROMPGREAV"
+      ],
+      "included": [
+        "SOUTHBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "CROMPGREAV"
+      ],
+      "included": []
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "CROMPGREAV"
+      ],
+      "included": [
+        "APOLLOTYRE"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Infrastructure: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

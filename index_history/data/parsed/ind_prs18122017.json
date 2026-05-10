@@ -4,6 +4,85 @@
   "publication_date": null,
   "effective_date": "2017-12-29",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "BHARTIARTL"
+      ],
+      "included": [
+        "HINDPETRO"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "HINDALCO",
+        "HINDPETRO",
+        "HINDZINC",
+        "IOC",
+        "JUBILANT",
+        "LAKSHVILAS",
+        "MRPL",
+        "MUTHOOTFIN",
+        "NATIONALUM",
+        "RECLTD",
+        "TATACOMM",
+        "UPL",
+        "VEDL",
+        "YESBANK"
+      ],
+      "included": [
+        "ADANIENT",
+        "AVANTIFEED",
+        "BEML",
+        "CROMPTON",
+        "DELTACORP",
+        "JINDALSTEL",
+        "JUBLFOOD",
+        "PCJEWELLER",
+        "RAIN",
+        "RELIANCE",
+        "TATAGLOBAL",
+        "TITAN",
+        "MCDOWELL-N",
+        "VOLTAS"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "HDIL",
+        "LICHSGFIN",
+        "MOTHERSUMI",
+        "RCOM",
+        "RPOWER",
+        "TATAELXSI"
+      ],
+      "included": [
+        "ADANITRANS",
+        "IBVENTURES",
+        "L&TFH",
+        "NATIONALUM",
+        "SAIL",
+        "UJJIVAN"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "LUPIN",
+        "OFSS"
+      ],
+      "included": [
+        "LICHSGFIN",
+        "ZEEL"
+      ]
+    }
+  ],
   "notes": []
 }

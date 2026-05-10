@@ -24,7 +24,40 @@
       "included": [
         "GMRINFRA"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "AARTIIND"
+      ],
+      "included": [
+        "HONAUT"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "AARTIIND"
+      ],
+      "included": [
+        "TATACHEM"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "AARTIIND",
+        "NIFTY",
+        "NSE",
+        "NSE"
+      ],
+      "included": []
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty India Manufacturing: |excluded|=4 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

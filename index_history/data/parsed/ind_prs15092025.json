@@ -4,6 +4,81 @@
   "publication_date": "2025-09-15",
   "effective_date": "2025-09-30",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AEGISLOG",
+        "BHARTIHEXA",
+        "FSL",
+        "NAUKRI",
+        "INOXWIND",
+        "JUBLFOOD",
+        "KALYANKJIL",
+        "LUPIN",
+        "OFSS",
+        "PPLPHARMA",
+        "PNBHOUSING",
+        "SUZLON",
+        "TRENT"
+      ],
+      "included": [
+        "ABCAPITAL",
+        "BOSCHLTD",
+        "EICHERMOT",
+        "GODFRYPHLP",
+        "HDFCAMC",
+        "INDHOTEL",
+        "LTF",
+        "MANAPPURAM",
+        "MARUTI",
+        "RBLBANK",
+        "REDINGTON",
+        "TVSMOTOR",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ATGL",
+        "AMBUJACEM",
+        "BANKBARODA",
+        "BANKINDIA",
+        "GMRAIRPORT",
+        "INDUSTOWER",
+        "IRB",
+        "NCC",
+        "ONGC",
+        "SBIN"
+      ],
+      "included": [
+        "BSE",
+        "IIFL",
+        "IREDA",
+        "NAUKRI",
+        "JIOFIN",
+        "LODHA",
+        "MCX",
+        "RVNL",
+        "RPOWER",
+        "MOTHERSON"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "DABUR",
+        "HEROMOTOCO"
+      ],
+      "included": [
+        "SHREECEM",
+        "SBIN"
+      ]
+    }
+  ],
   "notes": []
 }

@@ -4,6 +4,172 @@
   "publication_date": null,
   "effective_date": "2015-09-28",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "NMDC"
+      ],
+      "included": [
+        "ADANIPORTS"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ADANIPORTS",
+        "RPOWER",
+        "UNIONBANK"
+      ],
+      "included": [
+        "MARICO",
+        "NMDC",
+        "SUNDARMFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "RPOWER",
+        "UNIONBANK"
+      ],
+      "included": [
+        "MARICO",
+        "SUNDARMFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ANSALAPI",
+        "BGRENERGY",
+        "GAMMONIND",
+        "GUJNRECOKE",
+        "HINDOILEXP",
+        "HOTELEELA",
+        "IFBIND",
+        "KESORAMIND",
+        "MANGCHEFER",
+        "MONNETISPA",
+        "ORCHIDCHEM",
+        "RAMCOIND",
+        "RASOYPR",
+        "RTNPOWER"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "BALKRISIND",
+        "CAMLINFINE",
+        "FLFL",
+        "IL&FSENGG",
+        "INOXWIND",
+        "KRBL",
+        "METALFORGE",
+        "ORIENTCEM",
+        "RICOAUTO",
+        "SITICABLE",
+        "SRIPIPES",
+        "SYMPHONY",
+        "VRLLOG"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "HINDPETRO",
+        "MCLEODRUSS",
+        "PFC",
+        "SIEMENS"
+      ],
+      "included": [
+        "ADANIPOWER",
+        "DHFL",
+        "JINDALSTEL",
+        "WOCKPHARMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Consumption",
+      "index_id": 3002,
+      "excluded": [
+        "BATAINDIA"
+      ],
+      "included": [
+        "PAGEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "RPOWER"
+      ],
+      "included": [
+        "HINDPETRO"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "PNB"
+      ],
+      "included": [
+        "BAJFINANCE"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "JPPOWER"
+      ],
+      "included": [
+        "ADANIPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "HATHWAY"
+      ],
+      "included": [
+        "SITICABLE"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "GMDCLTD",
+        "MAHSEAMLES",
+        "TATASPONGE"
+      ],
+      "included": [
+        "ORISSAMINE",
+        "WELCORP"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "BANKINDIA",
+        "RELINFRA"
+      ],
+      "included": [
+        "CONCOR",
+        "IBULHSGFIN"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty Metal: |excluded|=3 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

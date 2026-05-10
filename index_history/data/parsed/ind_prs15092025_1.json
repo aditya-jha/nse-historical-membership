@@ -24,6 +24,16 @@
       "included": [
         "RELINFRA"
       ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "PEL"
+      ],
+      "included": [
+        "WELCORP"
+      ]
     }
   ],
   "notes": []

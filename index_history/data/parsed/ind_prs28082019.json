@@ -19,7 +19,6 @@
       "index_name": "Nifty Next 50",
       "index_id": 218,
       "excluded": [
-        "ABB",
         "BHEL",
         "MRF",
         "SAIL"
@@ -35,11 +34,8 @@
       "index_name": "Nifty 500",
       "index_id": 221,
       "excluded": [
-        "ABB",
         "DEEPAKFERT",
         "GDL",
-        "GSKCONS",
-        "GRUH",
         "INDOCO",
         "INOXWIND",
         "JPASSOCIAT",
@@ -85,7 +81,6 @@
       "index_name": "Nifty 100",
       "index_id": 219,
       "excluded": [
-        "ABB",
         "BHEL",
         "MRF",
         "SAIL"
@@ -106,8 +101,6 @@
         "DBL",
         "DISHTV",
         "FINCABLES",
-        "GSKCONS",
-        "GRUH",
         "JMFINANCIL",
         "KIOCL",
         "PFC",
@@ -194,7 +187,170 @@
         "TCIEXP",
         "TECHNOE"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "BERGEPAINT",
+        "DHFL",
+        "IDBI",
+        "PFC",
+        "PNB",
+        "RELINFRA"
+      ],
+      "included": [
+        "BHEL",
+        "CESC",
+        "ESCORTS",
+        "MGL",
+        "MRF",
+        "SAIL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ALBK",
+        "CESC",
+        "CHENNPETRO",
+        "FORTIS",
+        "INFIBEAM",
+        "JISLJALEQS",
+        "ORIENTBANK",
+        "RAIN",
+        "RCF",
+        "RCOM"
+      ],
+      "included": [
+        "ARVINDFASN",
+        "DCMSHRIRAM",
+        "DBL",
+        "DISHTV",
+        "METROPOLIS",
+        "POLYCAB",
+        "RVNL",
+        "SOBHA",
+        "SUNTECK",
+        "VAKRANGEE"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "IBVENTURES"
+      ],
+      "included": [
+        "SBILIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty FMCG",
+      "index_id": 1003,
+      "excluded": [],
+      "included": [
+        "NESTLEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty IT",
+      "index_id": 1002,
+      "excluded": [
+        "INFIBEAM",
+        "OFSS"
+      ],
+      "included": [
+        "HEXAWARE",
+        "JUSTDIAL"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "JSLHISAR"
+      ],
+      "included": [
+        "RATNAMANI"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "DEN",
+        "EROSMEDIA",
+        "NAVNETEDUL"
+      ],
+      "included": [
+        "BALAJITELE",
+        "RADIOCITY",
+        "SAREGAMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Private Bank",
+      "index_id": 1010,
+      "excluded": [
+        "DCBBANK"
+      ],
+      "included": [
+        "CUB"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "RELINFRA"
+      ],
+      "included": [
+        "DALBHARAT"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "RELINFRA"
+      ],
+      "included": [
+        "ADANITRANS"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "SCHAEFFLER"
+      ],
+      "included": [
+        "ABBOTINDIA",
+        "NESTLEIND",
+        "IDEA"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "BANKBARODA",
+        "TATAPOWER"
+      ],
+      "included": [
+        "HDFCLIFE",
+        "SBILIFE"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Next 50: |excluded|=3 != |included|=4 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty 500: |excluded|=18 != |included|=21 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty 100: |excluded|=3 != |included|=4 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 150: |excluded|=13 != |included|=15 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty FMCG: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty MNC: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

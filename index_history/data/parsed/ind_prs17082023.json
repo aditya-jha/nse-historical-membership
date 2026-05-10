@@ -179,9 +179,164 @@
         "UJJIVANSFB",
         "USHAMART"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "HONAUT",
+        "PNB",
+        "SHRIRAMFIN",
+        "TRENT",
+        "TVSMOTOR",
+        "ZYDUSLIFE"
+      ],
+      "included": [
+        "ACC",
+        "DALBHARAT",
+        "HDFCAMC",
+        "IGL",
+        "INDUSTOWER",
+        "PAGEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "BALAMINES",
+        "MAHABANK",
+        "BDL",
+        "BIRLACORPN",
+        "BSE",
+        "EASEMYTRIP",
+        "GRAPHITE",
+        "JUBLINGREA",
+        "KPITTECH",
+        "LATENTVIEW",
+        "LXCHEM",
+        "MAZDOCK",
+        "MEDPLUS",
+        "METROPOLIS",
+        "RVNL"
+      ],
+      "included": [
+        "CIEINDIA",
+        "EXIDEIND",
+        "FINCABLES",
+        "GLENMARK",
+        "INDIAMART",
+        "JBMA",
+        "KALYANKJIL",
+        "KEI",
+        "MGL",
+        "PPLPHARMA",
+        "PNBHOUSING",
+        "RAYMOND",
+        "SONATSOFTW",
+        "TANLA",
+        "TEJASNET"
+      ]
+    },
+    {
+      "index_name": "Nifty Media",
+      "index_id": 1013,
+      "excluded": [
+        "NAVNETEDUL",
+        "NDTV"
+      ],
+      "included": [
+        "DBCORP",
+        "SAREGAMA"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "IBREALEST"
+      ],
+      "included": [
+        "SWANENERGY"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "ATUL"
+      ],
+      "included": [
+        "APLAPOLLO"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [],
+      "included": [
+        "ZENTEC"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "ATUL",
+        "GRAPHITE",
+        "GRINDWELL",
+        "LAURUSLABS",
+        "MSUMI"
+      ],
+      "included": [
+        "AUROPHARMA",
+        "CARBORUNIV",
+        "EXIDEIND",
+        "JINDALSTEL",
+        "KEI",
+        "SUNDRMFAST",
+        "TEJASNET",
+        "TIMKEN",
+        "TVSMOTOR",
+        "ZYDUSLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Infrastructure",
+      "index_id": 3004,
+      "excluded": [
+        "INDUSTOWER"
+      ],
+      "included": [
+        "CUMMINSIND"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "GLAXO",
+        "SANOFI"
+      ],
+      "included": [
+        "LINDEINDIA",
+        "TIMKEN"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "ATGL"
+      ],
+      "included": [
+        "MAXHEALTH"
+      ]
     }
   ],
   "notes": [
-    "Nifty 100: |excluded|=5 != |included|=6 (may be legitimate for off-cycle events but flag for review)"
+    "Nifty 100: |excluded|=5 != |included|=6 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Defence: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Manufacturing: |excluded|=5 != |included|=10 (may be legitimate for off-cycle events but flag for review)"
   ]
 }

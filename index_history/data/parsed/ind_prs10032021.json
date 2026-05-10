@@ -4,6 +4,92 @@
   "publication_date": null,
   "effective_date": "2021-03-31",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ABBOTINDIA",
+        "AJANTPHARM",
+        "ASTRAZEN",
+        "DMART",
+        "BALKRISIND",
+        "BAYERCROP",
+        "BERGEPAINT",
+        "COFORGE",
+        "COROMANDEL",
+        "EIDPARRY",
+        "ISEC",
+        "METROPOLIS",
+        "MCX",
+        "MUTHOOTFIN",
+        "NESTLEIND",
+        "RALLIS",
+        "RELAXO",
+        "SRF",
+        "TORNTPHARM",
+        "TRENT",
+        "VBL"
+      ],
+      "included": [
+        "ADANIPORTS",
+        "ADANITRANS",
+        "AFFLE",
+        "APLAPOLLO",
+        "BAJAJELEC",
+        "CIPLA",
+        "DHANI",
+        "FSL",
+        "HINDALCO",
+        "JKCEMENT",
+        "LTI",
+        "MPHASIS",
+        "PERSISTENT",
+        "SAIL",
+        "STLTECH",
+        "SYNGENE",
+        "TANLA",
+        "TATAELXSI",
+        "TATAMOTORS",
+        "TATAPOWER",
+        "WIPRO"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "RADICO"
+      ],
+      "included": [
+        "ZEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "HINDZINC",
+        "RELAXO"
+      ],
+      "included": [
+        "BERGEPAINT",
+        "EXIDEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "ALKEM",
+        "NSE"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty100 Low Volatility 30: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

@@ -44,7 +44,6 @@
         "SIS",
         "SUDARSCHEM",
         "SYMPHONY",
-        "TATACOFFEE",
         "THYROCARE",
         "WOCKPHARMA"
       ],
@@ -146,7 +145,6 @@
         "SIS",
         "SUDARSCHEM",
         "SYMPHONY",
-        "TATACOFFEE",
         "THYROCARE",
         "TIMKEN",
         "WOCKPHARMA"
@@ -176,7 +174,161 @@
         "SANOFI",
         "TMB"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [
+        "ABB",
+        "CANBK",
+        "PAGEIND",
+        "TORNTPOWER"
+      ],
+      "included": [
+        "BANDHANBNK",
+        "BIOCON",
+        "MPHASIS",
+        "NMDC"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 50",
+      "index_id": 2010,
+      "excluded": [
+        "ALOKINDS",
+        "AMBER",
+        "APOLLOTYRE",
+        "BALRAMCHIN",
+        "CANFINHOME",
+        "CHEMPLASTS",
+        "FSL",
+        "INDIGOPNTS",
+        "INTELLECT",
+        "METROBRAND",
+        "STLTECH",
+        "TV18BRDCST",
+        "ZENSARTECH"
+      ],
+      "included": [
+        "BIKAJI",
+        "CUB",
+        "EASEMYTRIP",
+        "MEDANTA",
+        "IDBI",
+        "IEX",
+        "IOB",
+        "IRB",
+        "MAZDOCK",
+        "NATIONALUM",
+        "RVNL",
+        "SUZLON",
+        "UCOBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Healthcare Index",
+      "index_id": 1011,
+      "excluded": [
+        "GLAND"
+      ],
+      "included": [
+        "MAXHEALTH"
+      ]
+    },
+    {
+      "index_name": "Nifty Metal",
+      "index_id": 1006,
+      "excluded": [
+        "MOIL"
+      ],
+      "included": [
+        "NMDC"
+      ]
+    },
+    {
+      "index_name": "Nifty Realty",
+      "index_id": 1007,
+      "excluded": [
+        "SUNTECK"
+      ],
+      "included": [
+        "MAHLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Commodities",
+      "index_id": 3001,
+      "excluded": [
+        "RAMCOCEM"
+      ],
+      "included": [
+        "ADANIPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Energy",
+      "index_id": 1008,
+      "excluded": [
+        "GAIL"
+      ],
+      "included": [
+        "COALINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty India Manufacturing",
+      "index_id": 3008,
+      "excluded": [
+        "ALOKINDS",
+        "AMARAJABAT",
+        "AUROPHARMA",
+        "BIOCON",
+        "GLAND",
+        "GNFC",
+        "SUNDRMFAST",
+        "UNOMINDA",
+        "WHIRLPOOL"
+      ],
+      "included": [
+        "FLUOROCHEM",
+        "MAZDOCK",
+        "MSUMI",
+        "SCHAEFFLER"
+      ]
+    },
+    {
+      "index_name": "Nifty MNC",
+      "index_id": 3005,
+      "excluded": [
+        "IDEA"
+      ],
+      "included": [
+        "CRISIL"
+      ]
+    },
+    {
+      "index_name": "Nifty PSE",
+      "index_id": 3006,
+      "excluded": [
+        "NATIONALUM"
+      ],
+      "included": [
+        "NMDC"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [],
+      "included": [
+        "DCXINDIA"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty 500: |excluded|=19 != |included|=20 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Smallcap 250: |excluded|=22 != |included|=23 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Manufacturing: |excluded|=9 != |included|=4 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty India Defence: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

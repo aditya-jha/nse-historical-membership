@@ -4,6 +4,83 @@
   "publication_date": null,
   "effective_date": "2016-07-25",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ABFRL",
+        "AJANTPHARM",
+        "APLLTD",
+        "AUROPHARMA",
+        "BEML",
+        "BRITANNIA",
+        "EICHERMOT",
+        "FORTIS",
+        "GLENMARK",
+        "KEC",
+        "KRBL",
+        "MINDTREE",
+        "MRF",
+        "PCJEWELLER",
+        "RDEL",
+        "RELIANCE",
+        "STAR",
+        "TORNTPHARM",
+        "UPL",
+        "VOLTAS"
+      ],
+      "included": [
+        "BAJAJHIND",
+        "BALRAMCHIN",
+        "BIOCON",
+        "CHOLAFIN",
+        "DLF",
+        "EIDPARRY",
+        "GRASIM",
+        "IBREALEST",
+        "INDHOTEL",
+        "JETAIRWAYS",
+        "KANSAINER",
+        "KPIT",
+        "MANAPPURAM",
+        "MPHASIS",
+        "MUTHOOTFIN",
+        "PEL",
+        "PVR",
+        "SRTRANSFIN",
+        "RAMCOCEM",
+        "YESBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "JPASSOCIAT",
+        "MARKSANS",
+        "ORIENTBANK",
+        "SYNDIBANK"
+      ],
+      "included": [
+        "ADANIENT",
+        "DHFL",
+        "IBREALEST",
+        "MOTHERSUMI"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "GAIL",
+        "MPHASIS"
+      ],
+      "included": [
+        "AMBUJACEM",
+        "KARURVYSYA"
+      ]
+    }
+  ],
   "notes": []
 }

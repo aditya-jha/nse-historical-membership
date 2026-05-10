@@ -4,6 +4,87 @@
   "publication_date": "2023-12-07",
   "effective_date": "2023-12-29",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "HDFCAMC",
+        "PAGEIND"
+      ],
+      "included": [
+        "BEL",
+        "IRCTC"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "ABCAPITAL",
+        "BANKBARODA",
+        "BANKINDIA",
+        "BRITANNIA",
+        "EQUITASBNK",
+        "FEDERALBNK",
+        "FINCABLES",
+        "JINDALSTEL",
+        "MRF",
+        "PNBHOUSING",
+        "RAYMOND",
+        "SONATSOFTW",
+        "TIINDIA"
+      ],
+      "included": [
+        "ANGELONE",
+        "APARINDS",
+        "AUROPHARMA",
+        "BSOFT",
+        "BSE",
+        "KEI",
+        "MCX",
+        "PAYTM",
+        "POLICYBZR",
+        "PRESTIGE",
+        "RVNL",
+        "TRENT",
+        "ZOMATO"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "AWL",
+        "GNFC"
+      ],
+      "included": [
+        "IBULHSGFIN",
+        "PFC"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "BATAINDIA",
+        "BOSCHLTD"
+      ],
+      "included": [
+        "AXISBANK",
+        "SBICARD"
+      ]
+    },
+    {
+      "index_name": "Nifty India Corporate Group - Tata 25% Cap",
+      "index_id": 3010,
+      "excluded": [],
+      "included": [
+        "TATATECH"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty India Corporate Group - Tata 25% Cap: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

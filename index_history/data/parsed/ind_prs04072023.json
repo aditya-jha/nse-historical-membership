@@ -28,9 +28,7 @@
     {
       "index_name": "Nifty Next 50",
       "index_id": 218,
-      "excluded": [
-        "LTIM"
-      ],
+      "excluded": [],
       "included": [
         "JINDALSTEL"
       ]
@@ -48,13 +46,53 @@
     {
       "index_name": "Nifty Midcap 150",
       "index_id": 223,
-      "excluded": [
-        "JINDALSTEL"
-      ],
+      "excluded": [],
       "included": [
         "MANKIND"
       ]
+    },
+    {
+      "index_name": "Nifty Midcap 50",
+      "index_id": 2009,
+      "excluded": [],
+      "included": [
+        "ABCAPITAL"
+      ]
+    },
+    {
+      "index_name": "Nifty Financial Services",
+      "index_id": 1012,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "LICHSGFIN"
+      ]
+    },
+    {
+      "index_name": "Nifty Services Sector",
+      "index_id": 3007,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "LTIM"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "AMBUJACEM"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Next 50: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 150: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
+    "Nifty Midcap 50: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

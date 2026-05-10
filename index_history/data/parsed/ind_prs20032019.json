@@ -4,6 +4,20 @@
   "publication_date": null,
   "effective_date": "2019-03-29",
   "is_index_maintenance": true,
-  "events": [],
-  "notes": []
+  "events": [
+    {
+      "index_name": "Nifty PSU Bank",
+      "index_id": 1009,
+      "excluded": [
+        "IDBI"
+      ],
+      "included": [
+        "ALBK",
+        "NIFTY"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty PSU Bank: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

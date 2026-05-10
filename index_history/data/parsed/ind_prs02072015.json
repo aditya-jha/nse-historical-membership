@@ -4,6 +4,61 @@
   "publication_date": null,
   "effective_date": "2015-07-13",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "CEATLTD",
+        "COX&KINGS",
+        "FINCABLES",
+        "HAVELLS",
+        "HFCL",
+        "IRB",
+        "KSCL",
+        "MANAPPURAM",
+        "MONSANTO",
+        "SINTEX",
+        "SUZLON",
+        "WABAG"
+      ],
+      "included": [
+        "BAJAJCORP",
+        "BAJFINANCE",
+        "GLENMARK",
+        "HINDPETRO",
+        "KITEX",
+        "LUPIN",
+        "MARICO",
+        "RAJESHEXPO",
+        "SUVEN",
+        "SYMPHONY",
+        "TATAELXSI",
+        "THOMASCOOK"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "RAYMOND"
+      ],
+      "included": [
+        "ADANIPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "EMAMILTD",
+        "PAGEIND"
+      ],
+      "included": [
+        "L&TFH",
+        "LAKSHVILAS"
+      ]
+    }
+  ],
   "notes": []
 }
