@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs31082018.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs31082018.pdf",
+  "publication_date": null,
+  "effective_date": "2018-09-28",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "KPIT"
+      ],
+      "included": [
+        "SHILPAMED"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "KPIT"
+      ],
+      "included": [
+        "SHILPAMED"
+      ]
+    }
+  ],
+  "notes": []
+}

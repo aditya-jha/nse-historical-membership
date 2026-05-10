@@ -1,0 +1,188 @@
+{
+  "source_pdf": "ind_prs22082025.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs22082025.pdf",
+  "publication_date": "2025-08-22",
+  "effective_date": "2025-09-30",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "HEROMOTOCO",
+        "INDUSINDBK"
+      ],
+      "included": [
+        "INDIGO",
+        "MAXHEALTH"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ALIVUS",
+        "GNFC",
+        "GPPL",
+        "JSWHL",
+        "JUSTDIAL",
+        "KANSAINER",
+        "KNRCON",
+        "MASTEK",
+        "NETWORK18",
+        "PNCINFRA",
+        "RTNINDIA",
+        "RAYMONDLSL",
+        "RAYMOND",
+        "ROUTE",
+        "RENUKA",
+        "SWSOLAR",
+        "TANLA",
+        "WESTLIFE"
+      ],
+      "included": [
+        "ABLBL",
+        "AEGISVOPAK",
+        "AKZOINDIA",
+        "ATHERENERG",
+        "BLUEJET",
+        "CHOICEIN",
+        "AGARWALEYE",
+        "FORCEMOT",
+        "HEXT",
+        "ITCHOTELS",
+        "KSB",
+        "MAHSCOOTER",
+        "NUVOCO",
+        "ONESOURCE",
+        "PGHH",
+        "THELEELA",
+        "ENRIN",
+        "VENTIVE"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "DABUR",
+        "HEROMOTOCO",
+        "ICICIPRULI",
+        "INDUSINDBK",
+        "SWIGGY"
+      ],
+      "included": [
+        "HINDZINC",
+        "MAXHEALTH",
+        "MAZDOCK",
+        "ENRIN",
+        "SOLARINDS"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "DABUR",
+        "ICICIPRULI",
+        "INDIGO",
+        "SWIGGY"
+      ],
+      "included": [
+        "HINDZINC",
+        "MAZDOCK",
+        "ENRIN",
+        "SOLARINDS"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ABFRL",
+        "BANDHANBNK",
+        "EMAMILTD",
+        "GLAND",
+        "HINDZINC",
+        "MRPL",
+        "MAXHEALTH",
+        "MAZDOCK",
+        "MSUMI",
+        "OLAELEC",
+        "SOLARINDS",
+        "STARHEALTH",
+        "SUNTV"
+      ],
+      "included": [
+        "DABUR",
+        "FACT",
+        "GODFRYPHLP",
+        "HEROMOTOCO",
+        "HEXT",
+        "ICICIPRULI",
+        "IDBI",
+        "IOB",
+        "INDUSINDBK",
+        "ITCHOTELS",
+        "PGHH",
+        "SWIGGY",
+        "UCOBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ALIVUS",
+        "FACT",
+        "GODFRYPHLP",
+        "GNFC",
+        "GPPL",
+        "IDBI",
+        "IOB",
+        "JSWHL",
+        "JUSTDIAL",
+        "KANSAINER",
+        "KNRCON",
+        "MASTEK",
+        "NETWORK18",
+        "PNCINFRA",
+        "RTNINDIA",
+        "RAYMONDLSL",
+        "RAYMOND",
+        "ROUTE",
+        "RENUKA",
+        "SWSOLAR",
+        "TANLA",
+        "UCOBANK",
+        "WESTLIFE"
+      ],
+      "included": [
+        "ABFRL",
+        "ABLBL",
+        "AEGISVOPAK",
+        "AKZOINDIA",
+        "ATHERENERG",
+        "BANDHANBNK",
+        "BLUEJET",
+        "CHOICEIN",
+        "AGARWALEYE",
+        "EMAMILTD",
+        "FORCEMOT",
+        "GLAND",
+        "KSB",
+        "MAHSCOOTER",
+        "MRPL",
+        "MSUMI",
+        "NUVOCO",
+        "OLAELEC",
+        "ONESOURCE",
+        "THELEELA",
+        "STARHEALTH",
+        "SUNTV",
+        "VENTIVE"
+      ]
+    }
+  ],
+  "notes": []
+}

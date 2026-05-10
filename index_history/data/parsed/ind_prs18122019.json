@@ -1,0 +1,38 @@
+{
+  "source_pdf": "ind_prs18122019.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs18122019.pdf",
+  "publication_date": null,
+  "effective_date": "2019-12-26",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "CGPOWER",
+        "COFFEEDAY",
+        "COX&KINGS"
+      ],
+      "included": [
+        "AFFLE",
+        "MIDHANI",
+        "RESPONIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "CGPOWER",
+        "COFFEEDAY",
+        "COX&KINGS"
+      ],
+      "included": [
+        "AFFLE",
+        "MIDHANI",
+        "RESPONIND"
+      ]
+    }
+  ],
+  "notes": []
+}

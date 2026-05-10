@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs26102020.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs26102020.pdf",
+  "publication_date": null,
+  "effective_date": "2020-11-02",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ALLCARGO"
+      ],
+      "included": [
+        "NETWORK18"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ALLCARGO"
+      ],
+      "included": [
+        "NETWORK18"
+      ]
+    }
+  ],
+  "notes": []
+}

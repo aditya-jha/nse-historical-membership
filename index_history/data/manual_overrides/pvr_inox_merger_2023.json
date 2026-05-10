@@ -1,0 +1,12 @@
+{
+  "_doc": "PVR-INOX merger effective 2023-02-06. Pre-merger, PVR was in Midcap 150 (223). Post-merger, the surviving entity PVRINOX was placed by NSE in Nifty 500 (221) + Smallcap 250 (227) — NOT in Midcap 150. The size threshold criteria put it below Midcap 150 cut. So this override: PVR exits 223 on the merger date; PVRINOX enters 221 + 227 the same day. PVR also exits 221 (it was implicitly there as a Midcap 150 member).",
+  "source": "merger",
+  "source_pdf": "manual_pvr_inox_merger.json",
+  "source_url": "https://www.nseindia.com/companies-listing/corporate-filings-actions",
+  "effective_date": "2023-02-06",
+  "events": [
+    {"index_id": 223, "excluded": ["PVR"], "included": []},
+    {"index_id": 221, "excluded": [],      "included": ["PVRINOX"]},
+    {"index_id": 227, "excluded": [],      "included": ["PVRINOX"]}
+  ]
+}

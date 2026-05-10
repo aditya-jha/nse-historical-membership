@@ -1,0 +1,11 @@
+{
+  "_doc": "LTI + Mindtree merger effective 2022-11-14. The combined entity got ticker LTIM (later renamed to LTM in 2026). NSE auto-replaced both LTI and MINDTREE with LTIM in indices that previously held them. Without this override, the walk-back has MINDTREE excluded on 2022-09-30 (per the regular review) but no event re-introducing LTIM until much later.",
+  "source": "merger",
+  "source_pdf": "manual_lti_mindtree_merger.json",
+  "source_url": "https://www.nseindia.com/companies-listing/corporate-filings-actions",
+  "effective_date": "2022-11-14",
+  "events": [
+    {"index_id": 219, "excluded": [], "included": ["LTM"]},
+    {"index_id": 221, "excluded": [], "included": ["LTM"]}
+  ]
+}

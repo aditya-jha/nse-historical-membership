@@ -1,0 +1,46 @@
+{
+  "source_pdf": "ind_prs27042017.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs27042017.pdf",
+  "publication_date": null,
+  "effective_date": "2017-05-26",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "GRASIM"
+      ],
+      "included": [
+        "SUNTV"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ABIRLANUVO",
+        "SUNTV",
+        "TUBEINVEST"
+      ],
+      "included": [
+        "FRETAIL",
+        "MGL",
+        "PNBHOUSING"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "FRETAIL",
+        "MGL"
+      ],
+      "included": [
+        "LAURUSLABS",
+        "VBL"
+      ]
+    }
+  ],
+  "notes": []
+}

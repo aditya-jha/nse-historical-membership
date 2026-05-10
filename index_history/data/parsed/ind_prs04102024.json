@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs04102024.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs04102024.pdf",
+  "publication_date": "2024-10-04",
+  "effective_date": "2024-10-10",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "IDFC"
+      ],
+      "included": [
+        "EMCURE"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "IDFC"
+      ],
+      "included": [
+        "EMCURE"
+      ]
+    }
+  ],
+  "notes": []
+}

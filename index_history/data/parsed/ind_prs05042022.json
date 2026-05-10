@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs05042022.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs05042022.pdf",
+  "publication_date": "2022-04-05",
+  "effective_date": "2022-05-04",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "AARTIIND"
+      ],
+      "included": [
+        "GMRINFRA"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "AARTIIND"
+      ],
+      "included": [
+        "GMRINFRA"
+      ]
+    }
+  ],
+  "notes": []
+}

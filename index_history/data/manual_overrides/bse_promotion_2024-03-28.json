@@ -1,0 +1,11 @@
+{
+  "_doc": "ind_prs19032024 amendment (table-format with 'Remarks' column the parser couldn't handle). The IREDA-revocations and VGUARD-revocations were applied by editing ind_prs28022024.json directly (removing those entries). What remains here is the BSE move: from Smallcap 250 to Midcap 150.",
+  "source": "amendment",
+  "source_pdf": "ind_prs19032024.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs19032024.pdf",
+  "effective_date": "2024-03-28",
+  "events": [
+    {"index_id": 223, "excluded": [],      "included": ["BSE"]},
+    {"index_id": 227, "excluded": ["BSE"], "included": []}
+  ]
+}

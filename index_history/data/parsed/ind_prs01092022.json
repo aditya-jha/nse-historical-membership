@@ -1,0 +1,186 @@
+{
+  "source_pdf": "ind_prs01092022.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs01092022.pdf",
+  "publication_date": "2022-09-01",
+  "effective_date": "2022-09-30",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "SHREECEM"
+      ],
+      "included": [
+        "ADANIENT"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ADANIENT",
+        "JUBLFOOD",
+        "LUPIN",
+        "MINDTREE",
+        "PNB",
+        "SAIL",
+        "ZYDUSLIFE"
+      ],
+      "included": [
+        "ATGL",
+        "BEL",
+        "HAL",
+        "IRCTC",
+        "MPHASIS",
+        "MOTHERSON",
+        "SHREECEM"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ADVENZYMES",
+        "ERIS",
+        "GLS",
+        "HATHWAY",
+        "HEMIPROP",
+        "ICIL",
+        "IRCON",
+        "MINDTREE",
+        "NESCO",
+        "RAILTEL",
+        "SEQUENT",
+        "SOLARA",
+        "SPICEJET",
+        "STAR",
+        "TATASTLLP",
+        "UCOBANK",
+        "VAKRANGEE",
+        "VENKEYS"
+      ],
+      "included": [
+        "AWL",
+        "AETHER",
+        "BHARATRAS",
+        "DEEPAKFERT",
+        "GREENPANEL",
+        "JBMA",
+        "MAHLIFE",
+        "MSUMI",
+        "NIITLTD",
+        "OLECTRA",
+        "PATANJALI",
+        "RAYMOND",
+        "MOTHERSON",
+        "SHARDACROP",
+        "SWANENERGY",
+        "TEJASNET",
+        "TCI",
+        "MANYAVAR"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "JUBLFOOD",
+        "LUPIN",
+        "MINDTREE",
+        "PNB",
+        "SAIL",
+        "ZYDUSLIFE"
+      ],
+      "included": [
+        "ATGL",
+        "BEL",
+        "HAL",
+        "IRCTC",
+        "MPHASIS",
+        "MOTHERSON"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ATGL",
+        "APOLLOTYRE",
+        "BEL",
+        "EXIDEIND",
+        "GLENMARK",
+        "HAL",
+        "IDBI",
+        "IRCTC",
+        "MANAPPURAM",
+        "METROPOLIS",
+        "MPHASIS",
+        "NUVOCO"
+      ],
+      "included": [
+        "AWL",
+        "DEVYANI",
+        "JUBLFOOD",
+        "KPRMILL",
+        "LUPIN",
+        "MSUMI",
+        "PATANJALI",
+        "POONAWALLA",
+        "PNB",
+        "SAIL",
+        "MANYAVAR",
+        "ZYDUSLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ADVENZYMES",
+        "DEVYANI",
+        "ERIS",
+        "GLS",
+        "HATHWAY",
+        "HEMIPROP",
+        "ICIL",
+        "IRCON",
+        "KPRMILL",
+        "NESCO",
+        "POONAWALLA",
+        "RAILTEL",
+        "SEQUENT",
+        "SOLARA",
+        "SPICEJET",
+        "STAR",
+        "TATASTLLP",
+        "UCOBANK",
+        "VAKRANGEE",
+        "VENKEYS"
+      ],
+      "included": [
+        "AETHER",
+        "APOLLOTYRE",
+        "BHARATRAS",
+        "DEEPAKFERT",
+        "EXIDEIND",
+        "GLENMARK",
+        "GREENPANEL",
+        "IDBI",
+        "JBMA",
+        "MAHLIFE",
+        "MANAPPURAM",
+        "METROPOLIS",
+        "NIITLTD",
+        "NUVOCO",
+        "OLECTRA",
+        "RAYMOND",
+        "SHARDACROP",
+        "SWANENERGY",
+        "TEJASNET",
+        "TCI"
+      ]
+    }
+  ],
+  "notes": []
+}

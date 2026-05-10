@@ -1,0 +1,24 @@
+{
+  "source_pdf": "ind_prs07032017.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs07032017.pdf",
+  "publication_date": null,
+  "effective_date": "2017-03-31",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "SBBJ",
+        "MYSOREBANK",
+        "SBT"
+      ],
+      "included": [
+        "FRETAIL",
+        "MAXINDIA",
+        "MGL"
+      ]
+    }
+  ],
+  "notes": []
+}

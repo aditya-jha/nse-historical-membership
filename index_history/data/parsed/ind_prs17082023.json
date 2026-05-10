@@ -1,0 +1,187 @@
+{
+  "source_pdf": "ind_prs17082023.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs17082023.pdf",
+  "publication_date": "2023-08-17",
+  "effective_date": "2023-09-29",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ACC",
+        "NYKAA",
+        "HDFCAMC",
+        "INDUSTOWER",
+        "PAGEIND"
+      ],
+      "included": [
+        "PNB",
+        "SHRIRAMFIN",
+        "TRENT",
+        "TVSMOTOR",
+        "ZYDUSLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "BASF",
+        "GARFIBRES",
+        "GODREJAGRO",
+        "GREENPANEL",
+        "HIKAL",
+        "HGS",
+        "IFBIND",
+        "IBREALEST",
+        "JINDWORLD",
+        "KENNAMET",
+        "RUSTOMJEE",
+        "MAHLOG",
+        "NOCIL",
+        "TMB",
+        "TCIEXP",
+        "TCNSBRANDS",
+        "TCI",
+        "UFLEX"
+      ],
+      "included": [
+        "ALLCARGO",
+        "ALOKINDS",
+        "GILLETTE",
+        "GLS",
+        "GPIL",
+        "IRCON",
+        "JINDALSAW",
+        "KAYNES",
+        "KIRLFER",
+        "MINDACORP",
+        "PGHL",
+        "SAFARI",
+        "SAREGAMA",
+        "SFL",
+        "SYMPHONY",
+        "SYRMA",
+        "UJJIVANSFB",
+        "USHAMART"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "ACC",
+        "NYKAA",
+        "HDFCAMC",
+        "INDUSTOWER",
+        "PAGEIND"
+      ],
+      "included": [
+        "PNB",
+        "SHRIRAMFIN",
+        "TRENT",
+        "TVSMOTOR",
+        "ZYDUSLIFE",
+        "TATAMTRDVR"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "AAVAS",
+        "AFFLE",
+        "ALKYLAMINE",
+        "CLEAN",
+        "FINEORG",
+        "HAPPSTMNDS",
+        "NAM-INDIA",
+        "PNB",
+        "SHRIRAMFIN",
+        "TTML",
+        "TRENT",
+        "TVSMOTOR",
+        "ZYDUSLIFE"
+      ],
+      "included": [
+        "ACC",
+        "MAHABANK",
+        "BDL",
+        "CARBORUNIV",
+        "FACT",
+        "NYKAA",
+        "HDFCAMC",
+        "INDUSTOWER",
+        "JSL",
+        "KPITTECH",
+        "MAZDOCK",
+        "PAGEIND",
+        "RVNL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "MAHABANK",
+        "BASF",
+        "BDL",
+        "CARBORUNIV",
+        "FACT",
+        "GARFIBRES",
+        "GODREJAGRO",
+        "GREENPANEL",
+        "HIKAL",
+        "HGS",
+        "IFBIND",
+        "IBREALEST",
+        "JSL",
+        "JINDWORLD",
+        "KENNAMET",
+        "RUSTOMJEE",
+        "KPITTECH",
+        "MAHLOG",
+        "MAZDOCK",
+        "NOCIL",
+        "RVNL",
+        "TMB",
+        "TCIEXP",
+        "TCNSBRANDS",
+        "TCI",
+        "UFLEX"
+      ],
+      "included": [
+        "AAVAS",
+        "AFFLE",
+        "ALKYLAMINE",
+        "ALLCARGO",
+        "ALOKINDS",
+        "CLEAN",
+        "FINEORG",
+        "GILLETTE",
+        "GLS",
+        "GPIL",
+        "HAPPSTMNDS",
+        "IRCON",
+        "JINDALSAW",
+        "KAYNES",
+        "KIRLFER",
+        "MINDACORP",
+        "NAM-INDIA",
+        "PGHL",
+        "SAFARI",
+        "SAREGAMA",
+        "SFL",
+        "SYMPHONY",
+        "SYRMA",
+        "TTML",
+        "UJJIVANSFB",
+        "USHAMART"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty 100: |excluded|=5 != |included|=6 (may be legitimate for off-cycle events but flag for review)"
+  ]
+}

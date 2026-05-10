@@ -1,0 +1,70 @@
+{
+  "source_pdf": "ind_prs16032020.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs16032020.pdf",
+  "publication_date": null,
+  "effective_date": "2020-03-19",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "SHREECEM"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "SHREECEM"
+      ],
+      "included": [
+        "ADANITRANS"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "SWSOLAR"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "ADANITRANS"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ADANITRANS"
+      ],
+      "included": [
+        "ADANIGREEN"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ADANIGREEN"
+      ],
+      "included": [
+        "SWSOLAR"
+      ]
+    }
+  ],
+  "notes": []
+}

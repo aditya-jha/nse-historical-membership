@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs10102024.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs10102024.pdf",
+  "publication_date": "2024-10-10",
+  "effective_date": "2024-10-16",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "TV18BRDCST"
+      ],
+      "included": [
+        "AKUMS"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "TV18BRDCST"
+      ],
+      "included": [
+        "AKUMS"
+      ]
+    }
+  ],
+  "notes": []
+}

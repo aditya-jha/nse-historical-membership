@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs17032025.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs17032025.pdf",
+  "publication_date": "2025-03-17",
+  "effective_date": "2025-03-21",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ISEC"
+      ],
+      "included": [
+        "RAYMONDLSL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ISEC"
+      ],
+      "included": [
+        "RAYMONDLSL"
+      ]
+    }
+  ],
+  "notes": []
+}

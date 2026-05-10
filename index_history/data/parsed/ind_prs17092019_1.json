@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs17092019_1.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs17092019_1.pdf",
+  "publication_date": null,
+  "effective_date": "2019-09-24",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "JETAIRWAYS"
+      ],
+      "included": [
+        "VAIBHAVGBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "JETAIRWAYS"
+      ],
+      "included": [
+        "VAIBHAVGBL"
+      ]
+    }
+  ],
+  "notes": []
+}

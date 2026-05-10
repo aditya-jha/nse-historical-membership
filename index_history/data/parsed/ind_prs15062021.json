@@ -1,0 +1,40 @@
+{
+  "source_pdf": "ind_prs15062021.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs15062021.pdf",
+  "publication_date": null,
+  "effective_date": "2021-06-30",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "MOTHERSUMI"
+      ],
+      "included": [
+        "GLAND"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "MOTHERSUMI"
+      ],
+      "included": [
+        "GLAND"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "MOTHERSUMI"
+      ],
+      "included": [
+        "GLAND"
+      ]
+    }
+  ],
+  "notes": []
+}

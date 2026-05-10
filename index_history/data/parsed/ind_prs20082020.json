@@ -1,0 +1,188 @@
+{
+  "source_pdf": "ind_prs20082020.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs20082020.pdf",
+  "publication_date": null,
+  "effective_date": "2020-09-25",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "INFRATEL",
+        "ZEEL"
+      ],
+      "included": [
+        "DIVISLAB",
+        "SBILIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "DIVISLAB",
+        "NHPC",
+        "PAGEIND",
+        "SBILIFE",
+        "SRTRANSFIN"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "ALKEM",
+        "INFRATEL",
+        "LTI",
+        "TATACONSUM"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ADANIPOWER",
+        "GET&D",
+        "HEXAWARE",
+        "HIMATSEIDE",
+        "IFCI",
+        "ITDC",
+        "INDOSTAR",
+        "INTELLECT",
+        "JUBILANT",
+        "KPRMILL",
+        "MAHINDCIE",
+        "NBVENTURES",
+        "SADBHAV",
+        "RENUKA",
+        "TAKE",
+        "TIMETECHNO",
+        "VESUVIUS"
+      ],
+      "included": [
+        "AARTIDRUGS",
+        "POWERINDIA",
+        "ADANIENT",
+        "ALEMBICLTD",
+        "ALOKINDS",
+        "CHALET",
+        "GAEL",
+        "PAPERPROD",
+        "IOLCP",
+        "NAVNETEDUL",
+        "POLYPLEX",
+        "SHILPAMED",
+        "SOLARA",
+        "SUPPETRO",
+        "SUVENPHAR",
+        "TATACHEM",
+        "YESBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "NHPC",
+        "PAGEIND",
+        "SRTRANSFIN",
+        "ZEEL"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "ALKEM",
+        "LTI",
+        "TATACONSUM"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ADANIGREEN",
+        "ADANIPOWER",
+        "ALKEM",
+        "BLUEDART",
+        "CENTRALBK",
+        "EIHOTEL",
+        "HEXAWARE",
+        "IDBI",
+        "IOB",
+        "JUBILANT",
+        "LTI",
+        "PNBHOUSING",
+        "QUESS",
+        "TATACONSUM",
+        "UCOBANK"
+      ],
+      "included": [
+        "ADANIENT",
+        "ASTRAZEN",
+        "ITI",
+        "JMFINANCIL",
+        "METROPOLIS",
+        "NAVINFLUOR",
+        "NHPC",
+        "PAGEIND",
+        "SFL",
+        "SRTRANSFIN",
+        "TATACHEM",
+        "TIINDIA",
+        "YESBANK",
+        "ZEEL",
+        "ZYDUSWELL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ASTRAZEN",
+        "GET&D",
+        "HIMATSEIDE",
+        "IFCI",
+        "ITDC",
+        "INDOSTAR",
+        "INTELLECT",
+        "ITI",
+        "JMFINANCIL",
+        "KPRMILL",
+        "MAHINDCIE",
+        "METROPOLIS",
+        "NBVENTURES",
+        "NAVINFLUOR",
+        "SADBHAV",
+        "SFL",
+        "RENUKA",
+        "TAKE",
+        "TIMETECHNO",
+        "TIINDIA",
+        "VESUVIUS",
+        "ZYDUSWELL"
+      ],
+      "included": [
+        "AARTIDRUGS",
+        "POWERINDIA",
+        "ALEMBICLTD",
+        "ALOKINDS",
+        "BLUEDART",
+        "CENTRALBK",
+        "CHALET",
+        "EIHOTEL",
+        "GAEL",
+        "PAPERPROD",
+        "IDBI",
+        "IOB",
+        "IOLCP",
+        "NAVNETEDUL",
+        "PNBHOUSING",
+        "POLYPLEX",
+        "QUESS",
+        "SHILPAMED",
+        "SOLARA",
+        "SUPPETRO",
+        "SUVENPHAR",
+        "UCOBANK"
+      ]
+    }
+  ],
+  "notes": []
+}

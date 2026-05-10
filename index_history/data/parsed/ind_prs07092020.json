@@ -1,0 +1,62 @@
+{
+  "source_pdf": "ind_prs07092020.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs07092020.pdf",
+  "publication_date": null,
+  "effective_date": "2020-09-14",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ASAHIINDIA"
+      ],
+      "included": [
+        "JTEKTINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ASAHIINDIA"
+      ],
+      "included": [
+        "JTEKTINDIA"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ARVINDFASN",
+        "KPITTECH",
+        "REPCOHOME",
+        "SPANDANA"
+      ],
+      "included": [
+        "NOCIL",
+        "PSPPROJECT",
+        "SWARAJENG",
+        "TATACOFFEE"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ARVINDFASN",
+        "KPITTECH",
+        "REPCOHOME",
+        "SPANDANA"
+      ],
+      "included": [
+        "NOCIL",
+        "PSPPROJECT",
+        "SWARAJENG",
+        "TATACOFFEE"
+      ]
+    }
+  ],
+  "notes": []
+}

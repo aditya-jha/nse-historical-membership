@@ -1,0 +1,58 @@
+{
+  "source_pdf": "ind_prs14122018.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs14122018.pdf",
+  "publication_date": null,
+  "effective_date": "2018-12-28",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "BHARATFIN",
+        "CAPF",
+        "CENTURYTEX",
+        "HSIL",
+        "IIFL"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "FORTIS",
+        "RITES",
+        "SFL",
+        "VARROC"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "BHARATFIN",
+        "CENTURYTEX",
+        "IIFL"
+      ],
+      "included": [
+        "AARTIIND",
+        "BBTC",
+        "VARROC"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "AARTIIND",
+        "BBTC",
+        "CAPF",
+        "HSIL"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "FORTIS",
+        "RITES",
+        "SFL"
+      ]
+    }
+  ],
+  "notes": []
+}

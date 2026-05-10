@@ -1,0 +1,134 @@
+{
+  "source_pdf": "ind_prs28082017.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs28082017.pdf",
+  "publication_date": null,
+  "effective_date": "2017-09-29",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "BAJFINANCE",
+        "DIVISLAB",
+        "HINDPETRO",
+        "UBL",
+        "UPL"
+      ],
+      "included": [
+        "ACC",
+        "DMART",
+        "BANKBARODA",
+        "MRF",
+        "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "DIVISLAB",
+        "UBL"
+      ],
+      "included": [
+        "DMART",
+        "MRF"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "BAJAJCORP",
+        "CYIENT",
+        "ECLERX",
+        "GESHIP",
+        "HINDCOPPER",
+        "HONAUT",
+        "JAGRAN",
+        "MRF",
+        "RELAXO",
+        "RELCAPITAL"
+      ],
+      "included": [
+        "ADANITRANS",
+        "DIVISLAB",
+        "FINCABLES",
+        "JMFINANCIL",
+        "MFSL",
+        "SUNDRMFAST",
+        "UBL",
+        "VBL",
+        "VGUARD",
+        "VIJAYABANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ADANITRANS",
+        "AMTEKAUTO",
+        "ANANTRAJ",
+        "ASAHIINDIA",
+        "FDC",
+        "FMGOETZE",
+        "FINCABLES",
+        "GRINDWELL",
+        "HMVL",
+        "JMFINANCIL",
+        "JMTAUTOLTD",
+        "KNRCON",
+        "NITINFIRE",
+        "ORISSAMINE",
+        "PUNJLLOYD",
+        "RATNAMANI",
+        "RIIL",
+        "ROLTA",
+        "RUCHISOYA",
+        "STCINDIA",
+        "SUNDRMFAST",
+        "TIDEWATER",
+        "TRITURBINE",
+        "VBL",
+        "VGUARD",
+        "VIJAYABANK",
+        "VSTIND",
+        "WONDERLA",
+        "ZYDUSWELL"
+      ],
+      "included": [
+        "BAJAJCORP",
+        "BRFL",
+        "BRIGADE",
+        "BSE",
+        "CYIENT",
+        "ECLERX",
+        "FLFL",
+        "GESHIP",
+        "HERITGFOOD",
+        "HINDCOPPER",
+        "IFBIND",
+        "ITDC",
+        "IBVENTURES",
+        "INGERRAND",
+        "ITI",
+        "JAGRAN",
+        "JPPOWER",
+        "JINDALSAW",
+        "JSLHISAR",
+        "JSL",
+        "LINDEINDIA",
+        "NFL",
+        "RUPA",
+        "SHOPERSTOP",
+        "SUPRAJIT",
+        "SUPPETRO",
+        "TIMETECHNO",
+        "UNITEDBNK",
+        "VESUVIUS"
+      ]
+    }
+  ],
+  "notes": []
+}

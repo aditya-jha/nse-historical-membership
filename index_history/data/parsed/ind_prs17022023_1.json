@@ -1,0 +1,182 @@
+{
+  "source_pdf": "ind_prs17022023_1.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs17022023_1.pdf",
+  "publication_date": "2023-02-17",
+  "effective_date": "2023-03-31",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "BANDHANBNK",
+        "BIOCON",
+        "GLAND",
+        "MPHASIS",
+        "PAYTM"
+      ],
+      "included": [
+        "ABB",
+        "AWL",
+        "CANBK",
+        "PAGEIND",
+        "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ABSLAMC",
+        "ALOKINDS",
+        "ASTRAZEN",
+        "BHARATRAS",
+        "CAPLIPOINT",
+        "DHANI",
+        "DBL",
+        "HATSUN",
+        "INDOCO",
+        "MOIL",
+        "PRIVISCL",
+        "PGHL",
+        "SFL",
+        "SHILPAMED",
+        "SIS",
+        "SUDARSCHEM",
+        "SYMPHONY",
+        "TATACOFFEE",
+        "THYROCARE",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "AARTIIND",
+        "ADANIPOWER",
+        "APARINDS",
+        "ACI",
+        "BIKAJI",
+        "BLS",
+        "CRAFTSMAN",
+        "DATAPATTNS",
+        "FIVESTAR",
+        "MEDANTA",
+        "INGERRAND",
+        "JINDWORLD",
+        "KENNAMET",
+        "RUSTOMJEE",
+        "KFINTECH",
+        "KSB",
+        "MFL",
+        "NMDC",
+        "PEL",
+        "TMB"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "BANDHANBNK",
+        "BIOCON",
+        "GLAND",
+        "MPHASIS",
+        "PAYTM"
+      ],
+      "included": [
+        "ABB",
+        "AWL",
+        "CANBK",
+        "PAGEIND",
+        "VBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ABB",
+        "AWL",
+        "APLLTD",
+        "CANBK",
+        "GSPL",
+        "HATSUN",
+        "INDIAMART",
+        "IEX",
+        "NATCOPHARM",
+        "NATIONALUM",
+        "PAGEIND",
+        "SANOFI",
+        "VBL"
+      ],
+      "included": [
+        "AARTIIND",
+        "ADANIPOWER",
+        "APOLLOTYRE",
+        "BANDHANBNK",
+        "BIOCON",
+        "FINEORG",
+        "GLAND",
+        "METROBRAND",
+        "MPHASIS",
+        "NMDC",
+        "PAYTM",
+        "PEL",
+        "TIMKEN"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ABSLAMC",
+        "ALOKINDS",
+        "APOLLOTYRE",
+        "ASTRAZEN",
+        "BHARATRAS",
+        "CAPLIPOINT",
+        "DHANI",
+        "DBL",
+        "FINEORG",
+        "INDOCO",
+        "METROBRAND",
+        "MOIL",
+        "PRIVISCL",
+        "PGHL",
+        "SFL",
+        "SHILPAMED",
+        "SIS",
+        "SUDARSCHEM",
+        "SYMPHONY",
+        "TATACOFFEE",
+        "THYROCARE",
+        "TIMKEN",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "APLLTD",
+        "APARINDS",
+        "ACI",
+        "BIKAJI",
+        "BLS",
+        "CRAFTSMAN",
+        "DATAPATTNS",
+        "FIVESTAR",
+        "MEDANTA",
+        "GSPL",
+        "INDIAMART",
+        "IEX",
+        "INGERRAND",
+        "JINDWORLD",
+        "KENNAMET",
+        "RUSTOMJEE",
+        "KFINTECH",
+        "KSB",
+        "MFL",
+        "NATCOPHARM",
+        "NATIONALUM",
+        "SANOFI",
+        "TMB"
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs08042019.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs08042019.pdf",
+  "publication_date": null,
+  "effective_date": "2019-04-15",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "EXCELCROP"
+      ],
+      "included": [
+        "SUNCLAYLTD"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "EXCELCROP"
+      ],
+      "included": [
+        "SUNCLAYLTD"
+      ]
+    }
+  ],
+  "notes": []
+}

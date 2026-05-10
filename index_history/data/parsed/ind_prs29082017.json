@@ -1,0 +1,20 @@
+{
+  "source_pdf": "ind_prs29082017.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs29082017.pdf",
+  "publication_date": null,
+  "effective_date": "2017-09-29",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "RELCAPITAL"
+      ],
+      "included": [
+        "MFSL"
+      ]
+    }
+  ],
+  "notes": []
+}

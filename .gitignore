@@ -1,0 +1,20 @@
+# Raw source PDFs are NOT redistributed.
+# Users rebuild these by running fetch scripts (see README).
+**/data/press_releases/
+**/data/circulars/
+**/_fetch.log
+**/_live_failures.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp

@@ -1,0 +1,204 @@
+{
+  "source_pdf": "ind_prs18022020.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs18022020.pdf",
+  "publication_date": null,
+  "effective_date": "2020-03-27",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "SHREECEM"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ASHOKLEY",
+        "IBULHSGFIN",
+        "L&TFH",
+        "SHREECEM",
+        "IDEA"
+      ],
+      "included": [
+        "ADANITRANS",
+        "IDBI",
+        "NAUKRI",
+        "LTI",
+        "TORNTPHARM"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "BLISSGVS",
+        "DHFL",
+        "IFCI",
+        "IBULISL",
+        "ITDCEM",
+        "JISLJALEQS",
+        "KENNAMET",
+        "KIRLOSENG",
+        "LAKSHVILAS",
+        "MAGMA",
+        "NFL",
+        "PARAGMILK",
+        "PCJEWELLER",
+        "RELCAPITAL",
+        "RELINFRA",
+        "RPOWER",
+        "SHILPAMED",
+        "SUNCLAYLTD",
+        "TASTYBITE",
+        "WABAG"
+      ],
+      "included": [
+        "BHARATRAS",
+        "CENTURYTEX",
+        "FSC",
+        "GRSE",
+        "GMMPFAUDLR",
+        "FLUOROCHEM",
+        "HATHWAY",
+        "IIFLWAM",
+        "IRCTC",
+        "INGERRAND",
+        "JTEKTINDIA",
+        "MAHLIFE",
+        "NAVNETEDUL",
+        "SHARDACROP",
+        "SCI",
+        "SWSOLAR",
+        "TATACOMM",
+        "TATASTLLP",
+        "TCI",
+        "VESUVIUS"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "ASHOKLEY",
+        "IBULHSGFIN",
+        "L&TFH",
+        "IDEA",
+        "YESBANK"
+      ],
+      "included": [
+        "ADANITRANS",
+        "IDBI",
+        "NAUKRI",
+        "LTI",
+        "TORNTPHARM"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ADANITRANS",
+        "BLUEDART",
+        "ERIS",
+        "FCONSUMER",
+        "GRAPHITE",
+        "HEG",
+        "IDBI",
+        "NAUKRI",
+        "KRBL",
+        "LTI",
+        "MAHINDCIE",
+        "NBCC",
+        "STRTECH",
+        "TORNTPHARM",
+        "VARROC"
+      ],
+      "included": [
+        "ADANIGREEN",
+        "AKZOINDIA",
+        "ASHOKLEY",
+        "CREDITACC",
+        "IIFLWAM",
+        "IBULHSGFIN",
+        "IRCTC",
+        "JKCEMENT",
+        "L&TFH",
+        "MINDAIND",
+        "NIITTECH",
+        "TATACOMM",
+        "IDEA",
+        "YESBANK",
+        "ZYDUSWELL"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ADANIGREEN",
+        "AKZOINDIA",
+        "BLISSGVS",
+        "CREDITACC",
+        "DHFL",
+        "IFCI",
+        "IBULISL",
+        "ITDCEM",
+        "JKCEMENT",
+        "JISLJALEQS",
+        "KENNAMET",
+        "KIRLOSENG",
+        "LAKSHVILAS",
+        "MAGMA",
+        "MINDAIND",
+        "NFL",
+        "NIITTECH",
+        "PARAGMILK",
+        "PCJEWELLER",
+        "RELCAPITAL",
+        "RELINFRA",
+        "RPOWER",
+        "SHILPAMED",
+        "SUNCLAYLTD",
+        "TASTYBITE",
+        "WABAG",
+        "ZYDUSWELL"
+      ],
+      "included": [
+        "BHARATRAS",
+        "BLUEDART",
+        "CENTURYTEX",
+        "ERIS",
+        "FCONSUMER",
+        "FSC",
+        "GRSE",
+        "GMMPFAUDLR",
+        "GRAPHITE",
+        "FLUOROCHEM",
+        "HEG",
+        "HATHWAY",
+        "INGERRAND",
+        "JTEKTINDIA",
+        "KRBL",
+        "MAHINDCIE",
+        "MAHLIFE",
+        "NAVNETEDUL",
+        "NBCC",
+        "SHARDACROP",
+        "SCI",
+        "SWSOLAR",
+        "STRTECH",
+        "TATASTLLP",
+        "TCI",
+        "VARROC",
+        "VESUVIUS"
+      ]
+    }
+  ],
+  "notes": []
+}

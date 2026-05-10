@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs17102023.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs17102023.pdf",
+  "publication_date": "2023-10-17",
+  "effective_date": "2023-10-26",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "KIRLFER"
+      ],
+      "included": [
+        "CONCORDBIO"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "KIRLFER"
+      ],
+      "included": [
+        "CONCORDBIO"
+      ]
+    }
+  ],
+  "notes": []
+}

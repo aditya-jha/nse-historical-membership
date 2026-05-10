@@ -1,0 +1,200 @@
+{
+  "source_pdf": "ind_prs28082019.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs28082019.pdf",
+  "publication_date": null,
+  "effective_date": "2019-09-27",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "IBULHSGFIN"
+      ],
+      "included": [
+        "NESTLEIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ABB",
+        "BHEL",
+        "MRF",
+        "SAIL"
+      ],
+      "included": [
+        "BERGEPAINT",
+        "IBULHSGFIN",
+        "PFC",
+        "PNB"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ABB",
+        "DEEPAKFERT",
+        "GDL",
+        "GSKCONS",
+        "GRUH",
+        "INDOCO",
+        "INOXWIND",
+        "JPASSOCIAT",
+        "KIOCL",
+        "RKFORGE",
+        "RCOM",
+        "RHFL",
+        "RUPA",
+        "SHANKARA",
+        "SHARDACROP",
+        "SCI",
+        "SPTL",
+        "SREINFRA",
+        "TNPL",
+        "TATACOFFEE",
+        "TRITURBINE"
+      ],
+      "included": [
+        "ABBOTINDIA",
+        "ADANIGAS",
+        "AMBER",
+        "ARVINDFASN",
+        "BAYERCROP",
+        "BSOFT",
+        "CGCL",
+        "DEN",
+        "FMGOETZE",
+        "GARFIBRES",
+        "JCHAC",
+        "KPITTECH",
+        "METROPOLIS",
+        "MCX",
+        "NESTLEIND",
+        "ORIENTREF",
+        "POLYCAB",
+        "RVNL",
+        "RATNAMANI",
+        "TCIEXP",
+        "TECHNOE"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "ABB",
+        "BHEL",
+        "MRF",
+        "SAIL"
+      ],
+      "included": [
+        "BERGEPAINT",
+        "NESTLEIND",
+        "PFC",
+        "PNB"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "BERGEPAINT",
+        "DHFL",
+        "DBL",
+        "DISHTV",
+        "FINCABLES",
+        "GSKCONS",
+        "GRUH",
+        "JMFINANCIL",
+        "KIOCL",
+        "PFC",
+        "PNB",
+        "RELCAPITAL",
+        "RELINFRA",
+        "RPOWER",
+        "SPARC"
+      ],
+      "included": [
+        "AAVAS",
+        "ABBOTINDIA",
+        "ADANIGAS",
+        "ALBK",
+        "BAYERCROP",
+        "BHEL",
+        "CESC",
+        "CORPBANK",
+        "FORTIS",
+        "IOB",
+        "MRF",
+        "ORIENTBANK",
+        "SAIL",
+        "UCOBANK",
+        "VINATIORGA"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "AAVAS",
+        "ALBK",
+        "CESC",
+        "CORPBANK",
+        "DEEPAKFERT",
+        "FORTIS",
+        "GDL",
+        "IOB",
+        "INDOCO",
+        "INOXWIND",
+        "JPASSOCIAT",
+        "ORIENTBANK",
+        "RKFORGE",
+        "RCOM",
+        "RHFL",
+        "RUPA",
+        "SHANKARA",
+        "SHARDACROP",
+        "SCI",
+        "SPTL",
+        "SREINFRA",
+        "TNPL",
+        "TATACOFFEE",
+        "TRITURBINE",
+        "UCOBANK",
+        "VINATIORGA"
+      ],
+      "included": [
+        "AMBER",
+        "ARVINDFASN",
+        "BSOFT",
+        "CGCL",
+        "DEN",
+        "DHFL",
+        "DBL",
+        "DISHTV",
+        "FMGOETZE",
+        "FINCABLES",
+        "GARFIBRES",
+        "JMFINANCIL",
+        "JCHAC",
+        "KPITTECH",
+        "METROPOLIS",
+        "MCX",
+        "ORIENTREF",
+        "POLYCAB",
+        "RVNL",
+        "RATNAMANI",
+        "RELCAPITAL",
+        "RELINFRA",
+        "RPOWER",
+        "SPARC",
+        "TCIEXP",
+        "TECHNOE"
+      ]
+    }
+  ],
+  "notes": []
+}

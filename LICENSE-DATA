@@ -1,0 +1,38 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The CSV data files in this repository (`*/data/*.csv`, `*/data/parsed/*.json`,
+and `*/data/manual_overrides/*.json`) are licensed under CC BY 4.0:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit to this repository and
+    indicate that the underlying source is "NSE press releases / NSE Exchange
+    circulars (publicly published)".
+
+Source attribution
+------------------
+
+The factual contents — dates, symbols, index names, F&O introduction/exclusion
+events — are derived from public press releases issued by NSE Indices Limited
+(https://niftyindices.com/press-release) and from public circulars issued by
+NSE Exchange (https://www.nseindia.com/circulars). Those publications remain
+the property of their respective publishers; this repository asserts no
+ownership over the underlying announcements, only over the original
+arrangement, parsing, and reconciliation work in the CSVs and JSON files.
+
+Index names ("Nifty 50", "Nifty 500", etc.) are trademarks of NSE Indices
+Limited. This repository is not affiliated with, endorsed by, or sponsored by
+NSE Indices Limited or NSE Exchange.
+
+No warranty
+-----------
+
+Data is provided as-is, with documented coverage gaps (see README.md). Users
+must independently verify any output before relying on it for trading,
+research, or compliance.

@@ -1,0 +1,68 @@
+{
+  "source_pdf": "ind_prs16122019.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs16122019.pdf",
+  "publication_date": null,
+  "effective_date": "2019-12-27",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "ALBK",
+        "ANDHRABANK",
+        "CORPBANK",
+        "MAXINDIA",
+        "ORIENTBANK",
+        "SYNDIBANK",
+        "TATACHEM"
+      ],
+      "included": [
+        "AARTIIND",
+        "ASAHIINDIA",
+        "INDIAMART",
+        "SPANDANA",
+        "SPICEJET",
+        "TRITURBINE",
+        "WESTLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "ALBK",
+        "CORPBANK",
+        "ORIENTBANK",
+        "TATACHEM"
+      ],
+      "included": [
+        "AARTIIND",
+        "LALPATHLAB",
+        "POLYCAB",
+        "SCHAEFFLER"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ANDHRABANK",
+        "LALPATHLAB",
+        "MAXINDIA",
+        "POLYCAB",
+        "SCHAEFFLER",
+        "SYNDIBANK"
+      ],
+      "included": [
+        "ASAHIINDIA",
+        "INDIAMART",
+        "SPANDANA",
+        "SPICEJET",
+        "TRITURBINE",
+        "WESTLIFE"
+      ]
+    }
+  ],
+  "notes": []
+}

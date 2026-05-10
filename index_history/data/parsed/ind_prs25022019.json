@@ -1,0 +1,210 @@
+{
+  "source_pdf": "ind_prs25022019.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs25022019.pdf",
+  "publication_date": null,
+  "effective_date": "2019-03-29",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "HINDPETRO"
+      ],
+      "included": [
+        "BRITANNIA"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "ABCAPITAL",
+        "BEL",
+        "BRITANNIA",
+        "LICHSGFIN",
+        "OIL",
+        "SUNTV"
+      ],
+      "included": [
+        "BAJAJHLDNG",
+        "DIVISLAB",
+        "HDFCAMC",
+        "HINDPETRO",
+        "PAGEIND",
+        "UBL"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "8KMILES",
+        "AARTIIND",
+        "DEN",
+        "DREDGECORP",
+        "EROSMEDIA",
+        "EVEREADY",
+        "GREENPLY",
+        "GVKPIL",
+        "HCL-INSYS",
+        "HCC",
+        "IL&FSTRANS",
+        "ICIL",
+        "JKIL",
+        "JPPOWER",
+        "JCHAC",
+        "MANPASAND",
+        "MCLEODRUSS",
+        "NAVKARCORP",
+        "PFS",
+        "RNAVAL",
+        "SADBHIN",
+        "TATASPONGE",
+        "TEXRAIL",
+        "TVSSRICHAK",
+        "UNICHEMLAB"
+      ],
+      "included": [
+        "AAVAS",
+        "ASTRAZEN",
+        "MAHABANK",
+        "CESC",
+        "COX&KINGS",
+        "DEEPAKNTR",
+        "ESSELPACK",
+        "FINEORG",
+        "HDFCAMC",
+        "ICRA",
+        "IBULISL",
+        "INDOSTAR",
+        "IRCON",
+        "JAMNAAUTO",
+        "JKPAPER",
+        "KEI",
+        "KIRLOSENG",
+        "MAHSCOOTER",
+        "MAHSEAMLES",
+        "ORIENTELEC",
+        "SHARDACROP",
+        "SUPRAJIT",
+        "TCNSBRANDS",
+        "TRITURBINE",
+        "VSTIND"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "ABCAPITAL",
+        "BEL",
+        "LICHSGFIN",
+        "OIL",
+        "SUNTV"
+      ],
+      "included": [
+        "BAJAJHLDNG",
+        "DIVISLAB",
+        "HDFCAMC",
+        "PAGEIND",
+        "UBL"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "AARTIIND",
+        "AVANTIFEED",
+        "BAJAJHLDNG",
+        "DIVISLAB",
+        "GET&D",
+        "PAGEIND",
+        "PCJEWELLER",
+        "TV18BRDCST",
+        "UBL",
+        "VAKRANGEE"
+      ],
+      "included": [
+        "ABCAPITAL",
+        "ATUL",
+        "BEL",
+        "ERIS",
+        "GUJFLUORO",
+        "IPCALAB",
+        "LICHSGFIN",
+        "OIL",
+        "RELAXO",
+        "SUNTV"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "8KMILES",
+        "ATUL",
+        "DEN",
+        "DREDGECORP",
+        "ERIS",
+        "EROSMEDIA",
+        "EVEREADY",
+        "GREENPLY",
+        "GUJFLUORO",
+        "GVKPIL",
+        "HCL-INSYS",
+        "HCC",
+        "IL&FSTRANS",
+        "ICIL",
+        "IPCALAB",
+        "JKIL",
+        "JPPOWER",
+        "JCHAC",
+        "MANPASAND",
+        "MCLEODRUSS",
+        "NAVKARCORP",
+        "PFS",
+        "RELAXO",
+        "RNAVAL",
+        "SADBHIN",
+        "TATASPONGE",
+        "TEXRAIL",
+        "TVSSRICHAK",
+        "UNICHEMLAB"
+      ],
+      "included": [
+        "AAVAS",
+        "ASTRAZEN",
+        "AVANTIFEED",
+        "MAHABANK",
+        "CESC",
+        "COX&KINGS",
+        "DEEPAKNTR",
+        "ESSELPACK",
+        "FINEORG",
+        "GET&D",
+        "ICRA",
+        "IBULISL",
+        "INDOSTAR",
+        "IRCON",
+        "JAMNAAUTO",
+        "JKPAPER",
+        "KEI",
+        "KIRLOSENG",
+        "MAHSCOOTER",
+        "MAHSEAMLES",
+        "ORIENTELEC",
+        "PCJEWELLER",
+        "SHARDACROP",
+        "SUPRAJIT",
+        "TCNSBRANDS",
+        "TRITURBINE",
+        "TV18BRDCST",
+        "VAKRANGEE",
+        "VSTIND"
+      ]
+    }
+  ],
+  "notes": []
+}

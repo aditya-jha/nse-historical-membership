@@ -1,0 +1,68 @@
+{
+  "source_pdf": "ind_prs11072022.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs11072022.pdf",
+  "publication_date": "2022-07-11",
+  "effective_date": "2022-08-08",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "NMDC",
+        "PEL",
+        "SHRIRAMCIT"
+      ],
+      "included": [
+        "CAMPUS",
+        "DELHIVERY",
+        "LICI"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "NMDC",
+        "PEL"
+      ],
+      "included": [
+        "LICI",
+        "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "NMDC",
+        "PEL"
+      ],
+      "included": [
+        "LICI",
+        "TATAPOWER"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "TATAPOWER"
+      ],
+      "included": [
+        "DELHIVERY"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "SHRIRAMCIT"
+      ],
+      "included": [
+        "CAMPUS"
+      ]
+    }
+  ],
+  "notes": []
+}

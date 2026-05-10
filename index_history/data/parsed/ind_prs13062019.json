@@ -1,0 +1,42 @@
+{
+  "source_pdf": "ind_prs13062019.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs13062019.pdf",
+  "publication_date": null,
+  "effective_date": "2019-06-28",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "GUJFLUORO",
+        "MONSANTO"
+      ],
+      "included": [
+        "CHALET",
+        "DALBHARAT"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "GUJFLUORO"
+      ],
+      "included": [
+        "DALBHARAT"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "MONSANTO"
+      ],
+      "included": [
+        "CHALET"
+      ]
+    }
+  ],
+  "notes": []
+}

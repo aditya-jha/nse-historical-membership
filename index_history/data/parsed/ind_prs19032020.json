@@ -1,0 +1,40 @@
+{
+  "source_pdf": "ind_prs19032020.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs19032020.pdf",
+  "publication_date": null,
+  "effective_date": "2020-03-27",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [],
+      "included": [
+        "ALKYLAMINE"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "YESBANK"
+      ],
+      "included": [
+        "PVR"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "PVR"
+      ],
+      "included": [
+        "ALKYLAMINE"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty 500: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
+}

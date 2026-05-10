@@ -1,0 +1,60 @@
+{
+  "source_pdf": "ind_prs04072023.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs04072023.pdf",
+  "publication_date": "2023-07-04",
+  "effective_date": "2023-07-13",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 50",
+      "index_id": 217,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "LTIM"
+      ]
+    },
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "JINDALSTEL"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "LTIM"
+      ],
+      "included": [
+        "JINDALSTEL"
+      ]
+    },
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "HDFC"
+      ],
+      "included": [
+        "MANKIND"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "JINDALSTEL"
+      ],
+      "included": [
+        "MANKIND"
+      ]
+    }
+  ],
+  "notes": []
+}

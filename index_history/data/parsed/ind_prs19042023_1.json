@@ -1,0 +1,34 @@
+{
+  "source_pdf": "ind_prs19042023_1.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs19042023_1.pdf",
+  "publication_date": "2023-04-19",
+  "effective_date": "2023-04-28",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "BAJAJELEC",
+        "EDELWEISS"
+      ],
+      "included": [
+        "ERIS",
+        "NSLNISP"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "BAJAJELEC",
+        "EDELWEISS"
+      ],
+      "included": [
+        "ERIS",
+        "NSLNISP"
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs04042025_2.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs04042025_2.pdf",
+  "publication_date": "2025-04-04",
+  "effective_date": "2025-04-11",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "QUESS"
+      ],
+      "included": [
+        "SUNDRMFAST"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "QUESS"
+      ],
+      "included": [
+        "SUNDRMFAST"
+      ]
+    }
+  ],
+  "notes": []
+}

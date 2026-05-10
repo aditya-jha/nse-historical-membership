@@ -1,0 +1,6 @@
+# Required to rebuild from source.
+# If you only consume the published CSVs, you don't need any of these.
+pdfplumber>=0.10
+requests>=2.31
+sqlalchemy>=2.0
+psycopg2-binary>=2.9

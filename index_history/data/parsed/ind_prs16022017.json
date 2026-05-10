@@ -1,0 +1,130 @@
+{
+  "source_pdf": "ind_prs16022017.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs16022017.pdf",
+  "publication_date": null,
+  "effective_date": "2017-03-31",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 100",
+      "index_id": 219,
+      "excluded": [
+        "APOLLOHOSP",
+        "BHARATFORG",
+        "CASTROLIND"
+      ],
+      "included": [
+        "ICICIPRULI",
+        "PETRONET",
+        "RECLTD"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "INOXWIND",
+        "JETAIRWAYS",
+        "JUSTDIAL",
+        "NETWORK18",
+        "PERSISTENT",
+        "PETRONET",
+        "RECLTD",
+        "SADBHAV",
+        "TATAELXSI"
+      ],
+      "included": [
+        "APOLLOHOSP",
+        "BHARATFORG",
+        "CASTROLIND",
+        "ENDURANCE",
+        "LTI",
+        "LTTS",
+        "MANAPPURAM",
+        "MOTILALOFS",
+        "QUESS"
+      ]
+    },
+    {
+      "index_name": "Nifty Smallcap 250",
+      "index_id": 227,
+      "excluded": [
+        "ALOKTEXT",
+        "BRFL",
+        "BRIGADE",
+        "DYNAMATECH",
+        "FLFL",
+        "INGERRAND",
+        "IPAPPM",
+        "JPPOWER",
+        "JPINFRATEC",
+        "JSWHL",
+        "KSBPUMPS",
+        "LAOPALA",
+        "LITL",
+        "LINDEINDIA",
+        "MAHLIFE",
+        "MANAPPURAM",
+        "MAYURUNIQ",
+        "MOTILALOFS",
+        "SEQUENT",
+        "SHOPERSTOP",
+        "SIMPLEXINF",
+        "SINTEX",
+        "SITINET",
+        "SBBJ",
+        "MYSOREBANK",
+        "SBT",
+        "SUPRAJIT"
+      ],
+      "included": [
+        "DBL",
+        "FMGOETZE",
+        "FRETAIL",
+        "GHCL",
+        "GNFC",
+        "GUJALKALI",
+        "INOXWIND",
+        "JETAIRWAYS",
+        "JUSTDIAL",
+        "KNRCON",
+        "MAXINDIA",
+        "MGL",
+        "MINDACORP",
+        "MINDAIND",
+        "NAVNETEDUL",
+        "NBVENTURES",
+        "NETWORK18",
+        "PARAGMILK",
+        "PERSISTENT",
+        "RATNAMANI",
+        "SADBHAV",
+        "SHILPI",
+        "STRTECH",
+        "SUDARSCHEM",
+        "TATAELXSI",
+        "TATAINVEST",
+        "THYROCARE"
+      ]
+    },
+    {
+      "index_name": "Nifty Next 50",
+      "index_id": 218,
+      "excluded": [
+        "APOLLOHOSP",
+        "BHARATFORG",
+        "CASTROLIND",
+        "IBULHSGFIN",
+        "IOC"
+      ],
+      "included": [
+        "BHEL",
+        "ICICIPRULI",
+        "IDEA",
+        "PETRONET",
+        "RECLTD"
+      ]
+    }
+  ],
+  "notes": []
+}

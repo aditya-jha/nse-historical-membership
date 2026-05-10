@@ -1,0 +1,30 @@
+{
+  "source_pdf": "ind_prs22102021.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs22102021.pdf",
+  "publication_date": "2021-10-22",
+  "effective_date": "2021-10-29",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty 500",
+      "index_id": 221,
+      "excluded": [
+        "GMRINFRA"
+      ],
+      "included": [
+        "SONACOMS"
+      ]
+    },
+    {
+      "index_name": "Nifty Midcap 150",
+      "index_id": 223,
+      "excluded": [
+        "GMRINFRA"
+      ],
+      "included": [
+        "SONACOMS"
+      ]
+    }
+  ],
+  "notes": []
+}
