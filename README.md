@@ -6,12 +6,34 @@ For backtests on Indian equities, you cannot ask "was X in Nifty 500 on 2021-08-
 
 There is, to our knowledge, no equivalent open dataset for India. Compare to [fja05680/sp500](https://github.com/fja05680/sp500), which does the same job for the S&P 500 (837 stars, MIT). This repo is the Indian counterpart.
 
+## Data quality at a glance
+
+| Check | Status |
+|---|---|
+| Famous-transition test (HDFC merger, ZOMATO→ETERNAL, INDIGO/MAXHEALTH inclusion, MINDTREE→LTM, ADANIGAS→ATGL, etc.) | **13/13 PASS** |
+| 2024+ archive cross-check (NSE-published constituent count) | ±1 to ±8 symbols |
+| 2017+ daily cardinality | Clean |
+| Pre-2017 daily cardinality | ±5 to ±7 symbols (incomplete pre-2017 PR coverage) |
+| Pytest suite (`pytest tests/`) | **16/16 PASS** |
+
+Run the test suite yourself: `pip install pandas pytest && pytest tests/`.
+
+## Try it in 30 seconds
+
+```bash
+git clone https://github.com/aditya-jha/nse-historical-membership && cd nse-historical-membership
+pip install pandas
+python examples/quickstart.py
+```
+
+This answers 5 PIT questions out of the box (HDFC pre/post-merger, Nifty 50 on a specific date, Nifty 500 churn 2020→2024, ZOMATO→ETERNAL inclusion, JIOFIN F&O entry).
+
 ## What's in here
 
 ```
 index_history/
 ├── data/
-│   ├── index_membership_history.csv     # ← headline file (2,771 intervals)
+│   ├── index_membership_history.csv     # ← headline file (2,820 intervals)
 │   ├── parsed/                          # one JSON per parsed press release
 │   └── manual_overrides/                # mergers, renames, hand-curated edits
 ├── code/                                # fetch / parse / build / validate
@@ -57,6 +79,21 @@ def member(index_name, symbol, on):
 
 Half-open intervals: `(symbol, valid_from, valid_to, source, source_url, circular_no, notes)`. NULL `valid_to` = currently in F&O segment. A symbol may have multiple intervals (re-introduction after exclusion).
 
+## Data dictionary
+
+| Column | Meaning |
+|---|---|
+| `index_id` | NSE Indices Ltd internal id (217=Nifty 50, 218=Next 50, 219=100, 221=500, 223=Midcap 150, 227=Smallcap 250) |
+| `index_name` | Canonical human-readable name |
+| `symbol` | NSE trading symbol, **canonicalised to the terminal name in any rename chain** (e.g., MINDTREE → LTIMindtree → LTM is stored as LTM throughout). See `index_history/data/manual_overrides/symbol_renames.json`. |
+| `valid_from`, `valid_to` | Half-open interval `[valid_from, valid_to)`. NULL `valid_to` = currently a member. |
+| `weightage` | Free-float weight at the time of the snapshot (only populated for currently-open intervals; NULL for historical) |
+| `source` | One of: `circular` (parsed NSE PR), `merger` (manual override for a merger), `snapshot_floor` (interval predates our coverage window — start date is approximate), `inferred-exclude` (interval was open but symbol is not in NSE's current published list, so it was force-closed at the next semi-annual review) |
+| `source_url` | NSE publication URL the interval is derived from, where available |
+| `notes` | Human-readable provenance (e.g. "closed by ind_prs28022024.pdf") |
+
+Filter on `source` if you want to exclude lower-confidence rows: `source IN ('circular', 'merger')` keeps only PR-backed intervals.
+
 ## Coverage and known gaps
 
 **Index history** — high confidence from **2017 onward** for all 6 indices.
@@ -91,7 +128,7 @@ For image-only PDFs (older NSE press releases were scanned), the parser falls ba
 The raw PDFs are **not** redistributed (NSE owns the underlying publications; we redistribute only the parsed facts). To rebuild from scratch:
 
 ```bash
-git clone https://github.com/<your-handle>/nse-historical-membership
+git clone https://github.com/aditya-jha/nse-historical-membership
 cd nse-historical-membership
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt

@@ -1,6 +1,12 @@
-# Required to rebuild from source.
-# If you only consume the published CSVs, you don't need any of these.
+# For consuming the published CSVs (examples/, tests/):
+pandas>=2.0
+pytest>=7.0
+
+# For rebuilding from source:
 pdfplumber>=0.10
 requests>=2.31
+
+# Optional — only if you want to write to a Postgres backend
+# (the --csv-out path doesn't need these):
 sqlalchemy>=2.0
 psycopg2-binary>=2.9
