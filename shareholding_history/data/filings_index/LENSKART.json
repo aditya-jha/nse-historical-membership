@@ -1,0 +1,34 @@
+{
+  "ticker": "LENSKART",
+  "fetched_at_utc": "2026-05-10T16:48:25.433879+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "13-APR-2026",
+      "broadcast_date": "13-APR-2026 10:49:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649494_13042026104917_WEB.xml",
+      "record_id": "208046",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "30-MAR-2026 15:26:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1633097_06032026030247_WEB.xml",
+      "record_id": "206597",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "07-NOV-2025",
+      "submission_date": "10-NOV-2025",
+      "broadcast_date": "25-FEB-2026 17:00:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1628954_23022026042439_WEB.xml",
+      "record_id": "204508",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "PWL",
+  "fetched_at_utc": "2026-05-10T16:53:38.476562+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 14:44:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654043_18042026024419_WEB.xml",
+      "record_id": "209280",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 19:06:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607613_21012026070632_WEB.xml",
+      "record_id": "207090",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "17-NOV-2025",
+      "submission_date": "18-NOV-2025",
+      "broadcast_date": "19-NOV-2025 19:31:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1577784_18112025114029_WEB.xml",
+      "record_id": "204593",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

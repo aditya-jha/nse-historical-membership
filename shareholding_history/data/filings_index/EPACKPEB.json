@@ -1,0 +1,34 @@
+{
+  "ticker": "EPACKPEB",
+  "fetched_at_utc": "2026-05-10T16:34:16.321280+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 17:52:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656464_21042026055239_WEB.xml",
+      "record_id": "210154",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 22:39:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606427_20012026103915_WEB.xml",
+      "record_id": "206756",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "01-OCT-2025",
+      "broadcast_date": "24-NOV-2025 15:38:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1577779_18112025103914_WEB.xml",
+      "record_id": "201676",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

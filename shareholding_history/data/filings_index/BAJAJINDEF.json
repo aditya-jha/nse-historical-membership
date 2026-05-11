@@ -1,0 +1,61 @@
+{
+  "ticker": "BAJAJINDEF",
+  "fetched_at_utc": "2026-05-10T16:30:22.739081+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 12:28:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654647_20042026122837_WEB.xml",
+      "record_id": "209484",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 10:55:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605003_20012026105513_WEB.xml",
+      "record_id": "206334",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "17-OCT-2025",
+      "broadcast_date": "14-NOV-2025 14:46:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1574653_14112025101505_WEB.xml",
+      "record_id": "203163",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "25-SEP-2025 11:09:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1531065_23092025071050_WEB.xml",
+      "record_id": "200846",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "18-APR-2025",
+      "broadcast_date": "18-APR-2025 15:49:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_198051_1418611_18042025034924_WEB.xml",
+      "record_id": "198051",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-FEB-2025",
+      "submission_date": "21-FEB-2025",
+      "broadcast_date": "24-FEB-2025 11:45:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_196174_1388512_21022025032504_WEB.xml",
+      "record_id": "196174",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

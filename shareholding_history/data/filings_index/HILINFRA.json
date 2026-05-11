@@ -1,0 +1,43 @@
+{
+  "ticker": "HILINFRA",
+  "fetched_at_utc": "2026-05-10T16:44:30.170426+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "15-APR-2026",
+      "broadcast_date": "15-APR-2026 16:19:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651390_15042026041917_WEB.xml",
+      "record_id": "208499",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "08-JAN-2026",
+      "broadcast_date": "06-FEB-2026 16:05:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1619228_05022026054221_WEB.xml",
+      "record_id": "204919",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "13-OCT-2025",
+      "broadcast_date": "05-FEB-2026 17:33:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "202114",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "11-AUG-2025",
+      "submission_date": "12-AUG-2025",
+      "broadcast_date": "09-SEP-2025 10:31:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1509880_12082025055338_WEB.xml",
+      "record_id": "201497",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

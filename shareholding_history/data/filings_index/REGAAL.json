@@ -1,0 +1,43 @@
+{
+  "ticker": "REGAAL",
+  "fetched_at_utc": "2026-05-10T16:54:14.082052+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "14-APR-2026",
+      "broadcast_date": "14-APR-2026 12:29:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650386_14042026122931_WEB.xml",
+      "record_id": "208244",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "16-JAN-2026",
+      "broadcast_date": "16-JAN-2026 14:08:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1602088_16012026020824_WEB.xml",
+      "record_id": "205756",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "16-OCT-2025",
+      "broadcast_date": "16-OCT-2025 19:18:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1550896_16102025071830_WEB.xml",
+      "record_id": "203106",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "19-AUG-2025",
+      "submission_date": "20-AUG-2025",
+      "broadcast_date": "17-SEP-2025 17:24:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1516268_22082025053432_WEB.xml",
+      "record_id": "201517",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

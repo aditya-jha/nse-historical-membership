@@ -1,0 +1,1427 @@
+{
+  "fetched_at_utc": "2026-05-10T18:16:35.546703+00:00",
+  "n_filings": 111858,
+  "n_pending_at_start": 36440,
+  "n_ok": 36204,
+  "n_cached": 0,
+  "n_failed": 236,
+  "elapsed_seconds": 4043.2,
+  "failures": [
+    {
+      "ticker": "AJOONI",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6844_21042018035524.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ADL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168202_645777_21042022032655_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ADFFOODS",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166279_627366_08042022081014_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ALKALI",
+      "date": "30-SEP-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_143058_155058_21102019104002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ALLDIGI",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_154966_393774_19012021024012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "AMBIKCO",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164707_589513_17012022124004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ANUP",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161932_533459_14102021061023_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "AMBIKCO",
+      "date": "30-JUN-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_126846_19217_10072018121005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "AMRUTANJAN",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172402_737423_20102022054034_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARCHIDPLY",
+      "date": "30-JUN-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_139216_120329_18072019041005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARENTERP",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165093_592808_19012022111008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARE&M",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_156638_429608_12042021044015_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARIHANTSUP",
+      "date": "31-DEC-2024",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477404_04072025052953_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARIHANTSUP",
+      "date": "31-DEC-2023",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477374_04072025045612_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARIHANTSUP",
+      "date": "31-MAR-2024",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477392_04072025052309_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARIHANTSUP",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168113_645061_21042022113634_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARTEMISMED",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172230_736375_20102022031013_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ARVINDFASN",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_170143_695357_19072022051006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ASHAPURMIN",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_155022_393978_19012021041018_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ATALREAL",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159107_481150_13072021014010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "AUTOIND",
+      "date": "27-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477139_04072025110725_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BAJAJ-AUTO",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168199_645769_21042022032515_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BAJAJCON",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_154658_392151_18012021104002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BAJAJELEC",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174535_769567_17012023041021_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BALMLAWRIE",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162560_538356_19102021044017_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BANG",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167909_643187_20042022031011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BANSWRAS",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163462_576285_05012022030601_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BEARDSELL",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_130878_51733_17102018111006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BCONCEPTS",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6834_21042018033417.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BETA",
+      "date": "31-MAR-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_135193_87026_03042019044003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BHAGCHEM",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162712_565199_30112021100058_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BFINVEST",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168125_645127_21042022120454_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BHARTIARTL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168238_646177_21042022050619_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BIRLACORPN",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174998_773253_19012023041023_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BIOCON",
+      "date": "31-MAR-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_136393_93461_13042019094003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BSE",
+      "date": "26-MAY-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_188615_12499_09042025061750_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "BSL",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173795_761685_11012023124017_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CAPACITE",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163589_577746_06012022061006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CARBORUNIV",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1489231_21072025055356.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CASTROLIND",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166705_632727_12042022081023_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CCL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167869_642853_20042022012700_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CEMPRO",
+      "date": "31-MAR-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_147449_249971_08052020104623_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CENTUM",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_131127_50417_15102018044008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CHALET",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168184_645589_21042022023757_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CHOLAFIN",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168107_645003_21042022112043_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CINELINE",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168196_645735_21042022031906_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CONCOR",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158118_442064_21042021024019_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CONSOFINVT",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_152139_343070_16102020041009_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CORALFINAC",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167527_640039_19042022121019_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "CUBEXTUB",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_171868_733604_19102022031006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DALMIASUG",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168178_645556_21042022021949_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DCI",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168181_645580_21042022022830_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DCAL",
+      "date": "30-JUN-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_128402_26065_18072018061011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DCI",
+      "date": "27-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477420_04072025054234_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DECCANCE",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167294_637944_18042022121010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DDEVPLSTIK",
+      "date": "30-SEP-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1542104_07102025184543_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DIGISPICE",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_155288_395541_20012021051014_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DMCC",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163425_576056_05012022112443_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DPABHUSHAN",
+      "date": "01-JUL-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477359_04072025044522_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "DUCON",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6821_21042018023953.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "EIFFL",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1476899_03072025051008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "EMAMIREAL",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_130756_48282_12102018034010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "EMBDL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167871_642872_20042022013827_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ETHOSLTD",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168873_683392_11072022121008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "FIEMIND",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164296_585077_12012022054008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "FMGOETZE",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_175039_773527_19012023051029_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GANDHITUBE",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_156761_431332_13042021021005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GANECOS",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168183_645584_21042022023452_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GANGAFORGE",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165952_624280_06042022044005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GANGESSECU",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1476778_03072025020707_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GATECH",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168204_645809_21042022033654_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GATECHDVR",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168201_645772_21042022032529_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GEECEE",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_160517_493733_21072021054006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GENCON",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161943_533567_14102021064010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GHCL",
+      "date": "31-DEC-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_132509_65366_07012019041007_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GKWLIMITED",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168192_645710_21042022031454_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GLAXO",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173962_763584_12012023024004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GLOBALVECT",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_171616_731488_18102022041012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GOCOLORS",
+      "date": "29-NOV-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163496_577636_06012022052011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GOKUL",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163858_580413_10012022011005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GOKEX",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167863_642806_20042022011145_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GOODLUCK",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_152275_344003_17102020034007_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GRANULES",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477166_04072025115317_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GSPL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168115_645071_21042022114449_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "GUJRAFFIA",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168120_645097_21042022115227_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "HATHWAY",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172322_736966_20102022044000_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "HCG",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166798_633778_13042022034016_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "HISARMETAL",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477165_04072025115317_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "HONDAPOWER",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158819_477488_09072021034003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "IEX",
+      "date": "11-APR-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_137836_103061_20052019064200_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "IFBIND",
+      "date": "31-DEC-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_133657_71888_15012019124002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "IMPAL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166826_634029_13042022044011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "IMPAL",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164384_585998_13012022014006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "INDNIPPON",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168126_645135_21042022120606_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "INDORAMA",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_169708_691884_16072022061002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "INDSWFTLAB",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167091_636366_15042022031031_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "JBCHEPHARM",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174749_771558_18012023044010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "JKPAPER",
+      "date": "30-JUN-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_127625_27427_20072018051003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "JMFINANCIL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168127_645137_21042022120620_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "JOCIL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165985_624708_07042022104012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "JSL",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159391_484795_15072021114005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "JUBLFOOD",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167755_641850_19042022071005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KABRAEXTRU",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164914_591294_18012022124002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KABRAEXTRU",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_151810_338987_14102020041013_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KANANIIND",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158942_478879_12072021104001_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KCPSUGIND",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172688_739023_21102022124008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KILITCH",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6840_21042018034701.xml",
+      "status": "http_200"
+    },
+    {
+      "ticker": "KILITCH",
+      "date": "29-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6637_20042018064008.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KIRLOSENG",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_154321_388277_13012021061002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KNAGRI",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168200_645770_21042022032517_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KPIL",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162217_535748_18102021031003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KREBSBIO",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_129956_44067_09102018124004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KRISHANA",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_151502_335185_13102020104009_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KRISHIVAL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167910_643189_20042022031016_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KRISHNADEF",
+      "date": "06-APR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168090_644816_21042022121848_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "KRISHNADEF",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168319_647358_22042022110057_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "LOKESHMACH",
+      "date": "26-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477401_04072025052855_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "LT",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_131408_51310_16102018034006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "LTFOODS",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164065_582772_11012022034003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "LTM",
+      "date": "25-NOV-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173308_748969_02122022011000_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "LYKALABS",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168195_645734_21042022031903_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MANAKCOAT",
+      "date": "25-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477343_04072025042432_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MANAKCOAT",
+      "date": "31-MAR-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1476970_03072025062858_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MANUGRAPH",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174837_772175_18012023071012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MASKINVEST",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_171790_733033_19102022121025_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MASTEK",
+      "date": "30-SEP-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_142691_153672_18102019054002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MEDICAMEQ",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163545_577172_06012022022635_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "METROBRAND",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168235_646103_21042022044718_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MFSL",
+      "date": "08-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_153372_370129_12122020061729_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MGEL",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165246_594107_19012022064005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MICEL",
+      "date": "17-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163371_575092_03012022031929_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MOTILALOFS",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162929_541898_20102021081010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MSPL",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_169134_686161_12072022064003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "MUFIN",
+      "date": "26-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477096_03072025111152_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NAHARSPING",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172152_735870_20102022124018_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NARMADA",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_155194_395013_20012021014005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NATHBIOGEN",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164249_584615_12012022034016_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NDLVENTURE",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168117_645083_21042022114947_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NHPC",
+      "date": "31-MAR-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_135879_90103_10042019054008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NIRAJ",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166604_631540_12042022024005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "NRL",
+      "date": "22-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163517_576977_06012022122152_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "OAL",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_169940_693692_18072022064012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "OILCOUNTUB",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168179_645565_21042022022215_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ONGC",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167321_638164_18042022014010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ORBTEXP",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164111_583235_11012022051010_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ORIENTALTL",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164674_589222_16012022024703_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ORIENTBELL",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172196_736164_20102022021005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PALREDTEC",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168198_645755_21042022032233_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PARSVNATH",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_155143_394752_20012021111012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PASHUPATI",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168197_645737_21042022031914_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PENIND",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_171171_726459_14102022041007_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PHOENIXLTD",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168108_645033_21042022112738_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PICCADIL",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1476767_03072025010547_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PILITA",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_151106_329923_08102020044011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PITTIENG",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_131929_53059_19102018034013_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "POLYPLEX",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_2394_13042018061005.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PRINCEPIPE",
+      "date": "31-DEC-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_154043_384224_12012021101004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PRITI",
+      "date": "22-OCT-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163235_547418_28102021024002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "PTC",
+      "date": "31-MAR-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_147078_245890_30042020011230_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RADAAN",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167472_639655_19042022071005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RELIGARE",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158163_442266_21042021041009_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ROHLTD",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_152850_347147_20102020054014_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RPSGVENT",
+      "date": "30-JUN-2023",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_139150_29647_23082023065517_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RSWM",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174697_771165_18012023031005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RTNINDIA",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167844_642684_20042022124032_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RTNINDIA",
+      "date": "30-JUN-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_139365_122657_20072019041006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RTNPOWER",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168237_646172_21042022050339_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "RUBYMILLS",
+      "date": "30-SEP-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_140901_141042_07102019063005_WEB.xml",
+      "status": "http_200"
+    },
+    {
+      "ticker": "RUSHIL",
+      "date": "24-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477280_04072025032028_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SALASAR",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167870_642861_20042022013131_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SALSTEEL",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168194_645729_21042022031843_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SALZERELEC",
+      "date": "30-JUN-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_140090_122537_20072019031017_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SAMBHV",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477321_04072025040249_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SANGINITA",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173879_762647_11012023054003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SAREGAMA",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168236_646140_21042022045721_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SBCL",
+      "date": "15-OCT-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_171403_729461_17102022044004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SCHAEFFLER",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173963_763585_12012023024006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SDBL",
+      "date": "02-MAR-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_137834_102935_20052019122941_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SEJALLTD",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168118_645092_21042022115038_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SEYAIND",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_160409_493082_21072021124003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SGIL",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162528_538083_19102021034023_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SHAH",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_131534_51839_17102018124009_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SHANTIGEAR",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1481010_11072025045832_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SHANTIGEAR",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6831_21042018032226.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SHAREINDIA",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163477_576472_05012022044625_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SHIVALIK",
+      "date": "30-NOV-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163532_577090_06012022011039_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SHYAMMETL",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477302_04072025034734_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SIGACHI",
+      "date": "13-NOV-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163582_577624_06012022051401_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SILINV",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159324_483725_14072021051004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SJVN",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_155944_422753_06042021034008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SJVN",
+      "date": "30-SEP-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_131299_51468_16102018051004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SMLMAH",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168234_646091_21042022044435_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SOBHA",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172436_737660_20102022061047_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SPARC",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168087_644800_20042022112634_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SSWL",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_170404_697392_20072022044017_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "STEELCAS",
+      "date": "29-OCT-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163552_577237_06012022030041_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "STEELCITY",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159247_482933_14072021014006_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SUNDARMFIN",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164248_584614_12012022034014_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SUTLEJTEX",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167670_641116_19042022044014_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SUVEN",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167864_642810_20042022011321_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SWARAJENG",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_170436_697710_20072022054011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "SYMPHONY",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166072_625461_07042022044002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TATACONSUM",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159311_483551_14072021044011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TEAMLEASE",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159356_484359_14072021074005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TECHM",
+      "date": "30-JUN-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_126574_26564_19072018034007_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TEGA",
+      "date": "08-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163370_577768_06012022063056_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TEXINFRA",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174385_768126_16012023054012_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "THEJO",
+      "date": "31-MAR-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_136684_95435_16042019054005_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "THOMASCOTT",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168111_645047_21042022113241_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TIMETECHNO",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168119_645093_21042022115041_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TNPETRO",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_160454_493357_21072021031003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TOKYOPLAST",
+      "date": "30-SEP-2020",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_152568_345630_19102020064011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TPHQ",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162841_540865_20102021051027_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TREEHOUSE",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_5202_18042018044820.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "TTKPRESTIG",
+      "date": "17-MAY-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_137835_103067_20052019065054_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "UNIENTER",
+      "date": "30-JUN-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_170183_695705_19072022061009_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "UNITECH",
+      "date": "31-DEC-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174517_769385_17012023034008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "UNITEDTEA",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_157851_440936_20042021034022_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "UPL",
+      "date": "31-DEC-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165109_592958_19012022121004_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VARDMNPOLY",
+      "date": "31-MAR-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6798_21042018011012.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VARROC",
+      "date": "31-MAR-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_157990_441508_20042021081008_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VEDL",
+      "date": "30-SEP-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161933_533462_14102021061101_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VETO",
+      "date": "30-JUN-2021",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158619_475066_07072021051003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VGUARD",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167466_639563_18042022084018_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VINYLINDIA",
+      "date": "30-JUN-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_139619_121382_19072019041002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VISHWARAJ",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173072_740760_21102022071038_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VMM",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1477351_04072025043711_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VOLTAS",
+      "date": "30-JUN-2025",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_201231_13920_23072025084147_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "VSSL",
+      "date": "30-JUN-2018",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_126755_17767_06072018024007_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "WELENT",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_167868_642850_20042022012625_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "WELSPUNLIV",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168239_646181_21042022050702_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "WHEELS",
+      "date": "31-MAR-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_168124_645125_21042022120443_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "WOCKPHARMA",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172872_739849_21102022041011_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ZENITHSTL",
+      "date": "31-DEC-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_144934_203467_16012020041002_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ZFCVINDIA",
+      "date": "30-JUN-2019",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_139561_121645_19072019054003_WEB.xml",
+      "status": "http_404"
+    },
+    {
+      "ticker": "ZODIAC",
+      "date": "30-SEP-2022",
+      "url": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_171642_731725_18102022044026_WEB.xml",
+      "status": "http_404"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ticker": "GEMAROMA",
+  "fetched_at_utc": "2026-05-10T16:42:55.588215+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 17:28:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652416_16042026052801_WEB.xml",
+      "record_id": "208803",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 15:08:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605430_20012026030822_WEB.xml",
+      "record_id": "206466",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "18-OCT-2025",
+      "broadcast_date": "18-OCT-2025 16:40:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553603_18102025044036_WEB.xml",
+      "record_id": "203820",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-AUG-2025",
+      "submission_date": "26-AUG-2025",
+      "broadcast_date": "22-SEP-2025 11:19:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1527734_16092025034114_WEB.xml",
+      "record_id": "201559",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

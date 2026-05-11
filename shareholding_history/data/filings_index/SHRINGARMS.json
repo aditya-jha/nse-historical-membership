@@ -1,0 +1,43 @@
+{
+  "ticker": "SHRINGARMS",
+  "fetched_at_utc": "2026-05-10T16:56:25.097907+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "06-APR-2026",
+      "broadcast_date": "05-MAY-2026 17:40:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1663685_05052026052231_WEB.xml",
+      "record_id": "207466",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "05-JAN-2026",
+      "broadcast_date": "05-JAN-2026 15:18:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1594923_05012026031853_WEB.xml",
+      "record_id": "204735",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "10-OCT-2025",
+      "broadcast_date": "18-DEC-2025 15:04:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1568255_07112025060631_WEB.xml",
+      "record_id": "201998",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "16-SEP-2025",
+      "submission_date": "17-SEP-2025",
+      "broadcast_date": "07-NOV-2025 18:08:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1528074_17092025010556_WEB.xml",
+      "record_id": "201627",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

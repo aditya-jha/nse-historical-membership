@@ -1,0 +1,52 @@
+{
+  "ticker": "THELEELA",
+  "fetched_at_utc": "2026-05-10T16:58:49.318124+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 17:16:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656399_21042026051634_WEB.xml",
+      "record_id": "210127",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 15:05:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606903_21012026030510_WEB.xml",
+      "record_id": "206902",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "21-OCT-2025",
+      "broadcast_date": "21-OCT-2025 23:47:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1555140_21102025114741_WEB.xml",
+      "record_id": "204435",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "21-JUL-2025 18:01:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1489272_21072025060146_WEB.xml",
+      "record_id": "201078",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-MAY-2025",
+      "submission_date": "02-JUN-2025",
+      "broadcast_date": "09-JUN-2025 15:51:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_199018_1463463_05062025072623_WEB.xml",
+      "record_id": "199018",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

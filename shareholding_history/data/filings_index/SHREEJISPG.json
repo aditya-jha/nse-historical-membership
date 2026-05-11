@@ -1,0 +1,43 @@
+{
+  "ticker": "SHREEJISPG",
+  "fetched_at_utc": "2026-05-10T16:56:19.404112+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "17-APR-2026 10:52:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652811_17042026105159_WEB.xml",
+      "record_id": "208904",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "13-JAN-2026",
+      "broadcast_date": "13-JAN-2026 11:20:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1599340_13012026112023_WEB.xml",
+      "record_id": "205331",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "15-OCT-2025",
+      "broadcast_date": "15-OCT-2025 15:16:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1548762_15102025031649_WEB.xml",
+      "record_id": "202644",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "22-AUG-2025",
+      "submission_date": "26-AUG-2025",
+      "broadcast_date": "09-SEP-2025 15:36:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1517865_26082025060754_WEB.xml",
+      "record_id": "201560",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

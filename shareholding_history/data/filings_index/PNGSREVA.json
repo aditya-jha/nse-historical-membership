@@ -1,0 +1,25 @@
+{
+  "ticker": "PNGSREVA",
+  "fetched_at_utc": "2026-05-10T16:52:51.520914+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 12:47:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654670_20042026124723_WEB.xml",
+      "record_id": "209495",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-MAR-2026",
+      "submission_date": "04-MAR-2026",
+      "broadcast_date": "10-MAR-2026 19:11:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1633812_09032026033932_WEB.xml",
+      "record_id": "207272",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

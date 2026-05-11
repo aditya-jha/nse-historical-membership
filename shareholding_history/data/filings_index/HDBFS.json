@@ -1,0 +1,43 @@
+{
+  "ticker": "HDBFS",
+  "fetched_at_utc": "2026-05-10T16:44:15.988686+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 17:59:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655290_20042026055933_WEB.xml",
+      "record_id": "209721",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 18:17:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606066_20012026061726_WEB.xml",
+      "record_id": "206647",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "16-OCT-2025",
+      "broadcast_date": "16-OCT-2025 16:30:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1550351_16102025043040_WEB.xml",
+      "record_id": "202970",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "01-JUL-2025",
+      "submission_date": "02-JUL-2025",
+      "broadcast_date": "16-JUL-2025 13:04:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1483970_16072025125816_WEB.xml",
+      "record_id": "199115",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

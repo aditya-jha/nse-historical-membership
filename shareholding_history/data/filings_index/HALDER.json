@@ -1,0 +1,34 @@
+{
+  "ticker": "HALDER",
+  "fetched_at_utc": "2026-05-10T16:44:04.358688+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 16:18:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652242_16042026041830_WEB.xml",
+      "record_id": "208745",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-JAN-2026",
+      "submission_date": "24-JAN-2026",
+      "broadcast_date": "28-JAN-2026 12:08:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1609704_24012026105253_WEB.xml",
+      "record_id": "207163",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 10:54:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605002_20012026105410_WEB.xml",
+      "record_id": "206333",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

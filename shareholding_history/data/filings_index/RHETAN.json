@@ -1,0 +1,43 @@
+{
+  "ticker": "RHETAN",
+  "fetched_at_utc": "2026-05-10T16:54:23.391144+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "10-APR-2026",
+      "broadcast_date": "10-APR-2026 11:43:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1648466_10042026114328_WEB.xml",
+      "record_id": "207829",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "17-JAN-2026",
+      "broadcast_date": "17-JAN-2026 16:00:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1603244_17012026040035_WEB.xml",
+      "record_id": "205926",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "06-OCT-2025",
+      "broadcast_date": "06-OCT-2025 15:02:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1541325_06102025030211_WEB.xml",
+      "record_id": "201717",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-SEP-2025",
+      "submission_date": "30-SEP-2025",
+      "broadcast_date": "08-OCT-2025 13:17:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1537920_30092025030112_WEB.xml",
+      "record_id": "201669",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

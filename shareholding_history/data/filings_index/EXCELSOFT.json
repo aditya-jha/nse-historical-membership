@@ -1,0 +1,43 @@
+{
+  "ticker": "EXCELSOFT",
+  "fetched_at_utc": "2026-05-10T16:34:30.654790+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "14-APR-2026",
+      "broadcast_date": "14-APR-2026 12:45:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650408_14042026124458_WEB.xml",
+      "record_id": "208252",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "14-JAN-2026",
+      "broadcast_date": "14-JAN-2026 17:36:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1600952_14012026053609_WEB.xml",
+      "record_id": "205583",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "26-NOV-2025",
+      "submission_date": "26-NOV-2025",
+      "broadcast_date": "02-DEC-2025 12:41:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1580837_28112025035817_WEB.xml",
+      "record_id": "204615",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "25-NOV-2025",
+      "submission_date": "26-NOV-2025",
+      "broadcast_date": "02-DEC-2025 12:43:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1580828_28112025035243_WEB.xml",
+      "record_id": "204614",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

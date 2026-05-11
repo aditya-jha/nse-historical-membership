@@ -1,0 +1,34 @@
+{
+  "ticker": "JKIPL",
+  "fetched_at_utc": "2026-05-10T16:46:42.985133+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "15-APR-2026",
+      "broadcast_date": "15-APR-2026 13:06:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651136_15042026010618_WEB.xml",
+      "record_id": "208437",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "17-JAN-2026",
+      "broadcast_date": "17-JAN-2026 17:47:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1603451_17012026054744_WEB.xml",
+      "record_id": "205976",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "01-OCT-2025",
+      "submission_date": "10-OCT-2025",
+      "broadcast_date": "28-OCT-2025 16:50:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1555807_23102025055405_WEB.xml",
+      "record_id": "202024",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

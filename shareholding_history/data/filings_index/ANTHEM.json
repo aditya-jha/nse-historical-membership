@@ -1,0 +1,43 @@
+{
+  "ticker": "ANTHEM",
+  "fetched_at_utc": "2026-05-10T16:29:30.355062+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 19:58:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655577_20042026075836_WEB.xml",
+      "record_id": "209836",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "16-JAN-2026",
+      "broadcast_date": "16-JAN-2026 15:55:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1602285_16012026035550_WEB.xml",
+      "record_id": "205794",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "19-OCT-2025",
+      "broadcast_date": "19-OCT-2025 14:31:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1554078_19102025023153_WEB.xml",
+      "record_id": "203967",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-JUL-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "23-JUL-2025 20:47:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1489556_21072025071113_WEB.xml",
+      "record_id": "200862",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

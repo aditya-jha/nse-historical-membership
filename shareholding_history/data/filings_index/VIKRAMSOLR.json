@@ -1,0 +1,43 @@
+{
+  "ticker": "VIKRAMSOLR",
+  "fetched_at_utc": "2026-05-10T17:00:18.728729+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 18:22:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652557_16042026062158_WEB.xml",
+      "record_id": "208846",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 18:38:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607539_21012026063823_WEB.xml",
+      "record_id": "207067",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "18-OCT-2025",
+      "broadcast_date": "18-OCT-2025 12:13:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553166_18102025121340_WEB.xml",
+      "record_id": "203676",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-AUG-2025",
+      "submission_date": "26-AUG-2025",
+      "broadcast_date": "09-SEP-2025 12:18:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1518244_26082025115155_WEB.xml",
+      "record_id": "201564",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

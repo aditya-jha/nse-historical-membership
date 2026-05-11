@@ -1,0 +1,70 @@
+{
+  "ticker": "CARRARO",
+  "fetched_at_utc": "2026-05-10T16:31:22.164474+00:00",
+  "n_filings": 7,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "17-APR-2026 11:52:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652864_17042026115241_WEB.xml",
+      "record_id": "208925",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "16-JAN-2026",
+      "broadcast_date": "16-JAN-2026 11:48:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1601959_16012026114846_WEB.xml",
+      "record_id": "205728",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "08-OCT-2025",
+      "broadcast_date": "08-OCT-2025 11:51:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1574450_13112025094709_WEB.xml",
+      "record_id": "204537",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "08-JUL-2025",
+      "broadcast_date": "08-JUL-2025 14:37:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1478587_08072025023726_WEB.xml",
+      "record_id": "199202",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "10-APR-2025",
+      "broadcast_date": "28-JUN-2025 14:24:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_196784_1470664_25062025093855_WEB.xml",
+      "record_id": "196784",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2024",
+      "submission_date": "09-JAN-2025",
+      "broadcast_date": "28-JUN-2025 14:24:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_194088_1470662_25062025093720_WEB.xml",
+      "record_id": "194088",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "26-DEC-2024",
+      "submission_date": "30-DEC-2024",
+      "broadcast_date": "31-DEC-2024 16:05:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_193828_1335123_30122024082147_WEB.xml",
+      "record_id": "193828",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

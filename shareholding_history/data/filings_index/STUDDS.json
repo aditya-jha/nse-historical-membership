@@ -1,0 +1,34 @@
+{
+  "ticker": "STUDDS",
+  "fetched_at_utc": "2026-05-10T16:57:36.587157+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 17:36:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654294_18042026053616_WEB.xml",
+      "record_id": "209365",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "15-JAN-2026",
+      "broadcast_date": "15-JAN-2026 16:56:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1601625_15012026045608_WEB.xml",
+      "record_id": "205684",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "06-NOV-2025",
+      "submission_date": "07-NOV-2025",
+      "broadcast_date": "07-NOV-2025 16:43:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1567896_07112025041250_WEB.xml",
+      "record_id": "204500",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

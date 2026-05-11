@@ -1,0 +1,34 @@
+{
+  "ticker": "CORONA",
+  "fetched_at_utc": "2026-05-10T16:32:14.137641+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "17-APR-2026 14:23:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1653023_17042026022348_WEB.xml",
+      "record_id": "208984",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 17:14:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605817_20012026051423_WEB.xml",
+      "record_id": "206572",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-DEC-2025",
+      "submission_date": "15-DEC-2025",
+      "broadcast_date": "17-DEC-2025 16:49:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1585858_15122025012027_WEB.xml",
+      "record_id": "204663",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

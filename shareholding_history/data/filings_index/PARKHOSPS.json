@@ -1,0 +1,34 @@
+{
+  "ticker": "PARKHOSPS",
+  "fetched_at_utc": "2026-05-10T16:52:16.198766+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "13-APR-2026",
+      "broadcast_date": "13-APR-2026 12:39:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649583_13042026123927_WEB.xml",
+      "record_id": "208070",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "09-JAN-2026",
+      "broadcast_date": "09-JAN-2026 11:56:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1597226_09012026115633_WEB.xml",
+      "record_id": "205023",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-DEC-2025",
+      "submission_date": "17-DEC-2025",
+      "broadcast_date": "23-DEC-2025 18:24:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1589072_23122025055014_WEB.xml",
+      "record_id": "204674",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

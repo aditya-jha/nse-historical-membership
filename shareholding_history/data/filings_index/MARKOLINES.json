@@ -1,0 +1,43 @@
+{
+  "ticker": "MARKOLINES",
+  "fetched_at_utc": "2026-05-10T16:49:22.022904+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 13:35:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654002_18042026013515_WEB.xml",
+      "record_id": "209269",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "16-JAN-2026",
+      "broadcast_date": "16-JAN-2026 17:33:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1602574_16012026053352_WEB.xml",
+      "record_id": "205851",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-OCT-2025",
+      "submission_date": "18-OCT-2025",
+      "broadcast_date": "20-OCT-2025 19:47:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553484_18102025034446_WEB.xml",
+      "record_id": "203779",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "14-OCT-2025",
+      "broadcast_date": "14-OCT-2025 17:07:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1547735_14102025050700_WEB.xml",
+      "record_id": "202471",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ticker": "SRTL",
+  "fetched_at_utc": "2026-05-10T16:57:24.524787+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "07-APR-2026",
+      "broadcast_date": "07-APR-2026 23:42:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1647023_07042026114205_WEB.xml",
+      "record_id": "207571",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "26-FEB-2026",
+      "submission_date": "10-MAR-2026",
+      "broadcast_date": "19-MAR-2026 12:25:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1637348_18032026095736_WEB.xml",
+      "record_id": "207284",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

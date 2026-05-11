@@ -1,0 +1,52 @@
+{
+  "ticker": "ARIS",
+  "fetched_at_utc": "2026-05-10T16:29:43.287502+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 17:41:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656442_21042026054136_WEB.xml",
+      "record_id": "210147",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 15:31:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606967_21012026033143_WEB.xml",
+      "record_id": "206921",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "16-OCT-2025",
+      "broadcast_date": "16-OCT-2025 13:25:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1549927_16102025012516_WEB.xml",
+      "record_id": "202858",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "19-JUL-2025",
+      "broadcast_date": "19-JUL-2025 15:54:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1487765_19072025035432_WEB.xml",
+      "record_id": "200583",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-JUN-2025",
+      "submission_date": "25-JUN-2025",
+      "broadcast_date": "30-JUN-2025 16:58:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_199090_1473829_27062025085427_WEB.xml",
+      "record_id": "199090",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

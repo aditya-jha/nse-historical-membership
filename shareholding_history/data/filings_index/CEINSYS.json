@@ -1,0 +1,34 @@
+{
+  "ticker": "CEINSYS",
+  "fetched_at_utc": "2026-05-10T16:31:29.360067+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "17-APR-2026 16:33:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1653249_17042026043256_WEB.xml",
+      "record_id": "209062",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-MAR-2026",
+      "submission_date": "20-MAR-2026",
+      "broadcast_date": "20-MAR-2026 17:31:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1637977_20032026053149_WEB.xml",
+      "record_id": "207342",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-FEB-2026",
+      "submission_date": "20-FEB-2026",
+      "broadcast_date": "23-FEB-2026 17:05:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1628584_20022026081237_WEB.xml",
+      "record_id": "207240",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

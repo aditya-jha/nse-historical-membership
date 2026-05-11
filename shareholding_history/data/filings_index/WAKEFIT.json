@@ -1,0 +1,34 @@
+{
+  "ticker": "WAKEFIT",
+  "fetched_at_utc": "2026-05-10T17:00:45.266954+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "09-APR-2026",
+      "broadcast_date": "09-APR-2026 18:40:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1648322_09042026064018_WEB.xml",
+      "record_id": "207801",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "08-JAN-2026",
+      "broadcast_date": "08-JAN-2026 13:10:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1596584_08012026011008_WEB.xml",
+      "record_id": "204921",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "12-DEC-2025",
+      "submission_date": "15-DEC-2025",
+      "broadcast_date": "18-DEC-2025 15:35:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1585897_15122025024631_WEB.xml",
+      "record_id": "204664",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

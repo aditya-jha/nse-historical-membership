@@ -1,0 +1,43 @@
+{
+  "ticker": "PATELRMART",
+  "fetched_at_utc": "2026-05-10T16:52:20.991676+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "10-APR-2026",
+      "broadcast_date": "10-APR-2026 17:23:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1648881_10042026052345_WEB.xml",
+      "record_id": "207918",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "12-JAN-2026",
+      "broadcast_date": "12-JAN-2026 11:48:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1598412_12012026114804_WEB.xml",
+      "record_id": "205199",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "10-OCT-2025",
+      "broadcast_date": "10-OCT-2025 16:19:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1544410_10102025041926_WEB.xml",
+      "record_id": "201989",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-AUG-2025",
+      "submission_date": "26-AUG-2025",
+      "broadcast_date": "29-AUG-2025 11:40:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1517951_26082025071745_WEB.xml",
+      "record_id": "201561",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

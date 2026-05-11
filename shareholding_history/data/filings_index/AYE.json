@@ -1,0 +1,25 @@
+{
+  "ticker": "AYE",
+  "fetched_at_utc": "2026-05-10T16:30:18.330908+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 14:04:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656004_21042026020424_WEB.xml",
+      "record_id": "209997",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-FEB-2026",
+      "submission_date": "16-FEB-2026",
+      "broadcast_date": "17-FEB-2026 12:15:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1626510_16022026041217_WEB.xml",
+      "record_id": "207224",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

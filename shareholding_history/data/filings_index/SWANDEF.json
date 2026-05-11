@@ -1,0 +1,70 @@
+{
+  "ticker": "SWANDEF",
+  "fetched_at_utc": "2026-05-10T16:58:07.518442+00:00",
+  "n_filings": 7,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "13-APR-2026",
+      "broadcast_date": "13-APR-2026 10:43:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649490_13042026104321_WEB.xml",
+      "record_id": "208042",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "19-MAR-2026",
+      "submission_date": "23-MAR-2026",
+      "broadcast_date": "23-MAR-2026 11:09:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1638468_23032026110937_WEB.xml",
+      "record_id": "207343",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 13:01:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605242_20012026010119_WEB.xml",
+      "record_id": "206394",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "17-OCT-2025",
+      "broadcast_date": "11-NOV-2025 11:01:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1569685_10112025030559_WEB.xml",
+      "record_id": "203587",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "16-JUL-2025",
+      "broadcast_date": "16-JUL-2025 13:11:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1484000_16072025011125_WEB.xml",
+      "record_id": "199778",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "21-APR-2025",
+      "broadcast_date": "21-APR-2025 11:07:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_198582_1420566_21042025110743_WEB.xml",
+      "record_id": "198582",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2024",
+      "submission_date": "20-JAN-2025",
+      "broadcast_date": "20-JAN-2025 16:46:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_195582_1352808_20012025044622_WEB.xml",
+      "record_id": "195582",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

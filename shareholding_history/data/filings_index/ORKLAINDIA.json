@@ -1,0 +1,34 @@
+{
+  "ticker": "ORKLAINDIA",
+  "fetched_at_utc": "2026-05-10T16:51:58.952736+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 17:55:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655283_20042026055516_WEB.xml",
+      "record_id": "209717",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 12:28:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1603813_19012026122834_WEB.xml",
+      "record_id": "206072",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "04-NOV-2025",
+      "submission_date": "14-NOV-2025",
+      "broadcast_date": "14-NOV-2025 17:57:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1575067_14112025050415_WEB.xml",
+      "record_id": "204582",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "SKFINDUS",
+  "fetched_at_utc": "2026-05-10T16:56:49.890262+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 15:43:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652181_16042026034338_WEB.xml",
+      "record_id": "208723",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "15-JAN-2026",
+      "broadcast_date": "15-JAN-2026 10:25:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1601274_15012026102505_WEB.xml",
+      "record_id": "205611",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "04-DEC-2025",
+      "submission_date": "08-DEC-2025",
+      "broadcast_date": "09-DEC-2025 16:39:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1584210_09122025043203_WEB.xml",
+      "record_id": "204646",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

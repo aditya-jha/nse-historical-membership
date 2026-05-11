@@ -1,0 +1,52 @@
+{
+  "ticker": "IGCL",
+  "fetched_at_utc": "2026-05-10T16:45:05.692967+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "10-APR-2026",
+      "broadcast_date": "10-APR-2026 16:43:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1648808_10042026044321_WEB.xml",
+      "record_id": "207899",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "12-JAN-2026",
+      "broadcast_date": "12-JAN-2026 12:41:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1598479_12012026124145_WEB.xml",
+      "record_id": "205214",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "07-OCT-2025",
+      "broadcast_date": "07-OCT-2025 17:19:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1542009_07102025051857_WEB.xml",
+      "record_id": "201760",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "02-JUL-2025",
+      "submission_date": "03-JUL-2025",
+      "broadcast_date": "21-JUL-2025 17:30:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1486435_18072025030216_WEB.xml",
+      "record_id": "199118",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "15-JUL-2025",
+      "broadcast_date": "01-AUG-2025 11:02:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1498879_31072025024416_WEB.xml",
+      "record_id": "199643",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

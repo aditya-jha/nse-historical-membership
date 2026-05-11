@@ -1,0 +1,25 @@
+{
+  "ticker": "RSL",
+  "fetched_at_utc": "2026-05-10T16:54:46.018288+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 18:13:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655330_20042026061335_WEB.xml",
+      "record_id": "209743",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "17-MAR-2026",
+      "submission_date": "19-MAR-2026",
+      "broadcast_date": "21-APR-2026 12:17:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655258_20042026054209_WEB.xml",
+      "record_id": "207337",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

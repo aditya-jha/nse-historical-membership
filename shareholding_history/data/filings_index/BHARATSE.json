@@ -1,0 +1,61 @@
+{
+  "ticker": "BHARATSE",
+  "fetched_at_utc": "2026-05-10T16:30:45.477868+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 09:18:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655679_21042026091758_WEB.xml",
+      "record_id": "209872",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "15-JAN-2026",
+      "broadcast_date": "15-JAN-2026 15:43:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1601518_15012026034257_WEB.xml",
+      "record_id": "205663",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "16-OCT-2025",
+      "broadcast_date": "17-FEB-2026 12:06:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1625224_13022026053219_WEB.xml",
+      "record_id": "202894",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "17-JUL-2025",
+      "broadcast_date": "22-SEP-2025 12:27:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1514276_18082025044704_WEB.xml",
+      "record_id": "199880",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "17-APR-2025",
+      "broadcast_date": "17-APR-2025 10:19:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_197551_1416518_17042025101917_WEB.xml",
+      "record_id": "197551",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "07-MAR-2025",
+      "submission_date": "28-MAR-2025",
+      "broadcast_date": "01-APR-2025 17:20:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_196269_1404550_28032025034926_WEB.xml",
+      "record_id": "196269",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

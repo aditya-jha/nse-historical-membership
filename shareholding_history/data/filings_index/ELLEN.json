@@ -1,0 +1,52 @@
+{
+  "ticker": "ELLEN",
+  "fetched_at_utc": "2026-05-10T16:34:01.817586+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 12:46:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655903_21042026124630_WEB.xml",
+      "record_id": "209954",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 12:44:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605183_20012026124415_WEB.xml",
+      "record_id": "206383",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "21-OCT-2025",
+      "broadcast_date": "21-OCT-2025 10:12:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1554608_21102025101250_WEB.xml",
+      "record_id": "204195",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "21-JUL-2025 18:22:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1489348_21072025062156_WEB.xml",
+      "record_id": "201113",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "27-JUN-2025",
+      "submission_date": "01-JUL-2025",
+      "broadcast_date": "03-JUL-2025 15:33:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1475615_01072025024818_WEB.xml",
+      "record_id": "199107",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

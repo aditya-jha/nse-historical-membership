@@ -1,0 +1,43 @@
+{
+  "ticker": "IVALUE",
+  "fetched_at_utc": "2026-05-10T16:46:04.641158+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 11:36:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654561_20042026113623_WEB.xml",
+      "record_id": "209450",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 16:08:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607071_21012026040806_WEB.xml",
+      "record_id": "206946",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "17-OCT-2025",
+      "broadcast_date": "17-OCT-2025 18:55:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1552649_17102025065511_WEB.xml",
+      "record_id": "203551",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-SEP-2025",
+      "submission_date": "25-SEP-2025",
+      "broadcast_date": "17-OCT-2025 15:30:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1549878_16102025010105_WEB.xml",
+      "record_id": "201653",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

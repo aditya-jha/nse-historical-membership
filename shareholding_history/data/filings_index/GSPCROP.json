@@ -1,0 +1,25 @@
+{
+  "ticker": "GSPCROP",
+  "fetched_at_utc": "2026-05-10T16:43:52.190627+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 11:21:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654534_20042026112056_WEB.xml",
+      "record_id": "209440",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-MAR-2026",
+      "submission_date": "24-MAR-2026",
+      "broadcast_date": "15-APR-2026 17:33:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1645529_02042026062648_WEB.xml",
+      "record_id": "207351",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "ticker": "SOLARWORLD",
+  "fetched_at_utc": "2026-05-10T16:57:01.995498+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 12:32:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655885_21042026123208_WEB.xml",
+      "record_id": "209948",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 19:04:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607601_21012026070412_WEB.xml",
+      "record_id": "207088",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "20-OCT-2025",
+      "broadcast_date": "20-OCT-2025 17:40:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1554484_20102025054037_WEB.xml",
+      "record_id": "204136",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-SEP-2025",
+      "submission_date": "30-SEP-2025",
+      "broadcast_date": "13-OCT-2025 12:36:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1544855_10102025075927_WEB.xml",
+      "record_id": "201674",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

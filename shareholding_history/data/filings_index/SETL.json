@@ -1,0 +1,61 @@
+{
+  "ticker": "SETL",
+  "fetched_at_utc": "2026-05-10T16:55:51.748409+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "17-APR-2026 17:40:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1653402_17042026054028_WEB.xml",
+      "record_id": "209134",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "11-MAR-2026 11:58:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1634327_10032026060431_WEB.xml",
+      "record_id": "206516",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "18-OCT-2025",
+      "broadcast_date": "18-OCT-2025 14:45:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553398_18102025024523_WEB.xml",
+      "record_id": "203746",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "19-JUL-2025",
+      "broadcast_date": "27-OCT-2025 11:15:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1556795_25102025125350_WEB.xml",
+      "record_id": "200641",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "17-APR-2025",
+      "broadcast_date": "27-OCT-2025 11:16:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1556478_24102025060012_WEB.xml",
+      "record_id": "197863",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "09-JAN-2025",
+      "submission_date": "13-JAN-2025",
+      "broadcast_date": "21-JAN-2025 13:08:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_194467_1347176_16012025023123_WEB.xml",
+      "record_id": "194467",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

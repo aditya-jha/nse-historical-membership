@@ -1,0 +1,34 @@
+{
+  "ticker": "PIRAMALFIN",
+  "fetched_at_utc": "2026-05-10T16:52:43.703110+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "30-APR-2026 19:20:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1662498_30042026071200_WEB.xml",
+      "record_id": "208988",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 18:02:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604603_19012026060252_WEB.xml",
+      "record_id": "206252",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "07-NOV-2025",
+      "submission_date": "11-NOV-2025",
+      "broadcast_date": "13-NOV-2025 16:37:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1570748_11112025110210_WEB.xml",
+      "record_id": "204513",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

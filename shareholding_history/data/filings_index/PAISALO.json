@@ -1,0 +1,601 @@
+{
+  "ticker": "PAISALO",
+  "fetched_at_utc": "2026-05-10T16:52:05.501776+00:00",
+  "n_filings": 66,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "11-APR-2026",
+      "broadcast_date": "11-APR-2026 16:56:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649397_11042026045555_WEB.xml",
+      "record_id": "208021",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "15-JAN-2026",
+      "broadcast_date": "15-JAN-2026 12:23:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1601341_15012026122337_WEB.xml",
+      "record_id": "205624",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "15-OCT-2025",
+      "broadcast_date": "15-OCT-2025 14:30:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1548665_15102025023011_WEB.xml",
+      "record_id": "202621",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "18-JUL-2025",
+      "broadcast_date": "18-JUL-2025 16:26:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1486612_18072025042558_WEB.xml",
+      "record_id": "200270",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "18-APR-2025",
+      "broadcast_date": "18-APR-2025 17:27:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_198138_1418923_18042025052752_WEB.xml",
+      "record_id": "198138",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2024",
+      "submission_date": "20-JAN-2025",
+      "broadcast_date": "20-JAN-2025 12:47:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_195443_1351870_20012025124714_WEB.xml",
+      "record_id": "195443",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2024",
+      "submission_date": "15-OCT-2024",
+      "broadcast_date": "15-OCT-2024 17:52:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_192119_1270820_15102024055220_WEB.xml",
+      "record_id": "192119",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2024",
+      "submission_date": "16-JUL-2024",
+      "broadcast_date": "16-JUL-2024 17:42:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_189655_1187789_16072024054234_WEB.xml",
+      "record_id": "189655",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2024",
+      "submission_date": "13-APR-2024",
+      "broadcast_date": "13-APR-2024 17:55:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_186646_1091145_13042024055553_WEB.xml",
+      "record_id": "186646",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "21-MAR-2024",
+      "submission_date": "21-MAR-2024",
+      "broadcast_date": "15-APR-2024 11:19:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185691_1071250_21032024100305_WEB.xml",
+      "record_id": "185691",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "21-MAR-2024",
+      "submission_date": "21-MAR-2024",
+      "broadcast_date": "03-APR-2024 16:51:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185692_1071254_21032024101146_WEB.xml",
+      "record_id": "185692",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2023",
+      "submission_date": "13-JAN-2024",
+      "broadcast_date": "20-MAR-2024 11:08:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_184111_1020058_13012024054134_WEB.xml",
+      "record_id": "184111",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2023",
+      "submission_date": "18-OCT-2023",
+      "broadcast_date": "18-OCT-2023 20:38:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_182261_959137_18102023083807_WEB.xml",
+      "record_id": "182261",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2023",
+      "submission_date": "13-JUL-2023",
+      "broadcast_date": "06-OCT-2023 12:36:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_178809_883172_13072023041917_WEB.xml",
+      "record_id": "178809",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2023",
+      "submission_date": "15-APR-2023",
+      "broadcast_date": "08-JUN-2023 14:53:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_176744_820298_15042023024150_WEB.xml",
+      "record_id": "176744",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2022",
+      "submission_date": "17-JAN-2023",
+      "broadcast_date": "17-JAN-2023 17:10:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_174561_769796_17012023050033_WEB.xml",
+      "record_id": "174561",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2022",
+      "submission_date": "19-OCT-2022",
+      "broadcast_date": "19-OCT-2022 21:10:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_172066_735192_19102022085221_WEB.xml",
+      "record_id": "172066",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "12-SEP-2022",
+      "submission_date": "19-SEP-2022",
+      "broadcast_date": "19-SEP-2022 10:10:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_170929_712508_19092022094344_WEB.xml",
+      "record_id": "170929",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-SEP-2022",
+      "submission_date": "12-SEP-2022",
+      "broadcast_date": "12-SEP-2022 09:40:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_170904_710905_12092022093855_WEB.xml",
+      "record_id": "170904",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2022",
+      "submission_date": "16-JUL-2022",
+      "broadcast_date": "16-JUL-2022 20:40:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_169722_691954_16072022081548_WEB.xml",
+      "record_id": "169722",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2022",
+      "submission_date": "13-APR-2022",
+      "broadcast_date": "13-APR-2022 15:40:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_166795_633738_13042022033330_WEB.xml",
+      "record_id": "166795",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-MAR-2022",
+      "submission_date": "02-APR-2022",
+      "broadcast_date": "02-APR-2022 13:10:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165816_622658_02042022124955_WEB.xml",
+      "record_id": "165816",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "14-MAR-2022",
+      "submission_date": "23-MAR-2022",
+      "broadcast_date": "24-MAR-2022 07:10:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_165787_619799_23032022115123_WEB.xml",
+      "record_id": "165787",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2021",
+      "submission_date": "12-JAN-2022",
+      "broadcast_date": "22-APR-2022 16:11:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164217_584387_12012022023201_WEB.xml",
+      "record_id": "164217",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2021",
+      "submission_date": "15-OCT-2021",
+      "broadcast_date": "06-JAN-2022 22:24:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162005_534081_15102021051433_WEB.xml",
+      "record_id": "162005",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2021",
+      "submission_date": null,
+      "broadcast_date": "12-JUL-2021 16:10:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_159001_479548_12072021034722_WEB.xml",
+      "record_id": "159001",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2021",
+      "submission_date": null,
+      "broadcast_date": "12-APR-2021 16:40:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_156629_429485_12042021041724_WEB.xml",
+      "record_id": "156629",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2020",
+      "submission_date": null,
+      "broadcast_date": "11-JAN-2021 16:40:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_153992_383479_11012021043938_WEB.xml",
+      "record_id": "153992",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2020",
+      "submission_date": null,
+      "broadcast_date": "10-OCT-2020 17:40:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_151312_332751_10102020053012_WEB.xml",
+      "record_id": "151312",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2020",
+      "submission_date": null,
+      "broadcast_date": "16-JUL-2020 16:10:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_149474_288226_16072020034134_WEB.xml",
+      "record_id": "149474",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2020",
+      "submission_date": null,
+      "broadcast_date": "15-APR-2020 15:10:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_146340_238921_15042020025035_WEB.xml",
+      "record_id": "146340",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2019",
+      "submission_date": null,
+      "broadcast_date": "14-JAN-2020 14:40:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_144565_198857_14012020021346_WEB.xml",
+      "record_id": "144565",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2019",
+      "submission_date": null,
+      "broadcast_date": "12-OCT-2019 11:40:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_141382_145498_12102019112258_WEB.xml",
+      "record_id": "141382",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2019",
+      "submission_date": null,
+      "broadcast_date": "20-JUL-2019 12:40:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_139981_122285_20072019123011_WEB.xml",
+      "record_id": "139981",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "27-JUN-2019",
+      "submission_date": null,
+      "broadcast_date": "20-JUL-2019 13:40:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_138113_111367_07072019094233_WEB.xml",
+      "record_id": "138113",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2019",
+      "submission_date": null,
+      "broadcast_date": "26-JUN-2019 12:10:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_136323_93021_13042019124042_WEB.xml",
+      "record_id": "136323",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2018",
+      "submission_date": null,
+      "broadcast_date": "14-JAN-2019 13:40:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_133406_70796_14012019012755_WEB.xml",
+      "record_id": "133406",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2018",
+      "submission_date": null,
+      "broadcast_date": "13-OCT-2018 12:40:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_130890_49232_13102018123417_WEB.xml",
+      "record_id": "130890",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2018",
+      "submission_date": null,
+      "broadcast_date": "12-JUL-2018 12:40:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_127441_21324_12072018121801_WEB.xml",
+      "record_id": "127441",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2018",
+      "submission_date": null,
+      "broadcast_date": "14-APR-2018 17:10:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_2907_14042018044609.xml",
+      "record_id": "124977",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2017",
+      "submission_date": null,
+      "broadcast_date": "15-JAN-2018 15:10:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "122757",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2017",
+      "submission_date": null,
+      "broadcast_date": "13-OCT-2017 17:40:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "120791",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2017",
+      "submission_date": null,
+      "broadcast_date": "12-JUL-2017 12:10:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "118010",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2017",
+      "submission_date": null,
+      "broadcast_date": "13-APR-2017 10:10:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "116407",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2016",
+      "submission_date": null,
+      "broadcast_date": "14-JAN-2017 18:10:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "114629",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2016",
+      "submission_date": null,
+      "broadcast_date": "19-OCT-2016 14:10:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "112924",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2016",
+      "submission_date": null,
+      "broadcast_date": "16-JUL-2016 14:10:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "110571",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2016",
+      "submission_date": null,
+      "broadcast_date": "25-APR-2016 06:15:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "108695",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2015",
+      "submission_date": null,
+      "broadcast_date": "25-JAN-2016 06:15:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "106790",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2015",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "103684",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2015",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "101746",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2015",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "52020",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2014",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "50325",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2014",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "48315",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2014",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "46752",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2014",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "45089",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2013",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "43543",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2013",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "41806",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2013",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "40063",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2013",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "38459",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2012",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "37015",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2012",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "34365",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2012",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "33652",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2012",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "31874",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2011",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "30864",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2011",
+      "submission_date": null,
+      "broadcast_date": null,
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/null",
+      "record_id": "29286",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

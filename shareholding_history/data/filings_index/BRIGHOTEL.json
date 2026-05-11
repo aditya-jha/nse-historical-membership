@@ -1,0 +1,43 @@
+{
+  "ticker": "BRIGHOTEL",
+  "fetched_at_utc": "2026-05-10T16:31:07.039223+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "14-APR-2026",
+      "broadcast_date": "14-APR-2026 16:50:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650703_14042026045009_WEB.xml",
+      "record_id": "208337",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "17-JAN-2026",
+      "broadcast_date": "17-JAN-2026 15:55:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1603237_17012026035518_WEB.xml",
+      "record_id": "205922",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "17-OCT-2025",
+      "broadcast_date": "17-OCT-2025 19:53:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1552850_17102025075253_WEB.xml",
+      "record_id": "203589",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUL-2025",
+      "submission_date": "31-JUL-2025",
+      "broadcast_date": "31-JUL-2025 15:30:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1498799_31072025123744_WEB.xml",
+      "record_id": "201449",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

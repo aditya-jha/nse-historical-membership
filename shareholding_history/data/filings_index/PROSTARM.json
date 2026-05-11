@@ -1,0 +1,52 @@
+{
+  "ticker": "PROSTARM",
+  "fetched_at_utc": "2026-05-10T16:53:25.911156+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "08-APR-2026",
+      "broadcast_date": "08-APR-2026 17:50:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1647499_08042026055029_WEB.xml",
+      "record_id": "207669",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "07-JAN-2026",
+      "broadcast_date": "07-JAN-2026 15:51:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1596076_07012026035133_WEB.xml",
+      "record_id": "204846",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "14-OCT-2025",
+      "broadcast_date": "14-OCT-2025 11:45:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1547032_14102025114526_WEB.xml",
+      "record_id": "202334",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "17-JUL-2025",
+      "broadcast_date": "17-JUL-2025 12:51:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1485102_17072025125058_WEB.xml",
+      "record_id": "199930",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-MAY-2025",
+      "submission_date": "03-JUN-2025",
+      "broadcast_date": "09-JUN-2025 17:58:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_199024_1463561_06062025114532_WEB.xml",
+      "record_id": "199024",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

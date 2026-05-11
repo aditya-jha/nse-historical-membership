@@ -27,3 +27,8 @@ nse_eod/data/bhavcopy/
 nse_eod/data/_daily_ohlc.parquet
 nse_eod/data/*.json
 nse_eod/data/*.log
+
+# shareholding_history bulk XBRL source files (16 GB / 60K XML files — rebuild via fetch_filings + download_xbrl)
+shareholding_history/data/xbrl/
+shareholding_history/data/*.log
+shareholding_history/data/*.txt

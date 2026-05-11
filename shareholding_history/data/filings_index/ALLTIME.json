@@ -1,0 +1,43 @@
+{
+  "ticker": "ALLTIME",
+  "fetched_at_utc": "2026-05-10T16:29:13.041637+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "13-APR-2026",
+      "broadcast_date": "13-APR-2026 11:41:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649520_13042026114056_WEB.xml",
+      "record_id": "208054",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "12-JAN-2026",
+      "broadcast_date": "12-JAN-2026 15:03:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1598647_12012026030324_WEB.xml",
+      "record_id": "205242",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "15-OCT-2025",
+      "broadcast_date": "15-OCT-2025 15:55:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1548850_15102025035546_WEB.xml",
+      "record_id": "202661",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-AUG-2025",
+      "submission_date": "18-AUG-2025",
+      "broadcast_date": "09-SEP-2025 18:01:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1524677_08092025114232_WEB.xml",
+      "record_id": "201509",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "ticker": "RVTH",
+  "fetched_at_utc": "2026-05-10T16:54:55.630310+00:00",
+  "n_filings": 8,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 16:40:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652299_16042026044047_WEB.xml",
+      "record_id": "208763",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "12-JAN-2026",
+      "broadcast_date": "25-MAR-2026 19:01:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1627525_18022026052800_WEB.xml",
+      "record_id": "205200",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "16-OCT-2025",
+      "broadcast_date": "25-MAR-2026 19:00:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1626883_17022026012541_WEB.xml",
+      "record_id": "202979",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "21-JUL-2025 15:47:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488793_21072025034723_WEB.xml",
+      "record_id": "200898",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "16-APR-2025",
+      "broadcast_date": "29-JUL-2025 11:23:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488789_21072025034556_WEB.xml",
+      "record_id": "197406",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2024",
+      "submission_date": "17-JAN-2025",
+      "broadcast_date": "30-JUL-2025 11:21:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488786_21072025034351_WEB.xml",
+      "record_id": "195033",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2024",
+      "submission_date": "15-OCT-2024",
+      "broadcast_date": "21-JUL-2025 15:41:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488769_21072025033903_WEB.xml",
+      "record_id": "191962",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2024",
+      "submission_date": "12-SEP-2024",
+      "broadcast_date": "13-SEP-2024 12:39:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_190981_1242625_12092024103404_WEB.xml",
+      "record_id": "190981",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

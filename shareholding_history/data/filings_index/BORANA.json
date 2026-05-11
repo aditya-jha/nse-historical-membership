@@ -1,0 +1,52 @@
+{
+  "ticker": "BORANA",
+  "fetched_at_utc": "2026-05-10T16:31:02.995977+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 16:04:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654167_18042026040447_WEB.xml",
+      "record_id": "209321",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 17:30:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605875_20012026053000_WEB.xml",
+      "record_id": "206588",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "19-OCT-2025",
+      "broadcast_date": "19-OCT-2025 20:30:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1554153_19102025083054_WEB.xml",
+      "record_id": "203994",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "19-JUL-2025",
+      "broadcast_date": "19-JUL-2025 15:12:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1487693_19072025031205_WEB.xml",
+      "record_id": "200562",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-MAY-2025",
+      "submission_date": "27-MAY-2025",
+      "broadcast_date": "04-JUN-2025 14:06:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_199002_1462070_02062025014814_WEB.xml",
+      "record_id": "199002",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

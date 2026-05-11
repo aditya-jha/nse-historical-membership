@@ -1,0 +1,43 @@
+{
+  "ticker": "BMWVENTLTD",
+  "fetched_at_utc": "2026-05-10T16:30:59.852004+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 14:51:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652102_16042026025129_WEB.xml",
+      "record_id": "208688",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 15:05:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606904_21012026030527_WEB.xml",
+      "record_id": "206903",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "03-OCT-2025",
+      "broadcast_date": "27-OCT-2025 19:11:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1556801_25102025010038_WEB.xml",
+      "record_id": "201690",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "17-OCT-2025",
+      "broadcast_date": "17-OCT-2025 17:25:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1552224_17102025052500_WEB.xml",
+      "record_id": "203444",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

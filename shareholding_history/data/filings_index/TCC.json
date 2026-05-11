@@ -1,0 +1,25 @@
+{
+  "ticker": "TCC",
+  "fetched_at_utc": "2026-05-10T16:58:31.452172+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "10-APR-2026",
+      "broadcast_date": "10-APR-2026 18:12:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649009_10042026061233_WEB.xml",
+      "record_id": "207938",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-FEB-2026",
+      "submission_date": "27-FEB-2026",
+      "broadcast_date": "04-MAR-2026 12:36:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1631076_27022026060819_WEB.xml",
+      "record_id": "207262",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

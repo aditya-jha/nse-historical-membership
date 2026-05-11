@@ -1,0 +1,61 @@
+{
+  "ticker": "LAXMIDENTL",
+  "fetched_at_utc": "2026-05-10T16:48:22.365122+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 13:05:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654715_20042026010515_WEB.xml",
+      "record_id": "209509",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "13-JAN-2026",
+      "broadcast_date": "13-JAN-2026 18:28:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1600201_13012026062813_WEB.xml",
+      "record_id": "205471",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "21-OCT-2025",
+      "broadcast_date": "21-OCT-2025 13:49:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1554744_21102025014923_WEB.xml",
+      "record_id": "204266",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "21-JUL-2025 13:07:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488471_21072025010702_WEB.xml",
+      "record_id": "200807",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "19-APR-2025",
+      "broadcast_date": "25-JUN-2025 11:00:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_198415_1435101_09052025062621_WEB.xml",
+      "record_id": "198415",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "16-JAN-2025",
+      "submission_date": "20-JAN-2025",
+      "broadcast_date": "21-JAN-2025 14:25:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_195725_1353803_20012025072527_WEB.xml",
+      "record_id": "195725",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

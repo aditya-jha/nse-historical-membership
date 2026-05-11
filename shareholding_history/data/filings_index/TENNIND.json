@@ -1,0 +1,34 @@
+{
+  "ticker": "TENNIND",
+  "fetched_at_utc": "2026-05-10T16:58:41.873918+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 12:21:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655869_21042026122057_WEB.xml",
+      "record_id": "209942",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 20:11:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604876_19012026081128_WEB.xml",
+      "record_id": "206302",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-NOV-2025",
+      "submission_date": "20-NOV-2025",
+      "broadcast_date": "08-DEC-2025 11:39:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1578420_20112025054917_WEB.xml",
+      "record_id": "204602",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

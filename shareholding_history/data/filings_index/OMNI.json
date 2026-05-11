@@ -1,0 +1,25 @@
+{
+  "ticker": "OMNI",
+  "fetched_at_utc": "2026-05-10T16:51:44.225967+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "10-APR-2026",
+      "broadcast_date": "10-APR-2026 16:55:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1648825_10042026045504_WEB.xml",
+      "record_id": "207903",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "02-MAR-2026",
+      "submission_date": "05-MAR-2026",
+      "broadcast_date": "06-MAR-2026 16:01:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1632796_05032026064723_WEB.xml",
+      "record_id": "207274",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

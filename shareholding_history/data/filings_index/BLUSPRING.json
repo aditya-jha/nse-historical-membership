@@ -1,0 +1,52 @@
+{
+  "ticker": "BLUSPRING",
+  "fetched_at_utc": "2026-05-10T16:30:59.338203+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 18:08:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655310_20042026060805_WEB.xml",
+      "record_id": "209730",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 17:34:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604513_19012026053416_WEB.xml",
+      "record_id": "206231",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "16-OCT-2025",
+      "broadcast_date": "16-OCT-2025 13:58:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1549959_16102025015841_WEB.xml",
+      "record_id": "202869",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "17-JUL-2025",
+      "broadcast_date": "17-JUL-2025 20:10:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1485951_17072025080954_WEB.xml",
+      "record_id": "200082",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "21-APR-2025",
+      "submission_date": "11-JUN-2025",
+      "broadcast_date": "12-JUN-2025 11:54:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_199051_1465543_11062025051217_WEB.xml",
+      "record_id": "199051",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

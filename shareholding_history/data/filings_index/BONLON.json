@@ -1,0 +1,34 @@
+{
+  "ticker": "BONLON",
+  "fetched_at_utc": "2026-05-10T16:31:02.511792+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 14:54:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654056_18042026025400_WEB.xml",
+      "record_id": "209283",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-MAR-2026",
+      "submission_date": "07-APR-2026",
+      "broadcast_date": "07-APR-2026 18:35:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1646924_07042026063538_WEB.xml",
+      "record_id": "207561",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "19-FEB-2026",
+      "submission_date": "23-FEB-2026",
+      "broadcast_date": "27-FEB-2026 13:33:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1629110_23022026063903_WEB.xml",
+      "record_id": "207247",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ticker": "FRACTAL",
+  "fetched_at_utc": "2026-05-10T16:42:36.492785+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 18:37:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655386_20042026063732_WEB.xml",
+      "record_id": "209770",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-FEB-2026",
+      "submission_date": "16-FEB-2026",
+      "broadcast_date": "18-FEB-2026 18:39:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1626629_16022026060006_WEB.xml",
+      "record_id": "207226",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

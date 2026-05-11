@@ -1,0 +1,52 @@
+{
+  "ticker": "CPEDU",
+  "fetched_at_utc": "2026-05-10T16:32:16.287290+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 18:00:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655291_20042026055958_WEB.xml",
+      "record_id": "209722",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "10-JAN-2026",
+      "broadcast_date": "21-JAN-2026 16:49:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606712_21012026125340_WEB.xml",
+      "record_id": "205155",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "13-OCT-2025",
+      "broadcast_date": "13-OCT-2025 17:26:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1546400_13102025052613_WEB.xml",
+      "record_id": "202251",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "04-SEP-2025",
+      "submission_date": "23-SEP-2025",
+      "broadcast_date": "26-SEP-2025 13:45:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1530851_23092025045134_WEB.xml",
+      "record_id": "201646",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "05-SEP-2025",
+      "broadcast_date": "05-SEP-2025 15:12:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1523499_05092025031249_WEB.xml",
+      "record_id": "201595",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

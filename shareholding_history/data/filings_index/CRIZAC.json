@@ -1,0 +1,52 @@
+{
+  "ticker": "CRIZAC",
+  "fetched_at_utc": "2026-05-10T16:32:21.673754+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 14:40:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654806_20042026023956_WEB.xml",
+      "record_id": "209541",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 18:20:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604654_19012026062020_WEB.xml",
+      "record_id": "206263",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "13-OCT-2025",
+      "broadcast_date": "13-OCT-2025 17:37:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1546438_13102025053709_WEB.xml",
+      "record_id": "202255",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "08-JUL-2025",
+      "submission_date": "09-JUL-2025",
+      "broadcast_date": "16-JUL-2025 13:04:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1479180_09072025012139_WEB.xml",
+      "record_id": "199256",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "21-JUL-2025",
+      "broadcast_date": "21-JUL-2025 18:51:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1489471_21072025065130_WEB.xml",
+      "record_id": "201171",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

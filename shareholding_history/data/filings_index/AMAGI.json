@@ -1,0 +1,25 @@
+{
+  "ticker": "AMAGI",
+  "fetched_at_utc": "2026-05-10T16:29:16.594261+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 16:10:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654989_20042026041012_WEB.xml",
+      "record_id": "209611",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-JAN-2026",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "23-JAN-2026 12:46:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606664_21012026122525_WEB.xml",
+      "record_id": "206831",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "ADVAIT",
+  "fetched_at_utc": "2026-05-10T16:28:44.627992+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 19:52:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654398_18042026075225_WEB.xml",
+      "record_id": "209391",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "19-JAN-2026",
+      "submission_date": "28-JAN-2026",
+      "broadcast_date": "29-JAN-2026 17:25:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1612054_28012026063407_WEB.xml",
+      "record_id": "207170",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 19:09:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607616_21012026070929_WEB.xml",
+      "record_id": "207091",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

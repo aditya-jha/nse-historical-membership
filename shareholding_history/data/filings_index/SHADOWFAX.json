@@ -1,0 +1,25 @@
+{
+  "ticker": "SHADOWFAX",
+  "fetched_at_utc": "2026-05-10T16:55:55.966900+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 14:20:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656041_21042026022011_WEB.xml",
+      "record_id": "210007",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-JAN-2026",
+      "submission_date": "28-JAN-2026",
+      "broadcast_date": "02-FEB-2026 12:49:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1614812_30012026054653_WEB.xml",
+      "record_id": "207169",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

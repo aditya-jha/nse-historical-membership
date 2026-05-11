@@ -1,0 +1,34 @@
+{
+  "ticker": "WEWORK",
+  "fetched_at_utc": "2026-05-10T17:00:53.963137+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "14-APR-2026",
+      "broadcast_date": "14-APR-2026 17:09:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650733_14042026050856_WEB.xml",
+      "record_id": "208346",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 18:39:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606129_20012026063857_WEB.xml",
+      "record_id": "206667",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-OCT-2025",
+      "submission_date": "10-OCT-2025",
+      "broadcast_date": "17-OCT-2025 15:52:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1551065_17102025101720_WEB.xml",
+      "record_id": "202027",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

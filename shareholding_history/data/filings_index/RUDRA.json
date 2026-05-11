@@ -1,0 +1,34 @@
+{
+  "ticker": "RUDRA",
+  "fetched_at_utc": "2026-05-10T16:54:52.185619+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 18:15:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654329_18042026061532_WEB.xml",
+      "record_id": "209374",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 20:41:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607757_21012026084120_WEB.xml",
+      "record_id": "207125",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "19-DEC-2025",
+      "submission_date": "22-DEC-2025",
+      "broadcast_date": "24-DEC-2025 11:19:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1588222_22122025015827_WEB.xml",
+      "record_id": "204686",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ticker": "INDOFARM",
+  "fetched_at_utc": "2026-05-10T16:45:25.815662+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 15:09:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1652122_16042026030951_WEB.xml",
+      "record_id": "208698",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "17-JAN-2026",
+      "broadcast_date": "17-JAN-2026 15:55:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1603238_17012026035522_WEB.xml",
+      "record_id": "205923",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "13-OCT-2025",
+      "broadcast_date": "13-OCT-2025 16:32:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1546240_13102025043200_WEB.xml",
+      "record_id": "202231",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "09-JUL-2025",
+      "broadcast_date": "25-SEP-2025 17:59:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1532616_25092025051848_WEB.xml",
+      "record_id": "199240",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "16-APR-2025",
+      "broadcast_date": "16-APR-2025 17:44:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_197496_1416131_16042025054454_WEB.xml",
+      "record_id": "197496",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-JAN-2025",
+      "submission_date": "23-JAN-2025",
+      "broadcast_date": "30-JAN-2025 13:12:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_196086_1364753_29012025051608_WEB.xml",
+      "record_id": "196086",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

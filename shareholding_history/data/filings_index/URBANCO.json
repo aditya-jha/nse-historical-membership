@@ -1,0 +1,52 @@
+{
+  "ticker": "URBANCO",
+  "fetched_at_utc": "2026-05-10T16:59:48.111001+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 15:13:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656142_21042026031306_WEB.xml",
+      "record_id": "210044",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-MAR-2026",
+      "submission_date": "23-APR-2026",
+      "broadcast_date": "23-APR-2026 21:33:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1658058_23042026093327_WEB.xml",
+      "record_id": "210300",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 15:04:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1606900_21012026030417_WEB.xml",
+      "record_id": "206901",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "19-OCT-2025",
+      "broadcast_date": "19-OCT-2025 11:36:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1554037_19102025113601_WEB.xml",
+      "record_id": "203954",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-SEP-2025",
+      "submission_date": "17-SEP-2025",
+      "broadcast_date": "21-SEP-2025 09:59:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1528113_17092025022820_WEB.xml",
+      "record_id": "201628",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

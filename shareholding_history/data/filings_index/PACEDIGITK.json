@@ -1,0 +1,34 @@
+{
+  "ticker": "PACEDIGITK",
+  "fetched_at_utc": "2026-05-10T16:52:04.301985+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "17-APR-2026",
+      "broadcast_date": "17-APR-2026 17:47:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1653427_17042026054734_WEB.xml",
+      "record_id": "209149",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 16:48:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604361_19012026044844_WEB.xml",
+      "record_id": "206198",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-OCT-2025",
+      "submission_date": "06-OCT-2025",
+      "broadcast_date": "16-OCT-2025 18:12:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1548504_15102025123435_WEB.xml",
+      "record_id": "201726",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}
