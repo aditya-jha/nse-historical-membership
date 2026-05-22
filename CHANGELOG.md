@@ -2,6 +2,23 @@
 
 ## Unreleased
 
+**Index history — build fix: dedup superseded excludes (early-period accuracy).**
+- `build_history.py` now collapses a run of exclude events for the same symbol
+  with no intervening re-inclusion down to its *last* effective date. NSE
+  routinely re-announces a deferred reconstitution with a later effective date
+  (e.g. the March-2020 review was COVID-deferred to June 2020), so a symbol
+  appeared in two exclude lists ~3 months apart. The old build closed the
+  interval at the *first* exclude and fabricated a phantom "member since
+  launch" stub from the *second* (orphan-exclude), inflating early-period
+  membership.
+- Effect: mean per-month cardinality error (vs target size) drops sharply for
+  every broad index — Nifty 500 13.5 → 1.6, Smallcap 250 23.5 → 11.0, Midcap
+  150 13.9 → 6.9, Next 50 4.4 → 1.8, Nifty 50 0.4 → 0.0. Overall Gate 4
+  failures 619 → 608. G1 (0/42) and G3 (0/29) unchanged; pytest 16/16.
+- Residual early-period over-count is now dominated by genuine missing include
+  events (symbols seeded at the launch floor that actually joined later),
+  tracked under R1b in `ROADMAP.md`.
+
 **Index history — added Nifty Microcap 250 (41 → 42 indices).**
 - New broad-family registry record (`id` 228, `target_size` 250, launch
   2019-04-01, snapshot `ind_niftymicrocap250_list.csv`).

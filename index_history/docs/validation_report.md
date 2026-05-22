@@ -1,4 +1,4 @@
-# Validation Report — 2026-05-22T11:05:02
+# Validation Report — 2026-05-22T12:51:53
 
 Indices: 42 (7 broad, 15 sector, 9 strategy, 11 thematic).
 Source: index_history/data/index_membership_history.csv
@@ -8,18 +8,18 @@ Source: index_history/data/index_membership_history.csv
   Result: 0/42 mismatches
 
 === Gate 2: internal consistency ===
-  FAIL  Nifty Next 50 ⊆ Nifty 100                   violated on 19/19 dates  (worst: 6 extra symbols on 2021-01-01)
+  FAIL  Nifty Next 50 ⊆ Nifty 100                   violated on 19/19 dates  (worst: 5 extra symbols on 2020-01-01)
   FAIL  Nifty 100 ⊆ Nifty 500                       violated on 3/19 dates  (worst: 1 extra symbols on 2017-01-01)
-  FAIL  Nifty Midcap 150 ⊆ Nifty 500                violated on 13/19 dates  (worst: 10 extra symbols on 2017-01-01)
-  FAIL  Nifty Smallcap 250 ⊆ Nifty 500              violated on 11/19 dates  (worst: 5 extra symbols on 2018-01-01)
+  FAIL  Nifty Midcap 150 ⊆ Nifty 500                violated on 13/19 dates  (worst: 5 extra symbols on 2018-07-01)
+  FAIL  Nifty Smallcap 250 ⊆ Nifty 500              violated on 12/19 dates  (worst: 3 extra symbols on 2018-01-01)
   FAIL  Nifty Bank ⊆ Nifty 500                      violated on 1/19 dates  (worst: 1 extra symbols on 2017-07-01)
-  FAIL  Nifty IT ⊆ Nifty 500                        violated on 12/19 dates  (worst: 1 extra symbols on 2017-01-01)
+  FAIL  Nifty IT ⊆ Nifty 500                        violated on 6/19 dates  (worst: 1 extra symbols on 2020-01-01)
   FAIL  Nifty Metal ⊆ Nifty 500                     violated on 1/19 dates  (worst: 2 extra symbols on 2022-07-01)
-  FAIL  Nifty Realty ⊆ Nifty 500                    violated on 11/19 dates  (worst: 3 extra symbols on 2022-01-01)
+  FAIL  Nifty Realty ⊆ Nifty 500                    violated on 5/19 dates  (worst: 3 extra symbols on 2022-01-01)
   FAIL  Nifty Energy ⊆ Nifty 500                    violated on 16/19 dates  (worst: 6 extra symbols on 2018-07-01)
   FAIL  Nifty PSU Bank ⊆ Nifty 500                  violated on 17/19 dates  (worst: 2 extra symbols on 2021-07-01)
   FAIL  Nifty Financial Services ⊆ Nifty 500        violated on 1/19 dates  (worst: 1 extra symbols on 2018-01-01)
-  FAIL  Nifty Media ⊆ Nifty 500                     violated on 19/19 dates  (worst: 9 extra symbols on 2019-07-01)
+  FAIL  Nifty Media ⊆ Nifty 500                     violated on 19/19 dates  (worst: 6 extra symbols on 2019-07-01)
   FAIL  Nifty Oil & Gas ⊆ Nifty 500                 violated on 1/19 dates  (worst: 1 extra symbols on 2022-07-01)
   Result: 13/20 invariants failed
 
@@ -56,81 +56,81 @@ Source: index_history/data/index_membership_history.csv
   Result: 0/29 failures
 
 === Gate 4: daily cardinality (fixed-size indices only) ===
-  FAIL  2014-01-01  Nifty 50                          51 (expected 50)
-  FAIL  2014-01-01  Nifty Next 50                     61 (expected 50)
-  FAIL  2014-01-01  Nifty 100                         104 (expected 100)
-  FAIL  2014-01-01  Nifty 500                         531 (expected 500)
-  FAIL  2014-01-01  Nifty Alpha 50                    80 (expected 50)
-  FAIL  2014-01-01  Nifty High Beta 50                57 (expected 50)
-  FAIL  2014-01-01  Nifty Low Volatility 50           53 (expected 50)
-  FAIL  2014-01-01  Nifty Midcap 50                   59 (expected 50)
+  FAIL  2014-01-01  Nifty Next 50                     58 (expected 50)
+  FAIL  2014-01-01  Nifty 100                         101 (expected 100)
+  FAIL  2014-01-01  Nifty 500                         516 (expected 500)
+  FAIL  2014-01-01  Nifty Alpha 50                    69 (expected 50)
+  FAIL  2014-01-01  Nifty High Beta 50                54 (expected 50)
+  FAIL  2014-01-01  Nifty Midcap 50                   53 (expected 50)
   FAIL  2014-01-01  Nifty Commodities                 31 (expected 30)
   FAIL  2014-01-01  Nifty Consumption                 33 (expected 30)
-  FAIL  2014-01-01  Nifty MNC                         18 (expected 30)
-  FAIL  2014-01-01  Nifty Services Sector             31 (expected 30)
-  FAIL  2014-04-01  Nifty 50                          51 (expected 50)
-  FAIL  2014-04-01  Nifty Next 50                     58 (expected 50)
-  FAIL  2014-04-01  Nifty 100                         103 (expected 100)
-  FAIL  2014-04-01  Nifty 500                         531 (expected 500)
-  FAIL  2014-04-01  Nifty Alpha 50                    78 (expected 50)
-  FAIL  2014-04-01  Nifty High Beta 50                57 (expected 50)
-  FAIL  2014-04-01  Nifty Low Volatility 50           53 (expected 50)
-  FAIL  2014-04-01  Nifty Midcap 50                   60 (expected 50)
+  FAIL  2014-01-01  Nifty MNC                         17 (expected 30)
+  FAIL  2014-04-01  Nifty Next 50                     55 (expected 50)
+  FAIL  2014-04-01  Nifty 500                         516 (expected 500)
+  FAIL  2014-04-01  Nifty Alpha 50                    69 (expected 50)
+  FAIL  2014-04-01  Nifty High Beta 50                54 (expected 50)
+  FAIL  2014-04-01  Nifty Midcap 50                   54 (expected 50)
   FAIL  2014-04-01  Nifty Commodities                 31 (expected 30)
   FAIL  2014-04-01  Nifty Consumption                 32 (expected 30)
-  FAIL  2014-04-01  Nifty MNC                         17 (expected 30)
-  FAIL  2014-04-01  Nifty Services Sector             31 (expected 30)
-  FAIL  2014-07-01  Nifty 50                          51 (expected 50)
-  FAIL  2014-07-01  Nifty Next 50                     58 (expected 50)
-  FAIL  2014-07-01  Nifty 100                         103 (expected 100)
-  FAIL  2014-07-01  Nifty 500                         531 (expected 500)
-  FAIL  2014-07-01  Nifty Alpha 50                    78 (expected 50)
-  FAIL  2014-07-01  Nifty High Beta 50                57 (expected 50)
-  FAIL  2014-07-01  Nifty Low Volatility 50           53 (expected 50)
-  FAIL  2014-07-01  Nifty Midcap 50                   60 (expected 50)
+  FAIL  2014-04-01  Nifty MNC                         16 (expected 30)
+  FAIL  2014-07-01  Nifty Next 50                     55 (expected 50)
+  FAIL  2014-07-01  Nifty 500                         516 (expected 500)
+  FAIL  2014-07-01  Nifty Alpha 50                    69 (expected 50)
+  FAIL  2014-07-01  Nifty High Beta 50                54 (expected 50)
+  FAIL  2014-07-01  Nifty Midcap 50                   54 (expected 50)
   FAIL  2014-07-01  Nifty Commodities                 31 (expected 30)
   FAIL  2014-07-01  Nifty Consumption                 32 (expected 30)
-  FAIL  2014-07-01  Nifty MNC                         17 (expected 30)
-  FAIL  2014-07-01  Nifty Services Sector             31 (expected 30)
-  FAIL  2014-10-01  Nifty 50                          51 (expected 50)
-  FAIL  2014-10-01  Nifty Next 50                     57 (expected 50)
-  FAIL  2014-10-01  Nifty 100                         103 (expected 100)
-  FAIL  2014-10-01  Nifty 500                         527 (expected 500)
-  FAIL  2014-10-01  Nifty Alpha 50                    76 (expected 50)
-  FAIL  2014-10-01  Nifty High Beta 50                57 (expected 50)
-  FAIL  2014-10-01  Nifty Low Volatility 50           53 (expected 50)
+  FAIL  2014-07-01  Nifty MNC                         16 (expected 30)
+  FAIL  2014-10-01  Nifty Next 50                     54 (expected 50)
+  FAIL  2014-10-01  Nifty 500                         513 (expected 500)
+  FAIL  2014-10-01  Nifty Alpha 50                    69 (expected 50)
+  FAIL  2014-10-01  Nifty High Beta 50                55 (expected 50)
   FAIL  2014-10-01  Nifty50 Value 20                  23 (expected 20)
-  FAIL  2014-10-01  Nifty Midcap 50                   61 (expected 50)
+  FAIL  2014-10-01  Nifty Midcap 50                   55 (expected 50)
   FAIL  2014-10-01  Nifty Commodities                 31 (expected 30)
   FAIL  2014-10-01  Nifty Consumption                 31 (expected 30)
-  FAIL  2014-10-01  Nifty MNC                         17 (expected 30)
-  FAIL  2014-10-01  Nifty Services Sector             31 (expected 30)
-  FAIL  2015-01-01  Nifty 50                          51 (expected 50)
-  FAIL  2015-01-01  Nifty Next 50                     57 (expected 50)
-  FAIL  2015-01-01  Nifty 100                         103 (expected 100)
-  FAIL  2015-01-01  Nifty 500                         527 (expected 500)
-  FAIL  2015-01-01  Nifty Alpha 50                    77 (expected 50)
-  FAIL  2015-01-01  Nifty High Beta 50                57 (expected 50)
-  FAIL  2015-01-01  Nifty Low Volatility 50           53 (expected 50)
+  FAIL  2014-10-01  Nifty MNC                         16 (expected 30)
+  FAIL  2015-01-01  Nifty Next 50                     54 (expected 50)
+  FAIL  2015-01-01  Nifty 500                         513 (expected 500)
+  FAIL  2015-01-01  Nifty Alpha 50                    70 (expected 50)
+  FAIL  2015-01-01  Nifty High Beta 50                55 (expected 50)
   FAIL  2015-01-01  Nifty50 Value 20                  23 (expected 20)
-  FAIL  2015-01-01  Nifty Midcap 50                   61 (expected 50)
+  FAIL  2015-01-01  Nifty Midcap 50                   55 (expected 50)
   FAIL  2015-01-01  Nifty Commodities                 31 (expected 30)
   FAIL  2015-01-01  Nifty Consumption                 31 (expected 30)
-  ... (559 more)
+  FAIL  2015-01-01  Nifty MNC                         16 (expected 30)
+  FAIL  2015-04-01  Nifty Next 50                     53 (expected 50)
+  FAIL  2015-04-01  Nifty 100                         99 (expected 100)
+  FAIL  2015-04-01  Nifty 500                         505 (expected 500)
+  FAIL  2015-04-01  Nifty Alpha 50                    69 (expected 50)
+  FAIL  2015-04-01  Nifty High Beta 50                56 (expected 50)
+  FAIL  2015-04-01  Nifty50 Value 20                  23 (expected 20)
+  FAIL  2015-04-01  Nifty Midcap 50                   53 (expected 50)
+  FAIL  2015-04-01  Nifty Commodities                 31 (expected 30)
+  FAIL  2015-04-01  Nifty MNC                         15 (expected 30)
+  FAIL  2015-07-01  Nifty Next 50                     53 (expected 50)
+  FAIL  2015-07-01  Nifty 100                         99 (expected 100)
+  FAIL  2015-07-01  Nifty 500                         505 (expected 500)
+  FAIL  2015-07-01  Nifty Alpha 50                    69 (expected 50)
+  FAIL  2015-07-01  Nifty High Beta 50                56 (expected 50)
+  FAIL  2015-07-01  Nifty Low Volatility 50           49 (expected 50)
+  FAIL  2015-07-01  Nifty50 Value 20                  23 (expected 20)
+  FAIL  2015-07-01  Nifty Midcap 50                   53 (expected 50)
+  ... (548 more)
   (skipped 66 pre-launch checks)
-  Result: 619/984 cardinality failures
+  Result: 608/984 cardinality failures
 
   Per-index failure counts (top 10):
-    Nifty 100                         49
+    Nifty Next 50                     49
     Nifty Consumption                 47
     Nifty50 Value 20                  46
-    Nifty Next 50                     43
-    Nifty 500                         43
+    Nifty 100                         45
     Nifty High Beta 50                43
+    Nifty 500                         42
     Nifty Midcap 50                   40
     Nifty Smallcap 50                 40
-    Nifty Alpha 50                    39
-    Nifty Midcap 150                  36
+    Nifty Alpha 50                    38
+    Nifty Midcap 150                  38
 
 === Gate 5: SKIPPED ===
 
@@ -138,6 +138,6 @@ Source: index_history/data/index_membership_history.csv
   Gate 1 snapshot match (today)   : 0 / 42 mismatches
   Gate 2 internal consistency     : 13 / 20 invariants failed
   Gate 3 famous transitions       : 0 / 29 failed
-  Gate 4 daily cardinality        : 619 / 984 failed (fixed-size only)
+  Gate 4 daily cardinality        : 608 / 984 failed (fixed-size only)
   Gate 5 Wayback cross-check      : 0 / 0 drifts
-  TOTAL: 632 / 1075
+  TOTAL: 621 / 1075

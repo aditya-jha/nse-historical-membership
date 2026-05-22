@@ -237,6 +237,35 @@ def build_intervals(
         weight_lookup = {_canon(s): w for s, w in snapshot if _canon(s)}
         evs = events_by_index.get(index_id, [])
 
+        # Dedup superseded excludes. NSE sometimes announces a removal, then
+        # defers and re-announces it with a later effective date (e.g. the
+        # March-2020 reconstitution was COVID-deferred to June 2020, so the
+        # same symbol appears in an exclude list twice ~3 months apart with no
+        # re-inclusion between). Naively, the forward pass closes the interval
+        # at the *first* exclude and then treats the *second* as an orphan,
+        # fabricating a phantom "member since launch" stub. The truth is a
+        # single exit on the *last* of a run of excludes-without-an-intervening
+        # -include. Compute which earlier excludes to skip, per symbol.
+        _per_sym: dict[str, list[tuple[date, str]]] = defaultdict(list)
+        for ev in evs:
+            for s in ev.included:
+                _per_sym[s.upper().strip()].append((ev.effective_date, "inc"))
+            for s in ev.excluded:
+                _per_sym[s.upper().strip()].append((ev.effective_date, "exc"))
+        skip_exclude: set[tuple[str, date]] = set()
+        for s, timeline in _per_sym.items():
+            timeline.sort()
+            pending: list[date] = []  # excludes since the last inclusion
+            for d, kind in timeline:
+                if kind == "exc":
+                    pending.append(d)
+                else:  # an inclusion resets the run
+                    for earlier in pending[:-1]:
+                        skip_exclude.add((s, earlier))
+                    pending = []
+            for earlier in pending[:-1]:
+                skip_exclude.add((s, earlier))
+
         # Per-index floor: never emit intervals that begin before the index
         # was launched (Nifty Midcap 150 / Smallcap 250 only exist from
         # 2016-04-01).
@@ -252,7 +281,10 @@ def build_intervals(
             for s in ev.included:
                 m.discard(s.upper().strip())
             for s in ev.excluded:
-                m.add(s.upper().strip())
+                cs = s.upper().strip()
+                if (cs, ev.effective_date) in skip_exclude:
+                    continue
+                m.add(cs)
 
         # Phase 2: walk FORWARD emitting intervals.
         active_since: dict[str, date] = {s: idx_floor for s in m}
@@ -265,6 +297,8 @@ def build_intervals(
             D = ev.effective_date
             for raw in ev.excluded:
                 s = raw.upper().strip()
+                if (s, D) in skip_exclude:
+                    continue
                 if s in active_since:
                     src, src_url = active_source.get(s, (ev.source, ev.source_url))
                     yield (
