@@ -26,6 +26,14 @@
       ]
     },
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [],
+      "included": [
+        "GATEWAY"
+      ]
+    },
+    {
       "index_name": "Nifty Metal",
       "index_id": 1006,
       "excluded": [
@@ -40,6 +48,7 @@
     }
   ],
   "notes": [
+    "Nifty Microcap 250: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
     "Nifty Metal: |excluded|=1 != |included|=4 (may be legitimate for off-cycle events but flag for review)"
   ]
 }

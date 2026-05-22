@@ -24,6 +24,20 @@
       "included": [
         "CONCORDBIO"
       ]
+    },
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "FORCEMOT",
+        "GOODYEAR",
+        "GRAUWEIL"
+      ],
+      "included": [
+        "JINDWORLD",
+        "SBFC",
+        "TVSSCS"
+      ]
     }
   ],
   "notes": []

@@ -34,7 +34,17 @@
       "included": [
         "WELCORP"
       ]
+    },
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [],
+      "included": [
+        "KITEX"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Microcap 250: |excluded|=0 != |included|=1 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

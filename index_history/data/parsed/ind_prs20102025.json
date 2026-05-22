@@ -4,6 +4,17 @@
   "publication_date": "2025-10-20",
   "effective_date": "2025-10-28",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "DHANI"
+      ],
+      "included": [
+        "RATNAMANI"
+      ]
+    }
+  ],
   "notes": []
 }

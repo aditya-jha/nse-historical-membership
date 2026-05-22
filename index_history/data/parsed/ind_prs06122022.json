@@ -34,6 +34,16 @@
       ]
     },
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "LEMONTREE"
+      ],
+      "included": [
+        "TMB"
+      ]
+    },
+    {
       "index_name": "Nifty100 Quality 30",
       "index_id": 2008,
       "excluded": [

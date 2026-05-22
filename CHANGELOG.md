@@ -1,5 +1,21 @@
 # Changelog
 
+## Unreleased
+
+**Index history — added Nifty Microcap 250 (41 → 42 indices).**
+- New broad-family registry record (`id` 228, `target_size` 250, launch
+  2019-04-01, snapshot `ind_niftymicrocap250_list.csv`).
+- Re-parsed the 44 cached press releases that reference the index so its
+  include/exclude events are extracted; rebuilt `index_membership_history.csv`
+  (now ~6,730 intervals, +815 Microcap intervals).
+- Reconstructs to NSE's published current list exactly (G1 snapshot match
+  0/42; the `DUMMYALCAR` placeholder in the NSE CSV is filtered, leaving 250
+  real constituents). Famous-transition gate unaffected (G3 0/29).
+- Coverage caveat: NSE press-release coverage for Microcap 250 begins
+  **2021-10**, so the index is reliable from then. Its 2019-04 → 2021-10
+  stretch is seeded from the current snapshot and over-counts (walk-back drift,
+  ~+15), consistent with the documented best-effort early-coverage limitation.
+
 ## v0.2.0 — 2026-05-11 — Multi-family coverage, registry, validation overhaul
 
 **Index history — coverage 6 → 41 indices** (broad + sector + strategy + thematic).

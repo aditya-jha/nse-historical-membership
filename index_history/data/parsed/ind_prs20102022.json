@@ -4,6 +4,19 @@
   "publication_date": "2022-10-20",
   "effective_date": "2022-10-25",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "FRETAIL",
+        "PTC"
+      ],
+      "included": [
+        "SYRMA",
+        "VESUVIUS"
+      ]
+    }
+  ],
   "notes": []
 }

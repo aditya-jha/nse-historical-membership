@@ -12,8 +12,11 @@
 | 221      | Nifty 500         | 1995      |
 | 223      | Nifty Midcap 150  | April 2016 |
 | 227      | Nifty Smallcap 250| April 2016 |
+| 228      | Nifty Microcap 250| April 2019 |
 
-Reliable coverage: **2018-04 → today** for all six indices. Best-effort earlier where PR PDFs are findable. Pre-2018 fills the membership but the cardinality gate flags drift.
+Reliable coverage: **2018-04 → today** for the first six. Best-effort earlier where PR PDFs are findable. Pre-2018 fills the membership but the cardinality gate flags drift. Microcap 250's NSE press-release coverage only begins **2021-10**, so it is reliable from then; its 2019–2021 stretch is seeded from the current snapshot and over-counts.
+
+The full tracked set is **42 indices** across broad / sector / strategy / thematic families — see `data/index_registry.json` for the authoritative list.
 
 ## Source
 

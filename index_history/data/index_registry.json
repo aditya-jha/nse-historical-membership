@@ -44,6 +44,13 @@
       "snapshot_slug": "nifty_smallcap_250",
       "snapshot_url": "https://archives.nseindia.com/content/indices/ind_niftysmallcap250list.csv"
     },
+    {
+      "id": 228, "canonical_name": "Nifty Microcap 250", "family": "broad",
+      "launch_date": "2019-04-01", "target_size": 250,
+      "aliases": ["Nifty Microcap 250", "Nifty Microcap250"],
+      "snapshot_slug": "nifty_microcap_250",
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_niftymicrocap250_list.csv"
+    },
 
     {
       "id": 1001, "canonical_name": "Nifty Bank", "family": "sector",

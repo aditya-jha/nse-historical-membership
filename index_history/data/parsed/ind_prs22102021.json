@@ -34,6 +34,16 @@
       "included": [
         "HAL"
       ]
+    },
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "GDL"
+      ],
+      "included": [
+        "ISGEC"
+      ]
     }
   ],
   "notes": []

@@ -26,6 +26,16 @@
       ]
     },
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "CIEINDIA"
+      ],
+      "included": [
+        "RATNAMANI"
+      ]
+    },
+    {
       "index_name": "Nifty Energy",
       "index_id": 1008,
       "excluded": [

@@ -6,6 +6,16 @@
   "is_index_maintenance": true,
   "events": [
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "TINPLATE"
+      ],
+      "included": [
+        "TVSHLTD"
+      ]
+    },
+    {
       "index_name": "Nifty India Corporate Group - Tata 25% Cap",
       "index_id": 3010,
       "excluded": [

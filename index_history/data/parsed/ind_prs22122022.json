@@ -26,6 +26,17 @@
       ]
     },
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "SUNCLAYLTD"
+      ],
+      "included": [
+        "PDSL",
+        "STARCEMENT"
+      ]
+    },
+    {
       "index_name": "Nifty Media",
       "index_id": 1013,
       "excluded": [
@@ -36,5 +47,7 @@
       ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Microcap 250: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

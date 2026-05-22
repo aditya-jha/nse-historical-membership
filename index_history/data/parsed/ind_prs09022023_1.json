@@ -26,6 +26,16 @@
       ]
     },
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "DFMFOODS"
+      ],
+      "included": [
+        "ERIS"
+      ]
+    },
+    {
       "index_name": "Nifty Media",
       "index_id": 1013,
       "excluded": [

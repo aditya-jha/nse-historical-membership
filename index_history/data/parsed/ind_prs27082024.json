@@ -4,6 +4,17 @@
   "publication_date": "2024-08-27",
   "effective_date": "2024-09-03",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "TCNSBRANDS"
+      ],
+      "included": [
+        "KSL"
+      ]
+    }
+  ],
   "notes": []
 }

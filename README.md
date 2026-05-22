@@ -4,7 +4,7 @@
 [![License: MIT (code)](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
 [![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC%20BY%204.0-green.svg)](LICENSE-DATA)
 
-Open-source point-in-time membership tables for NSE (India) — **41 equity indices** across broad-market, sector, strategy and thematic families, plus **F&O segment membership** — derived by parsing public NSE press releases and circulars.
+Open-source point-in-time membership tables for NSE (India) — **42 equity indices** across broad-market, sector, strategy and thematic families, plus **F&O segment membership** — derived by parsing public NSE press releases and circulars.
 
 ![Nifty index churn 2017–2026](docs/churn.png)
 
@@ -15,7 +15,7 @@ For backtests on Indian equities, you cannot ask "was X in Nifty 500 on 2021-08-
 | Check | Status |
 |---|---|
 | Famous-transition test (29 PIT facts across all four index families) | **29/29 PASS** |
-| Snapshot match — `members(today, idx)` == NSE published CSV | **0/41 mismatches** |
+| Snapshot match — `members(today, idx)` == NSE published CSV | **0/42 mismatches** |
 | Internal consistency — Nifty 100 ⊆ Nifty 500, sectors ⊆ Nifty 500, etc. | 13/20 invariants drift on some pre-2018 dates |
 | Wayback cross-check — Nifty 50 reconstruction vs Wayback snapshots | mean drift 0.0 across 5 snapshots |
 | Pre-2018 daily cardinality | ±2 to ±13 symbols (walk-back drift; closes with R1b seed) |
@@ -38,7 +38,7 @@ This answers 5 PIT questions out of the box (HDFC pre/post-merger, Nifty 50 on a
 ```
 index_history/
 ├── data/
-│   ├── index_membership_history.csv     # ← headline file (~5,920 intervals across 41 indices)
+│   ├── index_membership_history.csv     # ← headline file (~6,730 intervals across 42 indices)
 │   ├── index_registry.json              # source of truth for which indices we track
 │   ├── current_snapshot/                # NSE's authoritative current CSVs (the seed)
 │   ├── parsed/                          # one JSON per parsed press release
@@ -112,18 +112,18 @@ Filter on `source` if you want to exclude lower-confidence rows: `source IN ('ci
 
 ## Coverage and known gaps
 
-**Index history** — high confidence from **2017 onward** across all 41 indices. Coverage tiers:
+**Index history** — high confidence from **2017 onward** across all 42 indices. Coverage tiers:
 
 | Family | Indices | Coverage notes |
 |---|---|---|
-| Broad | 6 (Nifty 50, Next 50, 100, 500, Midcap 150, Smallcap 250) | Best — extensive PR coverage 2014+, dense semi-annual reviews |
+| Broad | 7 (Nifty 50, Next 50, 100, 500, Midcap 150, Smallcap 250, Microcap 250) | Best — extensive PR coverage 2014+, dense semi-annual reviews. Microcap 250 (launched 2019-04) reliable 2021-10+ where its PR coverage begins; earlier walk-back over-counts |
 | Sector | 15 (Bank, IT, FMCG, Pharma, Auto, Metal, Realty, Energy, PSU Bank, Private Bank, Healthcare, Financial Services, Media, Consumer Durables, Oil & Gas) | Good 2017+, sparser 2014–2016 |
 | Strategy | 9 (Alpha 50, High Beta 50, Low Volatility 50, Nifty50 Value 20, Nifty100 Equal Weight / Low Volatility 30 / Quality 30, Midcap 50, Smallcap 50) | Good 2017+; pre-2018 cardinality drifts because NSE reviews these quarterly with ~10-stock churn |
 | Thematic | 11 (Commodities, Consumption, CPSE, Infrastructure, MNC, PSE, Services, India Manufacturing, India Defence, Tata 25% Cap, MAATR) | Good post-launch; some thematics launched 2021+ so historical coverage is short by design |
 
 **Validation status** (run `python -m index_history.code.validate`):
 
-- **G1 snapshot match**: **0/41** indices have today-vs-published drift.
+- **G1 snapshot match**: **0/42** indices have today-vs-published drift.
 - **G2 internal consistency** (Nifty 100 ⊆ Nifty 500, sectors ⊆ Nifty 500, etc.): some pre-2018 violations from walk-back drift.
 - **G3 famous transitions**: **29/29 PASS**. HDFC merger (2023-07), ZOMATO→ETERNAL (2025-03), INDIGO/MAXHEALTH inclusion (2025-09), HEROMOTOCO/INDUSINDBK exclusion (2025-09), MINDTREE→LTIM→LTM, ADANIGAS→ATGL, sector membership today (TCS in Nifty IT, MARUTI in Nifty Auto, ONGC in Nifty CPSE, etc.). Every transition that has ever been documented in the wild reconciles correctly.
 - **G4 cardinality**: clean 2018+; drifts ±2–13 on pre-2018 dates (R1b in `ROADMAP.md`).

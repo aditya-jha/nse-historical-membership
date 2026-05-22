@@ -26,6 +26,17 @@
       ]
     },
     {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "GENUSPOWER"
+      ],
+      "included": [
+        "AKZOINDIA",
+        "IONEXCHANG"
+      ]
+    },
+    {
       "index_name": "Nifty India Defence",
       "index_id": 3009,
       "excluded": [
@@ -35,6 +46,7 @@
     }
   ],
   "notes": [
+    "Nifty Microcap 250: |excluded|=1 != |included|=2 (may be legitimate for off-cycle events but flag for review)",
     "Nifty India Defence: |excluded|=1 != |included|=0 (may be legitimate for off-cycle events but flag for review)"
   ]
 }

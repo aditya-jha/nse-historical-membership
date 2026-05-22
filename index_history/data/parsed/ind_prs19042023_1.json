@@ -38,7 +38,26 @@
       "included": [
         "RBLBANK"
       ]
+    },
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "BESTAGRO",
+        "HNDFDS",
+        "SPICEJET",
+        "VAKRANGEE"
+      ],
+      "included": [
+        "AARTIPHARM",
+        "AHLUCONT",
+        "CHOICEIN",
+        "JCHAC",
+        "TWL"
+      ]
     }
   ],
-  "notes": []
+  "notes": [
+    "Nifty Microcap 250: |excluded|=4 != |included|=5 (may be legitimate for off-cycle events but flag for review)"
+  ]
 }

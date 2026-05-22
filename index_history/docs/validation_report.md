@@ -1,11 +1,11 @@
-# Validation Report — 2026-05-10T22:28:33
+# Validation Report — 2026-05-22T11:05:02
 
-Indices: 41 (6 broad, 15 sector, 9 strategy, 11 thematic).
+Indices: 42 (7 broad, 15 sector, 9 strategy, 11 thematic).
 Source: index_history/data/index_membership_history.csv
 
 === Gate 1: snapshot match (today) ===
-  ✓ all 41 indices match their published snapshot
-  Result: 0/41 mismatches
+  ✓ all 42 indices match their published snapshot
+  Result: 0/42 mismatches
 
 === Gate 2: internal consistency ===
   FAIL  Nifty Next 50 ⊆ Nifty 100                   violated on 19/19 dates  (worst: 6 extra symbols on 2021-01-01)
@@ -38,21 +38,21 @@ Source: index_history/data/index_membership_history.csv
   [PASS] ATGL (was ADANIGAS) member of Nifty 500 in 2021 — ATGL on 2021-06-01: expected=True got=True
   [PASS] LTM (was MINDTREE→LTIM) member of Nifty 500 in 2022 — LTM on 2022-12-31: expected=True got=True
   [PASS] HDFC merged into HDFCBANK — HDFC absent from Nifty Bank post-2023-07-13 — HDFC on 2023-07-14: expected=False got=False
-  [PASS] HDFCBANK is in Nifty Bank today — HDFCBANK on 2026-05-10: expected=True got=True
-  [PASS] ICICIBANK is in Nifty Bank today — ICICIBANK on 2026-05-10: expected=True got=True
-  [PASS] TCS is in Nifty IT today — TCS on 2026-05-10: expected=True got=True
-  [PASS] INFY is in Nifty IT today — INFY on 2026-05-10: expected=True got=True
-  [PASS] LTM (was LTIM) is in Nifty IT today — LTM on 2026-05-10: expected=True got=True
-  [PASS] HINDUNILVR is in Nifty FMCG today — HINDUNILVR on 2026-05-10: expected=True got=True
-  [PASS] ITC is in Nifty FMCG today — ITC on 2026-05-10: expected=True got=True
-  [PASS] SUNPHARMA is in Nifty Pharma today — SUNPHARMA on 2026-05-10: expected=True got=True
-  [PASS] CIPLA is in Nifty Pharma today — CIPLA on 2026-05-10: expected=True got=True
-  [PASS] MARUTI is in Nifty Auto today — MARUTI on 2026-05-10: expected=True got=True
-  [PASS] M&M is in Nifty Auto today — M&M on 2026-05-10: expected=True got=True
-  [PASS] ONGC is in Nifty CPSE today — ONGC on 2026-05-10: expected=True got=True
-  [PASS] COALINDIA is in Nifty CPSE today — COALINDIA on 2026-05-10: expected=True got=True
-  [PASS] HINDUNILVR is in Nifty MNC today — HINDUNILVR on 2026-05-10: expected=True got=True
-  [PASS] HDFCBANK is in Nifty Services today — HDFCBANK on 2026-05-10: expected=True got=True
+  [PASS] HDFCBANK is in Nifty Bank today — HDFCBANK on 2026-05-22: expected=True got=True
+  [PASS] ICICIBANK is in Nifty Bank today — ICICIBANK on 2026-05-22: expected=True got=True
+  [PASS] TCS is in Nifty IT today — TCS on 2026-05-22: expected=True got=True
+  [PASS] INFY is in Nifty IT today — INFY on 2026-05-22: expected=True got=True
+  [PASS] LTM (was LTIM) is in Nifty IT today — LTM on 2026-05-22: expected=True got=True
+  [PASS] HINDUNILVR is in Nifty FMCG today — HINDUNILVR on 2026-05-22: expected=True got=True
+  [PASS] ITC is in Nifty FMCG today — ITC on 2026-05-22: expected=True got=True
+  [PASS] SUNPHARMA is in Nifty Pharma today — SUNPHARMA on 2026-05-22: expected=True got=True
+  [PASS] CIPLA is in Nifty Pharma today — CIPLA on 2026-05-22: expected=True got=True
+  [PASS] MARUTI is in Nifty Auto today — MARUTI on 2026-05-22: expected=True got=True
+  [PASS] M&M is in Nifty Auto today — M&M on 2026-05-22: expected=True got=True
+  [PASS] ONGC is in Nifty CPSE today — ONGC on 2026-05-22: expected=True got=True
+  [PASS] COALINDIA is in Nifty CPSE today — COALINDIA on 2026-05-22: expected=True got=True
+  [PASS] HINDUNILVR is in Nifty MNC today — HINDUNILVR on 2026-05-22: expected=True got=True
+  [PASS] HDFCBANK is in Nifty Services today — HDFCBANK on 2026-05-22: expected=True got=True
   Result: 0/29 failures
 
 === Gate 4: daily cardinality (fixed-size indices only) ===
@@ -116,9 +116,9 @@ Source: index_history/data/index_membership_history.csv
   FAIL  2015-01-01  Nifty Midcap 50                   61 (expected 50)
   FAIL  2015-01-01  Nifty Commodities                 31 (expected 30)
   FAIL  2015-01-01  Nifty Consumption                 31 (expected 30)
-  ... (531 more)
-  (skipped 45 pre-launch checks)
-  Result: 591/955 cardinality failures
+  ... (559 more)
+  (skipped 66 pre-launch checks)
+  Result: 619/984 cardinality failures
 
   Per-index failure counts (top 10):
     Nifty 100                         49
@@ -135,9 +135,9 @@ Source: index_history/data/index_membership_history.csv
 === Gate 5: SKIPPED ===
 
 === Summary ===
-  Gate 1 snapshot match (today)   : 0 / 41 mismatches
+  Gate 1 snapshot match (today)   : 0 / 42 mismatches
   Gate 2 internal consistency     : 13 / 20 invariants failed
   Gate 3 famous transitions       : 0 / 29 failed
-  Gate 4 daily cardinality        : 591 / 955 failed (fixed-size only)
+  Gate 4 daily cardinality        : 619 / 984 failed (fixed-size only)
   Gate 5 Wayback cross-check      : 0 / 0 drifts
-  TOTAL: 604 / 1045
+  TOTAL: 632 / 1075

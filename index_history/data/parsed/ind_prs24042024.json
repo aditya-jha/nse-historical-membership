@@ -4,6 +4,17 @@
   "publication_date": "2024-04-24",
   "effective_date": "2024-04-26",
   "is_index_maintenance": true,
-  "events": [],
+  "events": [
+    {
+      "index_name": "Nifty Microcap 250",
+      "index_id": 228,
+      "excluded": [
+        "BCG"
+      ],
+      "included": [
+        "SPLPETRO"
+      ]
+    }
+  ],
   "notes": []
 }
