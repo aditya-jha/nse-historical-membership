@@ -11,7 +11,7 @@ The walk-back faithfully propagated those errors backward, producing a
 showed exactly that drift).
 
 Usage:
-    python -m nse_index_history.code.fetch_nse_snapshot
+    python -m index_history.code.fetch_nse_snapshot
 """
 from __future__ import annotations
 import csv

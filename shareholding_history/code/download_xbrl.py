@@ -4,8 +4,8 @@ Resumable: skips files already on disk that look like valid XML (>1KB,
 content starts with `<`). Polite rate-limit, optional parallelism.
 
 Run:
-    python -m nse_shareholding_history.code.download_xbrl --workers 4 --sleep 0.15
-    python -m nse_shareholding_history.code.download_xbrl --tickers RELIANCE,KAYNES
+    python -m shareholding_history.code.download_xbrl --workers 4 --sleep 0.15
+    python -m shareholding_history.code.download_xbrl --tickers RELIANCE,KAYNES
 """
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ REFERER = "https://www.nseindia.com/companies-listing/corporate-filings-sharehol
 
 def _make_session() -> requests.Session:
     sys.path.insert(0, str(PROJECT_ROOT))
-    from nse_fno_history.code.fetch_circulars import make_session  # noqa: E402
+    from fno_history.code.fetch_circulars import make_session  # noqa: E402
     return make_session()
 
 

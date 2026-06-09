@@ -18,8 +18,8 @@ Output: data/parsed/_flat.csv
 that is the period the filing reports on).
 
 Run:
-    python -m nse_shareholding_history.code.parse_xbrl
-    python -m nse_shareholding_history.code.parse_xbrl --tickers RELIANCE
+    python -m shareholding_history.code.parse_xbrl
+    python -m shareholding_history.code.parse_xbrl --tickers RELIANCE
 """
 from __future__ import annotations
 

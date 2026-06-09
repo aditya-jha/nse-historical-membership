@@ -8,8 +8,8 @@ of filings (each carrying date + XBRL URL + recordId) under
 Resumable: skips tickers whose cache file is < 7 days old.
 
 Run:
-    python -m nse_shareholding_history.code.fetch_filings --all
-    python -m nse_shareholding_history.code.fetch_filings --tickers RELIANCE,KAYNES
+    python -m shareholding_history.code.fetch_filings --all
+    python -m shareholding_history.code.fetch_filings --tickers RELIANCE,KAYNES
 """
 from __future__ import annotations
 
@@ -31,10 +31,6 @@ SUMMARY_PATH = ROOT / "data" / "filings_index_summary.json"
 UNIVERSE_CACHE = ROOT / "data" / "_universe.csv"
 
 PROJECT_ROOT = ROOT.parent
-LEGACY_TICKER_SOURCE = (
-    PROJECT_ROOT / "research" / "india-ai-story" / "06_data" / "stockedge"
-    / "_shareholding" / "_signals.csv"
-)
 
 # Full NSE universe — main board + SME Emerge (~2,800 symbols total).
 EQUITY_L_URL = "https://archives.nseindia.com/content/equities/EQUITY_L.csv"
@@ -45,38 +41,33 @@ REFERER = "https://www.nseindia.com/companies-listing/corporate-filings-sharehol
 
 
 def _make_session() -> requests.Session:
-    """Reuse the warming pattern from nse_fno_history."""
+    """Reuse the warming pattern from fno_history."""
     sys.path.insert(0, str(PROJECT_ROOT))
-    from nse_fno_history.code.fetch_circulars import make_session  # noqa: E402
+    from fno_history.code.fetch_circulars import make_session  # noqa: E402
     return make_session()
 
 
-def _load_legacy_tickers() -> list[str]:
-    if not LEGACY_TICKER_SOURCE.exists():
-        raise FileNotFoundError(f"Legacy ticker source missing: {LEGACY_TICKER_SOURCE}")
-    out = []
-    with LEGACY_TICKER_SOURCE.open() as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            t = (row.get("ticker") or "").strip().upper()
-            if t:
-                out.append(t)
-    return sorted(set(out))
+def _read_universe_cache() -> list[tuple[str, str]]:
+    """Load the committed/self-contained universe from data/_universe.csv."""
+    out: list[tuple[str, str]] = []
+    with UNIVERSE_CACHE.open() as f:
+        for row in csv.DictReader(f):
+            out.append((row["symbol"], row["segment"]))
+    return out
 
 
 def _load_full_universe(s: requests.Session, force_refresh: bool = False) -> list[tuple[str, str]]:
     """Returns list of (symbol, segment) for every NSE-listed equity + SME.
 
     Caches to data/_universe.csv. Fresh fetch if cache > 7 days old or --force.
+    A committed _universe.csv ships with the repo, so this works offline:
+    if the live fetch yields nothing, we fall back to the cached file
+    regardless of its age.
     """
     if UNIVERSE_CACHE.exists() and not force_refresh:
         age_days = (time.time() - UNIVERSE_CACHE.stat().st_mtime) / 86400
         if age_days < 7:
-            out = []
-            with UNIVERSE_CACHE.open() as f:
-                for row in csv.DictReader(f):
-                    out.append((row["symbol"], row["segment"]))
-            return out
+            return _read_universe_cache()
 
     out: list[tuple[str, str]] = []
     for url, segment in [(EQUITY_L_URL, "EQ"), (SME_L_URL, "SME")]:
@@ -93,6 +84,11 @@ def _load_full_universe(s: requests.Session, force_refresh: bool = False) -> lis
             if sym:
                 out.append((sym, segment))
         print(f"  loaded {segment} segment: {sum(1 for _,s2 in out if s2==segment)} symbols")
+
+    # Offline fallback: live fetch yielded nothing → use the committed cache.
+    if not out and UNIVERSE_CACHE.exists():
+        print("  live universe fetch empty; falling back to committed _universe.csv")
+        return _read_universe_cache()
 
     # Dedup (a symbol could in theory appear in both, prefer EQ).
     seen = {}
@@ -176,8 +172,6 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true",
                     help="Full NSE universe = main board + SME Emerge (~2,800)")
-    ap.add_argument("--legacy", action="store_true",
-                    help="Just the 1,016 StockEdge ticker subset")
     ap.add_argument("--tickers", help="Comma-separated tickers (overrides --all)")
     ap.add_argument("--force", action="store_true", help="Re-fetch even if cached")
     ap.add_argument("--refresh-universe", action="store_true",
@@ -191,10 +185,8 @@ def main():
     elif args.all:
         universe = _load_full_universe(s, force_refresh=args.refresh_universe)
         targets = [sym for sym, _ in universe]
-    elif args.legacy:
-        targets = _load_legacy_tickers()
     else:
-        print("Specify --all (full NSE universe) | --legacy (StockEdge 1,016) | --tickers …")
+        print("Specify --all (full NSE universe) | --tickers SYM1,SYM2 …")
         sys.exit(1)
 
     print(f"Fetching filing index for {len(targets)} ticker(s)…")

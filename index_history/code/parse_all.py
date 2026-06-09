@@ -5,7 +5,7 @@ and non-IM PRs (latter as `is_index_maintenance=false`). Hard-fails only on
 the failure mode where a PDF *looks* like an IM notice but cannot be
 structurally parsed.
 
-Run: python -m nse_index_history.code.parse_all
+Run: python -m index_history.code.parse_all
 """
 from __future__ import annotations
 import json

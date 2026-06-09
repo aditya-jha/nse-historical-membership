@@ -33,7 +33,7 @@ LEGACY_URL_TMPL = (
 
 def _make_session() -> requests.Session:
     sys.path.insert(0, str(PROJECT_ROOT))
-    from nse_fno_history.code.fetch_circulars import make_session  # noqa: E402
+    from fno_history.code.fetch_circulars import make_session  # noqa: E402
     return make_session()
 
 

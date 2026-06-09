@@ -1,8 +1,8 @@
 """Build _qoq_delta.csv + _signals.csv from data/parsed/_flat.csv.
 
-Schema mirrors `research/india-ai-story/06_data/stockedge/_shareholding/`
-so smart_money_v1 backtest code is source-agnostic, but with deep history
-(typically 2018+ for promoter/public, 2022+ for FII/DII).
+Emits a source-agnostic long/wide shareholding schema so downstream backtest
+code can consume it directly, with deep history (typically 2018+ for
+promoter/public, 2022+ for FII/DII).
 
 Signal definitions:
   smart_money_score(t) = (fii(t) - fii(t-4)) + (dii(t) - dii(t-4))      ← 4Q-cumulative Δ
@@ -12,11 +12,10 @@ Signal definitions:
 `_qoq_delta.csv` is per-quarter Δ (used by the backtester to reconstruct the
 top-decile screen at any historical quarter end).
 
-`_signals.csv` is the LATEST-period snapshot per ticker (drop-in compatible
-with research/india-ai-story/06_data/stockedge/_shareholding/_signals.csv).
+`_signals.csv` is the LATEST-period snapshot per ticker.
 
 Run:
-    python -m nse_shareholding_history.code.build_signals
+    python -m shareholding_history.code.build_signals
 """
 from __future__ import annotations
 

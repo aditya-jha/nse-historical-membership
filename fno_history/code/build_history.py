@@ -7,7 +7,7 @@ Algorithm: walk forward through events sorted by effective_date.
 
 Idempotent: full table-rebuild each run.
 
-Run: python -m nse_fno_history.code.build_history
+Run: python -m fno_history.code.build_history
 """
 from __future__ import annotations
 import json

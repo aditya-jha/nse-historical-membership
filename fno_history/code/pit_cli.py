@@ -1,10 +1,10 @@
 """F&O membership point-in-time CLI.
 
 Usage:
-  python -m nse_fno_history.code.pit_cli members --as-of 2022-06-15
-  python -m nse_fno_history.code.pit_cli was-fno --symbol HDIL --as-of 2018-04-26
-  python -m nse_fno_history.code.pit_cli was-fno --symbol HDIL --as-of 2018-04-28
-  python -m nse_fno_history.code.pit_cli changes --from 2024-01-01 --to 2024-12-31
+  python -m fno_history.code.pit_cli members --as-of 2022-06-15
+  python -m fno_history.code.pit_cli was-fno --symbol HDIL --as-of 2018-04-26
+  python -m fno_history.code.pit_cli was-fno --symbol HDIL --as-of 2018-04-28
+  python -m fno_history.code.pit_cli changes --from 2024-01-01 --to 2024-12-31
 """
 from __future__ import annotations
 import argparse

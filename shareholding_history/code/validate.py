@@ -1,29 +1,34 @@
-"""Cross-check NSE-XBRL parsed values against StockEdge's 9-quarter dataset.
+"""Cross-check NSE-XBRL parsed values against an external reference dataset.
 
-For the overlapping window (StockEdge has 2024-06 → 2026-03, 9 quarters),
-each (ticker, period) pair should match within ±0.05 pp on promoter, FII,
-DII. Bigger discrepancies suggest:
+This is an OPTIONAL validation step. It compares the parsed NSE-XBRL
+shareholding values against a third-party reference (e.g. a StockEdge export)
+that you supply via --reference. The reference file is NOT part of this repo —
+the committed `validation_vs_stockedge.json` is the recorded result of a past
+run against a StockEdge 9-quarter export (2024-06 → 2026-03).
+
+For each overlapping (ticker, period) pair, promoter/FII/DII/public should
+match within ±0.5 pp. Bigger discrepancies suggest:
   * Parser bug.
   * Revised filing on one side that the other hadn't ingested.
   * Universe-mismatch / taxonomy rollup difference.
 
+The reference CSV must be long-format with columns: ticker, period, category
+(promoter|fii|dii|public), pct.
+
 Run:
-    python -m nse_shareholding_history.code.validate
+    python -m shareholding_history.code.validate --reference /path/to/reference_flat.csv
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PARSED = ROOT / "data" / "parsed" / "_flat.csv"
 
-PROJECT_ROOT = ROOT.parent
-STOCKEDGE_FLAT = (
-    PROJECT_ROOT / "research" / "india-ai-story" / "06_data" / "stockedge"
-    / "_shareholding" / "_flat.csv"
-)
 OUT_REPORT = ROOT / "data" / "validation_vs_stockedge.json"
 
 TOLERANCE_PP = 0.5  # percentage-point tolerance
@@ -46,8 +51,8 @@ def _load_nse(path: Path) -> dict[tuple[str, str], dict]:
     return out
 
 
-def _load_stockedge(path: Path) -> dict[tuple[str, str], dict]:
-    """StockEdge `_flat.csv` is long-format: (ticker, period, category, pct).
+def _load_reference(path: Path) -> dict[tuple[str, str], dict]:
+    """Reference `_flat.csv` is long-format: (ticker, period, category, pct).
 
     Categories used (case-insensitive substring match on category col):
       promoter → 'promoter'
@@ -89,17 +94,32 @@ def _load_stockedge(path: Path) -> dict[tuple[str, str], dict]:
 
 
 def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument(
+        "--reference", required=True,
+        help="Path to an external reference _flat.csv (long-format: "
+             "ticker, period, category, pct). Not shipped with this repo.",
+    )
+    args = ap.parse_args()
+
+    ref_path = Path(args.reference).expanduser()
+    if not ref_path.exists():
+        print(f"Reference file not found: {ref_path}")
+        print("Supply a long-format reference CSV via --reference. "
+              "This step is optional and needs no external repo.")
+        sys.exit(1)
+
     print("Loading datasets …")
     nse = _load_nse(PARSED)
-    se = _load_stockedge(STOCKEDGE_FLAT)
+    se = _load_reference(ref_path)
     print(f"  nse: {len(nse)} (ticker, period) rows")
-    print(f"  stockedge: {len(se)} (ticker, period) rows")
+    print(f"  reference: {len(se)} (ticker, period) rows")
 
     # Intersection
     keys_both = set(nse.keys()) & set(se.keys())
     print(f"  intersection: {len(keys_both)}")
     if not keys_both:
-        print("No overlap. Check ticker normalisation or that stockedge _flat.csv exists.")
+        print("No overlap. Check ticker normalisation or the reference file format.")
         return
 
     matches = {"promoter": 0, "fii": 0, "dii": 0, "public": 0}

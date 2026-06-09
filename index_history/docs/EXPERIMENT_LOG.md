@@ -111,4 +111,4 @@ Pipeline logic is correct: where we have PR coverage, the table is accurate (4/5
 - Famous transitions covered by parsed PRs are accurate (HDFC merger, SHRIRAMFIN, UPL, TRENT, BEL).
 - Membership for any date in a covered period (e.g., 2024-03-28 to 2024-09-30) is exact.
 - For uncovered periods (most of 2018-2023): expect ±1-50 symbols off vs true size.
-- Use `python -m nse_index_history.code.pit_cli member --index "Nifty 50" --as-of YYYY-MM-DD` to query.
+- Use `python -m index_history.code.pit_cli member --index "Nifty 50" --as-of YYYY-MM-DD` to query.

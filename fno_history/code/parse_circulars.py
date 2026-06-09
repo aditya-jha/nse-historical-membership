@@ -12,7 +12,7 @@ Output JSON per PDF in data/parsed/<stem>.json:
     "symbols":        ["ADANIPOWER", "COCHINSHIP", ...],
   }
 
-Run: python -m nse_fno_history.code.parse_circulars
+Run: python -m fno_history.code.parse_circulars
 """
 from __future__ import annotations
 import json

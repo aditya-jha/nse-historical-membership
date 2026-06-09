@@ -1,10 +1,10 @@
 """Point-in-time index membership CLI.
 
 Usage:
-  python -m nse_index_history.code.pit_cli member --index "Nifty 50" --as-of 2022-06-15
-  python -m nse_index_history.code.pit_cli member --index-id 217 --as-of 2022-06-15
-  python -m nse_index_history.code.pit_cli changes --index "Nifty 50" --from 2024-01-01 --to 2024-12-31
-  python -m nse_index_history.code.pit_cli was-member --index "Nifty 50" --symbol HDFC --as-of 2023-07-14
+  python -m index_history.code.pit_cli member --index "Nifty 50" --as-of 2022-06-15
+  python -m index_history.code.pit_cli member --index-id 217 --as-of 2022-06-15
+  python -m index_history.code.pit_cli changes --index "Nifty 50" --from 2024-01-01 --to 2024-12-31
+  python -m index_history.code.pit_cli was-member --index "Nifty 50" --symbol HDFC --as-of 2023-07-14
 """
 from __future__ import annotations
 import argparse

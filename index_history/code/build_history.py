@@ -18,7 +18,7 @@ A symbol that is a member in the current snapshot but never appears in any
 include event we've observed gets `valid_from = COVERAGE_FLOOR` with a note
 that the true entry date is unknown (i.e. predates our PR coverage).
 
-Run: python -m nse_index_history.code.build_history [--floor YYYY-MM-DD]
+Run: python -m index_history.code.build_history [--floor YYYY-MM-DD]
 """
 from __future__ import annotations
 import argparse
@@ -194,7 +194,7 @@ def _load_current_snapshot() -> dict[int, list[tuple[str, Optional[float]]]]:
     if not SNAPSHOT_DIR.exists():
         raise RuntimeError(
             f"Current-snapshot directory not found: {SNAPSHOT_DIR}\n"
-            f"Run: python -m nse_index_history.code.fetch_nse_snapshot"
+            f"Run: python -m index_history.code.fetch_nse_snapshot"
         )
     missing = []
     for idx, fname in _SNAPSHOT_FILES.items():

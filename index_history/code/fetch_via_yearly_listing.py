@@ -4,7 +4,7 @@ Discovery: `niftyindices.com/press-release?date=YYYY` is server-rendered
 HTML with every PR for that year. This is the canonical listing — the
 JS-rendered `/Resources/Press-Release` page we found earlier was a dead end.
 
-Run: python -m nse_index_history.code.fetch_via_yearly_listing
+Run: python -m index_history.code.fetch_via_yearly_listing
 """
 from __future__ import annotations
 import json

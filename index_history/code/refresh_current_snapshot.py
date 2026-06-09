@@ -7,7 +7,7 @@ These are server-rendered, cookie-free, and reflect today's true membership.
 The local `index_equity_map` table can be stale (last refresh by some other
 scraper); refresh it before validating walk-backward output.
 
-Run: python -m nse_index_history.code.refresh_current_snapshot
+Run: python -m index_history.code.refresh_current_snapshot
 """
 from __future__ import annotations
 import csv

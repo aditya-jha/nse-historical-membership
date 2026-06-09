@@ -8,7 +8,7 @@ Contracts" or "Exclusion of Futures and Options". Download each PDF.
 nseindia.com is anti-bot — must warm session by hitting the parent page first
 to acquire cookies, then call the API with proper headers.
 
-Run: python -m nse_fno_history.code.fetch_circulars
+Run: python -m fno_history.code.fetch_circulars
 """
 from __future__ import annotations
 import json

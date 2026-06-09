@@ -3,7 +3,7 @@
 Skips Wayback fallback (its rate limits dominate runtime). Failed URLs
 are recorded; a separate Wayback pass can pick them up later.
 
-Run: python -m nse_index_history.code.fetch_live
+Run: python -m index_history.code.fetch_live
 """
 from __future__ import annotations
 import json

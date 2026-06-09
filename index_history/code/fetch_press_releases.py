@@ -11,7 +11,7 @@ Sources of URL inventory (unioned):
 Each unique PDF is downloaded once, idempotently, to data/press_releases/.
 If a URL 404s on the live host, we fall back to the most recent Wayback copy.
 
-Run:  python -m nse_index_history.code.fetch_press_releases
+Run:  python -m index_history.code.fetch_press_releases
 """
 from __future__ import annotations
 import json
