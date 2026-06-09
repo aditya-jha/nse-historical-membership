@@ -480,6 +480,20 @@ def main():
                 w.writerow([idx, names.get(idx, ""), sym, vf, vt or "",
                             weight or "", src or "", src_url or "", notes or ""])
         print(f"Wrote {len(intervals)} intervals to {out}")
+        # Keep the generated coverage doc in sync with the headline CSV, but
+        # only when we just rebuilt the canonical headline file (not an ad-hoc
+        # --csv-out path). Never let this optional step fail the build.
+        try:
+            repo_root = _Path(__file__).resolve().parents[2]
+            canonical = repo_root / "index_history" / "data" / "index_membership_history.csv"
+            if out.resolve() == canonical.resolve():
+                import sys as _sys
+                if str(repo_root) not in _sys.path:
+                    _sys.path.insert(0, str(repo_root))
+                from tools.build_coverage import main as _refresh_coverage
+                _refresh_coverage()
+        except Exception as e:  # noqa: BLE001
+            print(f"  (coverage refresh skipped: {e})")
         return
 
     n = write_to_db(iter(intervals), dry_run=args.dry_run)

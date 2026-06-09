@@ -28,3 +28,26 @@ jobs:
 
       - name: Run pytest
         run: pytest tests/ -v
+
+  coverage-drift:
+    # Fails if COVERAGE.md / the README freshness block are out of sync with the
+    # committed data — i.e. someone changed data but didn't re-run the generator.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate coverage (stdlib only)
+        run: python -m tools.build_coverage
+
+      - name: Fail if COVERAGE.md / README are stale
+        run: |
+          if ! git diff --exit-code -- COVERAGE.md README.md; then
+            echo "::error::COVERAGE.md / README freshness block are out of date."
+            echo "Run 'python -m tools.build_coverage' and commit the result."
+            exit 1
+          fi
