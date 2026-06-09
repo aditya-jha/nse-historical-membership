@@ -2,17 +2,18 @@
 
 Per-day NSE cash-market bhavcopy → consolidated long-format daily OHLC table.
 
-Sibling to `nse_index_history/`, `nse_fno_history/`, `nse_shareholding_history/`.
+Sibling to `index_history/`, `fno_history/`, `shareholding_history/`.
 Provides the canonical NSE-equity OHLC + turnover source for backtests that
 need a wide universe (main board + SME Emerge), no auth, no Cloudflare.
 
 ## Why a separate pipeline
 
-Existing `historical_1minute` table covers ≤ 1 symbol; StockEdge `GetPrices`
-needs a `ticker → security_id → listing_id` mapping that is missing for
-~1,900 of the 2,910 NSE-listed names; mwpl_strategy's bhavcopy work is F&O
-(open-interest) only. So nothing in-repo gives clean cash-market daily OHLC
-for the full NSE universe.
+NSE publishes a single end-of-day bhavcopy CSV per trading day that covers the
+**entire** cash-market universe (main board + SME Emerge) in one file, with no
+auth and no per-symbol id mapping. That makes it the cleanest source for wide,
+survivorship-correct daily OHLC + turnover across all ~2,900 NSE names — which
+the index/F&O/shareholding pipelines in this repo don't provide (they track
+membership and ownership, not prices).
 
 ## Data source
 
@@ -49,6 +50,11 @@ volume_shares, turnover_inr, n_trades
 
 ## Status
 
+* **No data is shipped in this repo** — unlike the index/F&O/shareholding
+  modules, the bhavcopies (~half a GB) and the consolidated parquet are
+  gitignored. You generate them locally:
+  `python -m nse_eod.code.fetch_bhavcopy --start 2020-01-01 --end today`
+  then `python -m nse_eod.code.build_daily_ohlc`. Both are resumable.
 * 2020-01-01 → today is the supported window via `sec_bhavdata_full`.
 * SERIES filter recommended: keep `{EQ, SM, BE, BZ, ST}`; drop bonds.
 * `turnover_inr = TURNOVER_LACS * 1e5` for clean ₹.

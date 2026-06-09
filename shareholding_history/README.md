@@ -4,24 +4,23 @@ Builds `shareholding_history` — a PIT table of quarterly shareholding patterns
 (promoter, FII, DII, public, pledge) per NSE-listed symbol — by parsing SHP
 XBRL filings published on `nsearchives.nseindia.com`.
 
-## Why a separate pipeline from StockEdge
+## Why a separate pipeline
 
-StockEdge's `GetShareHoldingPatternDisplaySet/{security_id}` endpoint takes no
-date params and returns only the most recent ~9 quarters. That's not enough
-for a quarterly-rebalanced backtest with proper walk-forward validation
-(n≈4 rebalances per arm).
+Most third-party portals expose only the most recent ~9 quarters of
+shareholding per symbol — not enough for a quarterly-rebalanced backtest with
+proper walk-forward validation.
 
 The NSE master endpoint exposes the **full disclosure history** — typically
 20+ years per symbol — and links to publicly downloadable XBRL files
-(no auth, no Cloudflare). Each XBRL is the regulator-filed source data
-StockEdge ingests downstream.
+(no auth, no Cloudflare). Each XBRL is the regulator-filed source data.
 
-## Coverage target
+## Coverage
 
 | | scope |
 |--|--|
-| Symbols | 1,016 NSE-listed (from `research/india-ai-story/06_data/stockedge/_shareholding/_signals.csv`) |
-| Depth | All available filings per symbol (typically Dec-2005 → today, ~80 quarters) |
+| Universe | Full NSE-listed universe (`data/_universe.csv`, ~2,910 symbols, self-contained) |
+| Committed | **2,261 symbols** parsed, periods **2001-03 → 2026-04** (108 quarters) |
+| Depth | All available filings per symbol (typically Dec-2005 → today) |
 | Format | XBRL V1.1 (post 2025-10-31) + older taxonomies |
 
 ## Data source
@@ -38,16 +37,16 @@ StockEdge ingests downstream.
 ```
 
 NSE is anti-bot — must warm session by hitting homepage first to acquire
-cookies. Reuses `nse_fno_history.code.fetch_circulars.make_session()`.
+cookies. Reuses `fno_history.code.fetch_circulars.make_session()`.
 
 ## Pipeline
 
 ```
-fetch_filings.py    # API → data/filings_index.json   (per-ticker XBRL URL list)
-download_xbrl.py    # bulk fetch → data/xbrl/SHP_*.xml (resumable)
-parse_xbrl.py       # XBRL → data/parsed/_flat.csv     (ticker, period, %)
-validate.py         # cross-check vs StockEdge overlap (9 quarters)
-build_signals.py    # _qoq_delta.csv + _signals.csv    (deep history)
+fetch_filings.py    # API → data/filings_index/<TICKER>.json (per-ticker XBRL URL list)
+download_xbrl.py    # bulk fetch → data/xbrl/SHP_*.xml        (resumable)
+parse_xbrl.py       # XBRL → data/parsed/_flat.csv            (ticker, period, %)
+build_signals.py    # _qoq_delta.csv + _signals.csv           (deep history)
+validate.py         # OPTIONAL cross-check vs a --reference export you supply
 ```
 
 ## Schema (output)
@@ -68,17 +67,18 @@ data/parsed/_signals.csv
 
 ## Validation gates
 
-1. **Parser correctness:** for the 2024-06 → 2026-03 overlap (9 quarters)
-   the per-ticker (promoter, fii, dii) values in this pipeline must match
-   StockEdge's `_flat.csv` within ±0.05 pp on at least 95% of (ticker, period)
-   pairs.
-2. **Coverage:** ≥ 95% of the 1,016 tickers have ≥ 20 quarters of history.
+1. **Parser correctness (optional):** `validate.py` cross-checks the parsed
+   `(promoter, fii, dii)` values against an external reference export you
+   supply via `--reference` (long-format `ticker, period, category, pct`).
+   For an overlapping window they should match within ±0.5 pp. The reference
+   file is not shipped; the committed `data/validation_vs_stockedge.json` is
+   the recorded result of a past run.
+2. **Coverage:** most symbols should carry ≥ 20 quarters of history.
 3. **Sanity:** for any (ticker, period), promoter + public ≈ 100% (±0.5 pp,
    accounting for rounding + Custodian/DR rows).
 
-## Consumers
+## Uses
 
-- `backtest/india/smart_money/` — quarterly-rebalanced smart-money momentum
-  screen (FII+DII Δ).
-- General-purpose PIT membership filter for any strategy that needs to
-  reconstruct historical institutional ownership.
+General-purpose PIT shareholding source for any strategy that needs to
+reconstruct historical institutional ownership (e.g. a quarterly-rebalanced
+smart-money screen on FII+DII Δ).

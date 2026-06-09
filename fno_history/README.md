@@ -23,6 +23,8 @@ F&O segment membership is governed by **NSE Exchange** (the trading exchange), w
 - 311 interval rows in `fno_membership_history.csv`, covering 270 distinct symbols.
 - 140 currently-open intervals (vs. NSE's actual ~220 F&O list — gap is symbols added pre-2014 and never excluded; we have no introduction event for them).
 
+**Shipped & freshness:** the headline `fno_membership_history.csv` and the `parsed/*.json` intermediates are committed — read them directly, no rebuild needed. Raw circular PDFs are not redistributed (rebuild via `fetch_circulars.py`). Current data-through date is shown in the repo-root [`COVERAGE.md`](../COVERAGE.md).
+
 ## Pipeline
 
 ```
