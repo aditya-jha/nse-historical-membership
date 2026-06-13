@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+**Disk cleanup — purged local raw XBRL cache (2026-06-13).**
+- Deleted `shareholding_history/data/xbrl/` (~16 GB, ~60K `SHP_*.xml` files) to
+  reclaim disk. The directory is git-ignored (raw source cache), so nothing
+  committed was lost — `data/filings_index/` and `data/parsed/` outputs remain
+  intact.
+- Rebuild path if raw XBRL is needed again: rerun `fetch_filings.py` then
+  `download_xbrl.py` (resumable). Documented in `shareholding_history/README.md`.
+
 **Index history — build fix: dedup superseded excludes (early-period accuracy).**
 - `build_history.py` now collapses a run of exclude events for the same symbol
   with no intervening re-inclusion down to its *last* effective date. NSE

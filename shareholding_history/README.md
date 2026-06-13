@@ -49,6 +49,13 @@ build_signals.py    # _qoq_delta.csv + _signals.csv           (deep history)
 validate.py         # OPTIONAL cross-check vs a --reference export you supply
 ```
 
+> **Note — `data/xbrl/` is not present locally / not in git.** The raw XBRL
+> source (~16 GB / ~60K XML files) is git-ignored and was deleted on
+> 2026-06-13 during a disk cleanup (see repo `CHANGELOG.md`). The committed
+> outputs (`data/filings_index/`, `data/parsed/`) are unaffected. Only
+> re-fetch if you need to re-parse from raw XBRL: rerun `fetch_filings.py`
+> then `download_xbrl.py` (resumable) to repopulate `data/xbrl/`.
+
 ## Schema (output)
 
 ```
