@@ -1,7 +1,7 @@
 # NSE Historical Membership (Point-in-Time)
 
 [![CI](https://github.com/aditya-jha/nse-historical-membership/actions/workflows/ci.yml/badge.svg)](https://github.com/aditya-jha/nse-historical-membership/actions/workflows/ci.yml)
-[![License: MIT (code)](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE-CODE)
+[![License: MIT (code)](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![License: CC BY 4.0 (data)](https://img.shields.io/badge/data-CC%20BY%204.0-green.svg)](LICENSE-DATA)
 
 Open-source point-in-time membership tables for NSE (India) — **42 equity indices** across broad-market, sector, strategy and thematic families, plus **F&O segment membership** — derived by parsing public NSE press releases and circulars. The repo also ships two adjacent NSE datasets built the same way: **point-in-time quarterly shareholding** (`shareholding_history/`) and **cash-market daily OHLC** (`nse_eod/`).
@@ -243,7 +243,7 @@ The **raw NSE press release / circular PDFs** themselves remain the property of 
 
 Index names ("Nifty 50" etc.) are trademarks of NSE Indices Limited. This project is independent of, not affiliated with, and not endorsed by NSE Indices Limited or NSE Exchange.
 
-**Code:** [MIT](LICENSE-CODE) — `LICENSE-CODE`
+**Code:** [MIT](LICENSE) — `LICENSE`
 **Data:** [CC BY 4.0](LICENSE-DATA) — `LICENSE-DATA`
 
 ## Disclaimer

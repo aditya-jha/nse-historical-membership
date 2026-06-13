@@ -143,7 +143,7 @@ First open release. Two datasets, both as CSV + parsed-JSON intermediate.
 - Source: parsed FAOP circulars from `nseindia.com/api/circulars`.
 
 **Code**
-- MIT-licensed (`LICENSE-CODE`).
+- MIT-licensed (`LICENSE`).
 - Build pipeline runs CSV-only, no database required (`build_history --csv-out`).
 - 16-test pytest suite covering all famous transitions + Nifty 50 size invariant + 3 F&O reconciliation cases.
 
