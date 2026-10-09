@@ -17,11 +17,11 @@ F&O segment membership is governed by **NSE Exchange** (the trading exchange), w
 
 ## Coverage
 
-- 188 candidate F&O circulars discovered 2014→2026 (filter: subject contains "Introduction of Futures & Options" or "Exclusion of Futures and Options").
+- 203 candidate F&O circulars discovered 2014→2026-10 (introduction, exclusion, withdrawal, discontinuation subjects); all cached PDFs incl. .zip bundles.
 - 187 PDFs cached (11 of which were inside `.zip` bundles, extracted).
-- 155 events parsed cleanly (84 introductions + 71 exclusions).
-- 311 interval rows in `fno_membership_history.csv`, covering 270 distinct symbols.
-- 140 currently-open intervals (vs. NSE's actual ~220 F&O list — gap is symbols added pre-2014 and never excluded; we have no introduction event for them).
+- Events after de-duplication: introductions, exclusions (incl. 4 discontinuations), 5 withdrawals, 2 withdrawn circulars, 1 manual event.
+- 317 interval rows in `fno_membership_history.csv`, covering 278 distinct symbols (2026-10-09).
+- 134 currently-open intervals (vs. NSE's 210 stock F&O list — gap is symbols added pre-2014 and never excluded; we have no introduction event for them).
 
 **Shipped & freshness:** the headline `fno_membership_history.csv` and the `parsed/*.json` intermediates are committed — read them directly, no rebuild needed. Raw circular PDFs are not redistributed (rebuild via `fetch_circulars.py`). Current data-through date is shown in the repo-root [`COVERAGE.md`](../COVERAGE.md).
 
@@ -60,6 +60,23 @@ A symbol may have multiple intervals (re-introduction after exclusion). PIT quer
 - JIOFIN: introduced 2024-11-29. ✓
 - SAMMAANCAP: introduced 2025-08-29, excluded 2026-07-01 (NSE/FAOP/73769). ✓
 - November 2024 batch: 45 introductions on 2024-11-29 (matches NSE's published big addition list).
+
+## Event kinds the build understands
+
+| Kind | Circular wording | Effect |
+|---|---|---|
+| `introduction` | "Introduction of Futures & Options Contracts on …" | opens an interval |
+| `exclusion` | "Exclusion of Futures and Options contracts on …", "Discontinuation of F&O Contracts in the security … (SYM)" | closes the open interval (renames followed) |
+| `withdrawal` | "Withdrawal of Introduction of F&O Contracts on …" | cancels the announced introduction — the symbol never entered |
+| `cancels_circular` | "… circular NSE/FAOP/NNNNN … stands withdrawn" | drops the referenced circular's event |
+| manual | `data/manual_events.json` | curated events with no circular (each carries its source) |
+
+**Renames:** `build_history.RENAMES` maps an old symbol to its successor so an exclusion published
+under the new name closes the interval opened under the old one. Output keeps the printed symbol.
+
+**Reconcile after every refresh:** the open intervals (after renames) must equal NSE's current
+`nsearchives.nseindia.com/content/fo/fo_mktlots.csv` minus pre-2014 legacy members. On
+2026-10-09 this found every bug fixed above.
 
 ## Known limitations
 

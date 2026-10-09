@@ -58,15 +58,30 @@ CIRC_NO_RE = re.compile(r"Download Ref No:\s*(NSE/FAOP/\d+)", re.I)
 DATE_RE = re.compile(r"Date:\s*([A-Z][a-z]+\s+\d{1,2},\s+\d{4})")
 SUBJ_INTRO = re.compile(r"Introduction of Futures\s*(?:&|and)\s*Options", re.I)
 SUBJ_EXCL = re.compile(r"Exclusion of Futures\s*(?:&|and)\s*Options", re.I)
+# "Withdrawal of Introduction of Futures & Options Contracts on GLAND and CASTROLIND":
+# cancels an announced introduction BEFORE it took effect — the symbols never entered F&O.
+# Must be tested before SUBJ_INTRO (whose text it contains). Missing this turned 5
+# cancelled introductions into phantom open memberships (GLAND, CASTROLIND, ARE&M, FSL,
+# SUPREMEIND) — found 2026-10-09 via a PIT-vs-NSE-lot-file reconciliation.
+SUBJ_WITHDRAW = re.compile(r"Withdrawal of Introduction of Futures\s*(?:&|and)\s*Options", re.I)
+# Merger/delisting exit announced as a discontinuation; symbol is in the parentheses.
+SUBJ_DISC = re.compile(r"Discontinuation of Futures\s*(?:&|and)\s*Options\s+Contracts\s+in\s+the\s+security"
+                       r"[^(]*\(([A-Z][A-Z0-9&\-\.]{1,19})\)", re.I | re.S)
+# An "- Update" circular that cancels an earlier one: "circular NSE/FAOP/57580 dated ...
+# regarding Exclusion ... stands withdrawn" (CONCOR 2023 — the exclusion never happened).
+WITHDRAWN_REF = re.compile(r"circular\s+(NSE/FAOP/\d+)[^.]*?stands\s+withdrawn", re.I | re.S)
 # Symbol-row patterns (table column order varies year-to-year).
 # Tried in order; results union-ed.
+# A symbol may start with a digit (360ONE) but must contain a letter (so lot sizes such as
+# "500" never match). The 2025-06-27 batch lost 360ONE to an [A-Z]-first pattern.
+_SYM = r"(?=[A-Z0-9&\-\.]*[A-Z])[A-Z0-9][A-Z0-9&\-\.]{1,19}"
 SYMBOL_ROW_PATTERNS = [
     # "1 ADANIPOWER Adani Power Limited"  (Sr|Symbol|Security)
-    re.compile(r"^\s*\d+\s+([A-Z][A-Z0-9&\-\.]{1,19})\s+[A-Z]", re.M),
+    re.compile(r"^\s*\d+\s+(" + _SYM + r")\s+[A-Z]", re.M),
     # "1 ADANI POWER LTD ADANIPOWER 625 12000"  (Sr|Name|Symbol|Lot[|QtyFreeze])
-    re.compile(r"^\s*\d+\s+.+?\s+([A-Z][A-Z0-9&\-\.]{1,19})\s+\d{1,7}(?:\s+\d{1,8})?\s*$", re.M),
+    re.compile(r"^\s*\d+\s+.+?\s+(" + _SYM + r")\s+\d{1,7}(?:\s+\d{1,8})?\s*$", re.M),
     # "1 Aditya Birla Fashion and Retail Limited ABFRL"  (Sr|Name|Symbol — no numbers)
-    re.compile(r"^\s*\d+\s+[A-Z][A-Za-z0-9&\-\.\s]+?\s+([A-Z][A-Z0-9&\-\.]{1,19})\s*$", re.M),
+    re.compile(r"^\s*\d+\s+[A-Z][A-Za-z0-9&\-\.\s]+?\s+(" + _SYM + r")\s*$", re.M),
 ]
 
 
@@ -105,7 +120,36 @@ def parse_pdf(pdf_path: Path, source_url: str = "") -> dict:
             "kind": None, "effective_date": None, "symbols": [],
             "notes": "index-level F&O introduction (not stock)",
         }
-    if SUBJ_INTRO.search(full):
+    wref = WITHDRAWN_REF.search(full)
+    if wref:
+        cm = CIRC_NO_RE.search(full)
+        return {
+            "source_pdf": pdf_path.name, "source_url": source_url,
+            "circular_no": cm.group(1) if cm else None,
+            "kind": "cancels_circular", "cancels": wref.group(1),
+            "effective_date": None, "symbols": [],
+        }
+    dm_ = SUBJ_DISC.search(full)
+    if dm_:
+        kind = "exclusion"
+        cm = CIRC_NO_RE.search(full)
+        dtm = DATE_RE.search(full)
+        eff = None
+        for pat in EFFECTIVE_PATTERNS:
+            m = pat.search(full)
+            if m and (eff := _parse_date(m.group(1))):
+                break
+        return {
+            "source_pdf": pdf_path.name, "source_url": source_url,
+            "circular_no": cm.group(1) if cm else None,
+            "circular_date": _parse_date(dtm.group(1)) if dtm else None,
+            "kind": kind, "effective_date": eff or (_parse_date(dtm.group(1)) if dtm else None),
+            "symbols": [dm_.group(1).upper()],
+            "notes": "discontinuation (merger/delisting)",
+        }
+    if SUBJ_WITHDRAW.search(full):
+        kind = "withdrawal"
+    elif SUBJ_INTRO.search(full):
         kind = "introduction"
     elif SUBJ_EXCL.search(full):
         kind = "exclusion"
@@ -237,6 +281,8 @@ def _process(args):
         out.write_text(json.dumps(rec, indent=2))
         if rec["kind"] is None:
             return (pdf_path.name, "skip")
+        if rec["kind"] == "cancels_circular":
+            return (pdf_path.name, "cancels_circular")
         if not rec["effective_date"] or not rec["symbols"]:
             return (pdf_path.name, "incomplete")
         return (pdf_path.name, rec["kind"])
@@ -253,8 +299,8 @@ def main():
     print(f"PDFs: {len(pdfs)}")
     args = [(str(p), url_by_pdf.get(p.stem, "")) for p in pdfs]
 
-    counts = {"cached": 0, "introduction": 0, "exclusion": 0,
-              "skip": 0, "incomplete": 0}
+    counts = {"cached": 0, "introduction": 0, "exclusion": 0, "withdrawal": 0,
+              "cancels_circular": 0, "skip": 0, "incomplete": 0}
     failed: list[tuple[str, str]] = []
     with ProcessPoolExecutor(max_workers=4) as pool:
         for name, status in pool.map(_process, args):
