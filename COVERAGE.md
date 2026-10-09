@@ -5,12 +5,12 @@
 | Dataset | Freshness | Shipped in repo |
 |---|---|---|
 | Index membership | data through **2026-05-15** | yes — `index_history/data/index_membership_history.csv` |
-| F&O membership | data through **2026-04-01** | yes — `fno_history/data/fno_membership_history.csv` |
+| F&O membership | data through **2026-09-30** | yes — `fno_history/data/fno_membership_history.csv` |
 | Shareholding (PIT) | data through **2026-04** (2261 symbols) | yes — `shareholding_history/data/parsed/_flat.csv` |
 | EOD daily OHLC | rebuilt locally (2020-01-01 → today) | **no** — run `nse_eod` fetch/build |
 
 - Last validation run: **2026-05-22T12:51:53** (`index_history/docs/validation_report.md`)
-- F&O: 311 intervals, 140 currently in segment.
+- F&O: 317 intervals, 134 currently in segment.
 
 ## Indices (42)
 

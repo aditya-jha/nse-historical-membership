@@ -2,6 +2,33 @@
 
 ## Unreleased
 
+**F&O history — refreshed through 2026-10 and reconciled against NSE's live F&O list (2026-10-09).**
+- Data: 11 new circulars (May–Sep 2026): introductions GVT&D, RADICO (05-27), ATHERENERG,
+  MAHABANK, SAGILITY (08-26), ANANDRATHI, ENRIN, UJJIVANSFB (09-30); exclusions EXIDEIND, NUVAMA
+  (07-29), DALBHARAT (08-26), BAJAJHLDNG (10-28), IEX, IREDA (11-25).
+- Build/parse fixes — each one left a phantom or missing membership in the published CSV:
+  - **Withdrawn introductions** ("Withdrawal of Introduction of F&O Contracts on …") were parsed
+    as introductions: GLAND, CASTROLIND, ARE&M, FSL, SUPREMEIND showed as members though they
+    never entered. New `withdrawal` kind cancels the announced introduction.
+  - **Withdrawn circulars** ("… circular NSE/FAOP/57580 … stands withdrawn"): CONCOR's 2023
+    exclusion was cancelled, so CONCOR never left. New `cancels_circular` kind.
+  - **Discontinuations** (merger/delisting exits, "Discontinuation of F&O Contracts in the
+    security … (SYM)") were never fetched: RANBAXY, CAIRN, ABIRLANUVO, CAPF now close.
+  - **Renames while in F&O**: an exclusion under the new name now closes the interval opened
+    under the old one (`RENAMES`): PVR→PVRINOX, RDEL→RNAVAL, SKSMICRO→BHARATFIN, KPIT→BSOFT,
+    LTI→LTIM→LTM, … Intervals keep the symbol as printed in their circular.
+  - **Duplicate notices** (.pdf + .zip re-issues, "Update" circulars) produced zero-length
+    intervals and, in GSPL's case, kept a 2022 exclusion from closing. De-duplicated; same-date
+    re-announcements are no-ops; zero-length intervals are dropped.
+  - **Digit-leading symbols** (360ONE) never matched the symbol patterns.
+  - **.zip bundles** are now extracted by `fetch_circulars` (3 of 2026's introductions were zip-only).
+- `manual_events.json`: curated events with no circular, each with a source (HCC's exit
+  2018-11-30, from the NSE F&O bhavcopy).
+- `build_history --csv-out` (no database needed), matching `index_history`.
+- Result: every open interval is on NSE's F&O list today (after renames); the 76 current
+  members without an interval all traded F&O in Jan 2014 (pre-coverage, never excluded).
+  317 intervals / 278 symbols / 134 open. `tests/test_fno_build_rules.py` pins each fix (37/37).
+
 **Disk cleanup — purged local raw XBRL cache (2026-06-13).**
 - Deleted `shareholding_history/data/xbrl/` (~16 GB, ~60K `SHP_*.xml` files) to
   reclaim disk. The directory is git-ignored (raw source cache), so nothing

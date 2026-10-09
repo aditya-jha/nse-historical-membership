@@ -11,9 +11,11 @@ to acquire cookies, then call the API with proper headers.
 Run: python -m fno_history.code.fetch_circulars
 """
 from __future__ import annotations
+import io
 import json
 import re
 import time
+import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime
 from pathlib import Path
@@ -33,6 +35,9 @@ UA = (
 
 INCL_RE = re.compile(r"Introduction\s+of\s+Futures\s+(?:&|and)\s+Options", re.I)
 EXCL_RE = re.compile(r"Exclusion\s+of\s+Futures\s+(?:&|and)\s+Options", re.I)
+# Merger/delisting exits: "Discontinuation of Futures and Options Contracts in the security
+# Capital First Limited (CAPF)" — an F&O exit announced under a different subject.
+DISC_RE = re.compile(r"Discontinuation\s+of\s+Futures\s+(?:&|and)\s+Options\s+Contracts\s+in\s+the\s+security", re.I)
 
 
 def make_session() -> requests.Session:
@@ -80,20 +85,46 @@ def is_relevant(row: dict) -> str | None:
         return "introduction"
     if EXCL_RE.search(sub):
         return "exclusion"
+    if DISC_RE.search(sub):
+        return "discontinuation"
     return None
 
 
+def _pdf_from_zip(blob: bytes) -> bytes | None:
+    """Return the circular PDF from a .zip bundle (post-2024 NSE packages some
+    circulars, typically with an annexure). Picks the largest PDF member."""
+    try:
+        with zipfile.ZipFile(io.BytesIO(blob)) as z:
+            pdfs = [i for i in z.infolist() if i.filename.lower().endswith(".pdf")]
+            if not pdfs:
+                return None
+            data = z.read(max(pdfs, key=lambda i: i.file_size))
+            return data if data[:4] == b"%PDF" else None
+    except zipfile.BadZipFile:
+        return None
+
+
 def download_pdf(s: requests.Session, url: str) -> tuple[str, int] | None:
-    fname = urlparse(url).path.rsplit("/", 1)[-1]
-    out = CIRC_DIR / fname
+    """Cache the circular as ``<stem>.pdf`` — ``.zip`` bundles are extracted so the
+    parser sees one PDF per circular regardless of how NSE packaged it."""
+    stem = Path(urlparse(url).path).stem
+    out = CIRC_DIR / f"{stem}.pdf"
     if out.exists() and out.stat().st_size > 0 and out.read_bytes()[:4] == b"%PDF":
         return ("cached", out.stat().st_size)
     try:
         r = s.get(url, timeout=45,
                   headers={"Referer": "https://www.nseindia.com/resources/exchange-communication-circulars"})
-        if r.status_code == 200 and r.content[:4] == b"%PDF":
+        if r.status_code != 200:
+            return (f"http_{r.status_code}", 0)
+        if r.content[:4] == b"%PDF":
             out.write_bytes(r.content)
             return ("ok", len(r.content))
+        if r.content[:2] == b"PK":
+            pdf = _pdf_from_zip(r.content)
+            if pdf:
+                out.write_bytes(pdf)
+                return ("ok", len(pdf))
+            return ("zip_without_pdf", 0)
     except requests.RequestException as e:
         return (f"err_{type(e).__name__}", 0)
     return ("not_pdf", 0)
