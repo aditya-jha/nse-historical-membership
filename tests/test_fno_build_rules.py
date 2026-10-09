@@ -52,6 +52,16 @@ def test_exclusion_under_new_name_closes_old_name_interval():
     assert len(iv) == 1 and iv[0]["symbol"] == "PVR" and iv[0]["valid_to"] == date(2025, 2, 28)
 
 
+def test_repeat_exclusion_keeps_last_date_and_one_interval():
+    iv = build_intervals([_ev("exclusion", "2025-05-27", "MRF"),
+                          _ev("exclusion", "2025-05-30", "MRF")])
+    assert len(iv) == 1 and iv[0]["valid_to"] == date(2025, 5, 30)
+
+
+def test_published_csv_has_unique_symbol_valid_from(fno):
+    assert not fno.duplicated(["symbol", "valid_from"]).any()
+
+
 def test_symbol_may_start_with_a_digit_but_lot_sizes_never_match():
     line = "1 360 ONE WAM LIMITED 360ONE 500"
     hits = [h for p in SYMBOL_ROW_PATTERNS for h in p.findall(line)]

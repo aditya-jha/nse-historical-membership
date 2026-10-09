@@ -96,6 +96,7 @@ def build_intervals(events: list[dict]):
     open_intervals: dict[str, dict] = {}   # canonical symbol → record-in-progress
     completed: list[dict] = []
     suppress: dict[str, date] = {}         # withdrawal seen before its introduction
+    last_closed: dict[str, dict] = {}      # canonical symbol → interval closed by an exclusion
 
     for ev in events:
         eff = datetime.fromisoformat(ev["effective_date"]).date()
@@ -115,6 +116,7 @@ def build_intervals(events: list[dict]):
                     continue
                 suppress.pop(s)
             if ev["kind"] == "introduction":
+                last_closed.pop(s, None)
                 # Open new interval. If one is already open (re-introduction
                 # without a recorded exclusion), close the old one at this date.
                 if s in open_intervals:
@@ -137,7 +139,16 @@ def build_intervals(events: list[dict]):
                     open_intervals[s]["notes"] = (
                         f"closed by {ev.get('circular_no') or ev.get('source_pdf')}"
                     )
-                    completed.append(open_intervals.pop(s))
+                    last_closed[s] = open_intervals.pop(s)
+                    completed.append(last_closed[s])
+                elif s in last_closed:
+                    # Repeat exclusion with no re-introduction between: a revised/deferred
+                    # date (MRF, APOLLOTYRE 05-27 -> 05-30) or a superseded notice (ZEEL
+                    # 2023 -> 2024). Keep the LAST date, as index_history does.
+                    rec = last_closed[s]
+                    if eff > rec["valid_to"]:
+                        rec["valid_to"] = eff
+                        rec["notes"] = f"closed by {ev.get('circular_no') or ev.get('source_pdf')} (revised)"
                 else:
                     # Excluded without prior recorded introduction: emit a
                     # stub interval with valid_from=NULL (predates coverage)
@@ -149,6 +160,7 @@ def build_intervals(events: list[dict]):
                         "circular_no": ev.get("circular_no"),
                         "notes": "exclusion without prior introduction in coverage",
                     })
+                    last_closed[s] = completed[-1]
 
     # Emit currently-open intervals
     for rec in open_intervals.values():
