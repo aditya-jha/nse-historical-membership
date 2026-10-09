@@ -23,7 +23,6 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Optional
 
-import pdfplumber
 
 ROOT = Path(__file__).resolve().parent.parent
 CIRC_DIR = ROOT / "data" / "circulars"
@@ -105,6 +104,7 @@ def parse_pdf(pdf_path: Path, source_url: str = "") -> dict:
             "kind": None, "effective_date": None, "symbols": [],
             "notes": "non-FAOP department (clearing/surveillance)",
         }
+    import pdfplumber  # lazy: only the rebuild path needs it (CI/tests import the patterns)
     with pdfplumber.open(pdf_path) as pdf:
         full = "\n".join((p.extract_text() or "") for p in pdf.pages)
     if not full.strip() or len(full) < 100:

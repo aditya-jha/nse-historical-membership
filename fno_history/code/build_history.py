@@ -24,7 +24,6 @@ from collections import defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
-from sqlalchemy import text
 
 ROOT = Path(__file__).resolve().parent.parent
 PARSED_DIR = ROOT / "data" / "parsed"
@@ -185,7 +184,8 @@ def write_csv(records: list[dict], path: Path):
 
 
 def write(records: list[dict]):
-    from tools.postgres.connection import engine  # internal dev dep
+    from sqlalchemy import text                    # internal dev deps — DB path only
+    from tools.postgres.connection import engine
     with engine.begin() as c:
         c.execute(text("DELETE FROM fno_membership_history"))
         for r in records:
