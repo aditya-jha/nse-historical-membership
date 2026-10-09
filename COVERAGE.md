@@ -10,7 +10,7 @@
 | EOD daily OHLC | rebuilt locally (2020-01-01 → today) | **no** — run `nse_eod` fetch/build |
 
 - Last validation run: **2026-05-22T12:51:53** (`index_history/docs/validation_report.md`)
-- F&O: 317 intervals, 134 currently in segment.
+- F&O: 311 intervals, 134 currently in segment.
 
 ## Indices (42)
 
