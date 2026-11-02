@@ -1,6 +1,25 @@
 {
   "ticker": "AIMTRON",
-  "fetched_at_utc": "2026-05-10T16:28:59.619567+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.602953+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:45:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743403_21102026064519_WEB.xml",
+      "record_id": "216212",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "14-AUG-2026",
+      "submission_date": "03-SEP-2026",
+      "broadcast_date": "03-SEP-2026 17:15:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720850_03092026051509_WEB.xml",
+      "record_id": "213121",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "KIRLOSENG",
-  "fetched_at_utc": "2026-05-10T16:47:37.709253+00:00",
-  "n_filings": 62,
+  "fetched_at_utc": "2026-11-02T12:14:14.035728+00:00",
+  "n_filings": 64,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:37:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743494_21102026073729_WEB.xml",
+      "record_id": "216243",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 15:38:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698188_21072026033833_WEB.xml",
+      "record_id": "212714",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "JOCIL",
-  "fetched_at_utc": "2026-05-10T16:46:47.483874+00:00",
-  "n_filings": 71,
+  "fetched_at_utc": "2026-11-02T12:14:14.545905+00:00",
+  "n_filings": 73,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 11:10:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734646_09102026111041_WEB.xml",
+      "record_id": "213542",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 10:06:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691870_14072026100644_WEB.xml",
+      "record_id": "211003",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

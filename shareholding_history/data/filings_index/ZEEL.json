@@ -1,8 +1,26 @@
 {
   "ticker": "ZEEL",
-  "fetched_at_utc": "2026-05-10T17:01:12.280252+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.247574+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 20:56:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740483_16102026085634_WEB.xml",
+      "record_id": "215132",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:58:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697002_20072026045753_WEB.xml",
+      "record_id": "212293",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

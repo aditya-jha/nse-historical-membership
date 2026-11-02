@@ -6,10 +6,12 @@ content starts with `<`). Polite rate-limit, optional parallelism.
 Run:
     python -m shareholding_history.code.download_xbrl --workers 4 --sleep 0.15
     python -m shareholding_history.code.download_xbrl --tickers RELIANCE,KAYNES
+    python -m shareholding_history.code.download_xbrl --new-only   # incremental refresh
 """
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import sys
 import time
@@ -108,6 +110,8 @@ def main():
     ap.add_argument("--limit", type=int, help="Cap total filings to fetch (debug)")
     ap.add_argument("--refresh-every", type=int, default=2000,
                     help="Re-warm all worker sessions every N successful fetches")
+    ap.add_argument("--new-only", action="store_true",
+                    help="Skip filings already in data/parsed/_flat.csv (incremental refresh)")
     args = ap.parse_args()
 
     progress_path = ROOT / "data" / "download_xbrl_progress.txt"
@@ -120,6 +124,11 @@ def main():
 
     targets = [t.strip().upper() for t in args.tickers.split(",")] if args.tickers else None
     filings = _enumerate_filings(targets)
+    if args.new_only:
+        flat = ROOT / "data" / "parsed" / "_flat.csv"
+        with flat.open() as f:
+            done = {r["source_filename"] for r in csv.DictReader(f)}
+        filings = [x for x in filings if _filename_from_url(x[2]) not in done]
     if args.limit:
         filings = filings[: args.limit]
 

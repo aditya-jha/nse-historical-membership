@@ -1,6 +1,34 @@
 {
   "ticker": "VIESL",
-  "fetched_at_utc": "2026-05-10T17:00:15.328255+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.653396+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:55:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738614_15102026125543_WEB.xml",
+      "record_id": "214537",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "22-SEP-2026",
+      "submission_date": "26-SEP-2026",
+      "broadcast_date": "26-SEP-2026 16:42:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1729003_26092026044221_WEB.xml",
+      "record_id": "213228",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "17-JUL-2026",
+      "submission_date": "30-JUL-2026",
+      "broadcast_date": "11-AUG-2026 17:19:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1709877_07082026052305_WEB.xml",
+      "record_id": "213001",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

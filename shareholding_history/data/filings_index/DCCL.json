@@ -1,6 +1,25 @@
 {
   "ticker": "DCCL",
-  "fetched_at_utc": "2026-05-10T16:32:43.330736+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.689060+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 14:55:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733359_06102026025500_WEB.xml",
+      "record_id": "213299",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "02-JUL-2026",
+      "broadcast_date": "02-JUL-2026 16:48:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687581_02072026044846_WEB.xml",
+      "record_id": "210472",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

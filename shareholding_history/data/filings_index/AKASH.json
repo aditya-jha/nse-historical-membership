@@ -1,8 +1,26 @@
 {
   "ticker": "AKASH",
-  "fetched_at_utc": "2026-05-10T16:29:03.458608+00:00",
-  "n_filings": 34,
+  "fetched_at_utc": "2026-11-02T12:14:14.243009+00:00",
+  "n_filings": 36,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 11:35:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740568_17102026113527_WEB.xml",
+      "record_id": "215162",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 11:25:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694822_17072026112504_WEB.xml",
+      "record_id": "211616",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

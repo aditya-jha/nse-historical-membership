@@ -1,8 +1,26 @@
 {
   "ticker": "SIGNATURE",
-  "fetched_at_utc": "2026-05-10T16:56:36.110940+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.229813+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:19:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740812_17102026041951_WEB.xml",
+      "record_id": "215247",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:33:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698663_21072026063325_WEB.xml",
+      "record_id": "212858",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

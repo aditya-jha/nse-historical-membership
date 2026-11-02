@@ -1,8 +1,44 @@
 {
   "ticker": "NECCLTD",
-  "fetched_at_utc": "2026-05-10T16:50:54.383635+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.586739+00:00",
+  "n_filings": 48,
   "filings": [
+    {
+      "date": "01-OCT-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 15:25:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733381_06102026032544_WEB.xml",
+      "record_id": "213304",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 15:10:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733374_06102026031032_WEB.xml",
+      "record_id": "213302",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-AUG-2026",
+      "broadcast_date": "14-AUG-2026 18:34:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714840_14082026063402_WEB.xml",
+      "record_id": "213048",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "06-JUN-2026",
+      "submission_date": "06-JUN-2026",
+      "broadcast_date": "06-JUN-2026 19:13:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680101_06062026071349_WEB.xml",
+      "record_id": "210379",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

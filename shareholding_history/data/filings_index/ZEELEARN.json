@@ -1,8 +1,26 @@
 {
   "ticker": "ZEELEARN",
-  "fetched_at_utc": "2026-05-10T17:01:12.792263+00:00",
-  "n_filings": 61,
+  "fetched_at_utc": "2026-11-02T12:14:14.053447+00:00",
+  "n_filings": 63,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:49:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743193_21102026054951_WEB.xml",
+      "record_id": "216168",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:24:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696892_20072026042354_WEB.xml",
+      "record_id": "212256",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

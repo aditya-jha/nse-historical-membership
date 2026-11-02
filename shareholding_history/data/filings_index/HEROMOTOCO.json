@@ -1,8 +1,26 @@
 {
   "ticker": "HEROMOTOCO",
-  "fetched_at_utc": "2026-05-10T16:44:23.732838+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.182896+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:34:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741580_19102026043440_WEB.xml",
+      "record_id": "215527",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:34:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698812_21072026073358_WEB.xml",
+      "record_id": "212901",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

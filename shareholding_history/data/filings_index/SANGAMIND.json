@@ -1,8 +1,26 @@
 {
   "ticker": "SANGAMIND",
-  "fetched_at_utc": "2026-05-10T16:55:17.117600+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.518067+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 15:24:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735390_10102026032422_WEB.xml",
+      "record_id": "213713",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:53:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696557_20072026125334_WEB.xml",
+      "record_id": "212140",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

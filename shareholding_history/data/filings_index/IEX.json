@@ -1,8 +1,26 @@
 {
   "ticker": "IEX",
-  "fetched_at_utc": "2026-05-10T16:45:01.938820+00:00",
-  "n_filings": 37,
+  "fetched_at_utc": "2026-11-02T12:14:14.201291+00:00",
+  "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 13:31:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741298_19102026013139_WEB.xml",
+      "record_id": "215417",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:05:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697238_20072026060542_WEB.xml",
+      "record_id": "212372",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

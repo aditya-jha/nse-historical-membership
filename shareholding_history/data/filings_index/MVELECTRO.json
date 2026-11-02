@@ -1,0 +1,25 @@
+{
+  "ticker": "MVELECTRO",
+  "fetched_at_utc": "2026-11-02T12:14:14.563757+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 12:49:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734160_08102026124855_WEB.xml",
+      "record_id": "213444",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "05-AUG-2026",
+      "submission_date": "06-AUG-2026",
+      "broadcast_date": "19-AUG-2026 12:44:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714230_14082026113018_WEB.xml",
+      "record_id": "213019",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

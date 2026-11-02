@@ -1,0 +1,25 @@
+{
+  "ticker": "VARMORA",
+  "fetched_at_utc": "2026-11-02T12:14:14.450599+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:37:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736998_13102026043705_WEB.xml",
+      "record_id": "214109",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "28-SEP-2026",
+      "submission_date": "29-SEP-2026",
+      "broadcast_date": "13-OCT-2026 11:32:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736325_12102026060214_WEB.xml",
+      "record_id": "213231",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

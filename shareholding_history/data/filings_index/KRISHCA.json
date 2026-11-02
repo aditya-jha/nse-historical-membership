@@ -1,6 +1,25 @@
 {
   "ticker": "KRISHCA",
-  "fetched_at_utc": "2026-05-10T16:48:01.097964+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.655117+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 11:39:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738492_15102026113903_WEB.xml",
+      "record_id": "214496",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "02-JUN-2026",
+      "submission_date": "09-JUN-2026",
+      "broadcast_date": "09-JUN-2026 16:11:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680447_09062026041057_WEB.xml",
+      "record_id": "210382",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

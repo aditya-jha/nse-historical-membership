@@ -1,8 +1,26 @@
 {
   "ticker": "RENUKA",
-  "fetched_at_utc": "2026-05-10T16:54:18.590431+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.512899+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 10:27:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735776_12102026102750_WEB.xml",
+      "record_id": "213751",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "21-AUG-2026 17:54:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1704722_30072026105845_WEB.xml",
+      "record_id": "211594",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "LOTUSDEV",
-  "fetched_at_utc": "2026-05-10T16:48:37.408986+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.568546+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 21:44:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734058_07102026094353_WEB.xml",
+      "record_id": "213419",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:17:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698780_21072026071656_WEB.xml",
+      "record_id": "212892",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

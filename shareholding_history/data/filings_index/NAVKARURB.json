@@ -1,8 +1,26 @@
 {
   "ticker": "NAVKARURB",
-  "fetched_at_utc": "2026-05-10T16:50:47.443975+00:00",
-  "n_filings": 7,
+  "fetched_at_utc": "2026-11-02T12:14:14.162983+00:00",
+  "n_filings": 9,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:07:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741833_19102026060753_WEB.xml",
+      "record_id": "215623",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:40:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696093_18072026034028_WEB.xml",
+      "record_id": "212000",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

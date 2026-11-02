@@ -1,8 +1,26 @@
 {
   "ticker": "PDMJEPAPER",
-  "fetched_at_utc": "2026-05-10T16:52:27.070284+00:00",
-  "n_filings": 42,
+  "fetched_at_utc": "2026-11-02T12:14:14.206548+00:00",
+  "n_filings": 44,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:42:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741238_19102026124230_WEB.xml",
+      "record_id": "215388",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:12:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693219_15072026041217_WEB.xml",
+      "record_id": "211282",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

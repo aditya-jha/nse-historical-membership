@@ -1,8 +1,26 @@
 {
   "ticker": "SUNTECK",
-  "fetched_at_utc": "2026-05-10T16:57:51.665325+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.029466+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 20:29:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743570_21102026082952_WEB.xml",
+      "record_id": "216267",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 20:02:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690785_10072026080224_WEB.xml",
+      "record_id": "210824",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

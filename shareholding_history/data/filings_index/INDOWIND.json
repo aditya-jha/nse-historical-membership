@@ -1,8 +1,26 @@
 {
   "ticker": "INDOWIND",
-  "fetched_at_utc": "2026-05-10T16:45:29.243513+00:00",
-  "n_filings": 75,
+  "fetched_at_utc": "2026-11-02T12:14:14.472503+00:00",
+  "n_filings": 77,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:24:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736643_13102026122419_WEB.xml",
+      "record_id": "213988",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:51:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694316_16072026045137_WEB.xml",
+      "record_id": "211509",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "CRAMC",
-  "fetched_at_utc": "2026-05-10T16:32:18.316386+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.345179+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:00:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738885_15102026040047_WEB.xml",
+      "record_id": "214613",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 15:56:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694167_16072026035623_WEB.xml",
+      "record_id": "211479",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

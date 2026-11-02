@@ -1,8 +1,35 @@
 {
   "ticker": "GLOBUSSPR",
-  "fetched_at_utc": "2026-05-10T16:43:14.222671+00:00",
-  "n_filings": 67,
+  "fetched_at_utc": "2026-11-02T12:14:14.260630+00:00",
+  "n_filings": 70,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:50:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740222_16102026055038_WEB.xml",
+      "record_id": "215054",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "06-AUG-2026",
+      "submission_date": "13-AUG-2026",
+      "broadcast_date": "13-AUG-2026 13:06:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1713288_13082026010623_WEB.xml",
+      "record_id": "213041",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:09:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694203_16072026040904_WEB.xml",
+      "record_id": "211486",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

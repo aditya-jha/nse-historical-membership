@@ -1,8 +1,26 @@
 {
   "ticker": "SATIA",
-  "fetched_at_utc": "2026-05-10T16:55:27.830230+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.478851+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:09:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736555_13102026110858_WEB.xml",
+      "record_id": "213953",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 11:54:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691941_14072026115444_WEB.xml",
+      "record_id": "211013",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

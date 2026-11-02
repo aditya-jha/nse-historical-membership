@@ -1,8 +1,26 @@
 {
   "ticker": "WELINV",
-  "fetched_at_utc": "2026-05-10T17:00:51.006671+00:00",
-  "n_filings": 66,
+  "fetched_at_utc": "2026-11-02T12:14:14.131187+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 16:01:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742294_20102026040111_WEB.xml",
+      "record_id": "215799",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:35:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698816_21072026073532_WEB.xml",
+      "record_id": "212903",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

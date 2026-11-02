@@ -1,8 +1,26 @@
 {
   "ticker": "ADVAIT",
-  "fetched_at_utc": "2026-05-10T16:28:44.627992+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.153072+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:15:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741967_19102026071542_WEB.xml",
+      "record_id": "215677",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 10:33:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696392_20072026103302_WEB.xml",
+      "record_id": "212087",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "PASHUPATI",
-  "fetched_at_utc": "2026-05-10T16:52:18.919356+00:00",
-  "n_filings": 24,
+  "fetched_at_utc": "2026-11-02T12:14:14.222932+00:00",
+  "n_filings": 26,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 18:42:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740965_17102026064209_WEB.xml",
+      "record_id": "215294",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "09-SEP-2026 16:13:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722455_08092026022043_WEB.xml",
+      "record_id": "212830",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

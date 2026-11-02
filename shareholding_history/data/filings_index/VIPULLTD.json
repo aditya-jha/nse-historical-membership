@@ -1,8 +1,26 @@
 {
   "ticker": "VIPULLTD",
-  "fetched_at_utc": "2026-05-10T17:00:25.982539+00:00",
-  "n_filings": 45,
+  "fetched_at_utc": "2026-11-02T12:14:14.109571+00:00",
+  "n_filings": 47,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:10:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742535_21102026121001_WEB.xml",
+      "record_id": "215912",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "19-AUG-2026",
+      "broadcast_date": "19-AUG-2026 16:36:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1716024_19082026043504_WEB.xml",
+      "record_id": "213059",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

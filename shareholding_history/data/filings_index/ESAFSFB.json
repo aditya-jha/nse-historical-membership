@@ -1,8 +1,26 @@
 {
   "ticker": "ESAFSFB",
-  "fetched_at_utc": "2026-05-10T16:34:20.260481+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.307516+00:00",
+  "n_filings": 13,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "26-OCT-2026 12:38:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1745610_26102026122722_WEB.xml",
+      "record_id": "214797",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 13:14:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697954_21072026011427_WEB.xml",
+      "record_id": "212642",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

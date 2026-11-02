@@ -1,8 +1,26 @@
 {
   "ticker": "KOTHARIPET",
-  "fetched_at_utc": "2026-05-10T16:47:52.989083+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.279886+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:16:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739966_16102026041648_WEB.xml",
+      "record_id": "214952",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:19:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693235_15072026041911_WEB.xml",
+      "record_id": "211285",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

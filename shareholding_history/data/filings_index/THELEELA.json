@@ -1,8 +1,26 @@
 {
   "ticker": "THELEELA",
-  "fetched_at_utc": "2026-05-10T16:58:49.318124+00:00",
-  "n_filings": 5,
+  "fetched_at_utc": "2026-11-02T12:14:14.058568+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:26:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743153_21102026052556_WEB.xml",
+      "record_id": "216145",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 13:23:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694963_17072026012256_WEB.xml",
+      "record_id": "211650",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

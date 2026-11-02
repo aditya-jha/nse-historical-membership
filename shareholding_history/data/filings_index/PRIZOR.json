@@ -1,6 +1,34 @@
 {
   "ticker": "PRIZOR",
-  "fetched_at_utc": "2026-05-10T16:53:21.698203+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.598173+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "24-OCT-2026",
+      "submission_date": "27-OCT-2026",
+      "broadcast_date": "27-OCT-2026 15:45:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1746695_27102026034505_WEB.xml",
+      "record_id": "216337",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:49:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736680_13102026124901_WEB.xml",
+      "record_id": "214001",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:25:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696898_20072026042538_WEB.xml",
+      "record_id": "212257",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

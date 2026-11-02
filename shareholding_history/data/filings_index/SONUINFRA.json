@@ -1,6 +1,25 @@
 {
   "ticker": "SONUINFRA",
-  "fetched_at_utc": "2026-05-10T16:57:07.594139+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.648077+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:26:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739253_15102026062624_WEB.xml",
+      "record_id": "214728",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "20-AUG-2026",
+      "submission_date": "08-SEP-2026",
+      "broadcast_date": "08-SEP-2026 19:56:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722705_08092026075634_WEB.xml",
+      "record_id": "213137",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

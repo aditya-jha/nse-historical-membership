@@ -1,6 +1,16 @@
 {
   "ticker": "SOTAC",
-  "fetched_at_utc": "2026-05-10T16:57:08.154675+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.640827+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:42:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740052_16102026044159_WEB.xml",
+      "record_id": "214992",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

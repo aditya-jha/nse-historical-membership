@@ -1,8 +1,26 @@
 {
   "ticker": "CYBERMEDIA",
-  "fetched_at_utc": "2026-05-10T16:32:29.921442+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.429490+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 10:24:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737363_14102026102440_WEB.xml",
+      "record_id": "214219",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 10:00:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692757_15072026100023_WEB.xml",
+      "record_id": "211151",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "11-APR-2026",
       "submission_date": "30-APR-2026",

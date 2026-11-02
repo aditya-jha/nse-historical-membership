@@ -1,8 +1,26 @@
 {
   "ticker": "BBOX",
-  "fetched_at_utc": "2026-05-10T16:30:33.675407+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.464364+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:31:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736789_13102026023115_WEB.xml",
+      "record_id": "214036",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 10:55:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694791_17072026105505_WEB.xml",
+      "record_id": "211604",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

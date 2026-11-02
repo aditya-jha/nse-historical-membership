@@ -1,8 +1,44 @@
 {
   "ticker": "LOKESHMACH",
-  "fetched_at_utc": "2026-05-10T16:48:36.446948+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.571126+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 17:08:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733870_07102026050831_WEB.xml",
+      "record_id": "213403",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "11-JUL-2026",
+      "submission_date": "23-JUL-2026",
+      "broadcast_date": "23-JUL-2026 16:22:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1700022_23072026042234_WEB.xml",
+      "record_id": "212970",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 12:45:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691985_14072026124459_WEB.xml",
+      "record_id": "211027",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "06-MAY-2026",
+      "submission_date": "23-MAY-2026",
+      "broadcast_date": "23-MAY-2026 17:58:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1672033_23052026055836_WEB.xml",
+      "record_id": "210353",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

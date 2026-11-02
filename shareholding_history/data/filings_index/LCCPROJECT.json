@@ -1,0 +1,25 @@
+{
+  "ticker": "LCCPROJECT",
+  "fetched_at_utc": "2026-11-02T12:14:14.223071+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 18:38:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740964_17102026063812_WEB.xml",
+      "record_id": "215293",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-SEP-2026",
+      "submission_date": "17-SEP-2026",
+      "broadcast_date": "12-OCT-2026 15:53:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1727794_24092026082105_WEB.xml",
+      "record_id": "213178",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

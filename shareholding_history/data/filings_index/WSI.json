@@ -1,8 +1,26 @@
 {
   "ticker": "WSI",
-  "fetched_at_utc": "2026-05-10T17:01:03.233678+00:00",
-  "n_filings": 94,
+  "fetched_at_utc": "2026-11-02T12:14:14.406720+00:00",
+  "n_filings": 96,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:40:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737707_14102026034017_WEB.xml",
+      "record_id": "214323",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:43:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693436_15072026054313_WEB.xml",
+      "record_id": "211327",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

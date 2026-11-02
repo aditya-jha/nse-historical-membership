@@ -109,7 +109,7 @@ def main():
                  f"(`index_history/docs/validation_report.md`)")
     lines.append(f"- F&O: {fno_rows} intervals, {fno_open} currently in segment.")
     lines.append("")
-    lines.append("## Indices (42)")
+    lines.append(f"## Indices ({len(rows)})")
     lines.append("")
     lines.append("`current` = symbols with an open interval today. `target` from the "
                  "registry (blank for sector/thematic indices NSE doesn't fix-size — "

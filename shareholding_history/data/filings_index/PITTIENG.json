@@ -1,8 +1,26 @@
 {
   "ticker": "PITTIENG",
-  "fetched_at_utc": "2026-05-10T16:52:44.209311+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.255675+00:00",
+  "n_filings": 83,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:23:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740300_16102026062348_WEB.xml",
+      "record_id": "215082",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:08:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695569_17072026060818_WEB.xml",
+      "record_id": "211840",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "GOKEX",
-  "fetched_at_utc": "2026-05-10T16:43:25.767783+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.357945+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 13:36:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738665_15102026013613_WEB.xml",
+      "record_id": "214553",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:46:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697165_20072026054623_WEB.xml",
+      "record_id": "212349",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

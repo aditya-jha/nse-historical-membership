@@ -1,8 +1,26 @@
 {
   "ticker": "SOMATEX",
-  "fetched_at_utc": "2026-05-10T16:57:03.707840+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.540969+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 14:09:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734769_09102026020924_WEB.xml",
+      "record_id": "213570",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "18-SEP-2026 15:14:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725275_18092026015457_WEB.xml",
+      "record_id": "210698",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

@@ -1,8 +1,44 @@
 {
   "ticker": "NITCO",
-  "fetched_at_utc": "2026-05-10T16:51:19.027827+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.062250+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:12:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743130_21102026051206_WEB.xml",
+      "record_id": "216127",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-JUL-2026",
+      "submission_date": "07-AUG-2026",
+      "broadcast_date": "07-AUG-2026 19:39:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1710183_07082026073920_WEB.xml",
+      "record_id": "213026",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-JUL-2026",
+      "submission_date": "07-AUG-2026",
+      "broadcast_date": "07-AUG-2026 18:59:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1710116_07082026065942_WEB.xml",
+      "record_id": "213025",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 20:05:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697535_20072026080519_WEB.xml",
+      "record_id": "212470",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

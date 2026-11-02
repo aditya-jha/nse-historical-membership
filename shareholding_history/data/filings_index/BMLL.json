@@ -1,0 +1,25 @@
+{
+  "ticker": "BMLL",
+  "fetched_at_utc": "2026-11-02T12:14:14.633353+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:43:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740842_17102026044346_WEB.xml",
+      "record_id": "215258",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "28-MAY-2026",
+      "submission_date": "30-MAY-2026",
+      "broadcast_date": "22-JUN-2026 19:22:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682445_18062026030655_WEB.xml",
+      "record_id": "210365",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

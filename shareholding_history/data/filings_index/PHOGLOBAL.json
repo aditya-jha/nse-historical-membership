@@ -1,6 +1,25 @@
 {
   "ticker": "PHOGLOBAL",
-  "fetched_at_utc": "2026-05-10T16:52:38.562731+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.684125+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 14:43:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734230_08102026024335_WEB.xml",
+      "record_id": "213463",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 14:51:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689673_09072026025142_WEB.xml",
+      "record_id": "210681",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

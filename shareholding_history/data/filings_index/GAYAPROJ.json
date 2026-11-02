@@ -1,14 +1,23 @@
 {
   "ticker": "GAYAPROJ",
-  "fetched_at_utc": "2026-05-10T16:42:52.920179+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.562512+00:00",
+  "n_filings": 66,
   "filings": [
     {
-      "date": "22-APR-2026",
-      "submission_date": "01-MAY-2026",
-      "broadcast_date": "01-MAY-2026 21:43:09",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1662900_01052026094307_WEB.xml",
-      "record_id": "210316",
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 13:10:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734191_08102026011049_WEB.xml",
+      "record_id": "213450",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 13:15:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689159_08072026011458_WEB.xml",
+      "record_id": "210601",
       "revised": "N",
       "format": null
     },
@@ -18,6 +27,15 @@
       "broadcast_date": "01-MAY-2026 21:42:24",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1662899_01052026094218_WEB.xml",
       "record_id": "210315",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "22-APR-2026",
+      "submission_date": "01-MAY-2026",
+      "broadcast_date": "01-MAY-2026 21:43:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1662900_01052026094307_WEB.xml",
+      "record_id": "210316",
       "revised": "N",
       "format": null
     },

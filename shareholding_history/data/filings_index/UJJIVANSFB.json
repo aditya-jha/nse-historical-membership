@@ -1,8 +1,26 @@
 {
   "ticker": "UJJIVANSFB",
-  "fetched_at_utc": "2026-05-10T16:59:34.766192+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.554797+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 16:38:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734353_08102026043800_WEB.xml",
+      "record_id": "213491",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 12:39:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689592_09072026123907_WEB.xml",
+      "record_id": "210666",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

@@ -1,6 +1,25 @@
 {
   "ticker": "IWARE",
-  "fetched_at_utc": "2026-05-10T16:46:06.366576+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.678481+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 14:56:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735366_10102026025558_WEB.xml",
+      "record_id": "213709",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "05-JUN-2026",
+      "submission_date": "13-JUN-2026",
+      "broadcast_date": "24-JUN-2026 15:57:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1683442_23062026105918_WEB.xml",
+      "record_id": "210395",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

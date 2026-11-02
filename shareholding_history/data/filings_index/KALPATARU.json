@@ -1,8 +1,26 @@
 {
   "ticker": "KALPATARU",
-  "fetched_at_utc": "2026-05-10T16:47:04.735845+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.058339+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:28:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743154_21102026052841_WEB.xml",
+      "record_id": "216146",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 20:22:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697552_20072026082223_WEB.xml",
+      "record_id": "212477",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "SITINET",
-  "fetched_at_utc": "2026-05-10T16:56:46.654980+00:00",
-  "n_filings": 83,
+  "fetched_at_utc": "2026-11-02T12:14:14.383988+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:35:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738077_14102026063543_WEB.xml",
+      "record_id": "214437",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "01-SEP-2026 17:19:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719873_01092026051859_WEB.xml",
+      "record_id": "213109",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

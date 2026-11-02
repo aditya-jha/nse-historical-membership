@@ -1,8 +1,26 @@
 {
   "ticker": "SWELECTES",
-  "fetched_at_utc": "2026-05-10T16:58:09.469861+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.116157+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 10:53:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742441_21102026105351_WEB.xml",
+      "record_id": "215872",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:11:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698766_21072026071144_WEB.xml",
+      "record_id": "212883",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

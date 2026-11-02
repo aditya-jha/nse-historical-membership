@@ -1,8 +1,26 @@
 {
   "ticker": "UCAL",
-  "fetched_at_utc": "2026-05-10T16:59:29.441251+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.551588+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 17:34:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734450_08102026053425_WEB.xml",
+      "record_id": "213511",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 09:33:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692749_15072026093349_WEB.xml",
+      "record_id": "211145",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "BIOFILCHEM",
-  "fetched_at_utc": "2026-05-10T16:30:48.884699+00:00",
-  "n_filings": 80,
+  "fetched_at_utc": "2026-11-02T12:14:14.546837+00:00",
+  "n_filings": 82,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 10:53:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734637_09102026105307_WEB.xml",
+      "record_id": "213537",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 18:58:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694578_16072026065808_WEB.xml",
+      "record_id": "211562",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "KAYA",
-  "fetched_at_utc": "2026-05-10T16:47:18.911564+00:00",
-  "n_filings": 47,
+  "fetched_at_utc": "2026-11-02T12:14:14.289153+00:00",
+  "n_filings": 49,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:17:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739832_16102026031713_WEB.xml",
+      "record_id": "214899",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:36:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695465_17072026053644_WEB.xml",
+      "record_id": "211808",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

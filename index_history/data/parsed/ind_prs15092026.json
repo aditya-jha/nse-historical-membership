@@ -1,0 +1,122 @@
+{
+  "source_pdf": "ind_prs15092026.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs15092026.pdf",
+  "publication_date": "2026-09-15",
+  "effective_date": "2026-09-30",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty Consumption",
+      "index_id": 3002,
+      "excluded": [
+        "ADANIPOWER",
+        "HAVELLS"
+      ],
+      "included": [
+        "FORTIS",
+        "TORNTPHARM"
+      ]
+    },
+    {
+      "index_name": "Nifty India Defence",
+      "index_id": 3009,
+      "excluded": [],
+      "included": [
+        "CENTUM",
+        "SIGMAADV",
+        "UNIMECH"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "WIPRO"
+      ],
+      "included": [
+        "DRREDDY"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "AMBER",
+        "ANANDRATHI",
+        "DELHIVERY",
+        "FORTIS",
+        "HDFCAMC",
+        "MFSL",
+        "MUTHOOTFIN"
+      ],
+      "included": [
+        "CUPID",
+        "HFCL",
+        "KIRLOSENG",
+        "MTARTECH",
+        "STLTECH",
+        "TDPOWERSYS",
+        "WELCORP"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "HUDCO",
+        "IREDA",
+        "MOTILALOFS",
+        "MCX",
+        "NBCC",
+        "PFC",
+        "TATASTEEL",
+        "UJJIVANSFB"
+      ],
+      "included": [
+        "AMBUJACEM",
+        "BAJFINANCE",
+        "MAHABANK",
+        "GMRAIRPORT",
+        "LT",
+        "MTARTECH",
+        "REDINGTON",
+        "TMPV"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "COLPAL",
+        "DABUR",
+        "IRCTC",
+        "INFY",
+        "MRF"
+      ],
+      "included": [
+        "COALINDIA",
+        "HAVELLS",
+        "ONGC",
+        "TATAPOWER",
+        "ZYDUSLIFE"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "HCLTECH",
+        "INFY",
+        "SHREECEM"
+      ],
+      "included": [
+        "HDFCLIFE",
+        "POWERGRID",
+        "TATAPOWER"
+      ]
+    }
+  ],
+  "notes": [
+    "Nifty India Defence: |excluded|=0 != |included|=3 (may be legitimate for off-cycle events but flag for review)"
+  ]
+}

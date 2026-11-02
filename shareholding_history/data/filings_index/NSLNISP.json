@@ -1,8 +1,26 @@
 {
   "ticker": "NSLNISP",
-  "fetched_at_utc": "2026-05-10T16:51:30.437770+00:00",
-  "n_filings": 14,
+  "fetched_at_utc": "2026-11-02T12:14:14.344801+00:00",
+  "n_filings": 16,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:04:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738893_15102026040407_WEB.xml",
+      "record_id": "214615",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 14:38:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696666_20072026023855_WEB.xml",
+      "record_id": "212180",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

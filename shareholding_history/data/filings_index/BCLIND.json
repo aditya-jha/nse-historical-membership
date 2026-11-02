@@ -1,8 +1,26 @@
 {
   "ticker": "BCLIND",
-  "fetched_at_utc": "2026-05-10T16:30:34.667033+00:00",
-  "n_filings": 27,
+  "fetched_at_utc": "2026-11-02T12:14:14.414906+00:00",
+  "n_filings": 29,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:58:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737567_14102026015811_WEB.xml",
+      "record_id": "214285",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 10:52:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693771_16072026105220_WEB.xml",
+      "record_id": "211382",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",
@@ -130,20 +148,20 @@
       "format": null
     },
     {
-      "date": "11-AUG-2023",
-      "submission_date": "14-AUG-2023",
-      "broadcast_date": "14-AUG-2023 13:17:31",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_180366_917974_14082023011731_WEB.xml",
-      "record_id": "180366",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "25-JUL-2023",
       "submission_date": "30-AUG-2023",
       "broadcast_date": "30-AUG-2023 17:39:10",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_180412_924829_30082023053909_WEB.xml",
       "record_id": "180412",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "11-AUG-2023",
+      "submission_date": "14-AUG-2023",
+      "broadcast_date": "14-AUG-2023 13:17:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_180366_917974_14082023011731_WEB.xml",
+      "record_id": "180366",
       "revised": "N",
       "format": null
     },

@@ -2,6 +2,42 @@
 
 ## Unreleased
 
+**Data license: CC BY 4.0 → CC0 1.0.** The data files are now dedicated to the public
+domain — use them however you like. Code stays MIT.
+
+**Index history — dropped Nifty100 Equal Weight (42 → 41 indices).** Equal-weight indices
+hold the same members as their parent (Nifty 100), so tracking one adds no information; it
+also had no press releases of its own, so all its rows were "member since 2014" floor
+stubs. Use Nifty 100 instead.
+
+**Data refresh (2026-11-02) — index history through 2026-10-13, F&O through 2026-10-28.**
+- Index: 124 new NSE Indices press releases (2026-05-20 → 2026-10-29), incl. the Sep-2026
+  semi-annual review (BSE into Nifty 50, WIPRO out) and the June/Sep strategy reviews.
+  6,525 → 6,670 intervals (after dropping Equal Weight). G1 0/41, G3 29/29, G4 608/984 → 604/974.
+- `current_snapshot/`: NSE retired `nseindia.com/api/equity-stockIndices`; the 13 indices
+  that used it now pull static constituent CSVs (`archives.nseindia.com` / `niftyindices.com`).
+- Parser fixes (`parse_press_release.py`), re-applied to every 2025–26 PR:
+  - digit-leading symbols (3MINDIA, 360ONE) and footnote-marked names (`Vedanta Ltd.* VEDL`)
+    were dropped from replacement lists;
+  - one-index sub-headings ("B. Replacement in Nifty50 Value 20 index:") were swallowed by the
+    section above — recovered Nifty50 Value 20 reviews in Feb/Aug 2025 and Sep 2026;
+  - "Nifty India Consumption" is now an alias of Nifty Consumption.
+  `tests/test_index_parser.py` pins both.
+- Renames: HEG → HEGAM (graphite demerger, DUMMYHEG dropped), ICICIPRULI → ICICILIFE (index
+  and F&O).
+- F&O: 4 new circulars — introductions COROMANDEL, CUB, DATAPATTNS, KARURVYSYA, NAVINFLUOR,
+  SYRMA (10-28); exclusions POLYCAB, INOXWIND (12-30). 317 intervals / 281 symbols / 138 open.
+- Shareholding: Jun + Sep 2026 quarters added — 59,773 → 65,881 rows, 2,261 → 3,021 symbols
+  (720 new symbols carry only 2026 filings so far), data through 2026-10. Every existing
+  row kept unchanged. 237 older filings 404 on NSE and stay missing.
+- Shareholding incremental refresh (the raw XBRL cache is gone, and NSE's per-symbol endpoint
+  now returns only ~23 recent filings, so the old full-rebuild path would have lost history):
+  - `fetch_filings --since DD-MM-YYYY`: every filing submitted in a window, main board + SME,
+    in 2 calls instead of ~2,900; also picks up symbols listed after `_universe.csv`.
+  - re-fetched filing lists are merged into the committed ones, never replace them.
+  - `download_xbrl --new-only`, `parse_xbrl --append` (keeps existing rows, de-duplicates
+    NSE's repeated filings). `tests/test_shareholding_incremental.py` pins all three.
+
 **F&O history — refreshed through 2026-10 and reconciled against NSE's live F&O list (2026-10-09).**
 - Data: 11 new circulars (May–Sep 2026): introductions GVT&D, RADICO (05-27), ATHERENERG,
   MAHABANK, SAGILITY (08-26), ANANDRATHI, ENRIN, UJJIVANSFB (09-30); exclusions EXIDEIND, NUVAMA
@@ -27,7 +63,9 @@
 - `build_history --csv-out` (no database needed), matching `index_history`.
 - Result: every open interval is on NSE's F&O list today (after renames); the 76 current
   members without an interval all traded F&O in Jan 2014 (pre-coverage, never excluded).
-  317 intervals / 278 symbols / 134 open. `tests/test_fno_build_rules.py` pins each fix (37/37).
+  311 intervals / 278 symbols / 134 open. `tests/test_fno_build_rules.py` pins each fix (39/39).
+- Repeat exclusions with no re-introduction collapse to the last date (MRF, APOLLOTYRE, ZEEL
+  had duplicate `(symbol, valid_from)` stubs), same rule as `index_history`.
 
 **Disk cleanup — purged local raw XBRL cache (2026-06-13).**
 - Deleted `shareholding_history/data/xbrl/` (~16 GB, ~60K `SHP_*.xml` files) to

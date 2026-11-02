@@ -1,8 +1,26 @@
 {
   "ticker": "FUSION",
-  "fetched_at_utc": "2026-05-10T16:42:39.441850+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.102315+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:59:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742633_21102026125915_WEB.xml",
+      "record_id": "215944",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 11:50:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696464_20072026115011_WEB.xml",
+      "record_id": "212103",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

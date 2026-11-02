@@ -1,8 +1,26 @@
 {
   "ticker": "BEL",
-  "fetched_at_utc": "2026-05-10T16:26:56.150534+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.414652+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:59:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737569_14102026015942_WEB.xml",
+      "record_id": "214286",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 16:50:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691499_13072026045050_WEB.xml",
+      "record_id": "210952",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

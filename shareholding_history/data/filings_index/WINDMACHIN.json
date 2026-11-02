@@ -1,8 +1,35 @@
 {
   "ticker": "WINDMACHIN",
-  "fetched_at_utc": "2026-05-10T17:00:57.320114+00:00",
-  "n_filings": 63,
+  "fetched_at_utc": "2026-11-02T12:14:14.124832+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 18:25:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742351_20102026062535_WEB.xml",
+      "record_id": "215831",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 19:06:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689011_07072026070620_WEB.xml",
+      "record_id": "210572",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-JUN-2026",
+      "submission_date": "23-JUN-2026",
+      "broadcast_date": "23-JUN-2026 15:45:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1683557_23062026034505_WEB.xml",
+      "record_id": "210421",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "13-APR-2026",
       "submission_date": "23-APR-2026",

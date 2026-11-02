@@ -1,8 +1,26 @@
 {
   "ticker": "NAVKARCORP",
-  "fetched_at_utc": "2026-05-10T16:50:46.920409+00:00",
-  "n_filings": 45,
+  "fetched_at_utc": "2026-11-02T12:14:14.473854+00:00",
+  "n_filings": 47,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:14:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736630_13102026121440_WEB.xml",
+      "record_id": "213982",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:37:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697793_21072026113708_WEB.xml",
+      "record_id": "212579",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

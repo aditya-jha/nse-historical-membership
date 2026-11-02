@@ -1,0 +1,25 @@
+{
+  "ticker": "SKYTECH",
+  "fetched_at_utc": "2026-11-02T12:14:14.682598+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 11:11:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734647_09102026111131_WEB.xml",
+      "record_id": "213543",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "20-AUG-2026",
+      "submission_date": "21-AUG-2026",
+      "broadcast_date": "31-AUG-2026 12:22:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719248_31082026115934_WEB.xml",
+      "record_id": "213072",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

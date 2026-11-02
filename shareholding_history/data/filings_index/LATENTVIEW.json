@@ -1,8 +1,26 @@
 {
   "ticker": "LATENTVIEW",
-  "fetched_at_utc": "2026-05-10T16:48:20.152439+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.261434+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:43:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740201_16102026054254_WEB.xml",
+      "record_id": "215048",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:40:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698504_21072026054024_WEB.xml",
+      "record_id": "212815",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

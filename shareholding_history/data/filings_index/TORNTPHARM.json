@@ -1,8 +1,35 @@
 {
   "ticker": "TORNTPHARM",
-  "fetched_at_utc": "2026-05-10T16:59:07.177116+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.316807+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 19:51:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739383_15102026075118_WEB.xml",
+      "record_id": "214747",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-JUL-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:37:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697348_20072026063703_WEB.xml",
+      "record_id": "212403",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:06:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697244_20072026060641_WEB.xml",
+      "record_id": "212375",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

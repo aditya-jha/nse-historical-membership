@@ -1,8 +1,35 @@
 {
   "ticker": "PARACABLES",
-  "fetched_at_utc": "2026-05-10T16:52:10.721062+00:00",
-  "n_filings": 90,
+  "fetched_at_utc": "2026-11-02T12:14:14.489062+00:00",
+  "n_filings": 93,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 17:55:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736313_12102026055546_WEB.xml",
+      "record_id": "213892",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:30:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697115_20072026053047_WEB.xml",
+      "record_id": "212330",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "01-JUL-2026",
+      "submission_date": "04-JUL-2026",
+      "broadcast_date": "04-JUL-2026 16:56:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688249_04072026045640_WEB.xml",
+      "record_id": "210506",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

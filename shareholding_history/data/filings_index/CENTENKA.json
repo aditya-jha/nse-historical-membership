@@ -1,8 +1,26 @@
 {
   "ticker": "CENTENKA",
-  "fetched_at_utc": "2026-05-10T16:31:35.865605+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.237892+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 13:26:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740656_17102026012617_WEB.xml",
+      "record_id": "215191",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 23:37:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696340_18072026113746_WEB.xml",
+      "record_id": "212065",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

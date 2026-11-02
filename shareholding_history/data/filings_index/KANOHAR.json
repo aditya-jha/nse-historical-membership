@@ -1,0 +1,25 @@
+{
+  "ticker": "KANOHAR",
+  "fetched_at_utc": "2026-11-02T12:14:14.217807+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "18-OCT-2026",
+      "broadcast_date": "18-OCT-2026 15:53:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741076_18102026035319_WEB.xml",
+      "record_id": "215325",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "15-SEP-2026",
+      "submission_date": "16-SEP-2026",
+      "broadcast_date": "15-OCT-2026 12:14:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724780_16092026072410_WEB.xml",
+      "record_id": "213169",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

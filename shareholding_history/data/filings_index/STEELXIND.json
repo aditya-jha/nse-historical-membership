@@ -1,8 +1,26 @@
 {
   "ticker": "STEELXIND",
-  "fetched_at_utc": "2026-05-10T16:57:32.919781+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.081960+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:47:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742897_21102026034712_WEB.xml",
+      "record_id": "216042",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:03:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698394_21072026050255_WEB.xml",
+      "record_id": "212787",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "30-APR-2026",
       "submission_date": "08-MAY-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "ATHERENERG",
-  "fetched_at_utc": "2026-05-10T16:30:04.432648+00:00",
-  "n_filings": 5,
+  "fetched_at_utc": "2026-11-02T12:14:14.330647+00:00",
+  "n_filings": 8,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:57:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739029_15102026045742_WEB.xml",
+      "record_id": "214663",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-JUL-2026",
+      "submission_date": "28-JUL-2026",
+      "broadcast_date": "28-JUL-2026 16:58:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1703091_28072026045841_WEB.xml",
+      "record_id": "212991",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 18:28:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690687_10072026062802_WEB.xml",
+      "record_id": "210817",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "VENUSPIPES",
-  "fetched_at_utc": "2026-05-10T17:00:06.793077+00:00",
-  "n_filings": 17,
+  "fetched_at_utc": "2026-11-02T12:14:14.009640+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "27-OCT-2026",
+      "submission_date": "02-NOV-2026",
+      "broadcast_date": "02-NOV-2026 16:26:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1751116_02112026042644_WEB.xml",
+      "record_id": "216352",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 18:30:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740960_17102026063046_WEB.xml",
+      "record_id": "215292",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:26:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697314_20072026062631_WEB.xml",
+      "record_id": "212395",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

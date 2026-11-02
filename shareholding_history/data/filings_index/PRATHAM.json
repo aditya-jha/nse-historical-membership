@@ -1,6 +1,16 @@
 {
   "ticker": "PRATHAM",
-  "fetched_at_utc": "2026-05-10T16:53:09.005181+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.658112+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 16:25:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737789_14102026042458_WEB.xml",
+      "record_id": "214351",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

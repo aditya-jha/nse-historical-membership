@@ -1,8 +1,26 @@
 {
   "ticker": "SGMART",
-  "fetched_at_utc": "2026-05-10T16:55:55.467616+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.554666+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 16:38:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734355_08102026043842_WEB.xml",
+      "record_id": "213492",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "01-JUL-2026",
+      "broadcast_date": "01-JUL-2026 18:59:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687318_01072026065917_WEB.xml",
+      "record_id": "210467",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

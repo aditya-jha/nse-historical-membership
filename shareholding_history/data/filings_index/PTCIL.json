@@ -1,8 +1,35 @@
 {
   "ticker": "PTCIL",
-  "fetched_at_utc": "2026-05-10T16:53:32.408764+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.095740+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:14:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742714_21102026021404_WEB.xml",
+      "record_id": "215975",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-OCT-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 14:42:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740713_17102026024245_WEB.xml",
+      "record_id": "215215",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:18:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697764_21072026111837_WEB.xml",
+      "record_id": "212568",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

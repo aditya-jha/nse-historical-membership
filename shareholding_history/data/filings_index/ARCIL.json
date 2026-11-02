@@ -1,0 +1,25 @@
+{
+  "ticker": "ARCIL",
+  "fetched_at_utc": "2026-11-02T12:14:14.053185+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:50:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743195_21102026055014_WEB.xml",
+      "record_id": "216170",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-SEP-2026",
+      "submission_date": "17-SEP-2026",
+      "broadcast_date": "23-SEP-2026 19:16:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725148_17092026071240_WEB.xml",
+      "record_id": "213182",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,8 +1,26 @@
 {
   "ticker": "SAMHI",
-  "fetched_at_utc": "2026-05-10T16:55:13.114691+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.382463+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 19:08:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738117_14102026070842_WEB.xml",
+      "record_id": "214444",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 19:52:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693656_15072026075248_WEB.xml",
+      "record_id": "211362",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

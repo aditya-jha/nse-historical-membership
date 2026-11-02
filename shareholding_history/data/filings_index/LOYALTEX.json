@@ -1,8 +1,26 @@
 {
   "ticker": "LOYALTEX",
-  "fetched_at_utc": "2026-05-10T16:48:38.938786+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.586140+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 15:46:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733407_06102026034621_WEB.xml",
+      "record_id": "213315",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:47:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689848_09072026044657_WEB.xml",
+      "record_id": "210712",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "04-APR-2026",

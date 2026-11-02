@@ -1,8 +1,26 @@
 {
   "ticker": "JYOTISTRUC",
-  "fetched_at_utc": "2026-05-10T16:47:01.106605+00:00",
-  "n_filings": 93,
+  "fetched_at_utc": "2026-11-02T12:14:14.552315+00:00",
+  "n_filings": 95,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 17:30:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734441_08102026053032_WEB.xml",
+      "record_id": "213508",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:00:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692794_15072026110036_WEB.xml",
+      "record_id": "211161",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

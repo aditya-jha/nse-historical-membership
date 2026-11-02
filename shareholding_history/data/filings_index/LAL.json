@@ -1,8 +1,26 @@
 {
   "ticker": "LAL",
-  "fetched_at_utc": "2026-05-10T16:48:15.362092+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.487371+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 18:15:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736352_12102026061538_WEB.xml",
+      "record_id": "213901",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "08-SEP-2026 17:00:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722028_07092026015525_WEB.xml",
+      "record_id": "211039",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

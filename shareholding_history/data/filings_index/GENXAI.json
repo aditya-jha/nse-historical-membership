@@ -1,0 +1,25 @@
+{
+  "ticker": "GENXAI",
+  "fetched_at_utc": "2026-11-02T12:14:14.642076+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:36:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739871_16102026033637_WEB.xml",
+      "record_id": "214915",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "11-JUN-2026",
+      "submission_date": "15-JUN-2026",
+      "broadcast_date": "30-JUN-2026 11:42:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1683272_22062026045144_WEB.xml",
+      "record_id": "210400",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

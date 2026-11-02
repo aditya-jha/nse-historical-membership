@@ -1,8 +1,26 @@
 {
   "ticker": "POLYPLEX",
-  "fetched_at_utc": "2026-05-10T16:52:55.484152+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.041042+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:55:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743418_21102026065521_WEB.xml",
+      "record_id": "216218",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:21:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696746_20072026032142_WEB.xml",
+      "record_id": "212207",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

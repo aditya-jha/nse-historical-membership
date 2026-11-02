@@ -1,6 +1,25 @@
 {
   "ticker": "ONDOOR",
-  "fetched_at_utc": "2026-05-10T16:51:45.190436+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.601303+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 20:50:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743591_21102026085046_WEB.xml",
+      "record_id": "216272",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "18-JUN-2026",
+      "submission_date": "22-JUN-2026",
+      "broadcast_date": "22-JUN-2026 20:00:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1683389_22062026080000_WEB.xml",
+      "record_id": "210418",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

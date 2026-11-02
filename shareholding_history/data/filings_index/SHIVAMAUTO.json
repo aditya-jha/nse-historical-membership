@@ -1,8 +1,26 @@
 {
   "ticker": "SHIVAMAUTO",
-  "fetched_at_utc": "2026-05-10T16:56:13.228148+00:00",
-  "n_filings": 79,
+  "fetched_at_utc": "2026-11-02T12:14:14.023540+00:00",
+  "n_filings": 81,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 22:29:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743638_21102026102940_WEB.xml",
+      "record_id": "216292",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "22-OCT-2026 18:34:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741969_19102026071620_WEB.xml",
+      "record_id": "212792",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

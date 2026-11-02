@@ -1,8 +1,26 @@
 {
   "ticker": "THYROCARE",
-  "fetched_at_utc": "2026-05-10T16:58:52.444923+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.547832+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 20:25:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734598_08102026082507_WEB.xml",
+      "record_id": "213533",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 20:17:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692683_14072026081722_WEB.xml",
+      "record_id": "211136",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

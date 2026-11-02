@@ -1,0 +1,25 @@
+{
+  "ticker": "VISDEM",
+  "fetched_at_utc": "2026-11-02T12:14:14.635283+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 15:05:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740738_17102026030536_WEB.xml",
+      "record_id": "215223",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:01:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698869_21072026080137_WEB.xml",
+      "record_id": "212914",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

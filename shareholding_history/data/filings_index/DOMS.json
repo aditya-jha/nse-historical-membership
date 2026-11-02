@@ -1,8 +1,26 @@
 {
   "ticker": "DOMS",
-  "fetched_at_utc": "2026-05-10T16:33:28.893136+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.153943+00:00",
+  "n_filings": 13,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:09:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741957_19102026070903_WEB.xml",
+      "record_id": "215672",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:29:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697113_20072026052917_WEB.xml",
+      "record_id": "212329",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

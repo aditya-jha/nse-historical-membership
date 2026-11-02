@@ -1,8 +1,44 @@
 {
   "ticker": "RATNAVEER",
-  "fetched_at_utc": "2026-05-10T16:54:05.064908+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.177103+00:00",
+  "n_filings": 19,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:57:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741657_19102026045749_WEB.xml",
+      "record_id": "215559",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "10-SEP-2026",
+      "submission_date": "25-SEP-2026",
+      "broadcast_date": "25-SEP-2026 13:59:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1728061_25092026015907_WEB.xml",
+      "record_id": "213220",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:42:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695492_17072026054243_WEB.xml",
+      "record_id": "211816",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "12-MAY-2026",
+      "submission_date": "16-MAY-2026",
+      "broadcast_date": "16-MAY-2026 16:27:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1668324_16052026042749_WEB.xml",
+      "record_id": "210339",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

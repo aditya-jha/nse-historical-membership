@@ -1,8 +1,26 @@
 {
   "ticker": "JGCHEM",
-  "fetched_at_utc": "2026-05-10T16:46:33.561020+00:00",
-  "n_filings": 10,
+  "fetched_at_utc": "2026-11-02T12:14:14.364229+00:00",
+  "n_filings": 12,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:38:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738576_15102026123841_WEB.xml",
+      "record_id": "214525",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "11-SEP-2026 17:19:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1723528_11092026011235_WEB.xml",
+      "record_id": "211387",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

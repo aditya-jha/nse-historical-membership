@@ -1,8 +1,26 @@
 {
   "ticker": "AKSHARCHEM",
-  "fetched_at_utc": "2026-05-10T16:29:06.948636+00:00",
-  "n_filings": 40,
+  "fetched_at_utc": "2026-11-02T12:14:14.580404+00:00",
+  "n_filings": 42,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 10:51:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733639_07102026105145_WEB.xml",
+      "record_id": "213343",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 11:00:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688322_06072026110051_WEB.xml",
+      "record_id": "210514",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",
@@ -157,20 +175,20 @@
       "format": null
     },
     {
-      "date": "04-JAN-2022",
-      "submission_date": "11-JAN-2022",
-      "broadcast_date": "11-JAN-2022 14:40:07",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164042_582535_11012022023943_WEB.xml",
-      "record_id": "164042",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "31-DEC-2021",
       "submission_date": "11-JAN-2022",
       "broadcast_date": "11-JAN-2022 12:10:13",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164004_582099_11012022115748_WEB.xml",
       "record_id": "164004",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "04-JAN-2022",
+      "submission_date": "11-JAN-2022",
+      "broadcast_date": "11-JAN-2022 14:40:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_164042_582535_11012022023943_WEB.xml",
+      "record_id": "164042",
       "revised": "N",
       "format": null
     },

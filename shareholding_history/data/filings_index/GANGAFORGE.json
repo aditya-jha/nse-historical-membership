@@ -1,8 +1,35 @@
 {
   "ticker": "GANGAFORGE",
-  "fetched_at_utc": "2026-05-10T16:42:48.375033+00:00",
-  "n_filings": 35,
+  "fetched_at_utc": "2026-11-02T12:14:14.410994+00:00",
+  "n_filings": 38,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 14:55:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737634_14102026025534_WEB.xml",
+      "record_id": "214305",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "21-JUL-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:18:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698894_21072026081812_WEB.xml",
+      "record_id": "212924",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 18:14:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692516_14072026061424_WEB.xml",
+      "record_id": "211114",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

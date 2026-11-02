@@ -1,8 +1,26 @@
 {
   "ticker": "STERTOOLS",
-  "fetched_at_utc": "2026-05-10T16:57:34.063986+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.396484+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 16:48:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737849_14102026044839_WEB.xml",
+      "record_id": "214372",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 12:19:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690899_11072026121907_WEB.xml",
+      "record_id": "210839",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

@@ -1,6 +1,25 @@
 {
   "ticker": "INSPIRE",
-  "fetched_at_utc": "2026-05-10T16:45:42.254261+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.608897+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:19:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742843_21102026031955_WEB.xml",
+      "record_id": "216020",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-SEP-2026",
+      "broadcast_date": "16-SEP-2026 12:36:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724483_16092026123636_WEB.xml",
+      "record_id": "213161",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

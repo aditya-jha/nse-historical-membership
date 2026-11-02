@@ -1,8 +1,35 @@
 {
   "ticker": "INOXGREEN",
-  "fetched_at_utc": "2026-05-10T16:45:40.131086+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.252178+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:56:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740366_16102026065618_WEB.xml",
+      "record_id": "215101",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 18:54:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734551_08102026065442_WEB.xml",
+      "record_id": "213525",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "03-AUG-2026 17:06:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706948_03082026041959_WEB.xml",
+      "record_id": "211834",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

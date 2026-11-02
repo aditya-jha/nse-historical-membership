@@ -1,6 +1,25 @@
 {
   "ticker": "YAAP",
-  "fetched_at_utc": "2026-05-10T17:01:06.619475+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.676047+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 12:38:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735893_12102026123853_WEB.xml",
+      "record_id": "213783",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "13-AUG-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "01-SEP-2026 21:44:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720081_01092026094429_WEB.xml",
+      "record_id": "213112",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,6 +1,25 @@
 {
   "ticker": "QMSMEDI",
-  "fetched_at_utc": "2026-05-10T16:53:40.047635+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.147256+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 20:52:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742094_19102026085238_WEB.xml",
+      "record_id": "215713",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 17:08:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691032_11072026050845_WEB.xml",
+      "record_id": "210863",
+      "revised": "N",
+      "format": null
+    }
+  ]
 }

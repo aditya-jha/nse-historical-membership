@@ -1,0 +1,25 @@
+{
+  "ticker": "CLAYCRAFT",
+  "fetched_at_utc": "2026-11-02T12:14:14.632528+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:57:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740858_17102026045738_WEB.xml",
+      "record_id": "215264",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "23-JUN-2026",
+      "submission_date": "24-JUN-2026",
+      "broadcast_date": "02-JUL-2026 18:25:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687588_02072026051950_WEB.xml",
+      "record_id": "210425",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

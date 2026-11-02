@@ -292,6 +292,7 @@
         "ACUTAAS",
         "AGI",
         "AJAXENGG",
+        "ALLCARGO",
         "ABDL",
         "ANURAS",
         "PARKHOTELS",
@@ -521,7 +522,6 @@
     }
   ],
   "notes": [
-    "Nifty Microcap 250: |excluded|=62 != |included|=63 (may be legitimate for off-cycle events but flag for review)",
     "Nifty Consumer Durables: |excluded|=3 != |included|=1 (may be legitimate for off-cycle events but flag for review)",
     "Nifty India Defence: |excluded|=2 != |included|=3 (may be legitimate for off-cycle events but flag for review)",
     "Nifty India Manufacturing: |excluded|=3 != |included|=5 (may be legitimate for off-cycle events but flag for review)"

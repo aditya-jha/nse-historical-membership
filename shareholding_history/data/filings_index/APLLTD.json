@@ -1,8 +1,26 @@
 {
   "ticker": "APLLTD",
-  "fetched_at_utc": "2026-05-10T16:26:23.422277+00:00",
-  "n_filings": 61,
+  "fetched_at_utc": "2026-11-02T12:14:14.252565+00:00",
+  "n_filings": 63,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:53:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740361_16102026065255_WEB.xml",
+      "record_id": "215099",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 18:17:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693512_15072026061653_WEB.xml",
+      "record_id": "211341",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

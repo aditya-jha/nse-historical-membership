@@ -1,8 +1,26 @@
 {
   "ticker": "SUBEXLTD",
-  "fetched_at_utc": "2026-05-10T16:57:40.426532+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.578846+00:00",
+  "n_filings": 24,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 11:54:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733660_07102026115454_WEB.xml",
+      "record_id": "213355",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:22:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692817_15072026112246_WEB.xml",
+      "record_id": "211173",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

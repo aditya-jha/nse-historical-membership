@@ -1,8 +1,26 @@
 {
   "ticker": "PRAJIND",
-  "fetched_at_utc": "2026-05-10T16:53:06.395538+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.433247+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 08:56:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737331_14102026085632_WEB.xml",
+      "record_id": "214202",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:53:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692848_15072026115329_WEB.xml",
+      "record_id": "211188",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

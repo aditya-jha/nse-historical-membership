@@ -1,6 +1,25 @@
 {
   "ticker": "IDEALTECHO",
-  "fetched_at_utc": "2026-05-10T16:44:59.662739+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.614432+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 17:59:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742347_20102026055905_WEB.xml",
+      "record_id": "215828",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "15-SEP-2026",
+      "submission_date": "23-SEP-2026",
+      "broadcast_date": "23-SEP-2026 17:09:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726935_23092026050934_WEB.xml",
+      "record_id": "213212",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

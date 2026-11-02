@@ -1,8 +1,26 @@
 {
   "ticker": "CHEMBONDCH",
-  "fetched_at_utc": "2026-05-10T16:31:46.593222+00:00",
-  "n_filings": 5,
+  "fetched_at_utc": "2026-11-02T12:14:14.563435+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 12:54:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734168_08102026125410_WEB.xml",
+      "record_id": "213446",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 12:53:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689149_08072026125328_WEB.xml",
+      "record_id": "210597",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

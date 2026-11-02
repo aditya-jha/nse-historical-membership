@@ -1,8 +1,26 @@
 {
   "ticker": "MONARCH",
-  "fetched_at_utc": "2026-05-10T16:50:11.137191+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.497547+00:00",
+  "n_filings": 24,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 15:50:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736100_12102026035016_WEB.xml",
+      "record_id": "213842",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 13:06:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692012_14072026010609_WEB.xml",
+      "record_id": "211034",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "J&KBANK",
-  "fetched_at_utc": "2026-05-10T16:46:08.761809+00:00",
-  "n_filings": 92,
+  "fetched_at_utc": "2026-11-02T12:14:14.449011+00:00",
+  "n_filings": 94,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:45:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737009_13102026044456_WEB.xml",
+      "record_id": "214115",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 12:24:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694892_17072026122420_WEB.xml",
+      "record_id": "211630",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

@@ -1,15 +1,33 @@
 {
   "ticker": "AMRUTANJAN",
-  "fetched_at_utc": "2026-05-10T16:29:24.072345+00:00",
-  "n_filings": 67,
+  "fetched_at_utc": "2026-11-02T12:14:14.417611+00:00",
+  "n_filings": 70,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 12:59:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737512_14102026125924_WEB.xml",
+      "record_id": "214272",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 14:33:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692085_14072026023258_WEB.xml",
+      "record_id": "211048",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",
-      "broadcast_date": "13-APR-2026 12:02:05",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649542_13042026120158_WEB.xml",
+      "broadcast_date": "08-JUN-2026 16:08:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680154_08062026023317_WEB.xml",
       "record_id": "208059",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +189,15 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161511_529548_12102021030512_WEB.xml",
       "record_id": "161511",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "13-APR-2026",
+      "broadcast_date": "13-APR-2026 12:02:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1649542_13042026120158_WEB.xml",
+      "record_id": "208059",
       "revised": "N",
       "format": null
     },

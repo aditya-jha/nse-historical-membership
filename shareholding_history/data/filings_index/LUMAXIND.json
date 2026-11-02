@@ -1,8 +1,26 @@
 {
   "ticker": "LUMAXIND",
-  "fetched_at_utc": "2026-05-10T16:48:42.987253+00:00",
-  "n_filings": 83,
+  "fetched_at_utc": "2026-11-02T12:14:14.435025+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 19:20:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737271_13102026072033_WEB.xml",
+      "record_id": "214193",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:21:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697077_20072026052152_WEB.xml",
+      "record_id": "212316",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

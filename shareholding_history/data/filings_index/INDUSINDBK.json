@@ -1,8 +1,26 @@
 {
   "ticker": "INDUSINDBK",
-  "fetched_at_utc": "2026-05-10T16:45:31.718010+00:00",
-  "n_filings": 90,
+  "fetched_at_utc": "2026-11-02T12:14:14.286795+00:00",
+  "n_filings": 92,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:31:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739860_16102026033145_WEB.xml",
+      "record_id": "214909",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:55:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695339_17072026045502_WEB.xml",
+      "record_id": "211767",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

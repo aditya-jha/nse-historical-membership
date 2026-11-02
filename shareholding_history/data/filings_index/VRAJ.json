@@ -1,8 +1,26 @@
 {
   "ticker": "VRAJ",
-  "fetched_at_utc": "2026-05-10T17:00:39.514272+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.384366+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:30:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738067_14102026063035_WEB.xml",
+      "record_id": "214435",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:04:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697024_20072026050417_WEB.xml",
+      "record_id": "212300",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

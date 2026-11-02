@@ -1,0 +1,120 @@
+{
+  "source_pdf": "ind_prs10062026.pdf",
+  "source_url": "https://niftyindices.com/Press_Release/ind_prs10062026.pdf",
+  "publication_date": "2026-06-10",
+  "effective_date": "2026-06-30",
+  "is_index_maintenance": true,
+  "events": [
+    {
+      "index_name": "Nifty100 Quality 30",
+      "index_id": 2008,
+      "excluded": [
+        "HAVELLS"
+      ],
+      "included": [
+        "HDFCAMC"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "BAJAJ-AUTO",
+        "CIPLA",
+        "DRREDDY",
+        "MARUTI",
+        "TECHM"
+      ],
+      "included": [
+        "BAJAJFINSV",
+        "GRASIM",
+        "HDFCBANK",
+        "RELIANCE",
+        "TATASTEEL"
+      ]
+    },
+    {
+      "index_name": "Nifty Alpha 50",
+      "index_id": 2001,
+      "excluded": [
+        "BDL",
+        "BEL",
+        "M&M",
+        "MARUTI",
+        "NH",
+        "POONAWALLA",
+        "REDINGTON",
+        "SBILIFE"
+      ],
+      "included": [
+        "ACUTAAS",
+        "ADANIENSOL",
+        "ANANDRATHI",
+        "ATHERENERG",
+        "BHEL",
+        "HINDALCO",
+        "SAIL",
+        "IDEA"
+      ]
+    },
+    {
+      "index_name": "Nifty High Beta 50",
+      "index_id": 2002,
+      "excluded": [
+        "ADANIPOWER",
+        "CARTRADE",
+        "COFORGE",
+        "NAUKRI",
+        "INOXWIND",
+        "JSWENERGY",
+        "KPITTECH",
+        "NATIONALUM",
+        "POLICYBZR",
+        "RPOWER",
+        "SAIL",
+        "TATAPOWER",
+        "VEDL",
+        "WOCKPHARMA"
+      ],
+      "included": [
+        "ASHOKLEY",
+        "BANKINDIA",
+        "CHOLAFIN",
+        "DIXON",
+        "HDFCAMC",
+        "HINDPETRO",
+        "INDIGO",
+        "M&MFIN",
+        "M&M",
+        "NAM-INDIA",
+        "PAYTM",
+        "PNBHOUSING",
+        "UJJIVANSFB",
+        "UNIONBANK"
+      ]
+    },
+    {
+      "index_name": "Nifty Low Volatility 50",
+      "index_id": 2003,
+      "excluded": [
+        "SHREECEM",
+        "SRF"
+      ],
+      "included": [
+        "IRCTC",
+        "NTPC"
+      ]
+    },
+    {
+      "index_name": "Nifty100 Low Volatility 30",
+      "index_id": 2007,
+      "excluded": [
+        "BOSCHLTD"
+      ],
+      "included": [
+        "NTPC"
+      ]
+    }
+  ],
+  "notes": []
+}

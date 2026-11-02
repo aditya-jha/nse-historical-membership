@@ -1,8 +1,26 @@
 {
   "ticker": "NEXTMEDIA",
-  "fetched_at_utc": "2026-05-10T16:51:05.922882+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.303376+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 12:38:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739614_16102026123852_WEB.xml",
+      "record_id": "214816",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 13:44:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696614_20072026014412_WEB.xml",
+      "record_id": "212157",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "MIDWESTLTD",
-  "fetched_at_utc": "2026-05-10T16:49:55.423865+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.094098+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:29:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742726_21102026022916_WEB.xml",
+      "record_id": "215982",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 09:59:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692756_15072026095921_WEB.xml",
+      "record_id": "211150",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

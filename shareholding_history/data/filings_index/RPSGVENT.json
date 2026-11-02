@@ -1,8 +1,26 @@
 {
   "ticker": "RPSGVENT",
-  "fetched_at_utc": "2026-05-10T16:54:43.467204+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.251889+00:00",
+  "n_filings": 33,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:59:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740370_16102026065952_WEB.xml",
+      "record_id": "215103",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 14:44:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691311_13072026024448_WEB.xml",
+      "record_id": "210915",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

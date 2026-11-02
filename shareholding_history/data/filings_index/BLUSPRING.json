@@ -1,8 +1,26 @@
 {
   "ticker": "BLUSPRING",
-  "fetched_at_utc": "2026-05-10T16:30:59.338203+00:00",
-  "n_filings": 5,
+  "fetched_at_utc": "2026-11-02T12:14:14.388496+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:59:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737996_14102026055903_WEB.xml",
+      "record_id": "214416",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:27:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698473_21072026052703_WEB.xml",
+      "record_id": "212807",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

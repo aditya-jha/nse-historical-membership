@@ -1,8 +1,26 @@
 {
   "ticker": "AMNPLST",
-  "fetched_at_utc": "2026-05-10T16:29:23.396271+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.060214+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:22:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743145_21102026052202_WEB.xml",
+      "record_id": "216138",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:27:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698305_21072026042733_WEB.xml",
+      "record_id": "212755",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
@@ -24,10 +42,10 @@
     {
       "date": "30-SEP-2025",
       "submission_date": "18-OCT-2025",
-      "broadcast_date": "18-OCT-2025 15:37:52",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553468_18102025033747_WEB.xml",
+      "broadcast_date": "04-JUN-2026 12:29:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1557970_27102025065411_WEB.xml",
       "record_id": "203773",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -76,6 +94,15 @@
       "format": null
     },
     {
+      "date": "09-NOV-2023",
+      "submission_date": "12-JUN-2024",
+      "broadcast_date": "24-JUL-2024 17:28:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_188535_1156491_12062024125308_WEB.xml",
+      "record_id": "188535",
+      "revised": "N",
+      "format": null
+    },
+    {
       "date": "31-MAR-2024",
       "submission_date": "12-APR-2024",
       "broadcast_date": "12-APR-2024 16:15:02",
@@ -94,11 +121,11 @@
       "format": null
     },
     {
-      "date": "09-NOV-2023",
-      "submission_date": "12-JUN-2024",
-      "broadcast_date": "24-JUL-2024 17:28:09",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_188535_1156491_12062024125308_WEB.xml",
-      "record_id": "188535",
+      "date": "30-SEP-2025",
+      "submission_date": "18-OCT-2025",
+      "broadcast_date": "18-OCT-2025 15:37:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553468_18102025033747_WEB.xml",
+      "record_id": "203773",
       "revised": "N",
       "format": null
     }

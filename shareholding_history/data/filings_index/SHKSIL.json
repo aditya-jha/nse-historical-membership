@@ -1,6 +1,16 @@
 {
   "ticker": "SHKSIL",
-  "fetched_at_utc": "2026-05-10T16:56:16.567749+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.677911+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 15:29:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735397_10102026032948_WEB.xml",
+      "record_id": "213715",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

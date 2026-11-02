@@ -1,8 +1,26 @@
 {
   "ticker": "TARAPUR",
-  "fetched_at_utc": "2026-05-10T16:58:20.600042+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.214366+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 11:11:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741147_19102026111129_WEB.xml",
+      "record_id": "215348",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 13:01:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695972_18072026010106_WEB.xml",
+      "record_id": "211957",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

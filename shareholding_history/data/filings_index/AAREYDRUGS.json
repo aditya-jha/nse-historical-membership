@@ -1,32 +1,41 @@
 {
   "ticker": "AAREYDRUGS",
-  "fetched_at_utc": "2026-05-10T16:28:27.363975+00:00",
-  "n_filings": 25,
+  "fetched_at_utc": "2026-11-02T12:14:14.050214+00:00",
+  "n_filings": 29,
   "filings": [
     {
-      "date": null,
-      "submission_date": "03-APR-2024",
-      "broadcast_date": "03-APR-2024 16:43:31",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185758_1079909_03042024044330_WEB.xml",
-      "record_id": "185758",
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:02:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743230_21102026060247_WEB.xml",
+      "record_id": "216183",
       "revised": "N",
       "format": null
     },
     {
-      "date": null,
-      "submission_date": "05-APR-2024",
-      "broadcast_date": "05-APR-2024 12:54:16",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185814_1081152_05042024125415_WEB.xml",
-      "record_id": "185814",
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:21:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741979_19102026072110_WEB.xml",
+      "record_id": "215683",
       "revised": "N",
       "format": null
     },
     {
-      "date": null,
-      "submission_date": "08-APR-2024",
-      "broadcast_date": "08-APR-2024 06:14:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185937_1082733_08042024061401_WEB.xml",
-      "record_id": "185937",
+      "date": "06-AUG-2026",
+      "submission_date": "07-SEP-2026",
+      "broadcast_date": "07-SEP-2026 16:32:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722114_07092026043223_WEB.xml",
+      "record_id": "213131",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:39:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698826_21072026073942_WEB.xml",
+      "record_id": "212909",
       "revised": "N",
       "format": null
     },
@@ -112,11 +121,38 @@
       "format": null
     },
     {
+      "date": null,
+      "submission_date": "08-APR-2024",
+      "broadcast_date": "08-APR-2024 06:14:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185937_1082733_08042024061401_WEB.xml",
+      "record_id": "185937",
+      "revised": "N",
+      "format": null
+    },
+    {
       "date": "27-MAR-2024",
       "submission_date": "08-APR-2024",
       "broadcast_date": "08-APR-2024 06:34:14",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185939_1082735_08042024063413_WEB.xml",
       "record_id": "185939",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": null,
+      "submission_date": "05-APR-2024",
+      "broadcast_date": "05-APR-2024 12:54:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185814_1081152_05042024125415_WEB.xml",
+      "record_id": "185814",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": null,
+      "submission_date": "03-APR-2024",
+      "broadcast_date": "03-APR-2024 16:43:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_185758_1079909_03042024044330_WEB.xml",
+      "record_id": "185758",
       "revised": "N",
       "format": null
     },

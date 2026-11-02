@@ -1,8 +1,26 @@
 {
   "ticker": "PRIMESECU",
-  "fetched_at_utc": "2026-05-10T16:53:18.100462+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.218730+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "18-OCT-2026",
+      "broadcast_date": "18-OCT-2026 12:29:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741056_18102026122919_WEB.xml",
+      "record_id": "215317",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 10:08:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697700_21072026100802_WEB.xml",
+      "record_id": "212538",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

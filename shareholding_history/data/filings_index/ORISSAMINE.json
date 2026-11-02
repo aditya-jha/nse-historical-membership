@@ -1,8 +1,26 @@
 {
   "ticker": "ORISSAMINE",
-  "fetched_at_utc": "2026-05-10T16:51:58.456832+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.090635+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:59:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742790_21102026025947_WEB.xml",
+      "record_id": "216005",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:28:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697782_21072026112847_WEB.xml",
+      "record_id": "212576",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

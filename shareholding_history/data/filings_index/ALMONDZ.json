@@ -1,8 +1,35 @@
 {
   "ticker": "ALMONDZ",
-  "fetched_at_utc": "2026-05-10T16:29:13.654670+00:00",
-  "n_filings": 72,
+  "fetched_at_utc": "2026-11-02T12:14:14.364806+00:00",
+  "n_filings": 76,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:37:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738572_15102026123740_WEB.xml",
+      "record_id": "214523",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-JUL-2026",
+      "submission_date": "06-AUG-2026",
+      "broadcast_date": "06-AUG-2026 12:51:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708835_06082026125103_WEB.xml",
+      "record_id": "213018",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "07-AUG-2026 17:01:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1704905_30072026013323_WEB.xml",
+      "record_id": "212275",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
@@ -33,10 +60,10 @@
     {
       "date": "30-JUN-2025",
       "submission_date": "16-JUL-2025",
-      "broadcast_date": "16-JUL-2025 10:41:33",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1483772_16072025104131_WEB.xml",
+      "broadcast_date": "04-JUN-2026 11:44:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1497662_30072025030538_WEB.xml",
       "record_id": "199737",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +198,15 @@
       "broadcast_date": "06-JAN-2022 22:51:18",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162172_535391_18102021124018_WEB.xml",
       "record_id": "162172",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "16-JUL-2025",
+      "broadcast_date": "16-JUL-2025 10:41:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1483772_16072025104131_WEB.xml",
+      "record_id": "199737",
       "revised": "N",
       "format": null
     },

@@ -1,0 +1,25 @@
+{
+  "ticker": "CMLL",
+  "fetched_at_utc": "2026-11-02T12:14:14.037169+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:18:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743475_21102026071848_WEB.xml",
+      "record_id": "216235",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-JUL-2026",
+      "submission_date": "27-JUL-2026",
+      "broadcast_date": "03-AUG-2026 11:54:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1701932_27072026031554_WEB.xml",
+      "record_id": "212983",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

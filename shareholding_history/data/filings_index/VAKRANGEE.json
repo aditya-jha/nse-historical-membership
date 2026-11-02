@@ -1,8 +1,26 @@
 {
   "ticker": "VAKRANGEE",
-  "fetched_at_utc": "2026-05-10T16:59:56.253935+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.361292+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:57:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738618_15102026125735_WEB.xml",
+      "record_id": "214538",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 12:38:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692909_15072026123844_WEB.xml",
+      "record_id": "211208",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

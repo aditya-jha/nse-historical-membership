@@ -1,8 +1,26 @@
 {
   "ticker": "RITCO",
-  "fetched_at_utc": "2026-05-10T16:54:27.924093+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.119178+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 09:44:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742412_21102026094421_WEB.xml",
+      "record_id": "215861",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 14:29:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698058_21072026022931_WEB.xml",
+      "record_id": "212673",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

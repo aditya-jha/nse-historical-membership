@@ -1,8 +1,26 @@
 {
   "ticker": "AVANTIFEED",
-  "fetched_at_utc": "2026-05-10T16:26:39.449025+00:00",
-  "n_filings": 46,
+  "fetched_at_utc": "2026-11-02T12:14:14.416736+00:00",
+  "n_filings": 48,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:07:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737523_14102026010733_WEB.xml",
+      "record_id": "214276",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 11:42:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695911_18072026114203_WEB.xml",
+      "record_id": "211937",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

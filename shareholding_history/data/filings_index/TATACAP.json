@@ -1,8 +1,26 @@
 {
   "ticker": "TATACAP",
-  "fetched_at_utc": "2026-05-10T16:58:24.211378+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.372587+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 11:10:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738473_15102026111049_WEB.xml",
+      "record_id": "214487",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:25:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694391_16072026052507_WEB.xml",
+      "record_id": "211522",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

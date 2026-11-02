@@ -1,8 +1,26 @@
 {
   "ticker": "EVEREADY",
-  "fetched_at_utc": "2026-05-10T16:34:28.589241+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.548177+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 20:18:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734597_08102026081814_WEB.xml",
+      "record_id": "213532",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 19:09:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689461_08072026070914_WEB.xml",
+      "record_id": "210646",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

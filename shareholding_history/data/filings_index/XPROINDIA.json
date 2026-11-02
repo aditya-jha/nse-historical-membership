@@ -1,8 +1,26 @@
 {
   "ticker": "XPROINDIA",
-  "fetched_at_utc": "2026-05-10T17:01:05.682357+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.473168+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:17:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736633_13102026121729_WEB.xml",
+      "record_id": "213985",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:00:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693190_15072026040017_WEB.xml",
+      "record_id": "211274",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

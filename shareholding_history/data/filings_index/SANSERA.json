@@ -1,8 +1,26 @@
 {
   "ticker": "SANSERA",
-  "fetched_at_utc": "2026-05-10T16:55:21.155224+00:00",
-  "n_filings": 21,
+  "fetched_at_utc": "2026-11-02T12:14:14.330484+00:00",
+  "n_filings": 23,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:57:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739030_15102026045753_WEB.xml",
+      "record_id": "214664",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 20:09:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690792_10072026080854_WEB.xml",
+      "record_id": "210825",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

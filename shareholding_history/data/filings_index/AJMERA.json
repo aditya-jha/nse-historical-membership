@@ -1,8 +1,26 @@
 {
   "ticker": "AJMERA",
-  "fetched_at_utc": "2026-05-10T16:29:01.744231+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.070586+00:00",
+  "n_filings": 72,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:39:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743044_21102026043952_WEB.xml",
+      "record_id": "216091",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 12:03:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695932_18072026120310_WEB.xml",
+      "record_id": "211942",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
@@ -24,10 +42,10 @@
     {
       "date": "30-SEP-2025",
       "submission_date": "18-OCT-2025",
-      "broadcast_date": "18-OCT-2025 13:19:54",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553284_18102025011949_WEB.xml",
+      "broadcast_date": "14-AUG-2026 15:53:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695889_18072026112403_WEB.xml",
       "record_id": "203709",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -180,6 +198,15 @@
       "broadcast_date": "07-JAN-2022 02:25:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163084_543241_21102021042206_WEB.xml",
       "record_id": "163084",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "18-OCT-2025",
+      "broadcast_date": "18-OCT-2025 13:19:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1553284_18102025011949_WEB.xml",
+      "record_id": "203709",
       "revised": "N",
       "format": null
     },

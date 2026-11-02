@@ -1,8 +1,26 @@
 {
   "ticker": "BCONCEPTS",
-  "fetched_at_utc": "2026-05-10T16:30:35.143636+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.576185+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 13:18:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733709_07102026011820_WEB.xml",
+      "record_id": "213369",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 11:38:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693812_16072026113839_WEB.xml",
+      "record_id": "211396",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",
@@ -31,21 +49,21 @@
       "format": null
     },
     {
-      "date": "30-JUN-2025",
-      "submission_date": "08-JUL-2025",
-      "broadcast_date": "22-SEP-2025 12:26:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1517460_26082025120157_WEB.xml",
-      "record_id": "199222",
-      "revised": "Revised",
-      "format": null
-    },
-    {
       "date": "21-JUN-2025",
       "submission_date": "11-AUG-2025",
       "broadcast_date": "11-AUG-2025 16:45:55",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1508382_11082025044552_WEB.xml",
       "record_id": "201491",
       "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "08-JUL-2025",
+      "broadcast_date": "22-SEP-2025 12:26:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1517460_26082025120157_WEB.xml",
+      "record_id": "199222",
+      "revised": "Revised",
       "format": null
     },
     {

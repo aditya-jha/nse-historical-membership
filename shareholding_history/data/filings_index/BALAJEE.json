@@ -1,8 +1,26 @@
 {
   "ticker": "BALAJEE",
-  "fetched_at_utc": "2026-05-10T16:30:24.214725+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.492511+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:41:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736195_12102026044102_WEB.xml",
+      "record_id": "213870",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 11:38:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693813_16072026113855_WEB.xml",
+      "record_id": "211397",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

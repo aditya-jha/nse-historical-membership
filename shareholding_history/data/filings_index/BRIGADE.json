@@ -1,8 +1,35 @@
 {
   "ticker": "BRIGADE",
-  "fetched_at_utc": "2026-05-10T16:27:07.095752+00:00",
-  "n_filings": 78,
+  "fetched_at_utc": "2026-11-02T12:14:14.329325+00:00",
+  "n_filings": 81,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 17:09:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739055_15102026050920_WEB.xml",
+      "record_id": "214672",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 20:21:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694669_16072026082123_WEB.xml",
+      "record_id": "211577",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-JUN-2026",
+      "submission_date": "25-JUN-2026",
+      "broadcast_date": "21-AUG-2026 12:00:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688115_04072026010121_WEB.xml",
+      "record_id": "210430",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

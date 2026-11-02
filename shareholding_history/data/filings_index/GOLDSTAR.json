@@ -1,6 +1,25 @@
 {
   "ticker": "GOLDSTAR",
-  "fetched_at_utc": "2026-05-10T16:43:28.787217+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.663054+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:08:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737070_13102026050815_WEB.xml",
+      "record_id": "214138",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 14:23:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690948_11072026022313_WEB.xml",
+      "record_id": "210848",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

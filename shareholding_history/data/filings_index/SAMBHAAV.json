@@ -1,8 +1,26 @@
 {
   "ticker": "SAMBHAAV",
-  "fetched_at_utc": "2026-05-10T16:55:12.152353+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.404805+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:56:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737728_14102026035613_WEB.xml",
+      "record_id": "214331",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 12:15:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691959_14072026121517_WEB.xml",
+      "record_id": "211018",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

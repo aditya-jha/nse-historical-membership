@@ -1,8 +1,26 @@
 {
   "ticker": "ORICONENT",
-  "fetched_at_utc": "2026-05-10T16:51:52.602246+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.540657+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 14:21:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734776_09102026022100_WEB.xml",
+      "record_id": "213571",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "29-JUL-2026 12:49:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1703095_28072026050032_WEB.xml",
+      "record_id": "211319",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

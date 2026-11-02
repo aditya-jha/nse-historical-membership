@@ -1,6 +1,25 @@
 {
   "ticker": "ESCONET",
-  "fetched_at_utc": "2026-05-10T16:34:20.716140+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.671057+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:59:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736230_12102026045919_WEB.xml",
+      "record_id": "213879",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:45:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693906_16072026124525_WEB.xml",
+      "record_id": "211424",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "RAMASTEEL",
-  "fetched_at_utc": "2026-05-10T16:53:58.307335+00:00",
-  "n_filings": 52,
+  "fetched_at_utc": "2026-11-02T12:14:14.521846+00:00",
+  "n_filings": 54,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 11:39:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735309_10102026113903_WEB.xml",
+      "record_id": "213689",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 13:19:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689614_09072026011929_WEB.xml",
+      "record_id": "210670",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

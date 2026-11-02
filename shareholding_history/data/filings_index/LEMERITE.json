@@ -1,8 +1,26 @@
 {
   "ticker": "LEMERITE",
-  "fetched_at_utc": "2026-05-10T16:48:24.030981+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.473581+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:16:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736631_13102026121609_WEB.xml",
+      "record_id": "213983",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:40:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696786_20072026034004_WEB.xml",
+      "record_id": "212219",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

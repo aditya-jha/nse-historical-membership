@@ -1,0 +1,34 @@
+{
+  "ticker": "BDR",
+  "fetched_at_utc": "2026-11-02T12:14:14.646805+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 08:33:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738406_15102026083327_WEB.xml",
+      "record_id": "214459",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 15:38:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689733_09072026033855_WEB.xml",
+      "record_id": "210691",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 15:34:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689729_09072026033440_WEB.xml",
+      "record_id": "210689",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

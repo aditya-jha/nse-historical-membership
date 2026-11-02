@@ -1,0 +1,25 @@
+{
+  "ticker": "SKYWAYS",
+  "fetched_at_utc": "2026-11-02T12:14:14.028925+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 20:46:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743585_21102026084628_WEB.xml",
+      "record_id": "216270",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-AUG-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "01-SEP-2026 20:27:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719825_01092026042416_WEB.xml",
+      "record_id": "213108",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,8 +1,26 @@
 {
   "ticker": "VIKASECO",
-  "fetched_at_utc": "2026-05-10T17:00:17.752512+00:00",
-  "n_filings": 61,
+  "fetched_at_utc": "2026-11-02T12:14:14.233716+00:00",
+  "n_filings": 63,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 15:03:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740737_17102026030305_WEB.xml",
+      "record_id": "215222",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-SEP-2026",
+      "broadcast_date": "14-SEP-2026 19:58:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724093_14092026075838_WEB.xml",
+      "record_id": "213156",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

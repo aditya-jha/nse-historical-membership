@@ -1,6 +1,25 @@
 {
   "ticker": "ARMOUR",
-  "fetched_at_utc": "2026-05-10T16:29:44.924322+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.600381+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 23:33:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743648_21102026113345_WEB.xml",
+      "record_id": "216295",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:38:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698678_21072026063814_WEB.xml",
+      "record_id": "212861",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

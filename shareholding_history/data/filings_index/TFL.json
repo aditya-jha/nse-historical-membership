@@ -1,8 +1,26 @@
 {
   "ticker": "TFL",
-  "fetched_at_utc": "2026-05-10T16:58:45.024495+00:00",
-  "n_filings": 78,
+  "fetched_at_utc": "2026-11-02T12:14:14.108783+00:00",
+  "n_filings": 80,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:23:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742553_21102026122319_WEB.xml",
+      "record_id": "215917",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 16:43:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696172_18072026044307_WEB.xml",
+      "record_id": "212025",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

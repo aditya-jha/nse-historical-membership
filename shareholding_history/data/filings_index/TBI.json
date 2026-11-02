@@ -1,6 +1,16 @@
 {
   "ticker": "TBI",
-  "fetched_at_utc": "2026-05-10T16:58:29.912574+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.675742+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 12:58:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735907_12102026125841_WEB.xml",
+      "record_id": "213785",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

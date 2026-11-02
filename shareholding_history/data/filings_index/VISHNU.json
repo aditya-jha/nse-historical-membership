@@ -1,8 +1,26 @@
 {
   "ticker": "VISHNU",
-  "fetched_at_utc": "2026-05-10T17:00:28.367434+00:00",
-  "n_filings": 48,
+  "fetched_at_utc": "2026-11-02T12:14:14.566592+00:00",
+  "n_filings": 50,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 11:48:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734120_08102026114816_WEB.xml",
+      "record_id": "213430",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 10:06:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690120_10072026100605_WEB.xml",
+      "record_id": "210735",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

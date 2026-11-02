@@ -1,8 +1,26 @@
 {
   "ticker": "PAUSHAKLTD",
-  "fetched_at_utc": "2026-05-10T16:52:23.394954+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.318599+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:42:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739276_15102026064224_WEB.xml",
+      "record_id": "214735",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 12:13:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697836_21072026121339_WEB.xml",
+      "record_id": "212601",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

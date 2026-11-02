@@ -1,6 +1,25 @@
 {
   "ticker": "KLL",
-  "fetched_at_utc": "2026-05-10T16:47:43.941219+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.622596+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:57:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741656_19102026045733_WEB.xml",
+      "record_id": "215558",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 17:45:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692456_14072026054505_WEB.xml",
+      "record_id": "211107",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

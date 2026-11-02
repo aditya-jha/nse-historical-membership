@@ -1,6 +1,25 @@
 {
   "ticker": "CHETANA",
-  "fetched_at_utc": "2026-05-10T16:31:49.302799+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.641139+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:20:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739984_16102026042021_WEB.xml",
+      "record_id": "214956",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 11:51:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696468_20072026115153_WEB.xml",
+      "record_id": "212105",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

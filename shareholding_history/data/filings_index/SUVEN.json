@@ -1,8 +1,35 @@
 {
   "ticker": "SUVEN",
-  "fetched_at_utc": "2026-05-10T16:58:04.064788+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.296012+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 14:24:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739733_16102026022427_WEB.xml",
+      "record_id": "214862",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "08-JUL-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 21:19:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697600_20072026091938_WEB.xml",
+      "record_id": "212496",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 10:08:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693748_16072026100839_WEB.xml",
+      "record_id": "211374",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "CHEMFAB",
-  "fetched_at_utc": "2026-05-10T16:31:47.705413+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.348873+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 15:30:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738820_15102026033027_WEB.xml",
+      "record_id": "214593",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 15:33:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689727_09072026033301_WEB.xml",
+      "record_id": "210688",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

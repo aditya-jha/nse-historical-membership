@@ -1,8 +1,26 @@
 {
   "ticker": "GRWRHITECH",
-  "fetched_at_utc": "2026-05-10T16:43:50.072302+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.178562+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:53:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741641_19102026045259_WEB.xml",
+      "record_id": "215551",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:56:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697399_20072026065617_WEB.xml",
+      "record_id": "212425",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

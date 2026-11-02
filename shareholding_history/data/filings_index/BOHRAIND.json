@@ -1,8 +1,26 @@
 {
   "ticker": "BOHRAIND",
-  "fetched_at_utc": "2026-05-10T16:31:02.027147+00:00",
-  "n_filings": 20,
+  "fetched_at_utc": "2026-11-02T12:14:14.130193+00:00",
+  "n_filings": 22,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 16:21:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742305_20102026042141_WEB.xml",
+      "record_id": "215804",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-SEP-2026",
+      "broadcast_date": "16-SEP-2026 16:33:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724632_16092026043353_WEB.xml",
+      "record_id": "213164",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
@@ -67,6 +85,15 @@
       "format": null
     },
     {
+      "date": "31-MAR-2024",
+      "submission_date": "06-NOV-2024",
+      "broadcast_date": "06-NOV-2024 18:09:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_193676_1298937_06112024060905_WEB.xml",
+      "record_id": "193676",
+      "revised": "N",
+      "format": null
+    },
+    {
       "date": "30-SEP-2024",
       "submission_date": "06-NOV-2024",
       "broadcast_date": "06-NOV-2024 18:12:55",
@@ -81,15 +108,6 @@
       "broadcast_date": "06-NOV-2024 18:11:53",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_193677_1298947_06112024061152_WEB.xml",
       "record_id": "193677",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-MAR-2024",
-      "submission_date": "06-NOV-2024",
-      "broadcast_date": "06-NOV-2024 18:09:06",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_193676_1298937_06112024060905_WEB.xml",
-      "record_id": "193676",
       "revised": "N",
       "format": null
     },

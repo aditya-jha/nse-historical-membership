@@ -1,8 +1,35 @@
 {
   "ticker": "KRISHIVAL",
-  "fetched_at_utc": "2026-05-10T16:48:01.660608+00:00",
-  "n_filings": 14,
+  "fetched_at_utc": "2026-11-02T12:14:14.415269+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:31:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737545_14102026013151_WEB.xml",
+      "record_id": "214281",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "05-AUG-2026",
+      "submission_date": "14-AUG-2026",
+      "broadcast_date": "14-AUG-2026 10:33:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714209_14082026103303_WEB.xml",
+      "record_id": "213043",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:55:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693314_15072026045541_WEB.xml",
+      "record_id": "211302",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

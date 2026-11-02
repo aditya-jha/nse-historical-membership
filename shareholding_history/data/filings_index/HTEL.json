@@ -1,0 +1,25 @@
+{
+  "ticker": "HTEL",
+  "fetched_at_utc": "2026-11-02T12:14:14.488431+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 18:05:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736333_12102026060503_WEB.xml",
+      "record_id": "213895",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-AUG-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "01-SEP-2026 20:16:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719800_01092026040024_WEB.xml",
+      "record_id": "213106",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

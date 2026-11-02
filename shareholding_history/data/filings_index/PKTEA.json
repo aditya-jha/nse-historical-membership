@@ -1,8 +1,26 @@
 {
   "ticker": "PKTEA",
-  "fetched_at_utc": "2026-05-10T16:52:45.207847+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.239002+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 13:07:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740643_17102026010741_WEB.xml",
+      "record_id": "215187",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:56:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698387_21072026045641_WEB.xml",
+      "record_id": "212783",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

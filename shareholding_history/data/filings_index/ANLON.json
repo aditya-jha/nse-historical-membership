@@ -1,6 +1,25 @@
 {
   "ticker": "ANLON",
-  "fetched_at_utc": "2026-05-10T16:26:19.745300+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.626453+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 13:54:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741314_19102026015425_WEB.xml",
+      "record_id": "215422",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "03-JUN-2026",
+      "submission_date": "10-JUN-2026",
+      "broadcast_date": "10-JUN-2026 12:48:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680630_10062026124855_WEB.xml",
+      "record_id": "210383",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

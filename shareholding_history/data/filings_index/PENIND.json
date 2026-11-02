@@ -1,8 +1,26 @@
 {
   "ticker": "PENIND",
-  "fetched_at_utc": "2026-05-10T16:52:29.827985+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.555232+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 16:32:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734345_08102026043213_WEB.xml",
+      "record_id": "213489",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:37:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692201_14072026033738_WEB.xml",
+      "record_id": "211070",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "ABAN",
-  "fetched_at_utc": "2026-05-10T16:28:30.570653+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.452807+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:25:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736974_13102026042518_WEB.xml",
+      "record_id": "214098",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:54:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697201_20072026055417_WEB.xml",
+      "record_id": "212364",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

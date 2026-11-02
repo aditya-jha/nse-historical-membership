@@ -1,8 +1,26 @@
 {
   "ticker": "GEEKAYWIRE",
-  "fetched_at_utc": "2026-05-10T16:42:55.017173+00:00",
-  "n_filings": 32,
+  "fetched_at_utc": "2026-11-02T12:14:14.528305+00:00",
+  "n_filings": 34,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 18:01:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735091_09102026060143_WEB.xml",
+      "record_id": "213648",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 16:25:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691456_13072026042500_WEB.xml",
+      "record_id": "210942",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

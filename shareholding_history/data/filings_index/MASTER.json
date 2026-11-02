@@ -1,6 +1,16 @@
 {
   "ticker": "MASTER",
-  "fetched_at_utc": "2026-05-10T16:49:26.415140+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.671327+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:38:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736192_12102026043836_WEB.xml",
+      "record_id": "213868",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

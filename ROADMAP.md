@@ -53,7 +53,7 @@ A Jupyter notebook (`examples/01_pit_queries.ipynb`) covering the same five ques
 ### R7 — Parquet/SQLite distribution alongside CSV
 **Status:** open · **Skill:** small · **Time:** 1 hour
 
-A 5,919-row CSV is fine but pandas users on slow connections benefit from `.parquet` (1/3 the size, faster load) and SQLite users want a `.sqlite` file with both tables and indexes already built. A `make build` target that produces all three formats from a single source-of-truth.
+A ~6,500-row CSV is fine but pandas users on slow connections benefit from `.parquet` (1/3 the size, faster load) and SQLite users want a `.sqlite` file with both tables and indexes already built. A `make build` target that produces all three formats from a single source-of-truth.
 
 ### R8 — DuckDB recipe in README
 **Status:** open · **Skill:** doc · **Time:** 30 min
@@ -69,9 +69,6 @@ NSE publishes new PRs continuously. A weekly GitHub Actions workflow that runs `
 
 ### R10 — Visual gallery
 A `docs/gallery.md` with 5–10 charts derived from the dataset (sector-rotation plot across the 15 sector indices, churn distribution per family, longest-tenured Nifty 50 members, etc.). Each is a 20-line script + PNG.
-
-### R11 — Zenodo DOI registration
-Once a release is tagged, register on Zenodo for a citable DOI. One-time, ~10 minutes. Owner-only task (requires GitHub repo admin).
 
 ### R12 — Add corporate-action overlays
 Splits, bonuses, demergers — useful for any backtest that consumes this. Probably a separate dataset with cross-references, not folded into the membership table.

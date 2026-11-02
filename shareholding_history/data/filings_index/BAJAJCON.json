@@ -1,8 +1,26 @@
 {
   "ticker": "BAJAJCON",
-  "fetched_at_utc": "2026-05-10T16:26:43.359101+00:00",
-  "n_filings": 65,
+  "fetched_at_utc": "2026-11-02T12:14:14.572507+00:00",
+  "n_filings": 67,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 15:53:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733803_07102026035306_WEB.xml",
+      "record_id": "213393",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "04-JUL-2026",
+      "broadcast_date": "04-JUL-2026 14:14:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688194_04072026021421_WEB.xml",
+      "record_id": "210504",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",
@@ -184,21 +202,21 @@
       "format": null
     },
     {
-      "date": "30-JUN-2021",
-      "submission_date": null,
-      "broadcast_date": "07-JUL-2021 11:10:05",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158561_474419_07072021105442_WEB.xml",
-      "record_id": "158561",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "31-MAR-2021",
       "submission_date": "06-APR-2021",
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_155911_422358_06042021115003_WEB.xml",
       "record_id": "155911",
       "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2021",
+      "submission_date": null,
+      "broadcast_date": "07-JUL-2021 11:10:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_158561_474419_07072021105442_WEB.xml",
+      "record_id": "158561",
+      "revised": "N",
       "format": null
     },
     {

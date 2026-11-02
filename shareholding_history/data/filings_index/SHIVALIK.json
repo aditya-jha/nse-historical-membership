@@ -1,8 +1,35 @@
 {
   "ticker": "SHIVALIK",
-  "fetched_at_utc": "2026-05-10T16:56:12.729660+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.179178+00:00",
+  "n_filings": 25,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:51:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741635_19102026045138_WEB.xml",
+      "record_id": "215548",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "14-SEP-2026",
+      "submission_date": "16-SEP-2026",
+      "broadcast_date": "16-SEP-2026 14:59:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724556_16092026025859_WEB.xml",
+      "record_id": "213162",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 17:56:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691646_13072026055637_WEB.xml",
+      "record_id": "210977",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

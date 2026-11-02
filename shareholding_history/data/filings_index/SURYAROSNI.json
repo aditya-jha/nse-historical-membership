@@ -1,8 +1,26 @@
 {
   "ticker": "SURYAROSNI",
-  "fetched_at_utc": "2026-05-10T16:58:02.580093+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.470288+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:49:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736682_13102026124941_WEB.xml",
+      "record_id": "214003",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 12:38:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691228_13072026123851_WEB.xml",
+      "record_id": "210895",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

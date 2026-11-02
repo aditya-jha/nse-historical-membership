@@ -1,8 +1,26 @@
 {
   "ticker": "AUSOMENT",
-  "fetched_at_utc": "2026-05-10T16:30:09.666066+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.071068+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:39:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743041_21102026043909_WEB.xml",
+      "record_id": "216089",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 17:21:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689354_08072026052120_WEB.xml",
+      "record_id": "210637",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

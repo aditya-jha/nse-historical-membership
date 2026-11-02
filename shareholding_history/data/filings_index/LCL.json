@@ -1,0 +1,25 @@
+{
+  "ticker": "LCL",
+  "fetched_at_utc": "2026-11-02T12:14:14.455875+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:05:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736936_13102026040533_WEB.xml",
+      "record_id": "214082",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-JUL-2026",
+      "submission_date": "30-JUL-2026",
+      "broadcast_date": "12-AUG-2026 13:22:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708928_06082026030703_WEB.xml",
+      "record_id": "212997",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

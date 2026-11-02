@@ -1,8 +1,26 @@
 {
   "ticker": "MRF",
-  "fetched_at_utc": "2026-05-10T16:50:20.060244+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.115171+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 11:01:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742450_21102026110106_WEB.xml",
+      "record_id": "215879",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 10:01:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697696_21072026100150_WEB.xml",
+      "record_id": "212534",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

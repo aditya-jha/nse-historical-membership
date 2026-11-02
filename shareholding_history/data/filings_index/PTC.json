@@ -1,8 +1,26 @@
 {
   "ticker": "PTC",
-  "fetched_at_utc": "2026-05-10T16:53:31.792618+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.351253+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 15:03:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738767_15102026030350_WEB.xml",
+      "record_id": "214578",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:00:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693191_15072026040033_WEB.xml",
+      "record_id": "211275",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "NAVA",
-  "fetched_at_utc": "2026-05-10T16:50:45.743211+00:00",
-  "n_filings": 95,
+  "fetched_at_utc": "2026-11-02T12:14:14.323774+00:00",
+  "n_filings": 97,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 17:55:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739181_15102026055550_WEB.xml",
+      "record_id": "214706",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 12:50:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692929_15072026125047_WEB.xml",
+      "record_id": "211210",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

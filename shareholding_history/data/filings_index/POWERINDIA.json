@@ -1,8 +1,26 @@
 {
   "ticker": "POWERINDIA",
-  "fetched_at_utc": "2026-05-10T16:53:01.131222+00:00",
-  "n_filings": 27,
+  "fetched_at_utc": "2026-11-02T12:14:14.529471+00:00",
+  "n_filings": 29,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 17:38:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735055_09102026053840_WEB.xml",
+      "record_id": "213640",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 19:55:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693658_15072026075524_WEB.xml",
+      "record_id": "211363",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "BOROLTD",
-  "fetched_at_utc": "2026-05-10T16:31:03.553525+00:00",
-  "n_filings": 25,
+  "fetched_at_utc": "2026-11-02T12:14:14.276922+00:00",
+  "n_filings": 27,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:27:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740012_16102026042720_WEB.xml",
+      "record_id": "214968",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:22:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695426_17072026052216_WEB.xml",
+      "record_id": "211798",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

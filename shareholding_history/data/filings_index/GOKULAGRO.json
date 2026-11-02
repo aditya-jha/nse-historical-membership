@@ -1,8 +1,26 @@
 {
   "ticker": "GOKULAGRO",
-  "fetched_at_utc": "2026-05-10T16:43:26.808443+00:00",
-  "n_filings": 45,
+  "fetched_at_utc": "2026-11-02T12:14:14.508785+00:00",
+  "n_filings": 47,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 11:50:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735842_12102026115026_WEB.xml",
+      "record_id": "213772",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 12:22:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689128_08072026122227_WEB.xml",
+      "record_id": "210587",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

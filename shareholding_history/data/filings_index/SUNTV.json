@@ -1,8 +1,26 @@
 {
   "ticker": "SUNTV",
-  "fetched_at_utc": "2026-05-10T16:57:52.148431+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.281922+00:00",
+  "n_filings": 83,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:57:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739912_16102026035750_WEB.xml",
+      "record_id": "214939",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:06:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694348_16072026050607_WEB.xml",
+      "record_id": "211515",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

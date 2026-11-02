@@ -1,8 +1,26 @@
 {
   "ticker": "JISLDVREQS",
-  "fetched_at_utc": "2026-05-10T16:46:39.433562+00:00",
-  "n_filings": 58,
+  "fetched_at_utc": "2026-11-02T12:14:14.332157+00:00",
+  "n_filings": 60,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:50:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739005_15102026045013_WEB.xml",
+      "record_id": "214654",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 15:54:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693182_15072026035450_WEB.xml",
+      "record_id": "211270",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

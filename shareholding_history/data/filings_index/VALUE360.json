@@ -1,0 +1,25 @@
+{
+  "ticker": "VALUE360",
+  "fetched_at_utc": "2026-11-02T12:14:14.667883+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:58:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736607_13102026115808_WEB.xml",
+      "record_id": "213971",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "11-MAY-2026",
+      "submission_date": "12-MAY-2026",
+      "broadcast_date": "13-MAY-2026 17:45:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1666270_12052026105637_WEB.xml",
+      "record_id": "210331",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

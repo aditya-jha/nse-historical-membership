@@ -1,8 +1,26 @@
 {
   "ticker": "JPPOWER",
-  "fetched_at_utc": "2026-05-10T16:46:48.567519+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.089170+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:08:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742809_21102026030754_WEB.xml",
+      "record_id": "216011",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 15:57:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691416_13072026035716_WEB.xml",
+      "record_id": "210932",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

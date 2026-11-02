@@ -1,6 +1,34 @@
 {
   "ticker": "DIVINEHIRA",
-  "fetched_at_utc": "2026-05-10T16:33:20.133403+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.647735+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 19:08:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739322_15102026070805_WEB.xml",
+      "record_id": "214740",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:53:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696111_18072026035353_WEB.xml",
+      "record_id": "212006",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "03-JUL-2026",
+      "submission_date": "04-JUL-2026",
+      "broadcast_date": "04-JUL-2026 17:13:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688258_04072026051321_WEB.xml",
+      "record_id": "210507",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

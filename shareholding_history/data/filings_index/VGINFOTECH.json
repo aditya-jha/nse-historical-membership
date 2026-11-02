@@ -1,6 +1,25 @@
 {
   "ticker": "VGINFOTECH",
-  "fetched_at_utc": "2026-05-10T17:00:11.084560+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.661546+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 18:04:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737182_13102026060424_WEB.xml",
+      "record_id": "214172",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:14:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693223_15072026041358_WEB.xml",
+      "record_id": "211283",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

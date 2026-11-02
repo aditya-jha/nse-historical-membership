@@ -1,8 +1,26 @@
 {
   "ticker": "THEINVEST",
-  "fetched_at_utc": "2026-05-10T16:58:48.348861+00:00",
-  "n_filings": 37,
+  "fetched_at_utc": "2026-11-02T12:14:14.301314+00:00",
+  "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 12:51:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739647_16102026125106_WEB.xml",
+      "record_id": "214826",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:22:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696747_20072026032216_WEB.xml",
+      "record_id": "212208",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

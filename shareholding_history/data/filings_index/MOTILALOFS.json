@@ -1,8 +1,26 @@
 {
   "ticker": "MOTILALOFS",
-  "fetched_at_utc": "2026-05-10T16:50:15.966057+00:00",
-  "n_filings": 78,
+  "fetched_at_utc": "2026-11-02T12:14:14.165071+00:00",
+  "n_filings": 80,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:00:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741815_19102026060037_WEB.xml",
+      "record_id": "215616",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 20:58:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691818_13072026085847_WEB.xml",
+      "record_id": "210999",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

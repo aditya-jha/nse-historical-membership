@@ -1,0 +1,34 @@
+{
+  "ticker": "GYFTR",
+  "fetched_at_utc": "2026-11-02T12:14:14.418854+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 12:39:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737488_14102026123901_WEB.xml",
+      "record_id": "214265",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 18:06:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691665_13072026060553_WEB.xml",
+      "record_id": "210982",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-JUL-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "14-JUL-2026 18:39:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692534_14072026062129_WEB.xml",
+      "record_id": "210898",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

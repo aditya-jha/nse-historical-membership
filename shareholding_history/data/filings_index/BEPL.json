@@ -1,8 +1,26 @@
 {
   "ticker": "BEPL",
-  "fetched_at_utc": "2026-05-10T16:26:57.191114+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.317977+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:57:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739301_15102026065740_WEB.xml",
+      "record_id": "214738",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 18:41:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693558_15072026064146_WEB.xml",
+      "record_id": "211346",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "04-APR-2026",

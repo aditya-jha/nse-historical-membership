@@ -1,6 +1,25 @@
 {
   "ticker": "ASHALOG",
-  "fetched_at_utc": "2026-05-10T16:29:53.250542+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.601988+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:28:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743484_21102026072818_WEB.xml",
+      "record_id": "216240",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:12:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698614_21072026061224_WEB.xml",
+      "record_id": "212840",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

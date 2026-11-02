@@ -1,8 +1,26 @@
 {
   "ticker": "SOLARINDS",
-  "fetched_at_utc": "2026-05-10T16:57:01.300049+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.161876+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:14:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741853_19102026061408_WEB.xml",
+      "record_id": "215628",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:30:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694398_16072026053011_WEB.xml",
+      "record_id": "211525",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

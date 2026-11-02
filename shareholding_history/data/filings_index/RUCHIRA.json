@@ -1,8 +1,26 @@
 {
   "ticker": "RUCHIRA",
-  "fetched_at_utc": "2026-05-10T16:54:51.672906+00:00",
-  "n_filings": 83,
+  "fetched_at_utc": "2026-11-02T12:14:14.207081+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:38:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741233_19102026123829_WEB.xml",
+      "record_id": "215386",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 14:56:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696046_18072026025624_WEB.xml",
+      "record_id": "211982",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

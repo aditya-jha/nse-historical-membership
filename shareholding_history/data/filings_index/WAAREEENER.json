@@ -1,8 +1,26 @@
 {
   "ticker": "WAAREEENER",
-  "fetched_at_utc": "2026-05-10T17:00:43.300297+00:00",
-  "n_filings": 7,
+  "fetched_at_utc": "2026-11-02T12:14:14.368768+00:00",
+  "n_filings": 9,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:02:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738518_15102026120211_WEB.xml",
+      "record_id": "214503",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 18:58:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689454_08072026065807_WEB.xml",
+      "record_id": "210645",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

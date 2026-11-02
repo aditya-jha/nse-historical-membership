@@ -1,8 +1,26 @@
 {
   "ticker": "CCAVENUE",
-  "fetched_at_utc": "2026-05-10T16:31:24.701913+00:00",
-  "n_filings": 48,
+  "fetched_at_utc": "2026-11-02T12:14:14.225227+00:00",
+  "n_filings": 50,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 17:36:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740898_17102026053653_WEB.xml",
+      "record_id": "215279",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:16:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695405_17072026051653_WEB.xml",
+      "record_id": "211789",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",
@@ -31,20 +49,20 @@
       "format": null
     },
     {
-      "date": "15-JUL-2025",
-      "submission_date": "19-JUL-2025",
-      "broadcast_date": "19-JUL-2025 21:06:34",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488082_19072025090628_WEB.xml",
-      "record_id": "200685",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "30-JUN-2025",
       "submission_date": "19-JUL-2025",
       "broadcast_date": "19-JUL-2025 21:05:34",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488081_19072025090528_WEB.xml",
       "record_id": "200684",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "15-JUL-2025",
+      "submission_date": "19-JUL-2025",
+      "broadcast_date": "19-JUL-2025 21:06:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1488082_19072025090628_WEB.xml",
+      "record_id": "200685",
       "revised": "N",
       "format": null
     },

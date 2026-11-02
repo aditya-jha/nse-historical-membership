@@ -1,8 +1,35 @@
 {
   "ticker": "ASTERDM",
-  "fetched_at_utc": "2026-05-10T16:26:32.941942+00:00",
-  "n_filings": 35,
+  "fetched_at_utc": "2026-11-02T12:14:14.087162+00:00",
+  "n_filings": 38,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:20:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742841_21102026031953_WEB.xml",
+      "record_id": "216019",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-JUL-2026",
+      "submission_date": "23-JUL-2026",
+      "broadcast_date": "23-JUL-2026 20:24:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1700384_23072026082445_WEB.xml",
+      "record_id": "212973",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 19:45:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695732_17072026074455_WEB.xml",
+      "record_id": "211893",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

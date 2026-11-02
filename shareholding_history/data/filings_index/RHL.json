@@ -1,8 +1,26 @@
 {
   "ticker": "RHL",
-  "fetched_at_utc": "2026-05-10T16:54:24.952860+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.371260+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 11:33:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738488_15102026113348_WEB.xml",
+      "record_id": "214493",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:01:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695358_17072026050133_WEB.xml",
+      "record_id": "211774",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

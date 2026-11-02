@@ -1,8 +1,53 @@
 {
   "ticker": "NAZARA",
-  "fetched_at_utc": "2026-05-10T16:50:48.494437+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.062863+00:00",
+  "n_filings": 38,
   "filings": [
+    {
+      "date": "12-OCT-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:10:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743126_21102026051025_WEB.xml",
+      "record_id": "216124",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:03:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743114_21102026050339_WEB.xml",
+      "record_id": "216117",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-AUG-2026",
+      "submission_date": "14-AUG-2026",
+      "broadcast_date": "14-AUG-2026 17:07:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714561_14082026050738_WEB.xml",
+      "record_id": "213045",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUL-2026",
+      "submission_date": "08-AUG-2026",
+      "broadcast_date": "08-AUG-2026 21:25:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1710582_08082026092522_WEB.xml",
+      "record_id": "213028",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "18-SEP-2026 12:04:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724573_16092026032612_WEB.xml",
+      "record_id": "212531",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

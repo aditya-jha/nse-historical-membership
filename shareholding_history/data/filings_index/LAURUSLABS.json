@@ -1,8 +1,26 @@
 {
   "ticker": "LAURUSLABS",
-  "fetched_at_utc": "2026-05-10T16:48:21.220003+00:00",
-  "n_filings": 39,
+  "fetched_at_utc": "2026-11-02T12:14:14.090098+00:00",
+  "n_filings": 41,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:04:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742798_21102026030442_WEB.xml",
+      "record_id": "216008",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:37:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698821_21072026073746_WEB.xml",
+      "record_id": "212906",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

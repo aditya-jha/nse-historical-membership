@@ -1,8 +1,26 @@
 {
   "ticker": "BLISSGVS",
-  "fetched_at_utc": "2026-05-10T16:30:54.706376+00:00",
-  "n_filings": 63,
+  "fetched_at_utc": "2026-11-02T12:14:14.030114+00:00",
+  "n_filings": 65,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 20:25:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743559_21102026082531_WEB.xml",
+      "record_id": "216264",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "25-AUG-2026 19:29:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1717771_25082026061000_WEB.xml",
+      "record_id": "212862",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

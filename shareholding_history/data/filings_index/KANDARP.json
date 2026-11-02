@@ -1,6 +1,25 @@
 {
   "ticker": "KANDARP",
-  "fetched_at_utc": "2026-05-10T16:47:10.184176+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.689198+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 14:28:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733350_06102026022851_WEB.xml",
+      "record_id": "213297",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 15:12:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688407_06072026031243_WEB.xml",
+      "record_id": "210524",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

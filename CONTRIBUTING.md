@@ -1,6 +1,6 @@
 # Contributing
 
-Anything that improves the dataset's quality or coverage is welcome. The five contribution paths below are listed in rough order of leverage — `Add a missed PR` and `Fix pre-2017 cardinality` are by far the highest-impact.
+Anything that improves the dataset's quality or coverage is welcome. The five contribution paths below are listed in rough order of leverage — `Add a missed press release` and `Fix pre-2018 cardinality` are by far the highest-impact.
 
 ---
 
@@ -32,13 +32,15 @@ Use when an event isn't well-described by a single PR — mergers, demergers, ti
 
 Add a new JSON in the same shape, then re-run `build_history` to regenerate the CSV. Include the upstream NSE source URL (or Wayback snapshot) in the JSON's `note` field.
 
+F&O equivalents: an event with no circular goes in `fno_history/data/manual_events.json` (with its source), and a rename while in F&O goes in `RENAMES` in `fno_history/code/build_history.py`. Then run `python -m fno_history.code.build_history --csv-out fno_history/data/fno_membership_history.csv`.
+
 ---
 
-## 3. Backfill pre-2017 PRs
+## 3. Fix pre-2018 cardinality
 
-This is the largest open coverage gap. Pre-2017 NSE press releases use older table layouts that the parser doesn't decode reliably; for many, only image-only scans are available. See `ROADMAP.md` for specifics.
+This is the largest open coverage gap. The parser now reads the pre-2017 press releases (R1a), but walking back from today's snapshot still over-counts some indices before 2018 (Gate 4). The fix is a per-index 2014 seed snapshot to walk forward from — see R1b in `ROADMAP.md`.
 
-If you have access to clean text versions of pre-2017 IM PRs (or the patience to OCR + hand-correct), this is the single contribution that improves the dataset most.
+If you can source authoritative early constituent lists (Wayback copies of NSE's `ind_*list.csv`), this is the single contribution that improves the dataset most.
 
 ---
 
@@ -56,7 +58,7 @@ Open a PR with both the parser fix and the previously-failing PDF as a fixture. 
 
 ## 5. Validation gates
 
-`validate.py` runs three gates: archive cross-check, famous-transitions, daily cardinality. New transitions worth adding to `FAMOUS`:
+`validate.py` runs five gates: snapshot match (G1), internal consistency (G2), famous transitions (G3), daily cardinality (G4) and Wayback cross-check (G5). New transitions worth adding to `FAMOUS`:
 
 - Any merger / demerger that touches a Nifty 50 / 500 constituent.
 - Any rename (canonicalised name in the CSV must match).

@@ -1,8 +1,26 @@
 {
   "ticker": "ZOTA",
-  "fetched_at_utc": "2026-05-10T17:01:18.818211+00:00",
-  "n_filings": 40,
+  "fetched_at_utc": "2026-11-02T12:14:14.101408+00:00",
+  "n_filings": 42,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 13:05:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742652_21102026010549_WEB.xml",
+      "record_id": "215947",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:22:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696748_20072026032244_WEB.xml",
+      "record_id": "212209",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

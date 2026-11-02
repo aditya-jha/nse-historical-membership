@@ -1,6 +1,25 @@
 {
   "ticker": "MVKAGRO",
-  "fetched_at_utc": "2026-05-10T16:50:31.283240+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.617918+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 10:48:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742176_20102026104838_WEB.xml",
+      "record_id": "215740",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 17:41:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696240_18072026054114_WEB.xml",
+      "record_id": "212042",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "KAMATHOTEL",
-  "fetched_at_utc": "2026-05-10T16:47:07.352919+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.237638+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 13:29:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740661_17102026012941_WEB.xml",
+      "record_id": "215194",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:02:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695361_17072026050154_WEB.xml",
+      "record_id": "211777",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

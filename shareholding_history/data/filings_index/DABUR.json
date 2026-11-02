@@ -1,8 +1,26 @@
 {
   "ticker": "DABUR",
-  "fetched_at_utc": "2026-05-10T16:32:32.080208+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.287071+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:31:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739859_16102026033110_WEB.xml",
+      "record_id": "214908",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:51:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694429_16072026055059_WEB.xml",
+      "record_id": "211536",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

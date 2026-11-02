@@ -1,8 +1,26 @@
 {
   "ticker": "BUILDPRO",
-  "fetched_at_utc": "2026-05-10T16:31:10.594000+00:00",
-  "n_filings": 2,
+  "fetched_at_utc": "2026-11-02T12:14:14.359801+00:00",
+  "n_filings": 4,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 13:19:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738648_15102026011932_WEB.xml",
+      "record_id": "214546",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 10:32:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696391_20072026103221_WEB.xml",
+      "record_id": "212086",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -1,0 +1,25 @@
+{
+  "ticker": "ICICILIFE",
+  "fetched_at_utc": "2026-11-02T12:14:14.032270+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 20:05:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743528_21102026080538_WEB.xml",
+      "record_id": "216256",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:10:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698883_21072026081048_WEB.xml",
+      "record_id": "212919",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

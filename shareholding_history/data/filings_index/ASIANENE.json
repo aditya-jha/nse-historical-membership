@@ -1,15 +1,42 @@
 {
   "ticker": "ASIANENE",
-  "fetched_at_utc": "2026-05-10T16:29:57.216480+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.201084+00:00",
+  "n_filings": 26,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 13:38:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741306_19102026013811_WEB.xml",
+      "record_id": "215420",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:47:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698699_21072026064752_WEB.xml",
+      "record_id": "212865",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "05-MAY-2026",
+      "submission_date": "12-MAY-2026",
+      "broadcast_date": "12-MAY-2026 20:17:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1666189_12052026081745_WEB.xml",
+      "record_id": "210330",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
-      "broadcast_date": "20-APR-2026 18:06:52",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655306_20042026060644_WEB.xml",
+      "broadcast_date": "12-MAY-2026 17:44:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1663290_04052026051006_WEB.xml",
       "record_id": "209727",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -198,6 +225,15 @@
       "broadcast_date": "07-JAN-2022 03:25:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163334_570591_14122021052511_WEB.xml",
       "record_id": "163334",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "20-APR-2026",
+      "broadcast_date": "20-APR-2026 18:06:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655306_20042026060644_WEB.xml",
+      "record_id": "209727",
       "revised": "N",
       "format": null
     }

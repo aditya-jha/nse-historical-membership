@@ -1,8 +1,26 @@
 {
   "ticker": "OBEROIRLTY",
-  "fetched_at_utc": "2026-05-10T16:51:36.225245+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.122941+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 20:18:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742378_20102026081828_WEB.xml",
+      "record_id": "215843",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 18:37:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691716_13072026063733_WEB.xml",
+      "record_id": "210991",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

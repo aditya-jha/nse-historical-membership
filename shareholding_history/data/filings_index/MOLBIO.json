@@ -1,0 +1,25 @@
+{
+  "ticker": "MOLBIO",
+  "fetched_at_utc": "2026-11-02T12:14:14.357062+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 14:06:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738693_15102026020630_WEB.xml",
+      "record_id": "214557",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "14-AUG-2026",
+      "submission_date": "20-AUG-2026",
+      "broadcast_date": "27-AUG-2026 10:45:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1717337_24082026044902_WEB.xml",
+      "record_id": "213066",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

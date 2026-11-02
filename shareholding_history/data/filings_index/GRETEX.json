@@ -1,6 +1,43 @@
 {
   "ticker": "GRETEX",
-  "fetched_at_utc": "2026-05-10T16:43:44.267852+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.601457+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 20:28:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743565_21102026082759_WEB.xml",
+      "record_id": "216265",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "25-SEP-2026",
+      "submission_date": "03-OCT-2026",
+      "broadcast_date": "03-OCT-2026 16:28:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732748_03102026042759_WEB.xml",
+      "record_id": "213247",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "26-AUG-2026",
+      "submission_date": "02-SEP-2026",
+      "broadcast_date": "02-SEP-2026 18:18:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720341_02092026061825_WEB.xml",
+      "record_id": "213116",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:44:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697160_20072026054414_WEB.xml",
+      "record_id": "212346",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

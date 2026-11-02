@@ -1,8 +1,26 @@
 {
   "ticker": "MODINATUR",
-  "fetched_at_utc": "2026-05-10T16:50:05.483241+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.210383+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 11:50:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741182_19102026115007_WEB.xml",
+      "record_id": "215367",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 13:57:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692998_15072026015719_WEB.xml",
+      "record_id": "211221",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

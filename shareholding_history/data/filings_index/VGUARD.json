@@ -1,8 +1,26 @@
 {
   "ticker": "VGUARD",
-  "fetched_at_utc": "2026-05-10T17:00:12.056573+00:00",
-  "n_filings": 74,
+  "fetched_at_utc": "2026-11-02T12:14:14.379327+00:00",
+  "n_filings": 76,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 08:56:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738410_15102026085628_WEB.xml",
+      "record_id": "214461",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:56:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693921_16072026125624_WEB.xml",
+      "record_id": "211428",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

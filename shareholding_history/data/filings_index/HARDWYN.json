@@ -1,8 +1,35 @@
 {
   "ticker": "HARDWYN",
-  "fetched_at_utc": "2026-05-10T16:44:06.801547+00:00",
-  "n_filings": 21,
+  "fetched_at_utc": "2026-11-02T12:14:14.115907+00:00",
+  "n_filings": 24,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 10:53:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742442_21102026105355_WEB.xml",
+      "record_id": "215873",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-JUL-2026",
+      "submission_date": "05-AUG-2026",
+      "broadcast_date": "05-AUG-2026 11:29:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708102_05082026112929_WEB.xml",
+      "record_id": "213015",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 18:09:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690651_10072026060910_WEB.xml",
+      "record_id": "210815",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

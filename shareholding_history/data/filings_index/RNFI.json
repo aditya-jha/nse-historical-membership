@@ -1,6 +1,25 @@
 {
   "ticker": "RNFI",
-  "fetched_at_utc": "2026-05-10T16:54:33.493408+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.604004+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:53:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743200_21102026055340_WEB.xml",
+      "record_id": "216173",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 21:17:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698942_21072026091745_WEB.xml",
+      "record_id": "212937",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

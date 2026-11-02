@@ -1,8 +1,26 @@
 {
   "ticker": "MTEDUCARE",
-  "fetched_at_utc": "2026-05-10T16:50:23.568100+00:00",
-  "n_filings": 59,
+  "fetched_at_utc": "2026-11-02T12:14:14.210085+00:00",
+  "n_filings": 61,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:01:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741188_19102026120128_WEB.xml",
+      "record_id": "215369",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 10:55:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696405_20072026105552_WEB.xml",
+      "record_id": "212091",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

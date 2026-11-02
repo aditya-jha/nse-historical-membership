@@ -1,8 +1,26 @@
 {
   "ticker": "MAITHANALL",
-  "fetched_at_utc": "2026-05-10T16:49:01.777279+00:00",
-  "n_filings": 63,
+  "fetched_at_utc": "2026-11-02T12:14:14.320687+00:00",
+  "n_filings": 65,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:24:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739248_15102026062403_WEB.xml",
+      "record_id": "214725",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 18:11:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693502_15072026061110_WEB.xml",
+      "record_id": "211339",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

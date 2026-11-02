@@ -1,8 +1,26 @@
 {
   "ticker": "DOLLAR",
-  "fetched_at_utc": "2026-05-10T16:33:27.392095+00:00",
-  "n_filings": 38,
+  "fetched_at_utc": "2026-11-02T12:14:14.486572+00:00",
+  "n_filings": 40,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 18:22:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736368_12102026062201_WEB.xml",
+      "record_id": "213906",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:26:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695435_17072026052612_WEB.xml",
+      "record_id": "211800",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

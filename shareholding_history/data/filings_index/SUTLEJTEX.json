@@ -1,8 +1,26 @@
 {
   "ticker": "SUTLEJTEX",
-  "fetched_at_utc": "2026-05-10T16:58:03.598660+00:00",
-  "n_filings": 78,
+  "fetched_at_utc": "2026-11-02T12:14:14.151476+00:00",
+  "n_filings": 80,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:26:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741985_19102026072605_WEB.xml",
+      "record_id": "215686",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:01:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698247_21072026040119_WEB.xml",
+      "record_id": "212736",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "GANESHCP",
-  "fetched_at_utc": "2026-05-10T16:42:46.258138+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.475141+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:06:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736621_13102026120646_WEB.xml",
+      "record_id": "213975",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "17-OCT-2026 20:20:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735969_12102026014817_WEB.xml",
+      "record_id": "210801",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

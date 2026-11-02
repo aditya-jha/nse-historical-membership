@@ -1,6 +1,25 @@
 {
   "ticker": "INNOMET",
-  "fetched_at_utc": "2026-05-10T16:45:37.118014+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.629572+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "18-OCT-2026",
+      "broadcast_date": "18-OCT-2026 23:39:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741098_18102026113920_WEB.xml",
+      "record_id": "215332",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "18-AUG-2026",
+      "submission_date": "28-AUG-2026",
+      "broadcast_date": "28-AUG-2026 18:13:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1718899_28082026061310_WEB.xml",
+      "record_id": "213097",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

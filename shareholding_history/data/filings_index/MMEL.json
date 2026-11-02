@@ -1,6 +1,16 @@
 {
   "ticker": "MMEL",
-  "fetched_at_utc": "2026-05-10T16:50:01.644496+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.616552+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 14:56:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742259_20102026025613_WEB.xml",
+      "record_id": "215783",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,6 +1,34 @@
 {
   "ticker": "ACCORD",
-  "fetched_at_utc": "2026-05-10T16:25:56.782598+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.616668+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 14:50:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742257_20102026025053_WEB.xml",
+      "record_id": "215782",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "21-SEP-2026 16:58:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724354_15092026060531_WEB.xml",
+      "record_id": "211288",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "11-JUN-2026",
+      "submission_date": "16-JUN-2026",
+      "broadcast_date": "16-JUN-2026 18:13:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682128_16062026061357_WEB.xml",
+      "record_id": "210406",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "MRPL",
-  "fetched_at_utc": "2026-05-10T16:50:21.018692+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.571782+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 16:31:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733841_07102026043054_WEB.xml",
+      "record_id": "213399",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 15:55:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688822_07072026035515_WEB.xml",
+      "record_id": "210561",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

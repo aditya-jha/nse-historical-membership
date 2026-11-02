@@ -1,8 +1,26 @@
 {
   "ticker": "DTIL",
-  "fetched_at_utc": "2026-05-10T16:33:37.073194+00:00",
-  "n_filings": 43,
+  "fetched_at_utc": "2026-11-02T12:14:14.406333+00:00",
+  "n_filings": 45,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:42:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737711_14102026034210_WEB.xml",
+      "record_id": "214324",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:50:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695652_17072026065024_WEB.xml",
+      "record_id": "211864",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

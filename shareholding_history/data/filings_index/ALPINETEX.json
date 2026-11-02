@@ -1,0 +1,25 @@
+{
+  "ticker": "ALPINETEX",
+  "fetched_at_utc": "2026-11-02T12:14:14.346213+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 15:54:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738866_15102026035410_WEB.xml",
+      "record_id": "214608",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-JUL-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "30-JUL-2026 18:53:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697965_21072026012156_WEB.xml",
+      "record_id": "212644",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "ticker": "LUMINO",
+  "fetched_at_utc": "2026-11-02T12:14:14.386113+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:15:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738030_14102026061544_WEB.xml",
+      "record_id": "214425",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "02-SEP-2026",
+      "submission_date": "03-SEP-2026",
+      "broadcast_date": "07-SEP-2026 18:59:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1721274_04092026125607_WEB.xml",
+      "record_id": "213119",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

@@ -1,6 +1,25 @@
 {
   "ticker": "ACCPL",
-  "fetched_at_utc": "2026-05-10T16:28:35.922852+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.637336+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 12:55:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740631_17102026125516_WEB.xml",
+      "record_id": "215184",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 14:53:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694048_16072026025257_WEB.xml",
+      "record_id": "211455",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

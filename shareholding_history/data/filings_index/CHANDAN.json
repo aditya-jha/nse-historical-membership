@@ -1,6 +1,43 @@
 {
   "ticker": "CHANDAN",
-  "fetched_at_utc": "2026-05-10T16:31:44.840341+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.625667+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 14:56:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741382_19102026025616_WEB.xml",
+      "record_id": "215446",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 18:36:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733980_07102026063603_WEB.xml",
+      "record_id": "213417",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "14-SEP-2026",
+      "submission_date": "22-SEP-2026",
+      "broadcast_date": "22-SEP-2026 23:23:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726668_22092026112323_WEB.xml",
+      "record_id": "213208",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:45:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695314_17072026044536_WEB.xml",
+      "record_id": "211758",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

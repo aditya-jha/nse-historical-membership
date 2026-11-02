@@ -1,8 +1,26 @@
 {
   "ticker": "AEROFLEX",
-  "fetched_at_utc": "2026-05-10T16:28:48.918718+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.319291+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:31:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739260_15102026063144_WEB.xml",
+      "record_id": "214732",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 18:21:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694495_16072026062122_WEB.xml",
+      "record_id": "211547",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

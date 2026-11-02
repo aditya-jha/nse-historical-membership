@@ -1,8 +1,26 @@
 {
   "ticker": "SCI",
-  "fetched_at_utc": "2026-05-10T16:55:39.118676+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.183403+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:32:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741573_19102026043207_WEB.xml",
+      "record_id": "215525",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:56:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695533_17072026055642_WEB.xml",
+      "record_id": "211827",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

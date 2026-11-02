@@ -67,8 +67,10 @@ MUMBAI_RE = re.compile(r"Mumbai,\s+([A-Z][a-z]+\s+\d{1,2},\s+\d{4})")
 #   "b) Nifty Next 50"     (2024+ PRs)
 #   "A. Nifty 50"          (occasional letter-dot form)
 #   "(1) CNX 500 Index"    (pre-2017 PRs use parenthesised numerals)
+#   "B. Replacement in Nifty50 Value 20 index:"   (2026 one-index sub-heading)
 SECTION_RE = re.compile(
-    r"^\s*\(?(?:\d+|[a-z]|[A-Z])[\)\.]\s+(?P<name>[A-Za-z0-9 &/\-]+?)\s*$", re.M,
+    r"^\s*\(?(?:\d+|[a-z]|[A-Z])[\)\.]\s+(?:Replacements?\s+in\s+)?"
+    r"(?P<name>[A-Za-z0-9 &/\-]+?)(?:\s+index:)?\s*$", re.M,
 )
 # Symbol row inside a table. Supports several layouts seen across PR vintages:
 #   "1 Some Company Ltd. SYMBOL"            (post-2017 standard)
@@ -79,8 +81,8 @@ SECTION_RE = re.compile(
 SYMBOL_ROW_RE = re.compile(
     r"^\s*(?:\|?\s*\d+\s*\|?\s+)?"             # optional row-number / cell-border
     r"(?=[^\n]*[a-z])"                          # company name must contain a lowercase letter
-    r"[A-Za-z0-9 &\.\(\),'/\-\|]+?"             # company name span (| handles OCR cell borders)
-    r"\s+([A-Z][A-Z0-9&\-]{1,19})\s*$",          # SYMBOL (no trailing dot, distinguishes from "Ltd.")
+    r"[A-Za-z0-9 &\.\(\),'/\-\|\*]+?"           # company name span (| OCR cell borders, * footnote mark)
+    r"\s+((?=[A-Z0-9&\-]*[A-Z])[A-Z0-9][A-Z0-9&\-]{1,19})\s*$",  # SYMBOL: may start with a digit (3MINDIA), needs a letter
     re.M,
 )
 

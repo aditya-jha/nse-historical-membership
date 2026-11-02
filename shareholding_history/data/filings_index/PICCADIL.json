@@ -1,8 +1,26 @@
 {
   "ticker": "PICCADIL",
-  "fetched_at_utc": "2026-05-10T16:52:39.071677+00:00",
-  "n_filings": 9,
+  "fetched_at_utc": "2026-11-02T12:14:14.489850+00:00",
+  "n_filings": 11,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 17:33:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736274_12102026053345_WEB.xml",
+      "record_id": "213887",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 10:28:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692767_15072026102848_WEB.xml",
+      "record_id": "211156",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

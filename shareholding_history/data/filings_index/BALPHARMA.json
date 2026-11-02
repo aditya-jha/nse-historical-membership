@@ -1,8 +1,26 @@
 {
   "ticker": "BALPHARMA",
-  "fetched_at_utc": "2026-05-10T16:30:27.060681+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.441439+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:26:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737115_13102026052632_WEB.xml",
+      "record_id": "214158",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "07-SEP-2026 11:22:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1721966_07092026110132_WEB.xml",
+      "record_id": "210903",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",
@@ -15,8 +33,8 @@
     {
       "date": "31-DEC-2025",
       "submission_date": "13-JAN-2026",
-      "broadcast_date": "18-FEB-2026 12:15:13",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1626454_16022026024915_WEB.xml",
+      "broadcast_date": "11-JUN-2026 13:06:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680659_10062026024318_WEB.xml",
       "record_id": "205403",
       "revised": "Revised",
       "format": null
@@ -24,10 +42,10 @@
     {
       "date": "30-SEP-2025",
       "submission_date": "10-OCT-2025",
-      "broadcast_date": "10-OCT-2025 16:38:08",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1544451_10102025043804_WEB.xml",
+      "broadcast_date": "19-OCT-2026 13:09:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732849_05102026110228_WEB.xml",
       "record_id": "201995",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -180,6 +198,24 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161702_531340_13102021031528_WEB.xml",
       "record_id": "161702",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "13-JAN-2026",
+      "broadcast_date": "18-FEB-2026 12:15:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1626454_16022026024915_WEB.xml",
+      "record_id": "205403",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "10-OCT-2025",
+      "broadcast_date": "10-OCT-2025 16:38:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1544451_10102025043804_WEB.xml",
+      "record_id": "201995",
       "revised": "N",
       "format": null
     },

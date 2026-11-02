@@ -1,8 +1,35 @@
 {
   "ticker": "PAKKA",
-  "fetched_at_utc": "2026-05-10T16:52:05.997447+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.023972+00:00",
+  "n_filings": 16,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 22:08:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743632_21102026100802_WEB.xml",
+      "record_id": "216290",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 23:09:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695825_17072026110907_WEB.xml",
+      "record_id": "211908",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-JUN-2026",
+      "submission_date": "27-JUN-2026",
+      "broadcast_date": "27-JUN-2026 22:36:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1685798_27062026103605_WEB.xml",
+      "record_id": "210433",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

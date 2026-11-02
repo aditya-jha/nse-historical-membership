@@ -1,8 +1,26 @@
 {
   "ticker": "SMARTWORKS",
-  "fetched_at_utc": "2026-05-10T16:56:54.346660+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.236901+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 13:42:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740669_17102026014201_WEB.xml",
+      "record_id": "215199",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 22:11:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697629_20072026101120_WEB.xml",
+      "record_id": "212509",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

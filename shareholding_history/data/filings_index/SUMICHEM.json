@@ -1,8 +1,26 @@
 {
   "ticker": "SUMICHEM",
-  "fetched_at_utc": "2026-05-10T16:57:44.557874+00:00",
-  "n_filings": 26,
+  "fetched_at_utc": "2026-11-02T12:14:14.590375+00:00",
+  "n_filings": 28,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 11:40:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733253_06102026114043_WEB.xml",
+      "record_id": "213283",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 15:39:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690385_10072026033931_WEB.xml",
+      "record_id": "210772",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

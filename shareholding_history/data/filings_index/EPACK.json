@@ -1,8 +1,26 @@
 {
   "ticker": "EPACK",
-  "fetched_at_utc": "2026-05-10T16:34:15.858526+00:00",
-  "n_filings": 10,
+  "fetched_at_utc": "2026-11-02T12:14:14.107014+00:00",
+  "n_filings": 12,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:33:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742574_21102026123314_WEB.xml",
+      "record_id": "215925",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 12:47:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694911_17072026124747_WEB.xml",
+      "record_id": "211636",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

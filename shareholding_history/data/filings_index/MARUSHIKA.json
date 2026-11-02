@@ -1,6 +1,16 @@
 {
   "ticker": "MARUSHIKA",
-  "fetched_at_utc": "2026-05-10T16:49:23.457441+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.682372+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 12:28:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734705_09102026122807_WEB.xml",
+      "record_id": "213555",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

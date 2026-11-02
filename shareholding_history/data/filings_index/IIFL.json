@@ -1,8 +1,26 @@
 {
   "ticker": "IIFL",
-  "fetched_at_utc": "2026-05-10T16:45:08.571032+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.443811+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:12:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737079_13102026051157_WEB.xml",
+      "record_id": "214145",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 18:13:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694476_16072026061342_WEB.xml",
+      "record_id": "211544",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

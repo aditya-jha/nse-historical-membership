@@ -1,8 +1,26 @@
 {
   "ticker": "TBZ",
-  "fetched_at_utc": "2026-05-10T16:58:30.930200+00:00",
-  "n_filings": 57,
+  "fetched_at_utc": "2026-11-02T12:14:14.567733+00:00",
+  "n_filings": 59,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 11:10:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734100_08102026111033_WEB.xml",
+      "record_id": "213426",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 12:31:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689132_08072026123102_WEB.xml",
+      "record_id": "210589",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

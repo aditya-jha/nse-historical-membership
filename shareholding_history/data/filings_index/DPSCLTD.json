@@ -1,8 +1,26 @@
 {
   "ticker": "DPSCLTD",
-  "fetched_at_utc": "2026-05-10T16:33:30.859281+00:00",
-  "n_filings": 72,
+  "fetched_at_utc": "2026-11-02T12:14:14.418539+00:00",
+  "n_filings": 74,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 12:43:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737492_14102026124303_WEB.xml",
+      "record_id": "214267",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 13:09:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695980_18072026010956_WEB.xml",
+      "record_id": "211960",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

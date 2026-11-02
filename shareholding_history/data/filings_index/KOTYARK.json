@@ -1,8 +1,26 @@
 {
   "ticker": "KOTYARK",
-  "fetched_at_utc": "2026-05-10T16:47:54.558342+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.228409+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:49:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740852_17102026044931_WEB.xml",
+      "record_id": "215262",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "06-AUG-2026 16:39:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706904_03082026034204_WEB.xml",
+      "record_id": "212260",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

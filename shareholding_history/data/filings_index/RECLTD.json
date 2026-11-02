@@ -1,8 +1,26 @@
 {
   "ticker": "RECLTD",
-  "fetched_at_utc": "2026-05-10T16:54:11.480559+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.422541+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 12:00:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737442_14102026120015_WEB.xml",
+      "record_id": "214249",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 19:01:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693602_15072026070101_WEB.xml",
+      "record_id": "211351",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

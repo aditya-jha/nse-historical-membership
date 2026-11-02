@@ -1,8 +1,26 @@
 {
   "ticker": "AWFIS",
-  "fetched_at_utc": "2026-05-10T16:30:16.358196+00:00",
-  "n_filings": 9,
+  "fetched_at_utc": "2026-11-02T12:14:14.442304+00:00",
+  "n_filings": 12,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:23:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737102_13102026052327_WEB.xml",
+      "record_id": "214154",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:13:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697043_20072026051338_WEB.xml",
+      "record_id": "212309",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",
@@ -15,10 +33,10 @@
     {
       "date": "31-DEC-2025",
       "submission_date": "14-JAN-2026",
-      "broadcast_date": "14-JAN-2026 12:38:54",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1600499_14012026123851_WEB.xml",
+      "broadcast_date": "19-OCT-2026 10:47:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1729745_28092026051603_WEB.xml",
       "record_id": "205506",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -82,6 +100,15 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_188472_1152609_04062024030521_WEB.xml",
       "record_id": "188472",
       "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "14-JAN-2026",
+      "broadcast_date": "14-JAN-2026 12:38:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1600499_14012026123851_WEB.xml",
+      "record_id": "205506",
+      "revised": "N",
       "format": null
     }
   ]

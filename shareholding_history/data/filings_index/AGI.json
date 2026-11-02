@@ -1,8 +1,26 @@
 {
   "ticker": "AGI",
-  "fetched_at_utc": "2026-05-10T16:26:06.358673+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.426426+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 11:21:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737402_14102026112151_WEB.xml",
+      "record_id": "214234",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 14:59:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692136_14072026025953_WEB.xml",
+      "record_id": "211057",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "UFO",
-  "fetched_at_utc": "2026-05-10T16:59:32.839097+00:00",
-  "n_filings": 48,
+  "fetched_at_utc": "2026-11-02T12:14:14.557479+00:00",
+  "n_filings": 50,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 16:03:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734308_08102026040348_WEB.xml",
+      "record_id": "213479",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:49:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693444_15072026054929_WEB.xml",
+      "record_id": "211329",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

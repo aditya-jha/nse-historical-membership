@@ -1,15 +1,33 @@
 {
   "ticker": "CARBORUNIV",
-  "fetched_at_utc": "2026-05-10T16:31:21.081868+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.128417+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 17:01:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742320_20102026050130_WEB.xml",
+      "record_id": "215811",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:13:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697761_21072026111336_WEB.xml",
+      "record_id": "212567",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",
-      "broadcast_date": "18-APR-2026 16:10:59",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654176_18042026041053_WEB.xml",
+      "broadcast_date": "03-JUN-2026 12:10:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679139_03062026115721_WEB.xml",
       "record_id": "209324",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +189,15 @@
       "broadcast_date": "07-JAN-2022 01:10:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162767_540275_20102021032033_WEB.xml",
       "record_id": "162767",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 16:10:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654176_18042026041053_WEB.xml",
+      "record_id": "209324",
       "revised": "N",
       "format": null
     },

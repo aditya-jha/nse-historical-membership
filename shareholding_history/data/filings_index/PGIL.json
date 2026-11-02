@@ -1,8 +1,35 @@
 {
   "ticker": "PGIL",
-  "fetched_at_utc": "2026-05-10T16:52:36.886284+00:00",
-  "n_filings": 79,
+  "fetched_at_utc": "2026-11-02T12:14:14.392465+00:00",
+  "n_filings": 82,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:22:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737907_14102026052220_WEB.xml",
+      "record_id": "214393",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "15-SEP-2026",
+      "submission_date": "21-SEP-2026",
+      "broadcast_date": "21-SEP-2026 22:15:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726178_21092026101533_WEB.xml",
+      "record_id": "213203",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 18:48:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692591_14072026064827_WEB.xml",
+      "record_id": "211126",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

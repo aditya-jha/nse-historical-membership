@@ -1,8 +1,26 @@
 {
   "ticker": "EIHAHOTELS",
-  "fetched_at_utc": "2026-05-10T16:33:52.609677+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.284859+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:43:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739884_16102026034259_WEB.xml",
+      "record_id": "214921",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-AUG-2026 11:46:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1701226_24072026074616_WEB.xml",
+      "record_id": "212647",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

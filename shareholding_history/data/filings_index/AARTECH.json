@@ -1,8 +1,26 @@
 {
   "ticker": "AARTECH",
-  "fetched_at_utc": "2026-05-10T16:28:28.993745+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.339113+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:28:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738958_15102026042811_WEB.xml",
+      "record_id": "214635",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 11:48:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689555_09072026114851_WEB.xml",
+      "record_id": "210655",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

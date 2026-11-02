@@ -1,6 +1,25 @@
 {
   "ticker": "TAURIAN",
-  "fetched_at_utc": "2026-05-10T16:58:29.426303+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.606769+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:26:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742999_21102026042627_WEB.xml",
+      "record_id": "216078",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 21:55:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698959_21072026095539_WEB.xml",
+      "record_id": "212941",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

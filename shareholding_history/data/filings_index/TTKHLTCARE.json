@@ -1,8 +1,26 @@
 {
   "ticker": "TTKHLTCARE",
-  "fetched_at_utc": "2026-05-10T16:59:23.075483+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.440524+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:39:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737142_13102026053933_WEB.xml",
+      "record_id": "214163",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 10:00:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696382_20072026100035_WEB.xml",
+      "record_id": "212084",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

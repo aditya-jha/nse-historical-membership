@@ -1,8 +1,26 @@
 {
   "ticker": "VHL",
-  "fetched_at_utc": "2026-05-10T17:00:12.556565+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.408243+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:31:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737684_14102026033103_WEB.xml",
+      "record_id": "214317",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 12:41:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689594_09072026124100_WEB.xml",
+      "record_id": "210668",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

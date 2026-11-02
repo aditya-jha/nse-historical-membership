@@ -1,8 +1,26 @@
 {
   "ticker": "ACCURACY",
-  "fetched_at_utc": "2026-05-10T16:28:36.614739+00:00",
-  "n_filings": 28,
+  "fetched_at_utc": "2026-11-02T12:14:14.466338+00:00",
+  "n_filings": 30,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:01:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736767_13102026020114_WEB.xml",
+      "record_id": "214026",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 15:40:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691381_13072026034033_WEB.xml",
+      "record_id": "210927",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

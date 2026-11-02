@@ -1,8 +1,26 @@
 {
   "ticker": "MANORAMA",
-  "fetched_at_utc": "2026-05-10T16:49:15.249083+00:00",
-  "n_filings": 17,
+  "fetched_at_utc": "2026-11-02T12:14:14.471701+00:00",
+  "n_filings": 19,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:31:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736652_13102026123150_WEB.xml",
+      "record_id": "213991",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 13:39:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690931_11072026013921_WEB.xml",
+      "record_id": "210843",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

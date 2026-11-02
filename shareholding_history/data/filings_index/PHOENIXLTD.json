@@ -1,8 +1,26 @@
 {
   "ticker": "PHOENIXLTD",
-  "fetched_at_utc": "2026-05-10T16:52:38.059844+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.353136+00:00",
+  "n_filings": 83,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 14:48:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738741_15102026024843_WEB.xml",
+      "record_id": "214571",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 22:15:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691843_13072026101540_WEB.xml",
+      "record_id": "211000",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

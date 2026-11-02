@@ -1,8 +1,26 @@
 {
   "ticker": "TARACHAND",
-  "fetched_at_utc": "2026-05-10T16:58:20.018064+00:00",
-  "n_filings": 25,
+  "fetched_at_utc": "2026-11-02T12:14:14.508389+00:00",
+  "n_filings": 27,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 11:56:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735847_12102026115625_WEB.xml",
+      "record_id": "213774",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 15:18:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693101_15072026031822_WEB.xml",
+      "record_id": "211253",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

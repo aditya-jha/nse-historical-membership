@@ -1,6 +1,25 @@
 {
   "ticker": "SHETHJI",
-  "fetched_at_utc": "2026-05-10T16:56:10.059793+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.665345+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "22-OCT-2026 18:30:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742493_21102026113623_WEB.xml",
+      "record_id": "214060",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 22:04:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698961_21072026100441_WEB.xml",
+      "record_id": "212942",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,35 @@
 {
   "ticker": "AFFORDABLE",
-  "fetched_at_utc": "2026-05-10T16:28:51.401718+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.246631+00:00",
+  "n_filings": 11,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 22:24:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740508_16102026102405_WEB.xml",
+      "record_id": "215143",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 23:52:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735278_09102026115204_WEB.xml",
+      "record_id": "213681",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "07-AUG-2026 16:18:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706698_01082026081510_WEB.xml",
+      "record_id": "212812",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "14-APR-2026",
       "submission_date": "24-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "BALUFORGE",
-  "fetched_at_utc": "2026-05-10T16:30:27.533788+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.155018+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:56:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741934_19102026065559_WEB.xml",
+      "record_id": "215664",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 19:15:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693615_15072026071503_WEB.xml",
+      "record_id": "211354",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
@@ -13,20 +31,20 @@
       "format": null
     },
     {
-      "date": "09-MAR-2026",
-      "submission_date": "13-MAR-2026",
-      "broadcast_date": "13-MAR-2026 15:03:21",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1635439_13032026030318_WEB.xml",
-      "record_id": "207304",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "06-MAR-2026",
       "submission_date": "13-MAR-2026",
       "broadcast_date": "13-MAR-2026 14:30:43",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1635426_13032026023040_WEB.xml",
       "record_id": "207303",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-MAR-2026",
+      "submission_date": "13-MAR-2026",
+      "broadcast_date": "13-MAR-2026 15:03:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1635439_13032026030318_WEB.xml",
+      "record_id": "207304",
       "revised": "N",
       "format": null
     },

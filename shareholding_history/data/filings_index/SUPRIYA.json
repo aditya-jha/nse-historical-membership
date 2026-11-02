@@ -1,8 +1,26 @@
 {
   "ticker": "SUPRIYA",
-  "fetched_at_utc": "2026-05-10T16:57:58.123700+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.388980+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:55:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737988_14102026055535_WEB.xml",
+      "record_id": "214413",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 19:12:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696304_18072026071157_WEB.xml",
+      "record_id": "212054",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

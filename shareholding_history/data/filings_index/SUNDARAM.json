@@ -1,8 +1,26 @@
 {
   "ticker": "SUNDARAM",
-  "fetched_at_utc": "2026-05-10T16:57:46.625122+00:00",
-  "n_filings": 67,
+  "fetched_at_utc": "2026-11-02T12:14:14.365247+00:00",
+  "n_filings": 69,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:28:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738565_15102026122835_WEB.xml",
+      "record_id": "214520",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 15:26:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695124_17072026032646_WEB.xml",
+      "record_id": "211702",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

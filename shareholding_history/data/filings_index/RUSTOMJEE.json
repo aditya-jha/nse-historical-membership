@@ -1,8 +1,26 @@
 {
   "ticker": "RUSTOMJEE",
-  "fetched_at_utc": "2026-05-10T16:54:54.140771+00:00",
-  "n_filings": 17,
+  "fetched_at_utc": "2026-11-02T12:14:14.148671+00:00",
+  "n_filings": 19,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 20:06:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742051_19102026080652_WEB.xml",
+      "record_id": "215705",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:56:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697207_20072026055553_WEB.xml",
+      "record_id": "212366",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

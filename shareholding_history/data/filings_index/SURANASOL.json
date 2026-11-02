@@ -1,8 +1,26 @@
 {
   "ticker": "SURANASOL",
-  "fetched_at_utc": "2026-05-10T16:58:00.133784+00:00",
-  "n_filings": 61,
+  "fetched_at_utc": "2026-11-02T12:14:14.343468+00:00",
+  "n_filings": 63,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:16:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738927_15102026041626_WEB.xml",
+      "record_id": "214623",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 23:00:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697657_20072026110043_WEB.xml",
+      "record_id": "212518",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

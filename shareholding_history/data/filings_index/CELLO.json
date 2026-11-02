@@ -1,8 +1,35 @@
 {
   "ticker": "CELLO",
-  "fetched_at_utc": "2026-05-10T16:31:31.440460+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.437625+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 18:24:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737211_13102026062419_WEB.xml",
+      "record_id": "214180",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-SEP-2026",
+      "submission_date": "08-SEP-2026",
+      "broadcast_date": "08-SEP-2026 18:35:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722628_08092026063527_WEB.xml",
+      "record_id": "213136",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:12:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696727_20072026031241_WEB.xml",
+      "record_id": "212200",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",
@@ -67,20 +94,20 @@
       "format": null
     },
     {
-      "date": "05-JUL-2024",
-      "submission_date": "13-JUL-2024",
-      "broadcast_date": "13-JUL-2024 18:08:41",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_189365_1184060_13072024060839_WEB.xml",
-      "record_id": "189365",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "30-JUN-2024",
       "submission_date": "13-JUL-2024",
       "broadcast_date": "13-JUL-2024 17:37:38",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_189363_1184014_13072024053736_WEB.xml",
       "record_id": "189363",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "05-JUL-2024",
+      "submission_date": "13-JUL-2024",
+      "broadcast_date": "13-JUL-2024 18:08:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_189365_1184060_13072024060839_WEB.xml",
+      "record_id": "189365",
       "revised": "N",
       "format": null
     },

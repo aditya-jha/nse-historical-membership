@@ -1,0 +1,25 @@
+{
+  "ticker": "CRESTO",
+  "fetched_at_utc": "2026-11-02T12:14:14.251678+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:03:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740375_16102026070329_WEB.xml",
+      "record_id": "215104",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:53:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698720_21072026065306_WEB.xml",
+      "record_id": "212871",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

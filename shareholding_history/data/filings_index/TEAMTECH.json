@@ -1,0 +1,25 @@
+{
+  "ticker": "TEAMTECH",
+  "fetched_at_utc": "2026-11-02T12:14:14.605808+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:00:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743109_21102026050051_WEB.xml",
+      "record_id": "216113",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "25-MAY-2026",
+      "submission_date": "26-MAY-2026",
+      "broadcast_date": "29-MAY-2026 16:41:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1675875_29052026033039_WEB.xml",
+      "record_id": "210358",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

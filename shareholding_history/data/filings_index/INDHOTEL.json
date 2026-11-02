@@ -1,8 +1,26 @@
 {
   "ticker": "INDHOTEL",
-  "fetched_at_utc": "2026-05-10T16:45:16.898096+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.144956+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 21:40:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742116_19102026094034_WEB.xml",
+      "record_id": "215722",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 23:56:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697682_20072026115559_WEB.xml",
+      "record_id": "212527",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

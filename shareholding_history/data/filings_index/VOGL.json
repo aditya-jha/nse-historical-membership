@@ -1,0 +1,34 @@
+{
+  "ticker": "VOGL",
+  "fetched_at_utc": "2026-11-02T12:14:14.199110+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 14:17:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741341_19102026021711_WEB.xml",
+      "record_id": "215431",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 13:46:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689626_09072026014636_WEB.xml",
+      "record_id": "210673",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "12-JUN-2026",
+      "submission_date": "16-JUN-2026",
+      "broadcast_date": "17-JUN-2026 15:12:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682017_16062026034856_WEB.xml",
+      "record_id": "210403",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

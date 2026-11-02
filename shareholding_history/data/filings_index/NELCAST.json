@@ -1,8 +1,26 @@
 {
   "ticker": "NELCAST",
-  "fetched_at_utc": "2026-05-10T16:50:56.019209+00:00",
-  "n_filings": 76,
+  "fetched_at_utc": "2026-11-02T12:14:14.518763+00:00",
+  "n_filings": 78,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 14:39:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735362_10102026023943_WEB.xml",
+      "record_id": "213707",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 16:16:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691011_11072026041606_WEB.xml",
+      "record_id": "210861",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

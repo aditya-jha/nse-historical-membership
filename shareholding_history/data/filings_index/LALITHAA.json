@@ -1,0 +1,25 @@
+{
+  "ticker": "LALITHAA",
+  "fetched_at_utc": "2026-11-02T12:14:14.435449+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 18:52:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737244_13102026065202_WEB.xml",
+      "record_id": "214191",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "21-AUG-2026",
+      "submission_date": "27-AUG-2026",
+      "broadcast_date": "28-AUG-2026 12:47:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1718411_27082026033904_WEB.xml",
+      "record_id": "213088",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

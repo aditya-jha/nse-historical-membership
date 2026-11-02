@@ -1,8 +1,26 @@
 {
   "ticker": "UEL",
-  "fetched_at_utc": "2026-05-10T16:59:31.435469+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.184450+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:28:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741560_19102026042805_WEB.xml",
+      "record_id": "215521",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:33:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696519_20072026123257_WEB.xml",
+      "record_id": "212120",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

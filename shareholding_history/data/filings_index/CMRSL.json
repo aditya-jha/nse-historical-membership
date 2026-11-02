@@ -1,6 +1,25 @@
 {
   "ticker": "CMRSL",
-  "fetched_at_utc": "2026-05-10T16:31:59.841124+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.657111+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:11:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737885_14102026051133_WEB.xml",
+      "record_id": "214385",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 09:51:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692752_15072026095116_WEB.xml",
+      "record_id": "211148",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "V2RETAIL",
-  "fetched_at_utc": "2026-05-10T16:59:54.293108+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.417089+00:00",
+  "n_filings": 83,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:05:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737520_14102026010504_WEB.xml",
+      "record_id": "214275",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 10:43:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694783_17072026104319_WEB.xml",
+      "record_id": "211601",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

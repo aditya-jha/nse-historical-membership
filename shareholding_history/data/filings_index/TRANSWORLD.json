@@ -1,8 +1,26 @@
 {
   "ticker": "TRANSWORLD",
-  "fetched_at_utc": "2026-05-10T16:59:12.798418+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.363317+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:44:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738589_15102026124431_WEB.xml",
+      "record_id": "214528",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:05:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695559_17072026060524_WEB.xml",
+      "record_id": "211836",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "DCMSHRIRAM",
-  "fetched_at_utc": "2026-05-10T16:32:46.694631+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.191871+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:33:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741448_19102026033306_WEB.xml",
+      "record_id": "215477",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:23:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696751_20072026032255_WEB.xml",
+      "record_id": "212211",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

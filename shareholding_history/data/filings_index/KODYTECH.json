@@ -1,6 +1,34 @@
 {
   "ticker": "KODYTECH",
-  "fetched_at_utc": "2026-05-10T16:47:46.973852+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.598315+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "12-OCT-2026",
+      "submission_date": "26-OCT-2026",
+      "broadcast_date": "26-OCT-2026 14:24:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1745686_26102026022408_WEB.xml",
+      "record_id": "216327",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:16:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737893_14102026051633_WEB.xml",
+      "record_id": "214389",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "07-AUG-2026",
+      "submission_date": "21-AUG-2026",
+      "broadcast_date": "21-AUG-2026 15:45:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1716776_21082026034501_WEB.xml",
+      "record_id": "213071",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

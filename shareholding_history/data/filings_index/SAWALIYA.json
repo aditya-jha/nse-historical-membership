@@ -1,6 +1,16 @@
 {
   "ticker": "SAWALIYA",
-  "fetched_at_utc": "2026-05-10T16:55:31.199417+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.690004+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-MAY-2026",
+      "broadcast_date": "21-MAY-2026 18:15:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1670742_21052026061457_WEB.xml",
+      "record_id": "210348",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

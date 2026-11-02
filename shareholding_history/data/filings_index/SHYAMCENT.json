@@ -1,8 +1,26 @@
 {
   "ticker": "SHYAMCENT",
-  "fetched_at_utc": "2026-05-10T16:56:28.767723+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.318752+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:35:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739264_15102026063529_WEB.xml",
+      "record_id": "214734",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:27:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697107_20072026052740_WEB.xml",
+      "record_id": "212327",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

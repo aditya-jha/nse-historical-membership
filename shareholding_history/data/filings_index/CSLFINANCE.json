@@ -1,8 +1,26 @@
 {
   "ticker": "CSLFINANCE",
-  "fetched_at_utc": "2026-05-10T16:32:24.178034+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.405314+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:51:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737721_14102026035105_WEB.xml",
+      "record_id": "214329",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 14:39:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691307_13072026023858_WEB.xml",
+      "record_id": "210913",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

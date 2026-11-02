@@ -1,6 +1,25 @@
 {
   "ticker": "SLONE",
-  "fetched_at_utc": "2026-05-10T16:56:52.431286+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.601149+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 21:18:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743600_21102026091824_WEB.xml",
+      "record_id": "216275",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "01-OCT-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 17:00:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741661_19102026050052_WEB.xml",
+      "record_id": "215562",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

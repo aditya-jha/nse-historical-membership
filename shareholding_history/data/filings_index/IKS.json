@@ -1,8 +1,26 @@
 {
   "ticker": "IKS",
-  "fetched_at_utc": "2026-05-10T16:45:10.695129+00:00",
-  "n_filings": 7,
+  "fetched_at_utc": "2026-11-02T12:14:14.297823+00:00",
+  "n_filings": 9,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 14:02:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739706_16102026020213_WEB.xml",
+      "record_id": "214850",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 15:20:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695112_17072026032044_WEB.xml",
+      "record_id": "211699",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "SPANDANA",
-  "fetched_at_utc": "2026-05-10T16:57:11.133901+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.099421+00:00",
+  "n_filings": 33,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 13:38:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742678_21102026013854_WEB.xml",
+      "record_id": "215959",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-SEP-2026 11:02:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725485_18092026062650_WEB.xml",
+      "record_id": "212910",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

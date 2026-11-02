@@ -1,6 +1,25 @@
 {
   "ticker": "AGUL",
-  "fetched_at_utc": "2026-05-10T16:26:07.408121+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.659466+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:50:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737561_14102026015057_WEB.xml",
+      "record_id": "214284",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:16:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693851_16072026121624_WEB.xml",
+      "record_id": "211411",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

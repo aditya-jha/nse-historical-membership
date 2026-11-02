@@ -1,8 +1,26 @@
 {
   "ticker": "NIITLTD",
-  "fetched_at_utc": "2026-05-10T16:51:11.374539+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.539674+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 14:37:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734787_09102026023747_WEB.xml",
+      "record_id": "213575",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "16-SEP-2026 14:29:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724008_14092026121729_WEB.xml",
+      "record_id": "210773",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

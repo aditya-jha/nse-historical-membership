@@ -1,8 +1,26 @@
 {
   "ticker": "AHLUCONT",
-  "fetched_at_utc": "2026-05-10T16:26:07.968695+00:00",
-  "n_filings": 66,
+  "fetched_at_utc": "2026-11-02T12:14:14.092324+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:49:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742766_21102026024915_WEB.xml",
+      "record_id": "215993",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 11:19:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689543_09072026111935_WEB.xml",
+      "record_id": "210654",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

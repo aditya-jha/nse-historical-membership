@@ -1,8 +1,26 @@
 {
   "ticker": "5PAISA",
-  "fetched_at_utc": "2026-05-10T16:28:23.169268+00:00",
+  "fetched_at_utc": "2026-11-02T12:14:14.536605+00:00",
   "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 15:37:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734870_09102026033718_WEB.xml",
+      "record_id": "213595",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "23-SEP-2026 15:57:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1702699_28072026122950_WEB.xml",
+      "record_id": "212430",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "13-APR-2026",
       "submission_date": "20-APR-2026",
@@ -333,24 +351,6 @@
       "broadcast_date": "19-APR-2018 20:10:07",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6226_19042018074235.xml",
       "record_id": "124571",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2017",
-      "submission_date": null,
-      "broadcast_date": "19-JAN-2018 20:40:09",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "123422",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "15-NOV-2017",
-      "submission_date": null,
-      "broadcast_date": "20-NOV-2017 14:10:11",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "121617",
       "revised": "N",
       "format": null
     }

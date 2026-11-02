@@ -1,8 +1,26 @@
 {
   "ticker": "HUHTAMAKI",
-  "fetched_at_utc": "2026-05-10T16:44:50.806826+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.107756+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:28:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742563_21102026122830_WEB.xml",
+      "record_id": "215922",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 13:07:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696570_20072026010744_WEB.xml",
+      "record_id": "212142",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

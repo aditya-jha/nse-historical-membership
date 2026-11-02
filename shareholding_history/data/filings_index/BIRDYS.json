@@ -1,6 +1,43 @@
 {
   "ticker": "BIRDYS",
-  "fetched_at_utc": "2026-05-10T16:30:49.847186+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.642210+00:00",
+  "n_filings": 4,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:33:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739864_16102026033322_WEB.xml",
+      "record_id": "214912",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "22-JUL-2026",
+      "submission_date": "31-JUL-2026",
+      "broadcast_date": "31-JUL-2026 19:08:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706301_31072026070847_WEB.xml",
+      "record_id": "213003",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "03-JUN-2026",
+      "submission_date": "10-JUN-2026",
+      "broadcast_date": "10-JUN-2026 19:00:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680772_10062026070005_WEB.xml",
+      "record_id": "210385",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "22-MAY-2026",
+      "submission_date": "31-MAY-2026",
+      "broadcast_date": "31-MAY-2026 16:53:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1678264_31052026045331_WEB.xml",
+      "record_id": "210366",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

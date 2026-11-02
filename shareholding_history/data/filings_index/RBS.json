@@ -1,6 +1,25 @@
 {
   "ticker": "RBS",
-  "fetched_at_utc": "2026-05-10T16:54:08.357645+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.664050+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:46:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737012_13102026044636_WEB.xml",
+      "record_id": "214117",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "09-JUL-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 17:27:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691587_13072026052721_WEB.xml",
+      "record_id": "210972",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

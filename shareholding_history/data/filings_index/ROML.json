@@ -1,8 +1,35 @@
 {
   "ticker": "ROML",
-  "fetched_at_utc": "2026-05-10T16:54:36.448864+00:00",
-  "n_filings": 23,
+  "fetched_at_utc": "2026-11-02T12:14:14.233492+00:00",
+  "n_filings": 26,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 15:06:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740739_17102026030641_WEB.xml",
+      "record_id": "215224",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "27-JUL-2026",
+      "submission_date": "03-AUG-2026",
+      "broadcast_date": "10-AUG-2026 18:31:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708866_06082026014753_WEB.xml",
+      "record_id": "213008",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-AUG-2026 18:31:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708865_06082026014551_WEB.xml",
+      "record_id": "210814",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

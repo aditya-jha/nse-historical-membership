@@ -1,8 +1,26 @@
 {
   "ticker": "DELHIVERY",
-  "fetched_at_utc": "2026-05-10T16:32:54.979395+00:00",
-  "n_filings": 17,
+  "fetched_at_utc": "2026-11-02T12:14:14.199596+00:00",
+  "n_filings": 19,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 14:04:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741328_19102026020401_WEB.xml",
+      "record_id": "215428",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 13:45:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696616_20072026014531_WEB.xml",
+      "record_id": "212159",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

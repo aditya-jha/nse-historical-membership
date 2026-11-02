@@ -1,6 +1,25 @@
 {
   "ticker": "SURANI",
-  "fetched_at_utc": "2026-05-10T16:58:01.125792+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.646163+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 11:34:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739531_16102026113410_WEB.xml",
+      "record_id": "214784",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:25:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689821_09072026042537_WEB.xml",
+      "record_id": "210705",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

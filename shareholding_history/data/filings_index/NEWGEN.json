@@ -1,8 +1,26 @@
 {
   "ticker": "NEWGEN",
-  "fetched_at_utc": "2026-05-10T16:51:04.889094+00:00",
-  "n_filings": 35,
+  "fetched_at_utc": "2026-11-02T12:14:14.315912+00:00",
+  "n_filings": 37,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 22:42:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739457_15102026104218_WEB.xml",
+      "record_id": "214754",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 14:44:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692103_14072026024433_WEB.xml",
+      "record_id": "211053",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

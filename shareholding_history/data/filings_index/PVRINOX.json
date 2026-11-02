@@ -1,8 +1,35 @@
 {
   "ticker": "PVRINOX",
-  "fetched_at_utc": "2026-05-10T16:53:37.459881+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.526874+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "01-OCT-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 18:19:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735132_09102026061941_WEB.xml",
+      "record_id": "213659",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 18:17:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735125_09102026061731_WEB.xml",
+      "record_id": "213656",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 12:45:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697895_21072026124538_WEB.xml",
+      "record_id": "212626",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

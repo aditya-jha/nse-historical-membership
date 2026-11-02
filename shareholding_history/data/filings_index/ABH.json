@@ -1,0 +1,25 @@
+{
+  "ticker": "ABH",
+  "fetched_at_utc": "2026-11-02T12:14:14.612482+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 11:21:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742476_21102026112146_WEB.xml",
+      "record_id": "215892",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "31-AUG-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "02-SEP-2026 18:05:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720225_02092026042256_WEB.xml",
+      "record_id": "213113",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

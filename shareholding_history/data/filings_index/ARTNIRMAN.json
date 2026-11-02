@@ -1,8 +1,26 @@
 {
   "ticker": "ARTNIRMAN",
-  "fetched_at_utc": "2026-05-10T16:29:48.449815+00:00",
-  "n_filings": 32,
+  "fetched_at_utc": "2026-11-02T12:14:14.230014+00:00",
+  "n_filings": 34,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:16:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740808_17102026041559_WEB.xml",
+      "record_id": "215245",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 15:23:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694111_16072026032325_WEB.xml",
+      "record_id": "211469",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

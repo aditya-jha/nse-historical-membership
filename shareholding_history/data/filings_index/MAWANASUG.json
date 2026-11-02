@@ -1,8 +1,26 @@
 {
   "ticker": "MAWANASUG",
-  "fetched_at_utc": "2026-05-10T16:49:28.061283+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.505578+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 13:10:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735932_12102026011004_WEB.xml",
+      "record_id": "213793",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 15:07:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688751_07072026030722_WEB.xml",
+      "record_id": "210558",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

@@ -1,0 +1,25 @@
+{
+  "ticker": "KNACK",
+  "fetched_at_utc": "2026-11-02T12:14:14.260201+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:52:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740230_16102026055227_WEB.xml",
+      "record_id": "215056",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "07-JUL-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "04-SEP-2026 11:49:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720932_03092026060417_WEB.xml",
+      "record_id": "210618",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

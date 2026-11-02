@@ -1,8 +1,26 @@
 {
   "ticker": "INOXINDIA",
-  "fetched_at_utc": "2026-05-10T16:45:40.586401+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.186515+00:00",
+  "n_filings": 13,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:13:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741540_19102026041339_WEB.xml",
+      "record_id": "215511",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 16:16:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691439_13072026041636_WEB.xml",
+      "record_id": "210940",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "KAYNES",
-  "fetched_at_utc": "2026-05-10T16:25:40.876439+00:00",
-  "n_filings": 17,
+  "fetched_at_utc": "2026-11-02T12:14:14.234421+00:00",
+  "n_filings": 19,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 14:50:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740726_17102026025027_WEB.xml",
+      "record_id": "215216",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "26-AUG-2026 15:04:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1717996_26082026025347_WEB.xml",
+      "record_id": "212261",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

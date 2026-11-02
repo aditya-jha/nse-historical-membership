@@ -1,8 +1,26 @@
 {
   "ticker": "NPST",
-  "fetched_at_utc": "2026-05-10T16:51:27.101626+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.206338+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:43:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741241_19102026124336_WEB.xml",
+      "record_id": "215389",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 17:14:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692391_14072026051408_WEB.xml",
+      "record_id": "211096",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "SAKSOFT",
-  "fetched_at_utc": "2026-05-10T16:55:08.711719+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.191078+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:35:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741462_19102026033525_WEB.xml",
+      "record_id": "215481",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 13:10:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694947_17072026011028_WEB.xml",
+      "record_id": "211644",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

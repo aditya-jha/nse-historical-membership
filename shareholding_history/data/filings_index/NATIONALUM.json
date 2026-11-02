@@ -1,8 +1,26 @@
 {
   "ticker": "NATIONALUM",
-  "fetched_at_utc": "2026-05-10T16:50:43.260727+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.396241+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 16:51:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737856_14102026045149_WEB.xml",
+      "record_id": "214373",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 11:10:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689539_09072026111022_WEB.xml",
+      "record_id": "210653",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

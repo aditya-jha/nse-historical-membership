@@ -1,0 +1,25 @@
+{
+  "ticker": "RUSHABEAR",
+  "fetched_at_utc": "2026-11-02T12:14:14.199188+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 14:12:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741336_19102026021230_WEB.xml",
+      "record_id": "215430",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:23:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693385_15072026052334_WEB.xml",
+      "record_id": "211315",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

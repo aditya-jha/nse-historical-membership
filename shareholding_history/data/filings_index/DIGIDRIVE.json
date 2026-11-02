@@ -1,8 +1,26 @@
 {
   "ticker": "DIGIDRIVE",
-  "fetched_at_utc": "2026-05-10T16:33:14.529419+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.390145+00:00",
+  "n_filings": 13,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:42:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737957_14102026054220_WEB.xml",
+      "record_id": "214406",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:42:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695637_17072026064253_WEB.xml",
+      "record_id": "211860",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

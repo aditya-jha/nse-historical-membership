@@ -1,15 +1,42 @@
 {
   "ticker": "360ONE",
-  "fetched_at_utc": "2026-05-10T16:25:47.654712+00:00",
-  "n_filings": 30,
+  "fetched_at_utc": "2026-11-02T12:14:14.016754+00:00",
+  "n_filings": 34,
   "filings": [
+    {
+      "date": "22-OCT-2026",
+      "submission_date": "26-OCT-2026",
+      "broadcast_date": "26-OCT-2026 17:56:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1746047_26102026055604_WEB.xml",
+      "record_id": "216331",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:14:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741965_19102026071436_WEB.xml",
+      "record_id": "215675",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:03:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698400_21072026050353_WEB.xml",
+      "record_id": "212789",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
-      "broadcast_date": "21-APR-2026 18:14:47",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656550_21042026061442_WEB.xml",
+      "broadcast_date": "17-JUN-2026 17:37:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682210_17062026123154_WEB.xml",
       "record_id": "210168",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -199,6 +226,15 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161931_533454_14102021061004_WEB.xml",
       "record_id": "161931",
       "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 18:14:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656550_21042026061442_WEB.xml",
+      "record_id": "210168",
+      "revised": "N",
       "format": null
     },
     {

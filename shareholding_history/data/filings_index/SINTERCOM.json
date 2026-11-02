@@ -1,8 +1,26 @@
 {
   "ticker": "SINTERCOM",
-  "fetched_at_utc": "2026-05-10T16:56:45.157374+00:00",
-  "n_filings": 32,
+  "fetched_at_utc": "2026-11-02T12:14:14.095537+00:00",
+  "n_filings": 34,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:16:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742716_21102026021642_WEB.xml",
+      "record_id": "215976",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 14:41:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694037_16072026024151_WEB.xml",
+      "record_id": "211451",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

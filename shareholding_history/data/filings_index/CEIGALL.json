@@ -1,8 +1,26 @@
 {
   "ticker": "CEIGALL",
-  "fetched_at_utc": "2026-05-10T16:31:28.817766+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.402027+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 16:19:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737779_14102026041916_WEB.xml",
+      "record_id": "214345",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 10:07:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694748_17072026100720_WEB.xml",
+      "record_id": "211587",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

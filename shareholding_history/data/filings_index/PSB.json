@@ -1,8 +1,26 @@
 {
   "ticker": "PSB",
-  "fetched_at_utc": "2026-05-10T16:53:29.602870+00:00",
-  "n_filings": 68,
+  "fetched_at_utc": "2026-11-02T12:14:14.372304+00:00",
+  "n_filings": 70,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 11:20:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738479_15102026112024_WEB.xml",
+      "record_id": "214489",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 20:02:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695758_17072026080203_WEB.xml",
+      "record_id": "211897",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

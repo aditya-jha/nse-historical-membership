@@ -1,8 +1,26 @@
 {
   "ticker": "UNIINFO",
-  "fetched_at_utc": "2026-05-10T16:59:40.525622+00:00",
-  "n_filings": 27,
+  "fetched_at_utc": "2026-11-02T12:14:14.265921+00:00",
+  "n_filings": 29,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:17:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740140_16102026051723_WEB.xml",
+      "record_id": "215026",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 13:12:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697949_21072026011233_WEB.xml",
+      "record_id": "212640",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

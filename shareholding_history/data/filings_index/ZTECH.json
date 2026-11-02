@@ -1,6 +1,52 @@
 {
   "ticker": "ZTECH",
-  "fetched_at_utc": "2026-05-10T17:01:19.777541+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.635537+00:00",
+  "n_filings": 5,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 14:56:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740732_17102026025627_WEB.xml",
+      "record_id": "215220",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "13-SEP-2026",
+      "submission_date": "22-SEP-2026",
+      "broadcast_date": "22-SEP-2026 17:25:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726462_22092026052541_WEB.xml",
+      "record_id": "213206",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "08-SEP-2026",
+      "submission_date": "17-SEP-2026",
+      "broadcast_date": "17-SEP-2026 16:59:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725040_17092026045937_WEB.xml",
+      "record_id": "213176",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "31-AUG-2026",
+      "submission_date": "10-SEP-2026",
+      "broadcast_date": "10-SEP-2026 18:10:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1723363_10092026061007_WEB.xml",
+      "record_id": "213143",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 16:49:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689319_08072026044919_WEB.xml",
+      "record_id": "210636",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

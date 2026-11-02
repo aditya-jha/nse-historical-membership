@@ -1,0 +1,25 @@
+{
+  "ticker": "RELINFRA",
+  "fetched_at_utc": "2026-11-02T12:14:14.284113+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:44:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739888_16102026034444_WEB.xml",
+      "record_id": "214924",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:51:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695653_17072026065055_WEB.xml",
+      "record_id": "211865",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

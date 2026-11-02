@@ -1,6 +1,25 @@
 {
   "ticker": "SELLOWRAP",
-  "fetched_at_utc": "2026-05-10T16:55:45.995238+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.665211+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 15:31:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736883_13102026033144_WEB.xml",
+      "record_id": "214069",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:26:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693396_15072026052617_WEB.xml",
+      "record_id": "211317",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

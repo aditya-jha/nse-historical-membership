@@ -1,8 +1,26 @@
 {
   "ticker": "DCXINDIA",
-  "fetched_at_utc": "2026-05-10T16:32:48.857168+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.261924+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:40:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740194_16102026054000_WEB.xml",
+      "record_id": "215046",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:12:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696728_20072026031250_WEB.xml",
+      "record_id": "212201",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

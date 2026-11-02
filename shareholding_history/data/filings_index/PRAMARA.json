@@ -1,6 +1,16 @@
 {
   "ticker": "PRAMARA",
-  "fetched_at_utc": "2026-05-10T16:53:07.957114+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.647214+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 19:52:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739386_15102026075229_WEB.xml",
+      "record_id": "214748",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

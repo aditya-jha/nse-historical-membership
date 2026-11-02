@@ -1,6 +1,25 @@
 {
   "ticker": "KALANA",
-  "fetched_at_utc": "2026-05-10T16:47:04.220109+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.675586+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 13:03:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735920_12102026010353_WEB.xml",
+      "record_id": "213790",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "26-AUG-2026",
+      "submission_date": "05-SEP-2026",
+      "broadcast_date": "05-SEP-2026 16:49:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1721768_05092026044935_WEB.xml",
+      "record_id": "213128",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

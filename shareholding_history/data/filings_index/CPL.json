@@ -1,0 +1,25 @@
+{
+  "ticker": "CPL",
+  "fetched_at_utc": "2026-11-02T12:14:14.252020+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:57:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740367_16102026065702_WEB.xml",
+      "record_id": "215102",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-JUL-2026",
+      "submission_date": "23-JUL-2026",
+      "broadcast_date": "31-JUL-2026 13:50:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1700018_23072026042059_WEB.xml",
+      "record_id": "212969",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

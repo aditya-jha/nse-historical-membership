@@ -1,8 +1,26 @@
 {
   "ticker": "TASTYBITE",
-  "fetched_at_utc": "2026-05-10T16:58:23.720349+00:00",
-  "n_filings": 38,
+  "fetched_at_utc": "2026-11-02T12:14:14.055432+00:00",
+  "n_filings": 40,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:36:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743175_21102026053644_WEB.xml",
+      "record_id": "216159",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:04:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698591_21072026060423_WEB.xml",
+      "record_id": "212835",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

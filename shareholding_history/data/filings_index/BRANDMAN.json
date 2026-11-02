@@ -1,6 +1,25 @@
 {
   "ticker": "BRANDMAN",
-  "fetched_at_utc": "2026-05-10T16:31:06.551938+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.666042+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:22:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736785_13102026022219_WEB.xml",
+      "record_id": "214033",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 13:12:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692957_15072026011254_WEB.xml",
+      "record_id": "211215",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

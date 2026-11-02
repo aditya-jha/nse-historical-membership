@@ -1,8 +1,26 @@
 {
   "ticker": "GUJRAFFIA",
-  "fetched_at_utc": "2026-05-10T16:43:58.573683+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.033466+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:57:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743516_21102026075719_WEB.xml",
+      "record_id": "216251",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 23:40:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697680_20072026114041_WEB.xml",
+      "record_id": "212525",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "KARMAENG",
-  "fetched_at_utc": "2026-05-10T16:47:13.278121+00:00",
-  "n_filings": 61,
+  "fetched_at_utc": "2026-11-02T12:14:14.468482+00:00",
+  "n_filings": 63,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 13:10:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736716_13102026011034_WEB.xml",
+      "record_id": "214013",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 12:01:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691176_13072026120137_WEB.xml",
+      "record_id": "210886",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

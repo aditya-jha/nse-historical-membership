@@ -1,8 +1,26 @@
 {
   "ticker": "NRBBEARING",
-  "fetched_at_utc": "2026-05-10T16:51:28.192804+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.057575+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:30:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743159_21102026053046_WEB.xml",
+      "record_id": "216148",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:03:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693325_15072026050310_WEB.xml",
+      "record_id": "211303",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

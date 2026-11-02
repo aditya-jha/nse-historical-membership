@@ -1,6 +1,25 @@
 {
   "ticker": "SHUBHLAXMI",
-  "fetched_at_utc": "2026-05-10T16:56:27.718113+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.611057+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 13:29:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742667_21102026012901_WEB.xml",
+      "record_id": "215952",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 12:26:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697860_21072026122644_WEB.xml",
+      "record_id": "212616",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

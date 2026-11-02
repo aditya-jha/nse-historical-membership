@@ -1,6 +1,25 @@
 {
   "ticker": "TECHD",
-  "fetched_at_utc": "2026-05-10T16:58:36.171128+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.621847+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 17:15:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741702_19102026051534_WEB.xml",
+      "record_id": "215577",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:44:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693904_16072026124405_WEB.xml",
+      "record_id": "211423",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

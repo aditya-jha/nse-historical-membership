@@ -1,8 +1,26 @@
 {
   "ticker": "PVP",
-  "fetched_at_utc": "2026-05-10T16:53:36.980452+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.287629+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:28:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739855_16102026032759_WEB.xml",
+      "record_id": "214906",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 21:46:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697616_20072026094554_WEB.xml",
+      "record_id": "212502",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "19-APR-2026",

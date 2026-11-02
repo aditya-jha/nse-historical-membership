@@ -1,6 +1,34 @@
 {
   "ticker": "PRITIKA",
-  "fetched_at_utc": "2026-05-10T16:53:20.106035+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.599621+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "17-OCT-2026",
+      "submission_date": "22-OCT-2026",
+      "broadcast_date": "22-OCT-2026 15:26:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743872_22102026032637_WEB.xml",
+      "record_id": "216309",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 14:26:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734220_08102026022620_WEB.xml",
+      "record_id": "213460",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 10:54:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689081_08072026105404_WEB.xml",
+      "record_id": "210579",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -71,7 +71,7 @@ def _frame(fig, kicker, title_lines, tagline, chips=None):
     fig.add_artist(plt.Line2D([LEFT, RIGHT], [0.085, 0.085], color="#1E2A40",
                               lw=1.0, transform=fig.transFigure))
     fig.text(LEFT, 0.045, URL, color=FAINT, fontfamily=MONO, fontsize=10.5)
-    fig.text(RIGHT, 0.045, "MIT · CC BY 4.0", color=FAINT, fontfamily=MONO,
+    fig.text(RIGHT, 0.045, "MIT · CC0", color=FAINT, fontfamily=MONO,
              fontsize=10.5, ha="right")
     # optional stat chips on the right of the footer-ish area
     if chips:

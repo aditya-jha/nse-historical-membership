@@ -1,8 +1,26 @@
 {
   "ticker": "BRITANNIA",
-  "fetched_at_utc": "2026-05-10T16:27:08.081588+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.123583+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 19:59:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742374_20102026075905_WEB.xml",
+      "record_id": "215840",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:33:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698664_21072026063328_WEB.xml",
+      "record_id": "212857",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

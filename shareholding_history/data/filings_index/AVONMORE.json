@@ -1,8 +1,26 @@
 {
   "ticker": "AVONMORE",
-  "fetched_at_utc": "2026-05-10T16:30:14.495899+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.414112+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 14:16:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737584_14102026021555_WEB.xml",
+      "record_id": "214289",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 10:39:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693762_16072026103930_WEB.xml",
+      "record_id": "211381",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

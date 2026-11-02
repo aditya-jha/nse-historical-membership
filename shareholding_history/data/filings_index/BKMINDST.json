@@ -1,0 +1,34 @@
+{
+  "ticker": "BKMINDST",
+  "fetched_at_utc": "2026-11-02T12:14:14.022954+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 23:44:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743649_21102026114436_WEB.xml",
+      "record_id": "216296",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "21-FEB-2026",
+      "submission_date": "21-SEP-2026",
+      "broadcast_date": "21-SEP-2026 15:15:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725921_21092026031537_WEB.xml",
+      "record_id": "213201",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:30:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698909_21072026083037_WEB.xml",
+      "record_id": "212927",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

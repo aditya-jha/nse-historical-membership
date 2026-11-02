@@ -1,8 +1,35 @@
 {
   "ticker": "JAYKAY",
-  "fetched_at_utc": "2026-05-10T16:46:24.462385+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.048746+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:07:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743272_21102026060751_WEB.xml",
+      "record_id": "216187",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-SEP-2026",
+      "submission_date": "23-SEP-2026",
+      "broadcast_date": "23-SEP-2026 22:57:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1727197_23092026105726_WEB.xml",
+      "record_id": "213214",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 19:52:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696316_18072026075223_WEB.xml",
+      "record_id": "212058",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

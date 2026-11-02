@@ -1,8 +1,26 @@
 {
   "ticker": "AROGRANITE",
-  "fetched_at_utc": "2026-05-10T16:29:45.458974+00:00",
-  "n_filings": 76,
+  "fetched_at_utc": "2026-11-02T12:14:14.460705+00:00",
+  "n_filings": 78,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 15:13:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736843_13102026031314_WEB.xml",
+      "record_id": "214056",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 14:24:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689196_08072026022428_WEB.xml",
+      "record_id": "210611",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",
@@ -54,15 +72,6 @@
       "broadcast_date": "09-JAN-2025 13:18:32",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_194100_1340462_09012025011831_WEB.xml",
       "record_id": "194100",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2024",
-      "submission_date": "05-OCT-2024",
-      "broadcast_date": "05-OCT-2024 10:25:15",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_191106_1259531_05102024102515_WEB.xml",
-      "record_id": "191106",
       "revised": "N",
       "format": null
     },
@@ -171,6 +180,15 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161160_526199_09102021113813_WEB.xml",
       "record_id": "161160",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2024",
+      "submission_date": "05-OCT-2024",
+      "broadcast_date": "05-OCT-2024 10:25:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_191106_1259531_05102024102515_WEB.xml",
+      "record_id": "191106",
       "revised": "N",
       "format": null
     },

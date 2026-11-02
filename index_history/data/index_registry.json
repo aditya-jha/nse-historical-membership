@@ -120,7 +120,7 @@
       "launch_date": "2016-01-04", "target_size": null,
       "aliases": ["Nifty Private Bank", "Nifty Pvt Bank"],
       "snapshot_slug": "nifty_private_bank",
-      "snapshot_url": "nseapi:NIFTY PRIVATE BANK"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_nifty_privatebanklist.csv"
     },
     {
       "id": 1011, "canonical_name": "Nifty Healthcare Index", "family": "sector",
@@ -134,7 +134,7 @@
       "launch_date": "2011-07-07", "target_size": null,
       "aliases": ["Nifty Financial Services", "CNX Finance", "Nifty Fin Service"],
       "snapshot_slug": "nifty_fin_services",
-      "snapshot_url": "nseapi:NIFTY FIN SERVICE"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_niftyfinancelist.csv"
     },
     {
       "id": 1013, "canonical_name": "Nifty Media", "family": "sector",
@@ -163,49 +163,42 @@
       "launch_date": "2012-12-31", "target_size": 50,
       "aliases": ["Nifty Alpha 50", "Nifty Alpha50", "CNX Alpha"],
       "snapshot_slug": "nifty_alpha_50",
-      "snapshot_url": "nseapi:NIFTY ALPHA 50"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_nifty_Alpha_Index.csv"
     },
     {
       "id": 2002, "canonical_name": "Nifty High Beta 50", "family": "strategy",
       "launch_date": "2012-12-31", "target_size": 50,
       "aliases": ["Nifty High Beta 50", "CNX High Beta"],
       "snapshot_slug": "nifty_high_beta_50",
-      "snapshot_url": "nseapi:NIFTY HIGH BETA 50"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/nifty_High_Beta50_Index.csv"
     },
     {
       "id": 2003, "canonical_name": "Nifty Low Volatility 50", "family": "strategy",
       "launch_date": "2012-12-31", "target_size": 50,
       "aliases": ["Nifty Low Volatility 50", "CNX Low Volatility"],
       "snapshot_slug": "nifty_low_volatility_50",
-      "snapshot_url": "nseapi:NIFTY LOW VOLATILITY 50"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/nifty_Low_Volatility50_Index.csv"
     },
     {
       "id": 2005, "canonical_name": "Nifty50 Value 20", "family": "strategy",
       "launch_date": "2014-09-08", "target_size": 20,
       "aliases": ["Nifty50 Value 20", "Nifty 50 Value 20"],
       "snapshot_slug": "nifty50_value_20",
-      "snapshot_url": "nseapi:NIFTY50 VALUE 20"
-    },
-    {
-      "id": 2006, "canonical_name": "Nifty100 Equal Weight", "family": "strategy",
-      "launch_date": "2003-01-01", "target_size": 100,
-      "aliases": ["Nifty100 Equal Weight", "CNX 100 Equal Weight", "Nifty 100 Equal Weight"],
-      "snapshot_slug": "nifty100_equal_weight",
-      "snapshot_url": "nseapi:NIFTY100 EQUAL WEIGHT"
+      "snapshot_url": "https://www.niftyindices.com/IndexConstituent/ind_Nifty50_Value20.csv"
     },
     {
       "id": 2007, "canonical_name": "Nifty100 Low Volatility 30", "family": "strategy",
       "launch_date": "2016-07-08", "target_size": 30,
       "aliases": ["Nifty100 Low Volatility 30", "Nifty100 Low Volatility 30 Index"],
       "snapshot_slug": "nifty100_low_volatility_30",
-      "snapshot_url": "nseapi:NIFTY100 LOW VOLATILITY 30"
+      "snapshot_url": "https://www.niftyindices.com/IndexConstituent/ind_nifty100lowvolatility30list.csv"
     },
     {
       "id": 2008, "canonical_name": "Nifty100 Quality 30", "family": "strategy",
       "launch_date": "2014-12-31", "target_size": 30,
       "aliases": ["Nifty100 Quality 30"],
       "snapshot_slug": "nifty100_quality_30",
-      "snapshot_url": "nseapi:NIFTY100 QUALITY 30"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_nifty100Quality30list.csv"
     },
     {
       "id": 2009, "canonical_name": "Nifty Midcap 50", "family": "strategy",
@@ -232,7 +225,7 @@
     {
       "id": 3002, "canonical_name": "Nifty Consumption", "family": "thematic",
       "launch_date": "2011-04-07", "target_size": 30,
-      "aliases": ["Nifty Consumption", "CNX Consumption"],
+      "aliases": ["Nifty Consumption", "Nifty India Consumption", "CNX Consumption"],
       "snapshot_slug": "nifty_consumption",
       "snapshot_url": "https://archives.nseindia.com/content/indices/ind_niftyconsumptionlist.csv"
     },
@@ -276,28 +269,28 @@
       "launch_date": "2021-08-04", "target_size": null,
       "aliases": ["Nifty India Manufacturing"],
       "snapshot_slug": "nifty_india_manufacturing",
-      "snapshot_url": "nseapi:NIFTY INDIA MANUFACTURING"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_niftyindiamanufacturing_list.csv"
     },
     {
       "id": 3009, "canonical_name": "Nifty India Defence", "family": "thematic",
       "launch_date": "2024-04-02", "target_size": null,
       "aliases": ["Nifty India Defence", "Nifty India Defense"],
       "snapshot_slug": "nifty_india_defence",
-      "snapshot_url": "nseapi:NIFTY INDIA DEFENCE"
+      "snapshot_url": "https://archives.nseindia.com/content/indices/ind_niftyindiadefence_list.csv"
     },
     {
       "id": 3010, "canonical_name": "Nifty India Corporate Group - Tata 25% Cap", "family": "thematic",
       "launch_date": "2014-09-23", "target_size": null,
       "aliases": ["Nifty Tata Group", "Nifty Tata Group 25% Cap"],
       "snapshot_slug": "nifty_tata_group_25cap",
-      "snapshot_url": "nseapi:NIFTY INDIA CORPORATE GROUP INDEX - TATA GROUP 25% CAP"
+      "snapshot_url": "https://www.niftyindices.com/IndexConstituent/ind_nifty_tata25caplist.csv"
     },
     {
       "id": 3011, "canonical_name": "Nifty India Select 5 Corporate Groups (MAATR)", "family": "thematic",
       "launch_date": "2024-12-26", "target_size": null,
       "aliases": ["Nifty India Select 5 Corporate Groups", "MAATR", "Nifty MAATR"],
       "snapshot_slug": "nifty_maatr",
-      "snapshot_url": "nseapi:NIFTY INDIA SELECT 5 CORPORATE GROUPS (MAATR)"
+      "snapshot_url": "https://www.niftyindices.com/IndexConstituent/ind_niftyindiaselect5corporategroupsmaatr_list.csv"
     }
   ]
 }

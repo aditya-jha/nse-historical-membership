@@ -1,8 +1,26 @@
 {
   "ticker": "AIROLAM",
-  "fetched_at_utc": "2026-05-10T16:29:00.687176+00:00",
-  "n_filings": 27,
+  "fetched_at_utc": "2026-11-02T12:14:14.494299+00:00",
+  "n_filings": 30,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:21:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736166_12102026042146_WEB.xml",
+      "record_id": "213860",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 17:33:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688478_06072026053300_WEB.xml",
+      "record_id": "210535",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
@@ -42,10 +60,10 @@
     {
       "date": "31-MAR-2025",
       "submission_date": "12-APR-2025",
-      "broadcast_date": "12-APR-2025 12:14:06",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_196970_1413165_12042025121405_WEB.xml",
+      "broadcast_date": "04-JUN-2026 11:59:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1548082_14102025065453_WEB.xml",
       "record_id": "196970",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +189,15 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_160988_524508_07102021063239_WEB.xml",
       "record_id": "160988",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2025",
+      "submission_date": "12-APR-2025",
+      "broadcast_date": "12-APR-2025 12:14:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_196970_1413165_12042025121405_WEB.xml",
+      "record_id": "196970",
       "revised": "N",
       "format": null
     },

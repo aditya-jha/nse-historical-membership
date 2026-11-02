@@ -1,8 +1,26 @@
 {
   "ticker": "TGBHOTELS",
-  "fetched_at_utc": "2026-05-10T16:58:45.560416+00:00",
-  "n_filings": 76,
+  "fetched_at_utc": "2026-11-02T12:14:14.562720+00:00",
+  "n_filings": 78,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 13:04:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734186_08102026010358_WEB.xml",
+      "record_id": "213449",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 17:03:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691527_13072026050334_WEB.xml",
+      "record_id": "210961",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

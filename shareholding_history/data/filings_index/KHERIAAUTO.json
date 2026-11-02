@@ -1,0 +1,25 @@
+{
+  "ticker": "KHERIAAUTO",
+  "fetched_at_utc": "2026-11-02T12:14:14.603366+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:22:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743352_21102026062202_WEB.xml",
+      "record_id": "216199",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "23-SEP-2026",
+      "submission_date": "05-OCT-2026",
+      "broadcast_date": "23-OCT-2026 17:46:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740174_16102026053156_WEB.xml",
+      "record_id": "213265",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

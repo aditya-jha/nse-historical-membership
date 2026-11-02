@@ -1,8 +1,26 @@
 {
   "ticker": "INDORAMA",
-  "fetched_at_utc": "2026-05-10T16:45:26.413031+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.534058+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 16:28:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734945_09102026042817_WEB.xml",
+      "record_id": "213607",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 16:42:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692319_14072026044155_WEB.xml",
+      "record_id": "211089",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

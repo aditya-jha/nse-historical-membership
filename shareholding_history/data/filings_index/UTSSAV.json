@@ -1,6 +1,25 @@
 {
   "ticker": "UTSSAV",
-  "fetched_at_utc": "2026-05-10T16:59:52.318337+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.607063+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:22:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742984_21102026042241_WEB.xml",
+      "record_id": "216071",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "07-AUG-2026",
+      "submission_date": "26-AUG-2026",
+      "broadcast_date": "26-AUG-2026 22:09:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1718250_26082026100910_WEB.xml",
+      "record_id": "213087",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

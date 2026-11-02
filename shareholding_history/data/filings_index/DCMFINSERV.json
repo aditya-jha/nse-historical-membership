@@ -1,8 +1,26 @@
 {
   "ticker": "DCMFINSERV",
-  "fetched_at_utc": "2026-05-10T16:32:45.617809+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.376030+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 10:39:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738445_15102026103944_WEB.xml",
+      "record_id": "214473",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 19:04:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695669_17072026070436_WEB.xml",
+      "record_id": "211875",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

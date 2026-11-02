@@ -1,0 +1,25 @@
+{
+  "ticker": "RMCL",
+  "fetched_at_utc": "2026-11-02T12:14:14.307646+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 11:55:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739558_16102026115535_WEB.xml",
+      "record_id": "214796",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 13:03:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696568_20072026010312_WEB.xml",
+      "record_id": "212141",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

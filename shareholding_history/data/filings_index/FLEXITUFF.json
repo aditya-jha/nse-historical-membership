@@ -1,8 +1,17 @@
 {
   "ticker": "FLEXITUFF",
-  "fetched_at_utc": "2026-05-10T16:42:27.882435+00:00",
-  "n_filings": 63,
+  "fetched_at_utc": "2026-11-02T12:14:14.595505+00:00",
+  "n_filings": 64,
   "filings": [
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 19:07:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697421_20072026070708_WEB.xml",
+      "record_id": "212433",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": null,
       "submission_date": "29-MAR-2023",

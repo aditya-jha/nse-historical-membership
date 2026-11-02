@@ -1,8 +1,26 @@
 {
   "ticker": "FDC",
-  "fetched_at_utc": "2026-05-10T16:34:40.190961+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.227419+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:59:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740864_17102026045856_WEB.xml",
+      "record_id": "215268",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:27:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695266_17072026042710_WEB.xml",
+      "record_id": "211747",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

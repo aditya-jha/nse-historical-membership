@@ -1,8 +1,35 @@
 {
   "ticker": "SHRIPISTON",
-  "fetched_at_utc": "2026-05-10T16:56:25.620330+00:00",
-  "n_filings": 42,
+  "fetched_at_utc": "2026-11-02T12:14:14.055118+00:00",
+  "n_filings": 45,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:37:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743176_21102026053744_WEB.xml",
+      "record_id": "216160",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "20-AUG-2026",
+      "submission_date": "21-AUG-2026",
+      "broadcast_date": "21-AUG-2026 13:54:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1716732_21082026015356_WEB.xml",
+      "record_id": "213070",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 00:17:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697684_21072026121629_WEB.xml",
+      "record_id": "212528",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

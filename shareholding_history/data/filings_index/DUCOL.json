@@ -1,6 +1,25 @@
 {
   "ticker": "DUCOL",
-  "fetched_at_utc": "2026-05-10T16:33:38.079926+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.666460+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 13:45:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736755_13102026014554_WEB.xml",
+      "record_id": "214021",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "26-JUN-2026",
+      "submission_date": "30-JUN-2026",
+      "broadcast_date": "30-JUN-2026 16:07:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1686585_30062026040751_WEB.xml",
+      "record_id": "210458",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

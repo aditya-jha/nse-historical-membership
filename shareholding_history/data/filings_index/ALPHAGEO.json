@@ -1,8 +1,26 @@
 {
   "ticker": "ALPHAGEO",
-  "fetched_at_utc": "2026-05-10T16:29:15.532036+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.232842+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 15:09:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740744_17102026030914_WEB.xml",
+      "record_id": "215229",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 17:13:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691035_11072026051310_WEB.xml",
+      "record_id": "210864",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

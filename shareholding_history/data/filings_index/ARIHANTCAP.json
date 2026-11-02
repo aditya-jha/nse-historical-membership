@@ -1,8 +1,26 @@
 {
   "ticker": "ARIHANTCAP",
-  "fetched_at_utc": "2026-05-10T16:29:42.265359+00:00",
-  "n_filings": 23,
+  "fetched_at_utc": "2026-11-02T12:14:14.178106+00:00",
+  "n_filings": 25,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:53:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741644_19102026045319_WEB.xml",
+      "record_id": "215553",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:32:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697121_20072026053224_WEB.xml",
+      "record_id": "212332",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",
@@ -105,10 +123,10 @@
     {
       "date": "31-DEC-2023",
       "submission_date": "13-JAN-2024",
-      "broadcast_date": "26-MAR-2024 14:56:19",
+      "broadcast_date": "13-JAN-2024 14:03:00",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_184104_1019975_13012024020300_WEB.xml",
       "record_id": "184104",
-      "revised": "Revised",
+      "revised": "N",
       "format": null
     },
     {

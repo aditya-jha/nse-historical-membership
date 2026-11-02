@@ -1,8 +1,26 @@
 {
   "ticker": "SHILPAMED",
-  "fetched_at_utc": "2026-05-10T16:56:11.632461+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.577644+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 12:21:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733678_07102026122133_WEB.xml",
+      "record_id": "213361",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 15:56:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691414_13072026035648_WEB.xml",
+      "record_id": "210931",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

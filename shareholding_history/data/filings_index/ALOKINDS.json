@@ -1,8 +1,26 @@
 {
   "ticker": "ALOKINDS",
-  "fetched_at_utc": "2026-05-10T16:26:13.903843+00:00",
-  "n_filings": 28,
+  "fetched_at_utc": "2026-11-02T12:14:14.177352+00:00",
+  "n_filings": 30,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:57:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741655_19102026045705_WEB.xml",
+      "record_id": "215557",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:02:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696480_20072026120207_WEB.xml",
+      "record_id": "212113",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "SMLT",
-  "fetched_at_utc": "2026-05-10T16:56:56.038348+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.587822+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 13:08:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733315_06102026010800_WEB.xml",
+      "record_id": "213294",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 10:49:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689077_08072026104935_WEB.xml",
+      "record_id": "210578",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

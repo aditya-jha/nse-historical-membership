@@ -1,6 +1,34 @@
 {
   "ticker": "CHAVDA",
-  "fetched_at_utc": "2026-05-10T16:31:45.568947+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.666931+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:49:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736683_13102026124943_WEB.xml",
+      "record_id": "214004",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "25-SEP-2026",
+      "submission_date": "03-OCT-2026",
+      "broadcast_date": "03-OCT-2026 20:46:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732802_03102026084633_WEB.xml",
+      "record_id": "213253",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:44:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696539_20072026124358_WEB.xml",
+      "record_id": "212129",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

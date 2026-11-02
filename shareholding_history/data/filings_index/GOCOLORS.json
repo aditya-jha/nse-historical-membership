@@ -1,8 +1,26 @@
 {
   "ticker": "GOCOLORS",
-  "fetched_at_utc": "2026-05-10T16:43:21.734641+00:00",
-  "n_filings": 20,
+  "fetched_at_utc": "2026-11-02T12:14:14.505924+00:00",
+  "n_filings": 22,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 13:08:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735928_12102026010823_WEB.xml",
+      "record_id": "213792",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:59:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695353_17072026045944_WEB.xml",
+      "record_id": "211771",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

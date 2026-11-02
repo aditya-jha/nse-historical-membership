@@ -1,8 +1,26 @@
 {
   "ticker": "FOCUS",
-  "fetched_at_utc": "2026-05-10T16:42:31.833453+00:00",
-  "n_filings": 30,
+  "fetched_at_utc": "2026-11-02T12:14:14.533342+00:00",
+  "n_filings": 32,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 16:40:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734961_09102026044002_WEB.xml",
+      "record_id": "213614",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:21:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697074_20072026052056_WEB.xml",
+      "record_id": "212315",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

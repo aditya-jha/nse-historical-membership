@@ -1,6 +1,25 @@
 {
   "ticker": "SSEGL",
-  "fetched_at_utc": "2026-05-10T16:57:25.578124+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.670218+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 18:23:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736373_12102026062339_WEB.xml",
+      "record_id": "213908",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 16:51:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691502_13072026045108_WEB.xml",
+      "record_id": "210953",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

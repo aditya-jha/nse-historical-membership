@@ -1,8 +1,26 @@
 {
   "ticker": "MSPL",
-  "fetched_at_utc": "2026-05-10T16:50:21.517624+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.280255+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:14:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739960_16102026041421_WEB.xml",
+      "record_id": "214950",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:07:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697030_20072026050721_WEB.xml",
+      "record_id": "212304",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "RSYSTEMS",
-  "fetched_at_utc": "2026-05-10T16:54:47.610054+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.134428+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 13:46:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742246_20102026014624_WEB.xml",
+      "record_id": "215777",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:11:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696053_18072026031146_WEB.xml",
+      "record_id": "211984",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "06-MAY-2026",
+      "submission_date": "12-MAY-2026",
+      "broadcast_date": "12-MAY-2026 15:30:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1665893_12052026033002_WEB.xml",
+      "record_id": "210328",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

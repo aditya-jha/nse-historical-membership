@@ -1,6 +1,25 @@
 {
   "ticker": "GSTL",
-  "fetched_at_utc": "2026-05-10T16:43:53.903655+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.670888+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 17:34:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736278_12102026053452_WEB.xml",
+      "record_id": "213888",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 12:36:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694903_17072026123630_WEB.xml",
+      "record_id": "211634",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

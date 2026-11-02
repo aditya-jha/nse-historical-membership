@@ -1,8 +1,35 @@
 {
   "ticker": "OILCOUNTUB",
-  "fetched_at_utc": "2026-05-10T16:51:39.354634+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.202667+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 13:22:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741283_19102026012207_WEB.xml",
+      "record_id": "215410",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:13:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695229_17072026041331_WEB.xml",
+      "record_id": "211734",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-JUN-2026",
+      "submission_date": "03-JUL-2026",
+      "broadcast_date": "03-JUL-2026 14:41:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687803_03072026024102_WEB.xml",
+      "record_id": "210484",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

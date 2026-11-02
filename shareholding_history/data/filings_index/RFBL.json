@@ -1,0 +1,25 @@
+{
+  "ticker": "RFBL",
+  "fetched_at_utc": "2026-11-02T12:14:14.627401+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:55:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741251_19102026125532_WEB.xml",
+      "record_id": "215395",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "18-MAY-2026",
+      "submission_date": "19-MAY-2026",
+      "broadcast_date": "02-JUN-2026 16:45:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1678907_02062026030414_WEB.xml",
+      "record_id": "210343",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

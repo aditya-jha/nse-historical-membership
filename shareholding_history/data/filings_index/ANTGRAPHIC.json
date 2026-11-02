@@ -1,15 +1,33 @@
 {
   "ticker": "ANTGRAPHIC",
-  "fetched_at_utc": "2026-05-10T16:29:29.758182+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.239525+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 12:50:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740625_17102026125030_WEB.xml",
+      "record_id": "215182",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "05-SEP-2026",
+      "broadcast_date": "05-SEP-2026 15:21:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1721725_05092026032130_WEB.xml",
+      "record_id": "213127",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",
-      "broadcast_date": "18-APR-2026 17:27:19",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654286_18042026052714_WEB.xml",
+      "broadcast_date": "04-AUG-2026 13:33:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1707395_04082026013215_WEB.xml",
       "record_id": "209362",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +189,15 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161039_525066_08102021022800_WEB.xml",
       "record_id": "161039",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "18-APR-2026",
+      "broadcast_date": "18-APR-2026 17:27:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1654286_18042026052714_WEB.xml",
+      "record_id": "209362",
       "revised": "N",
       "format": null
     },

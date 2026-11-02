@@ -1,8 +1,26 @@
 {
   "ticker": "HBSL",
-  "fetched_at_utc": "2026-05-10T16:44:12.967597+00:00",
-  "n_filings": 32,
+  "fetched_at_utc": "2026-11-02T12:14:14.589964+00:00",
+  "n_filings": 34,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 12:19:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733277_06102026121929_WEB.xml",
+      "record_id": "213285",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 15:39:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691375_13072026033932_WEB.xml",
+      "record_id": "210924",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

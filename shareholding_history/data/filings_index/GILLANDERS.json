@@ -1,8 +1,26 @@
 {
   "ticker": "GILLANDERS",
-  "fetched_at_utc": "2026-05-10T16:43:03.803230+00:00",
-  "n_filings": 66,
+  "fetched_at_utc": "2026-11-02T12:14:14.471362+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:39:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736665_13102026123902_WEB.xml",
+      "record_id": "213994",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 12:39:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691230_13072026123945_WEB.xml",
+      "record_id": "210896",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

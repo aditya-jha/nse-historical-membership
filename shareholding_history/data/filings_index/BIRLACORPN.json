@@ -1,8 +1,26 @@
 {
   "ticker": "BIRLACORPN",
-  "fetched_at_utc": "2026-05-10T16:27:02.354345+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.527264+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 18:18:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735129_09102026061827_WEB.xml",
+      "record_id": "213657",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 17:37:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692442_14072026053714_WEB.xml",
+      "record_id": "211106",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

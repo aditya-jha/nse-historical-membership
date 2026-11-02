@@ -1,8 +1,35 @@
 {
   "ticker": "DEVX",
-  "fetched_at_utc": "2026-05-10T16:33:03.252800+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.236571+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 13:56:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740673_17102026015625_WEB.xml",
+      "record_id": "215201",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 19:02:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692604_14072026070221_WEB.xml",
+      "record_id": "211129",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-JUN-2026",
+      "submission_date": "22-JUN-2026",
+      "broadcast_date": "22-JUN-2026 16:01:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1683228_22062026040111_WEB.xml",
+      "record_id": "210417",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

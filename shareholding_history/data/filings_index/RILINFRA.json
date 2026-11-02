@@ -1,6 +1,16 @@
 {
   "ticker": "RILINFRA",
-  "fetched_at_utc": "2026-05-10T16:54:26.906062+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.646340+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 11:28:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739521_16102026112802_WEB.xml",
+      "record_id": "214779",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "ANDHRSUGAR",
-  "fetched_at_utc": "2026-05-10T16:29:25.302112+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.374478+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 10:54:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738454_15102026105406_WEB.xml",
+      "record_id": "214478",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:00:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696841_20072026040041_WEB.xml",
+      "record_id": "212239",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",
@@ -33,10 +51,10 @@
     {
       "date": "30-JUN-2025",
       "submission_date": "12-JUL-2025",
-      "broadcast_date": "12-JUL-2025 14:24:48",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1481516_12072025022446_WEB.xml",
+      "broadcast_date": "25-AUG-2026 16:44:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1684477_25062026025556_WEB.xml",
       "record_id": "199470",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -172,6 +190,15 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162574_538475_19102021045848_WEB.xml",
       "record_id": "162574",
       "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2025",
+      "submission_date": "12-JUL-2025",
+      "broadcast_date": "12-JUL-2025 14:24:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1481516_12072025022446_WEB.xml",
+      "record_id": "199470",
+      "revised": "N",
       "format": null
     },
     {

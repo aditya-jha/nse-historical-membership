@@ -1,6 +1,25 @@
 {
   "ticker": "SADHAV",
-  "fetched_at_utc": "2026-05-10T16:54:59.370194+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.679567+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 18:08:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735114_09102026060818_WEB.xml",
+      "record_id": "213654",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "24-JUL-2026",
+      "broadcast_date": "24-JUL-2026 11:09:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1700482_24072026110920_WEB.xml",
+      "record_id": "212974",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

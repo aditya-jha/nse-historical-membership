@@ -1,8 +1,26 @@
 {
   "ticker": "NORBTEAEXP",
-  "fetched_at_utc": "2026-05-10T16:51:25.004976+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.121417+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 23:08:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742398_20102026110847_WEB.xml",
+      "record_id": "215850",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:58:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696831_20072026035758_WEB.xml",
+      "record_id": "212234",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

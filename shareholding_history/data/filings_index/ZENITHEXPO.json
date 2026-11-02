@@ -1,8 +1,26 @@
 {
   "ticker": "ZENITHEXPO",
-  "fetched_at_utc": "2026-05-10T17:01:14.303849+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.585255+00:00",
+  "n_filings": 77,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 16:11:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733430_06102026041134_WEB.xml",
+      "record_id": "213319",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "16-JUL-2026 15:31:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
+      "record_id": "210533",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",
@@ -241,15 +259,6 @@
       "date": "30-SEP-2019",
       "submission_date": null,
       "broadcast_date": "24-OCT-2019 14:56:40",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "142252",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2019",
-      "submission_date": null,
-      "broadcast_date": "24-OCT-2019 14:56:40",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_142259_151988_17102019025818_WEB.xml",
       "record_id": "142259",
       "revised": "N",
@@ -306,87 +315,6 @@
       "broadcast_date": "16-APR-2018 16:40:09",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_3539_16042018041318.xml",
       "record_id": "124688",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2017",
-      "submission_date": null,
-      "broadcast_date": "09-JAN-2018 12:10:04",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "122040",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2017",
-      "submission_date": null,
-      "broadcast_date": "09-OCT-2017 13:40:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "119970",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-JUN-2017",
-      "submission_date": null,
-      "broadcast_date": "15-JUL-2017 16:10:01",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "118311",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-MAR-2017",
-      "submission_date": null,
-      "broadcast_date": "08-APR-2017 12:10:01",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "115724",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2016",
-      "submission_date": null,
-      "broadcast_date": "14-JAN-2017 12:10:01",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "114466",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2016",
-      "submission_date": null,
-      "broadcast_date": "18-OCT-2016 17:10:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "112838",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-JUN-2016",
-      "submission_date": null,
-      "broadcast_date": "11-JUL-2016 12:10:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "109690",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-MAR-2016",
-      "submission_date": null,
-      "broadcast_date": "18-APR-2016 06:15:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "108030",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2015",
-      "submission_date": null,
-      "broadcast_date": "28-JAN-2016 06:15:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "105782",
       "revised": "N",
       "format": null
     },

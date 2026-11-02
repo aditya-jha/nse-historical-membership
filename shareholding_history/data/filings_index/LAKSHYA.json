@@ -1,6 +1,16 @@
 {
   "ticker": "LAKSHYA",
-  "fetched_at_utc": "2026-05-10T16:48:14.742344+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.686175+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 16:13:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733823_07102026041316_WEB.xml",
+      "record_id": "213396",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

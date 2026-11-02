@@ -1,8 +1,26 @@
 {
   "ticker": "MEESHO",
-  "fetched_at_utc": "2026-05-10T16:49:43.094337+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.591713+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "05-OCT-2026",
+      "broadcast_date": "05-OCT-2026 19:15:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733161_05102026071536_WEB.xml",
+      "record_id": "213275",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-AUG-2026 15:20:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714225_14082026110947_WEB.xml",
+      "record_id": "211108",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

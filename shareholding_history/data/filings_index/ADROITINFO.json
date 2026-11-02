@@ -1,8 +1,26 @@
 {
   "ticker": "ADROITINFO",
-  "fetched_at_utc": "2026-05-10T16:28:43.412074+00:00",
-  "n_filings": 67,
+  "fetched_at_utc": "2026-11-02T12:14:14.202091+00:00",
+  "n_filings": 69,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 13:29:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741292_19102026012859_WEB.xml",
+      "record_id": "215413",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 12:05:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697823_21072026120542_WEB.xml",
+      "record_id": "212592",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
@@ -139,20 +157,20 @@
       "format": null
     },
     {
-      "date": "07-JUL-2023",
-      "submission_date": "11-JUL-2023",
-      "broadcast_date": "11-JUL-2023 12:43:08",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_178520_879093_11072023124308_WEB.xml",
-      "record_id": "178520",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "30-JUN-2023",
       "submission_date": "13-JUL-2023",
       "broadcast_date": "13-JUL-2023 16:37:24",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_178816_883250_13072023043723_WEB.xml",
       "record_id": "178816",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "07-JUL-2023",
+      "submission_date": "11-JUL-2023",
+      "broadcast_date": "11-JUL-2023 12:43:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_178520_879093_11072023124308_WEB.xml",
+      "record_id": "178520",
       "revised": "N",
       "format": null
     },

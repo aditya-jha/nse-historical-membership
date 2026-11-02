@@ -1,8 +1,26 @@
 {
   "ticker": "BAJAJHLDNG",
-  "fetched_at_utc": "2026-05-10T16:26:45.826563+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.383093+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:58:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738099_14102026065841_WEB.xml",
+      "record_id": "214441",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "24-JUL-2026 15:53:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1700036_23072026043850_WEB.xml",
+      "record_id": "212171",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
