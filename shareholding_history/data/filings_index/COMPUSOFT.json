@@ -1,8 +1,26 @@
 {
   "ticker": "COMPUSOFT",
-  "fetched_at_utc": "2026-05-10T16:32:06.753021+00:00",
-  "n_filings": 58,
+  "fetched_at_utc": "2026-11-02T12:14:14.235177+00:00",
+  "n_filings": 60,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 14:32:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740695_17102026023156_WEB.xml",
+      "record_id": "215211",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:24:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696080_18072026032415_WEB.xml",
+      "record_id": "211991",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

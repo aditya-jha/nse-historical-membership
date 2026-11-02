@@ -1,6 +1,25 @@
 {
   "ticker": "USASEEDS",
-  "fetched_at_utc": "2026-05-10T16:59:49.035439+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.601700+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:58:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743518_21102026075803_WEB.xml",
+      "record_id": "216253",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 22:37:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698968_21072026103755_WEB.xml",
+      "record_id": "212945",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

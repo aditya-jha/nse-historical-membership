@@ -1,8 +1,26 @@
 {
   "ticker": "LAGNAM",
-  "fetched_at_utc": "2026-05-10T16:48:12.915334+00:00",
-  "n_filings": 26,
+  "fetched_at_utc": "2026-11-02T12:14:14.362681+00:00",
+  "n_filings": 28,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:50:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738600_15102026125040_WEB.xml",
+      "record_id": "214532",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 10:14:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693750_16072026101413_WEB.xml",
+      "record_id": "211376",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

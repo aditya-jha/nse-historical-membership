@@ -1,0 +1,25 @@
+{
+  "ticker": "SPECTRAA",
+  "fetched_at_utc": "2026-11-02T12:14:14.660026+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 12:17:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737462_14102026121739_WEB.xml",
+      "record_id": "214260",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "23-SEP-2026",
+      "submission_date": "25-SEP-2026",
+      "broadcast_date": "30-SEP-2026 18:07:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1728502_25092026060647_WEB.xml",
+      "record_id": "213222",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

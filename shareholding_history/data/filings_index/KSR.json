@@ -1,8 +1,26 @@
 {
   "ticker": "KSR",
-  "fetched_at_utc": "2026-05-10T16:48:10.758108+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.310622+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 11:30:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739526_16102026113017_WEB.xml",
+      "record_id": "214781",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:45:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696543_20072026124526_WEB.xml",
+      "record_id": "212133",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

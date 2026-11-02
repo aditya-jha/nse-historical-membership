@@ -1,8 +1,26 @@
 {
   "ticker": "NIBL",
-  "fetched_at_utc": "2026-05-10T16:51:10.326270+00:00",
-  "n_filings": 52,
+  "fetched_at_utc": "2026-11-02T12:14:14.401209+00:00",
+  "n_filings": 54,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 16:23:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737785_14102026042330_WEB.xml",
+      "record_id": "214349",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:49:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694423_16072026054911_WEB.xml",
+      "record_id": "211534",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

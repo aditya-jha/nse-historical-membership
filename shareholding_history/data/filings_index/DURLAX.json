@@ -1,6 +1,25 @@
 {
   "ticker": "DURLAX",
-  "fetched_at_utc": "2026-05-10T16:33:39.562201+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.619120+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:40:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742006_19102026074032_WEB.xml",
+      "record_id": "215692",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:13:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693847_16072026121321_WEB.xml",
+      "record_id": "211409",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

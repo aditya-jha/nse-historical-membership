@@ -1,8 +1,44 @@
 {
   "ticker": "JETFREIGHT",
-  "fetched_at_utc": "2026-05-10T16:46:30.070451+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.263970+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:25:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740158_16102026052538_WEB.xml",
+      "record_id": "215034",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-SEP-2026",
+      "submission_date": "01-OCT-2026",
+      "broadcast_date": "01-OCT-2026 18:58:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732392_01102026065755_WEB.xml",
+      "record_id": "213242",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:18:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692168_14072026031848_WEB.xml",
+      "record_id": "211064",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "05-JUN-2026",
+      "submission_date": "15-JUN-2026",
+      "broadcast_date": "15-JUN-2026 18:34:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1681819_15062026063455_WEB.xml",
+      "record_id": "210399",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

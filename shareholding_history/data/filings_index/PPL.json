@@ -1,8 +1,26 @@
 {
   "ticker": "PPL",
-  "fetched_at_utc": "2026-05-10T16:53:02.884385+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.230998+00:00",
+  "n_filings": 33,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:01:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740790_17102026040130_WEB.xml",
+      "record_id": "215239",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 15:51:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695173_17072026035109_WEB.xml",
+      "record_id": "211717",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

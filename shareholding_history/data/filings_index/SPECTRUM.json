@@ -1,8 +1,35 @@
 {
   "ticker": "SPECTRUM",
-  "fetched_at_utc": "2026-05-10T16:57:14.914824+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.378836+00:00",
+  "n_filings": 22,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "27-OCT-2026 14:57:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742515_21102026115232_WEB.xml",
+      "record_id": "214463",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "11-SEP-2026",
+      "submission_date": "15-SEP-2026",
+      "broadcast_date": "15-SEP-2026 18:46:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724395_15092026064631_WEB.xml",
+      "record_id": "213159",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:17:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692165_14072026031752_WEB.xml",
+      "record_id": "211063",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

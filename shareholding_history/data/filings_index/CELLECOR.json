@@ -1,6 +1,25 @@
 {
   "ticker": "CELLECOR",
-  "fetched_at_utc": "2026-05-10T16:31:30.885140+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.675280+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 13:10:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735934_12102026011030_WEB.xml",
+      "record_id": "213794",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "01-SEP-2026",
+      "submission_date": "11-SEP-2026",
+      "broadcast_date": "11-SEP-2026 11:27:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1723470_11092026112730_WEB.xml",
+      "record_id": "213147",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

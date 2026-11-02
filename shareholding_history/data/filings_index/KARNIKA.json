@@ -1,6 +1,25 @@
 {
   "ticker": "KARNIKA",
-  "fetched_at_utc": "2026-05-10T16:47:14.067054+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.682924+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 19:48:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734589_08102026074813_WEB.xml",
+      "record_id": "213530",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:21:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697771_21072026112145_WEB.xml",
+      "record_id": "212570",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,35 @@
 {
   "ticker": "COFORGE",
-  "fetched_at_utc": "2026-05-10T16:32:03.782024+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.023189+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 22:54:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743643_21102026105431_WEB.xml",
+      "record_id": "216293",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 22:28:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697638_20072026102839_WEB.xml",
+      "record_id": "212513",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-JUN-2026",
+      "submission_date": "15-JUN-2026",
+      "broadcast_date": "15-JUN-2026 21:17:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1681902_15062026091703_WEB.xml",
+      "record_id": "210401",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "23-APR-2026",
       "submission_date": "24-APR-2026",

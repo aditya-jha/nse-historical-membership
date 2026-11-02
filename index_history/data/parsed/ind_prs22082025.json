@@ -400,6 +400,16 @@
       ]
     },
     {
+      "index_name": "Nifty Consumption",
+      "index_id": 3002,
+      "excluded": [
+        "COLPAL"
+      ],
+      "included": [
+        "DIXON"
+      ]
+    },
+    {
       "index_name": "Nifty India Defence",
       "index_id": 3009,
       "excluded": [
@@ -457,6 +467,18 @@
       ],
       "included": [
         "BSE"
+      ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "HEROMOTOCO",
+        "INDUSINDBK"
+      ],
+      "included": [
+        "AXISBANK",
+        "KOTAKBANK"
       ]
     }
   ],

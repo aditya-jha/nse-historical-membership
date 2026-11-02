@@ -1,8 +1,26 @@
 {
   "ticker": "BSHSL",
-  "fetched_at_utc": "2026-05-10T16:31:08.564187+00:00",
-  "n_filings": 30,
+  "fetched_at_utc": "2026-11-02T12:14:14.040382+00:00",
+  "n_filings": 32,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:00:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743430_21102026070027_WEB.xml",
+      "record_id": "216222",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:15:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698892_21072026081555_WEB.xml",
+      "record_id": "212923",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

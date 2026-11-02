@@ -1,8 +1,26 @@
 {
   "ticker": "OMAXAUTO",
-  "fetched_at_utc": "2026-05-10T16:51:41.441298+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.482575+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 10:15:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736510_13102026101457_WEB.xml",
+      "record_id": "213933",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:19:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692171_14072026031916_WEB.xml",
+      "record_id": "211065",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

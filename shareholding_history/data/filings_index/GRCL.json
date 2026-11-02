@@ -1,6 +1,16 @@
 {
   "ticker": "GRCL",
-  "fetched_at_utc": "2026-05-10T16:43:40.056329+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.686660+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 15:29:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733784_07102026032902_WEB.xml",
+      "record_id": "213387",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

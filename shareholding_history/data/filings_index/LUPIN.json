@@ -1,8 +1,26 @@
 {
   "ticker": "LUPIN",
-  "fetched_at_utc": "2026-05-10T16:48:45.974285+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.211583+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 11:41:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741171_19102026114146_WEB.xml",
+      "record_id": "215362",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 14:04:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698021_21072026020405_WEB.xml",
+      "record_id": "212661",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

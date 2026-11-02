@@ -1,8 +1,26 @@
 {
   "ticker": "HYBRIDFIN",
-  "fetched_at_utc": "2026-05-10T16:44:51.876556+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.512228+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 10:43:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735781_12102026104257_WEB.xml",
+      "record_id": "213754",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 17:04:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688462_06072026050412_WEB.xml",
+      "record_id": "210532",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

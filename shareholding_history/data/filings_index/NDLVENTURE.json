@@ -1,8 +1,26 @@
 {
   "ticker": "NDLVENTURE",
-  "fetched_at_utc": "2026-05-10T16:50:52.312732+00:00",
-  "n_filings": 78,
+  "fetched_at_utc": "2026-11-02T12:14:14.042603+00:00",
+  "n_filings": 80,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:42:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743393_21102026064230_WEB.xml",
+      "record_id": "216211",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:29:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698310_21072026042915_WEB.xml",
+      "record_id": "212760",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

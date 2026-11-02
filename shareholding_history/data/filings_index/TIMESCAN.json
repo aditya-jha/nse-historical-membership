@@ -1,6 +1,16 @@
 {
   "ticker": "TIMESCAN",
-  "fetched_at_utc": "2026-05-10T16:58:56.539233+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.668643+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:08:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736554_13102026110852_WEB.xml",
+      "record_id": "213952",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

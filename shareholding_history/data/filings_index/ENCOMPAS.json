@@ -1,6 +1,25 @@
 {
   "ticker": "ENCOMPAS",
-  "fetched_at_utc": "2026-05-10T16:34:10.886750+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.598454+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "24-SEP-2026",
+      "submission_date": "26-OCT-2026",
+      "broadcast_date": "26-OCT-2026 17:14:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1745954_26102026051406_WEB.xml",
+      "record_id": "216330",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:48:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743408_21102026064805_WEB.xml",
+      "record_id": "216215",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

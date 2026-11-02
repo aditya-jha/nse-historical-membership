@@ -1,8 +1,26 @@
 {
   "ticker": "ITI",
-  "fetched_at_utc": "2026-05-10T16:46:03.185083+00:00",
-  "n_filings": 94,
+  "fetched_at_utc": "2026-11-02T12:14:14.223789+00:00",
+  "n_filings": 96,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 18:07:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740934_17102026060658_WEB.xml",
+      "record_id": "215287",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 14:54:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696699_20072026025445_WEB.xml",
+      "record_id": "212185",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

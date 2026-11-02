@@ -1,8 +1,26 @@
 {
   "ticker": "JKIL",
-  "fetched_at_utc": "2026-05-10T16:46:42.395693+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.573353+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 15:29:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733785_07102026032917_WEB.xml",
+      "record_id": "213388",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "21-AUG-2026 15:29:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1712290_12082026094512_WEB.xml",
+      "record_id": "210606",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

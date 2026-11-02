@@ -1,8 +1,26 @@
 {
   "ticker": "NATCAPSUQ",
-  "fetched_at_utc": "2026-05-10T16:50:40.111072+00:00",
-  "n_filings": 6,
+  "fetched_at_utc": "2026-11-02T12:14:14.133729+00:00",
+  "n_filings": 8,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 14:47:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742254_20102026024659_WEB.xml",
+      "record_id": "215780",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 14:53:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694050_16072026025307_WEB.xml",
+      "record_id": "211457",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

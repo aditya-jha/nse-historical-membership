@@ -1,6 +1,25 @@
 {
   "ticker": "PUSHPA",
-  "fetched_at_utc": "2026-05-10T16:53:36.381086+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.662385+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:23:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737101_13102026052304_WEB.xml",
+      "record_id": "214153",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:07:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697033_20072026050748_WEB.xml",
+      "record_id": "212305",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

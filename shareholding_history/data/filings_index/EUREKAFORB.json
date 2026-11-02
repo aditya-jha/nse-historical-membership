@@ -1,8 +1,26 @@
 {
   "ticker": "EUREKAFORB",
-  "fetched_at_utc": "2026-05-10T16:34:26.403726+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.045777+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:23:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743359_21102026062325_WEB.xml",
+      "record_id": "216200",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "03-SEP-2026 11:38:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720352_02092026063334_WEB.xml",
+      "record_id": "212893",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

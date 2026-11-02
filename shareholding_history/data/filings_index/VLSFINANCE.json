@@ -1,8 +1,26 @@
 {
   "ticker": "VLSFINANCE",
-  "fetched_at_utc": "2026-05-10T17:00:34.741081+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.411210+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 14:50:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737627_14102026025048_WEB.xml",
+      "record_id": "214304",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:52:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695329_17072026045243_WEB.xml",
+      "record_id": "211763",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

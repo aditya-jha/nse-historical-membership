@@ -1,0 +1,25 @@
+{
+  "ticker": "BLEL",
+  "fetched_at_utc": "2026-11-02T12:14:14.505414+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "30-OCT-2026 18:04:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1749828_30102026034029_WEB.xml",
+      "record_id": "213795",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "18-AUG-2026",
+      "submission_date": "19-AUG-2026",
+      "broadcast_date": "24-AUG-2026 11:26:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1716220_19082026105906_WEB.xml",
+      "record_id": "213061",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

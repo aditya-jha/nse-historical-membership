@@ -1,8 +1,35 @@
 {
   "ticker": "KALYANIFRG",
-  "fetched_at_utc": "2026-05-10T16:47:05.701657+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.484488+00:00",
+  "n_filings": 76,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 19:25:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736446_12102026072508_WEB.xml",
+      "record_id": "213919",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 15:43:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694146_16072026034301_WEB.xml",
+      "record_id": "211474",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-MAY-2026",
+      "broadcast_date": "16-MAY-2026 20:25:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1668396_16052026082523_WEB.xml",
+      "record_id": "210340",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-DEC-2025",
       "submission_date": "20-JAN-2026",

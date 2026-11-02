@@ -1,8 +1,26 @@
 {
   "ticker": "TIPSFILMS",
-  "fetched_at_utc": "2026-05-10T16:58:59.161208+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.273507+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:37:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740041_16102026043734_WEB.xml",
+      "record_id": "214985",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 15:03:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689689_09072026030347_WEB.xml",
+      "record_id": "210683",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

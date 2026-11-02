@@ -1,8 +1,26 @@
 {
   "ticker": "SHARDAMOTR",
-  "fetched_at_utc": "2026-05-10T16:56:03.226429+00:00",
-  "n_filings": 46,
+  "fetched_at_utc": "2026-11-02T12:14:14.376608+00:00",
+  "n_filings": 48,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 10:20:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738431_15102026102015_WEB.xml",
+      "record_id": "214470",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:36:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694272_16072026043646_WEB.xml",
+      "record_id": "211496",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

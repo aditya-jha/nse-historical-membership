@@ -1,8 +1,26 @@
 {
   "ticker": "CONFIPET",
-  "fetched_at_utc": "2026-05-10T16:32:08.818326+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.049151+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:04:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743236_21102026060421_WEB.xml",
+      "record_id": "216186",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:56:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698386_21072026045626_WEB.xml",
+      "record_id": "212782",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "CCCL",
-  "fetched_at_utc": "2026-05-10T16:31:25.199641+00:00",
-  "n_filings": 76,
+  "fetched_at_utc": "2026-11-02T12:14:14.539942+00:00",
+  "n_filings": 69,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 14:31:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734783_09102026023117_WEB.xml",
+      "record_id": "213574",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 14:37:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688387_06072026023752_WEB.xml",
+      "record_id": "210521",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",
@@ -148,21 +166,21 @@
       "format": null
     },
     {
-      "date": "30-SEP-2022",
-      "submission_date": "21-OCT-2022",
-      "broadcast_date": "06-JAN-2023 22:41:44",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173009_740486_21102022060422_WEB.xml",
-      "record_id": "173009",
-      "revised": "Revised",
-      "format": null
-    },
-    {
       "date": "30-JUN-2022",
       "submission_date": "07-NOV-2022",
       "broadcast_date": "10-NOV-2022 10:40:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
       "record_id": "173248",
       "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2022",
+      "submission_date": "21-OCT-2022",
+      "broadcast_date": "06-JAN-2023 22:41:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_173009_740486_21102022060422_WEB.xml",
+      "record_id": "173009",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -316,87 +334,6 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_WEB_6699_20042018103837.xml",
       "record_id": "126082",
       "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2017",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "123548",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2017",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "119679",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "30-JUN-2017",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "118695",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "31-MAR-2017",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "116694",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2016",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "115249",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2016",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "112475",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "30-JUN-2016",
-      "submission_date": null,
-      "broadcast_date": "17-DEC-2019 17:10:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "109762",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "31-MAR-2016",
-      "submission_date": null,
-      "broadcast_date": "04-NOV-2019 16:10:03",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "107484",
-      "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2015",
-      "submission_date": null,
-      "broadcast_date": "22-JAN-2016 06:15:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "106444",
-      "revised": "N",
       "format": null
     },
     {

@@ -1,8 +1,26 @@
 {
   "ticker": "IDBI",
-  "fetched_at_utc": "2026-05-10T16:44:58.055332+00:00",
-  "n_filings": 93,
+  "fetched_at_utc": "2026-11-02T12:14:14.272500+00:00",
+  "n_filings": 95,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:41:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740051_16102026044138_WEB.xml",
+      "record_id": "214991",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 17:56:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692479_14072026055631_WEB.xml",
+      "record_id": "211109",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

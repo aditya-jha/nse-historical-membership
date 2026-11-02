@@ -1,8 +1,26 @@
 {
   "ticker": "RAINBOW",
-  "fetched_at_utc": "2026-05-10T16:53:50.760892+00:00",
-  "n_filings": 17,
+  "fetched_at_utc": "2026-11-02T12:14:14.430392+00:00",
+  "n_filings": 19,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 10:18:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737357_14102026101847_WEB.xml",
+      "record_id": "214215",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 16:12:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692259_14072026041239_WEB.xml",
+      "record_id": "211081",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

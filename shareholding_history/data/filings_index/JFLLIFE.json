@@ -1,6 +1,25 @@
 {
   "ticker": "JFLLIFE",
-  "fetched_at_utc": "2026-05-10T16:46:32.793473+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.689660+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "02-OCT-2026",
+      "broadcast_date": "02-OCT-2026 15:53:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732643_02102026035332_WEB.xml",
+      "record_id": "213245",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "03-JUL-2026",
+      "broadcast_date": "03-JUL-2026 15:05:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687811_03072026030544_WEB.xml",
+      "record_id": "210485",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

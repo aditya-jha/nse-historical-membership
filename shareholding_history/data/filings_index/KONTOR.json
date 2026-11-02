@@ -1,6 +1,25 @@
 {
   "ticker": "KONTOR",
-  "fetched_at_utc": "2026-05-10T16:47:49.762937+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.609485+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:51:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742772_21102026025126_WEB.xml",
+      "record_id": "215997",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 13:37:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697991_21072026013713_WEB.xml",
+      "record_id": "212651",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "EXPLEOSOL",
-  "fetched_at_utc": "2026-05-10T16:34:32.880262+00:00",
-  "n_filings": 67,
+  "fetched_at_utc": "2026-11-02T12:14:14.325091+00:00",
+  "n_filings": 69,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 17:45:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739155_15102026054536_WEB.xml",
+      "record_id": "214698",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 15:01:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695081_17072026030121_WEB.xml",
+      "record_id": "211688",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

@@ -1,8 +1,44 @@
 {
   "ticker": "LLOYDSENT",
-  "fetched_at_utc": "2026-05-10T16:48:34.168818+00:00",
-  "n_filings": 10,
+  "fetched_at_utc": "2026-11-02T12:14:14.188538+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:57:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741507_19102026035746_WEB.xml",
+      "record_id": "215498",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-SEP-2026",
+      "submission_date": "17-SEP-2026",
+      "broadcast_date": "17-SEP-2026 15:20:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724950_17092026032023_WEB.xml",
+      "record_id": "213172",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:40:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696094_18072026034030_WEB.xml",
+      "record_id": "212001",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "23-JUN-2026",
+      "submission_date": "02-JUL-2026",
+      "broadcast_date": "02-JUL-2026 14:40:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687498_02072026024050_WEB.xml",
+      "record_id": "210470",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "15-APR-2026",
       "submission_date": "23-APR-2026",

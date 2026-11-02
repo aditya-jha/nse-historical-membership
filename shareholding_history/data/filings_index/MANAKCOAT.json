@@ -1,8 +1,35 @@
 {
   "ticker": "MANAKCOAT",
-  "fetched_at_utc": "2026-05-10T16:49:06.617283+00:00",
-  "n_filings": 53,
+  "fetched_at_utc": "2026-11-02T12:14:14.477676+00:00",
+  "n_filings": 56,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:37:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736584_13102026113709_WEB.xml",
+      "record_id": "213961",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "26-JUL-2026 23:40:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1699873_23072026022202_WEB.xml",
+      "record_id": "210536",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 17:13:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688468_06072026051313_WEB.xml",
+      "record_id": "210534",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

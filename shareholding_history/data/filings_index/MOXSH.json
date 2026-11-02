@@ -1,6 +1,34 @@
 {
   "ticker": "MOXSH",
-  "fetched_at_utc": "2026-05-10T16:50:17.619605+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.647913+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 19:06:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739318_15102026070632_WEB.xml",
+      "record_id": "214739",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "09-JUL-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:35:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695622_17072026063555_WEB.xml",
+      "record_id": "211852",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "12-MAY-2026",
+      "submission_date": "21-MAY-2026",
+      "broadcast_date": "21-MAY-2026 21:01:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1670979_21052026090115_WEB.xml",
+      "record_id": "210350",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

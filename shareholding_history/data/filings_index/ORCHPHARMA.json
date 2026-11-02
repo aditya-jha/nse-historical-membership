@@ -1,8 +1,35 @@
 {
   "ticker": "ORCHPHARMA",
-  "fetched_at_utc": "2026-05-10T16:51:51.441006+00:00",
-  "n_filings": 24,
+  "fetched_at_utc": "2026-11-02T12:14:14.243287+00:00",
+  "n_filings": 27,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 11:20:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740564_17102026112043_WEB.xml",
+      "record_id": "215160",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "01-AUG-2026",
+      "submission_date": "03-OCT-2026",
+      "broadcast_date": "03-OCT-2026 18:56:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732790_03102026065643_WEB.xml",
+      "record_id": "213251",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:07:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698756_21072026070731_WEB.xml",
+      "record_id": "212880",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

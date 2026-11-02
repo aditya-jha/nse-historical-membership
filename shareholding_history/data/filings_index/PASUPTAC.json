@@ -1,8 +1,26 @@
 {
   "ticker": "PASUPTAC",
-  "fetched_at_utc": "2026-05-10T16:52:19.404178+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.189255+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:51:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741495_19102026035105_WEB.xml",
+      "record_id": "215494",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 23:27:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691092_11072026112704_WEB.xml",
+      "record_id": "210872",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

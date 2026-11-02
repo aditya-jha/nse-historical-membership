@@ -1,0 +1,61 @@
+{
+  "ticker": "DHANSA",
+  "fetched_at_utc": "2026-11-02T12:14:14.625152+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:06:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741397_19102026030611_WEB.xml",
+      "record_id": "215455",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 16:03:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696127_18072026040311_WEB.xml",
+      "record_id": "212009",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "26-MAY-2026",
+      "submission_date": "03-JUN-2026",
+      "broadcast_date": "03-JUN-2026 19:37:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679312_03062026073658_WEB.xml",
+      "record_id": "210373",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "12-MAY-2026",
+      "submission_date": "21-MAY-2026",
+      "broadcast_date": "21-MAY-2026 18:54:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1670796_21052026065442_WEB.xml",
+      "record_id": "210349",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "01-MAY-2026",
+      "submission_date": "20-MAY-2026",
+      "broadcast_date": "20-MAY-2026 12:30:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1669777_20052026123042_WEB.xml",
+      "record_id": "210344",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "22-APR-2026",
+      "submission_date": "06-MAY-2026",
+      "broadcast_date": "06-MAY-2026 16:40:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1664063_06052026044013_WEB.xml",
+      "record_id": "210320",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

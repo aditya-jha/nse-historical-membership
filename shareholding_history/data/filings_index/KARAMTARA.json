@@ -1,0 +1,25 @@
+{
+  "ticker": "KARAMTARA",
+  "fetched_at_utc": "2026-11-02T12:14:14.360513+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 13:08:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738632_15102026010812_WEB.xml",
+      "record_id": "214541",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-SEP-2026",
+      "submission_date": "17-SEP-2026",
+      "broadcast_date": "23-OCT-2026 17:09:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738725_15102026022939_WEB.xml",
+      "record_id": "213185",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

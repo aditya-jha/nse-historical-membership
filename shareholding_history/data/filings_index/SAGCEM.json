@@ -1,8 +1,26 @@
 {
   "ticker": "SAGCEM",
-  "fetched_at_utc": "2026-05-10T16:55:01.778706+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.537222+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 15:19:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734851_09102026031946_WEB.xml",
+      "record_id": "213589",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 17:28:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691593_13072026052845_WEB.xml",
+      "record_id": "210973",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

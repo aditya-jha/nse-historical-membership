@@ -1,8 +1,26 @@
 {
   "ticker": "ANMOL",
-  "fetched_at_utc": "2026-05-10T16:29:27.081191+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.506600+00:00",
+  "n_filings": 24,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 12:59:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735909_12102026125856_WEB.xml",
+      "record_id": "213787",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:32:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693413_15072026053158_WEB.xml",
+      "record_id": "211322",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

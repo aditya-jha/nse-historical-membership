@@ -1,6 +1,34 @@
 {
   "ticker": "DOLLEX",
-  "fetched_at_utc": "2026-05-10T16:33:27.853541+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.479504+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 10:55:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736538_13102026105501_WEB.xml",
+      "record_id": "213947",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 10:40:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690871_11072026104045_WEB.xml",
+      "record_id": "210830",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 10:40:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690871_11072026104045_WEB.xml",
+      "record_id": "210830",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

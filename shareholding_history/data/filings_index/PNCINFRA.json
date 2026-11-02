@@ -1,8 +1,26 @@
 {
   "ticker": "PNCINFRA",
-  "fetched_at_utc": "2026-05-10T16:52:50.370130+00:00",
-  "n_filings": 45,
+  "fetched_at_utc": "2026-11-02T12:14:14.384666+00:00",
+  "n_filings": 47,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:27:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738058_14102026062703_WEB.xml",
+      "record_id": "214434",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 18:49:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694558_16072026064932_WEB.xml",
+      "record_id": "211560",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

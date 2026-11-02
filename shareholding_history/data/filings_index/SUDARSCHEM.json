@@ -1,8 +1,26 @@
 {
   "ticker": "SUDARSCHEM",
-  "fetched_at_utc": "2026-05-10T16:57:42.116257+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.294341+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 14:39:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739760_16102026023946_WEB.xml",
+      "record_id": "214871",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:08:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697035_20072026050814_WEB.xml",
+      "record_id": "212306",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

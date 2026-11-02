@@ -1,8 +1,26 @@
 {
   "ticker": "BEARDSELL",
-  "fetched_at_utc": "2026-05-10T16:30:36.590493+00:00",
-  "n_filings": 69,
+  "fetched_at_utc": "2026-11-02T12:14:14.019145+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "23-OCT-2026",
+      "broadcast_date": "23-OCT-2026 17:10:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1744739_23102026051034_WEB.xml",
+      "record_id": "216319",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:58:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697405_20072026065853_WEB.xml",
+      "record_id": "212428",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

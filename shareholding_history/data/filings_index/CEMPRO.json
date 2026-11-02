@@ -1,8 +1,35 @@
 {
   "ticker": "CEMPRO",
-  "fetched_at_utc": "2026-05-10T16:31:33.427241+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.019678+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "19-OCT-2026",
+      "submission_date": "23-OCT-2026",
+      "broadcast_date": "23-OCT-2026 14:24:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1744487_23102026022417_WEB.xml",
+      "record_id": "216316",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 17:05:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735008_09102026050509_WEB.xml",
+      "record_id": "213628",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 15:06:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690337_10072026030637_WEB.xml",
+      "record_id": "210764",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",
@@ -24,10 +51,10 @@
     {
       "date": "30-SEP-2025",
       "submission_date": "10-OCT-2025",
-      "broadcast_date": "10-OCT-2025 14:50:42",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1544228_10102025025038_WEB.xml",
+      "broadcast_date": "04-JUN-2026 15:33:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1598924_12012026052401_WEB.xml",
       "record_id": "201968",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -175,6 +202,24 @@
       "format": null
     },
     {
+      "date": "30-SEP-2019",
+      "submission_date": "17-OCT-2019",
+      "broadcast_date": "06-JAN-2022 21:06:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_142299_152145_17102019040558_WEB.xml",
+      "record_id": "142299",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-SEP-2025",
+      "submission_date": "10-OCT-2025",
+      "broadcast_date": "10-OCT-2025 14:50:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1544228_10102025025038_WEB.xml",
+      "record_id": "201968",
+      "revised": "N",
+      "format": null
+    },
+    {
       "date": "30-JUN-2021",
       "submission_date": null,
       "broadcast_date": "16-JUL-2021 13:10:08",
@@ -235,15 +280,6 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_144820_202712_16012020105441_WEB.xml",
       "record_id": "144820",
       "revised": "N",
-      "format": null
-    },
-    {
-      "date": "30-SEP-2019",
-      "submission_date": "17-OCT-2019",
-      "broadcast_date": "06-JAN-2022 21:06:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_142299_152145_17102019040558_WEB.xml",
-      "record_id": "142299",
-      "revised": "Revised",
       "format": null
     },
     {

@@ -1,8 +1,26 @@
 {
   "ticker": "SUNCLAY",
-  "fetched_at_utc": "2026-05-10T16:57:46.097990+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.130703+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "28-OCT-2026 12:37:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1745885_26102026043529_WEB.xml",
+      "record_id": "215802",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 14:23:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692072_14072026022308_WEB.xml",
+      "record_id": "211044",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

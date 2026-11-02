@@ -1,8 +1,26 @@
 {
   "ticker": "GNA",
-  "fetched_at_utc": "2026-05-10T16:43:19.017484+00:00",
-  "n_filings": 41,
+  "fetched_at_utc": "2026-11-02T12:14:14.497268+00:00",
+  "n_filings": 43,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 15:51:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736102_12102026035118_WEB.xml",
+      "record_id": "213843",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "27-OCT-2026 18:08:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736099_12102026035015_WEB.xml",
+      "record_id": "212034",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "ENGINERSIN",
-  "fetched_at_utc": "2026-05-10T16:34:12.881712+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.480309+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 10:40:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736526_13102026104009_WEB.xml",
+      "record_id": "213943",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:38:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692204_14072026033843_WEB.xml",
+      "record_id": "211071",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "RGL",
-  "fetched_at_utc": "2026-05-10T16:54:22.865853+00:00",
-  "n_filings": 75,
+  "fetched_at_utc": "2026-11-02T12:14:14.160980+00:00",
+  "n_filings": 77,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "27-OCT-2026 11:06:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1745976_26102026052416_WEB.xml",
+      "record_id": "215632",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:41:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698511_21072026054142_WEB.xml",
+      "record_id": "212817",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

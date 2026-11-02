@@ -1,8 +1,26 @@
 {
   "ticker": "PFS",
-  "fetched_at_utc": "2026-05-10T16:52:34.814558+00:00",
-  "n_filings": 62,
+  "fetched_at_utc": "2026-11-02T12:14:14.256349+00:00",
+  "n_filings": 64,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:19:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740283_16102026061911_WEB.xml",
+      "record_id": "215079",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 10:22:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689067_08072026102241_WEB.xml",
+      "record_id": "210576",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

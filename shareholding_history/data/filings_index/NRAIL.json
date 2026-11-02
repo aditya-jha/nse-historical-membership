@@ -1,8 +1,26 @@
 {
   "ticker": "NRAIL",
-  "fetched_at_utc": "2026-05-10T16:51:27.626614+00:00",
-  "n_filings": 37,
+  "fetched_at_utc": "2026-11-02T12:14:14.305694+00:00",
+  "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 12:21:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739587_16102026122124_WEB.xml",
+      "record_id": "214806",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 14:33:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696660_20072026023320_WEB.xml",
+      "record_id": "212178",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

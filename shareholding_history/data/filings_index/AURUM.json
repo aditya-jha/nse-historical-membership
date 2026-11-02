@@ -1,8 +1,35 @@
 {
   "ticker": "AURUM",
-  "fetched_at_utc": "2026-05-10T16:30:08.752513+00:00",
-  "n_filings": 47,
+  "fetched_at_utc": "2026-11-02T12:14:14.036927+00:00",
+  "n_filings": 50,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:26:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743482_21102026072647_WEB.xml",
+      "record_id": "216238",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-SEP-2026",
+      "submission_date": "30-SEP-2026",
+      "broadcast_date": "30-SEP-2026 22:22:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1731714_30092026102158_WEB.xml",
+      "record_id": "213236",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 20:20:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697548_20072026082020_WEB.xml",
+      "record_id": "212476",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "HMAAGRO",
-  "fetched_at_utc": "2026-05-10T16:44:40.538761+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.550909+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 17:38:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734461_08102026053820_WEB.xml",
+      "record_id": "213514",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 11:36:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688666_07072026113617_WEB.xml",
+      "record_id": "210542",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "10-APR-2026",
       "submission_date": "13-APR-2026",

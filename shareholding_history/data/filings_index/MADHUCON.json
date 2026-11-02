@@ -1,8 +1,26 @@
 {
   "ticker": "MADHUCON",
-  "fetched_at_utc": "2026-05-10T16:48:52.575435+00:00",
-  "n_filings": 79,
+  "fetched_at_utc": "2026-11-02T12:14:14.545502+00:00",
+  "n_filings": 81,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 11:39:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734664_09102026113929_WEB.xml",
+      "record_id": "213545",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 14:25:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695011_17072026022548_WEB.xml",
+      "record_id": "211664",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",

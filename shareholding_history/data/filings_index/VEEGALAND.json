@@ -1,0 +1,25 @@
+{
+  "ticker": "VEEGALAND",
+  "fetched_at_utc": "2026-11-02T12:14:14.242865+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 11:56:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740573_17102026115627_WEB.xml",
+      "record_id": "215163",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "17-SEP-2026",
+      "submission_date": "18-SEP-2026",
+      "broadcast_date": "25-SEP-2026 15:58:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725518_18092026065746_WEB.xml",
+      "record_id": "213194",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

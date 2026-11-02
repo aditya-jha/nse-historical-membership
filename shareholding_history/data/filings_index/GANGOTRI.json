@@ -1,0 +1,25 @@
+{
+  "ticker": "GANGOTRI",
+  "fetched_at_utc": "2026-11-02T12:14:14.493834+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:22:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736169_12102026042254_WEB.xml",
+      "record_id": "213862",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 13:29:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692042_14072026012929_WEB.xml",
+      "record_id": "211038",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

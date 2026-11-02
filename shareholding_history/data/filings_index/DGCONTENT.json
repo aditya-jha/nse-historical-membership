@@ -1,8 +1,26 @@
 {
   "ticker": "DGCONTENT",
-  "fetched_at_utc": "2026-05-10T16:33:04.729576+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.274182+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:37:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740038_16102026043721_WEB.xml",
+      "record_id": "214982",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 13:45:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696617_20072026014535_WEB.xml",
+      "record_id": "212160",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

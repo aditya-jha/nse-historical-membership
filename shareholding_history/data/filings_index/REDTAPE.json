@@ -1,8 +1,26 @@
 {
   "ticker": "REDTAPE",
-  "fetched_at_utc": "2026-05-10T16:54:12.528703+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.463651+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:40:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736799_13102026024037_WEB.xml",
+      "record_id": "214040",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:02:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697014_20072026050240_WEB.xml",
+      "record_id": "212296",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

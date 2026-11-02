@@ -1,8 +1,26 @@
 {
   "ticker": "ORIENTCEM",
-  "fetched_at_utc": "2026-05-10T16:51:54.207671+00:00",
-  "n_filings": 51,
+  "fetched_at_utc": "2026-11-02T12:14:14.518974+00:00",
+  "n_filings": 53,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 14:23:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735358_10102026022305_WEB.xml",
+      "record_id": "213706",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 15:14:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690350_10072026031408_WEB.xml",
+      "record_id": "210766",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

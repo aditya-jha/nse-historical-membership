@@ -1,8 +1,26 @@
 {
   "ticker": "URJA",
-  "fetched_at_utc": "2026-05-10T16:59:48.572299+00:00",
-  "n_filings": 39,
+  "fetched_at_utc": "2026-11-02T12:14:14.386322+00:00",
+  "n_filings": 41,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:13:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738027_14102026061327_WEB.xml",
+      "record_id": "214424",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:28:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695271_17072026042853_WEB.xml",
+      "record_id": "211749",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

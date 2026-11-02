@@ -1,0 +1,25 @@
+{
+  "ticker": "GOENKA",
+  "fetched_at_utc": "2026-11-02T12:14:14.254479+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:30:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740317_16102026063053_WEB.xml",
+      "record_id": "215088",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "24-SEP-2026",
+      "broadcast_date": "24-SEP-2026 19:58:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1727783_24092026075839_WEB.xml",
+      "record_id": "213219",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,6 +1,25 @@
 {
   "ticker": "APS",
-  "fetched_at_utc": "2026-05-10T16:29:35.809767+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.669738+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 19:54:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736459_12102026075401_WEB.xml",
+      "record_id": "213921",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:24:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692820_15072026112411_WEB.xml",
+      "record_id": "211175",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

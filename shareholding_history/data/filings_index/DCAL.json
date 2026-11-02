@@ -1,8 +1,26 @@
 {
   "ticker": "DCAL",
-  "fetched_at_utc": "2026-05-10T16:32:42.278429+00:00",
-  "n_filings": 37,
+  "fetched_at_utc": "2026-11-02T12:14:14.051982+00:00",
+  "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:58:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743212_21102026055831_WEB.xml",
+      "record_id": "216176",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:30:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698316_21072026043044_WEB.xml",
+      "record_id": "212763",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

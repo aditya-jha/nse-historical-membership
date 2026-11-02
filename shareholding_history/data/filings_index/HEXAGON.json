@@ -1,0 +1,34 @@
+{
+  "ticker": "HEXAGON",
+  "fetched_at_utc": "2026-11-02T12:14:14.225434+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 17:35:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740896_17102026053549_WEB.xml",
+      "record_id": "215278",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:43:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696096_18072026034330_WEB.xml",
+      "record_id": "212002",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "11-JUN-2026",
+      "submission_date": "12-JUN-2026",
+      "broadcast_date": "22-JUN-2026 11:14:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682451_18062026031507_WEB.xml",
+      "record_id": "210393",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

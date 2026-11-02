@@ -1,8 +1,26 @@
 {
   "ticker": "TINNARUBR",
-  "fetched_at_utc": "2026-05-10T16:58:58.673776+00:00",
-  "n_filings": 6,
+  "fetched_at_utc": "2026-11-02T12:14:14.464024+00:00",
+  "n_filings": 8,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:32:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736791_13102026023239_WEB.xml",
+      "record_id": "214038",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 22:45:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692740_14072026104539_WEB.xml",
+      "record_id": "211141",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "SHANTIGOLD",
-  "fetched_at_utc": "2026-05-10T16:56:02.208526+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.459869+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 15:16:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736851_13102026031602_WEB.xml",
+      "record_id": "214061",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-AUG-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "01-SEP-2026 19:05:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719995_01092026070536_WEB.xml",
+      "record_id": "213111",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:58:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689868_09072026045821_WEB.xml",
+      "record_id": "210714",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

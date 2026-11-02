@@ -1,14 +1,23 @@
 {
   "ticker": "BCPL",
-  "fetched_at_utc": "2026-05-10T16:30:35.608675+00:00",
-  "n_filings": 2,
+  "fetched_at_utc": "2026-11-02T12:14:14.541821+00:00",
+  "n_filings": 4,
   "filings": [
     {
-      "date": "31-MAR-2026",
-      "submission_date": "14-APR-2026",
-      "broadcast_date": "14-APR-2026 16:58:23",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650713_14042026045819_WEB.xml",
-      "record_id": "208341",
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 13:17:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734748_09102026011711_WEB.xml",
+      "record_id": "213565",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 15:56:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698238_21072026035654_WEB.xml",
+      "record_id": "212733",
       "revised": "N",
       "format": null
     },
@@ -18,6 +27,15 @@
       "broadcast_date": "15-APR-2026 17:48:44",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650701_14042026044846_WEB.xml",
       "record_id": "208336",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "14-APR-2026",
+      "broadcast_date": "14-APR-2026 16:58:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1650713_14042026045819_WEB.xml",
+      "record_id": "208341",
       "revised": "N",
       "format": null
     }

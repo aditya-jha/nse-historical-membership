@@ -1,0 +1,25 @@
+{
+  "ticker": "XLENERGY",
+  "fetched_at_utc": "2026-11-02T12:14:14.192872+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:29:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741443_19102026032935_WEB.xml",
+      "record_id": "215474",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 12:57:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690915_11072026125718_WEB.xml",
+      "record_id": "210841",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

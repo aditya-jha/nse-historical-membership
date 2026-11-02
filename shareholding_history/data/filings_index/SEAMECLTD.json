@@ -1,8 +1,26 @@
 {
   "ticker": "SEAMECLTD",
-  "fetched_at_utc": "2026-05-10T16:55:42.570004+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.345346+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:00:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738882_15102026035957_WEB.xml",
+      "record_id": "214612",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 12:08:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691181_13072026120821_WEB.xml",
+      "record_id": "210887",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

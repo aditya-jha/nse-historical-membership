@@ -1,8 +1,26 @@
 {
   "ticker": "CANHLIFE",
-  "fetched_at_utc": "2026-05-10T16:31:16.969649+00:00",
-  "n_filings": 3,
+  "fetched_at_utc": "2026-11-02T12:14:14.167319+00:00",
+  "n_filings": 5,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 17:57:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741804_19102026055717_WEB.xml",
+      "record_id": "215608",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:51:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696979_20072026045114_WEB.xml",
+      "record_id": "212285",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

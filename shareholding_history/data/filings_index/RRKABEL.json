@@ -1,8 +1,26 @@
 {
   "ticker": "RRKABEL",
-  "fetched_at_utc": "2026-05-10T16:54:44.992567+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.245924+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 08:11:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739466_16102026081136_WEB.xml",
+      "record_id": "214755",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "19-JUL-2026",
+      "broadcast_date": "19-JUL-2026 21:44:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696368_19072026094407_WEB.xml",
+      "record_id": "212077",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

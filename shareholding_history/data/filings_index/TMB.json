@@ -1,8 +1,26 @@
 {
   "ticker": "TMB",
-  "fetched_at_utc": "2026-05-10T16:59:02.849785+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.323277+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 17:57:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739188_15102026055710_WEB.xml",
+      "record_id": "214709",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 19:28:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694626_16072026072811_WEB.xml",
+      "record_id": "211572",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

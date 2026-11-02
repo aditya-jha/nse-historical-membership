@@ -5,10 +5,12 @@ For each NSE symbol in the input ticker list, calls the
 of filings (each carrying date + XBRL URL + recordId) under
 `data/filings_index/<TICKER>.json`.
 
-Resumable: skips tickers whose cache file is < 7 days old.
+Resumable: skips tickers whose cache file is < 7 days old. Re-fetched lists are
+merged into the cached one, never replace it (NSE now returns only ~23 recent filings).
 
 Run:
-    python -m shareholding_history.code.fetch_filings --all
+    python -m shareholding_history.code.fetch_filings --since 01-05-2026   # refresh: 2 calls
+    python -m shareholding_history.code.fetch_filings --all                # full history, per symbol
     python -m shareholding_history.code.fetch_filings --tickers RELIANCE,KAYNES
 """
 from __future__ import annotations
@@ -112,6 +114,14 @@ def _is_fresh(p: Path, max_age_days: float = 7) -> bool:
     return age_days < max_age_days
 
 
+def merge_filings(old: list[dict], new: list[dict]) -> list[dict]:
+    """Fresh list first, then every cached filing the API no longer returns.
+    NSE's master endpoint started returning only ~23 recent filings (2026-11);
+    the committed index holds the full history and must never shrink."""
+    seen = {f["xbrl"] for f in new}
+    return new + [f for f in old if f.get("xbrl") not in seen]
+
+
 def fetch_one(s: requests.Session, ticker: str, force: bool = False) -> dict:
     """Fetch the master-list of filings for a single ticker."""
     out_file = INDEX_DIR / f"{ticker}.json"
@@ -143,29 +153,65 @@ def fetch_one(s: requests.Session, ticker: str, force: bool = False) -> dict:
     if not isinstance(body, list):
         return {"ticker": ticker, "status": "unexpected_shape", "error": str(type(body))}
 
-    # Keep just the fields we need to make the cache compact.
-    filings = []
-    for row in body:
-        xbrl = row.get("xbrl") or ""
-        if not xbrl:
-            continue
-        filings.append({
-            "date": row.get("date"),                  # e.g. "31-MAR-2026"
-            "submission_date": row.get("submissionDate"),
-            "broadcast_date": row.get("broadcastDate"),
-            "xbrl": xbrl,
-            "record_id": row.get("recordId"),
-            "revised": row.get("revisedData"),        # "Y" / "N"
-            "format": row.get("format"),
-        })
+    n = _write_merged(ticker, [_compact(row) for row in body if row.get("xbrl")])
+    return {"ticker": ticker, "status": "ok", "n_filings": n}
 
+
+def _compact(row: dict) -> dict:
+    """Keep just the fields we need to make the cache compact."""
+    return {
+        "date": row.get("date"),                  # e.g. "31-MAR-2026"
+        "submission_date": row.get("submissionDate"),
+        "broadcast_date": row.get("broadcastDate"),
+        "xbrl": row["xbrl"],
+        "record_id": row.get("recordId"),
+        "revised": row.get("revisedData"),        # "Y" / "N"
+        "format": row.get("format"),
+    }
+
+
+def _write_merged(ticker: str, filings: list[dict]) -> int:
+    """Merge `filings` into data/filings_index/<ticker>.json (never shrinks it)."""
+    out_file = INDEX_DIR / f"{ticker}.json"
+    if out_file.exists():
+        try:
+            filings = merge_filings(json.loads(out_file.read_text()).get("filings", []), filings)
+        except json.JSONDecodeError:
+            pass  # corrupt cache → keep only the fresh list
     out_file.write_text(json.dumps({
         "ticker": ticker,
         "fetched_at_utc": datetime.now(timezone.utc).isoformat(),
         "n_filings": len(filings),
         "filings": filings,
     }, indent=2))
-    return {"ticker": ticker, "status": "ok", "n_filings": len(filings)}
+    return len(filings)
+
+
+def fetch_since(s: requests.Session, since: str, until: str) -> dict:
+    """Every filing submitted in [since, until] (DD-MM-YYYY), main board + SME, in one
+    call per segment — instead of one call per symbol. Merges into each symbol's index
+    file; symbols listed after _universe.csv was built get a new file."""
+    by_ticker: dict[str, list[dict]] = {}
+    for segment in ("equities", "sme"):
+        r = s.get(
+            API_URL,
+            params={"index": segment, "from_date": since, "to_date": until},
+            headers={"Referer": REFERER, "Accept": "*/*", "X-Requested-With": "XMLHttpRequest"},
+            timeout=120,
+        )
+        r.raise_for_status()
+        body = r.json()
+        if not isinstance(body, list):
+            raise RuntimeError(f"{segment}: unexpected response shape {type(body)}")
+        print(f"  {segment}: {len(body)} filings submitted {since} → {until}")
+        for row in body:
+            if row.get("xbrl") and row.get("symbol"):
+                by_ticker.setdefault(row["symbol"], []).append(_compact(row))
+    new_symbols = [t for t in by_ticker if not (INDEX_DIR / f"{t}.json").exists()]
+    for t, filings in by_ticker.items():
+        _write_merged(t, filings)
+    return {"symbols": len(by_ticker), "filings": sum(map(len, by_ticker.values())),
+            "new_symbols": sorted(new_symbols)}
 
 
 def main():
@@ -177,9 +223,19 @@ def main():
     ap.add_argument("--refresh-universe", action="store_true",
                     help="Re-fetch the EQUITY_L + SME_EQUITY_L master CSVs")
     ap.add_argument("--sleep", type=float, default=0.4, help="Seconds between calls (politeness)")
+    ap.add_argument("--since", help="DD-MM-YYYY: fetch every filing submitted since this date in "
+                                    "2 calls (main board + SME) — the quarterly-refresh path")
+    ap.add_argument("--until", default=datetime.now().strftime("%d-%m-%Y"),
+                    help="DD-MM-YYYY end of the --since window (default: today)")
     args = ap.parse_args()
 
     s = _make_session()
+    if args.since:
+        res = fetch_since(s, args.since, args.until)
+        print(f"\n{res['filings']} filings across {res['symbols']} symbols merged into {INDEX_DIR}")
+        if res["new_symbols"]:
+            print(f"  new symbols (not in an earlier index): {', '.join(res['new_symbols'])}")
+        return
     if args.tickers:
         targets = [t.strip().upper() for t in args.tickers.split(",") if t.strip()]
     elif args.all:

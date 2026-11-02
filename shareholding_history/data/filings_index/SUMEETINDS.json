@@ -1,8 +1,35 @@
 {
   "ticker": "SUMEETINDS",
-  "fetched_at_utc": "2026-05-10T16:57:44.064982+00:00",
-  "n_filings": 65,
+  "fetched_at_utc": "2026-11-02T12:14:14.261660+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:42:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740198_16102026054228_WEB.xml",
+      "record_id": "215047",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "22-JUL-2026",
+      "submission_date": "06-AUG-2026",
+      "broadcast_date": "06-AUG-2026 18:33:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1709222_06082026063335_WEB.xml",
+      "record_id": "213021",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 19:38:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693648_15072026073816_WEB.xml",
+      "record_id": "211360",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",

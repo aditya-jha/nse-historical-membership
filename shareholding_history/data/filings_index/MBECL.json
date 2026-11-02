@@ -1,0 +1,34 @@
+{
+  "ticker": "MBECL",
+  "fetched_at_utc": "2026-11-02T12:14:14.335029+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:43:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738990_15102026044337_WEB.xml",
+      "record_id": "214649",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:02:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697015_20072026050244_WEB.xml",
+      "record_id": "212297",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "22-FEB-2025",
+      "submission_date": "03-JUN-2026",
+      "broadcast_date": "03-JUN-2026 16:21:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679208_03062026042143_WEB.xml",
+      "record_id": "210370",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

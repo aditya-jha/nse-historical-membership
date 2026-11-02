@@ -1,8 +1,26 @@
 {
   "ticker": "MOKSH",
-  "fetched_at_utc": "2026-05-10T16:50:09.079844+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.110002+00:00",
+  "n_filings": 33,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 11:59:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742521_21102026115928_WEB.xml",
+      "record_id": "215909",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 12:53:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695969_18072026125355_WEB.xml",
+      "record_id": "211955",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

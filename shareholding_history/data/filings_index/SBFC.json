@@ -1,8 +1,26 @@
 {
   "ticker": "SBFC",
-  "fetched_at_utc": "2026-05-10T16:55:33.165170+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.146555+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 21:02:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742098_19102026090248_WEB.xml",
+      "record_id": "215716",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 19:31:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697477_20072026073105_WEB.xml",
+      "record_id": "212452",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "SHREDIGCEM",
-  "fetched_at_utc": "2026-05-10T16:56:18.296668+00:00",
-  "n_filings": 26,
+  "fetched_at_utc": "2026-11-02T12:14:14.453066+00:00",
+  "n_filings": 28,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:22:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736970_13102026042223_WEB.xml",
+      "record_id": "214097",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 08:58:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696378_20072026085822_WEB.xml",
+      "record_id": "212082",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

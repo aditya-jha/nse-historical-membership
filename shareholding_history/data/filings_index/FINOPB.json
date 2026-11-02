@@ -1,8 +1,26 @@
 {
   "ticker": "FINOPB",
-  "fetched_at_utc": "2026-05-10T16:42:24.792127+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.104380+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:50:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742614_21102026125028_WEB.xml",
+      "record_id": "215937",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 19:04:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697418_20072026070433_WEB.xml",
+      "record_id": "212431",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

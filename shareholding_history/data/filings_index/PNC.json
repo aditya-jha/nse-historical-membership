@@ -1,8 +1,26 @@
 {
   "ticker": "PNC",
-  "fetched_at_utc": "2026-05-10T16:52:49.881944+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.507116+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 12:29:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735882_12102026122931_WEB.xml",
+      "record_id": "213780",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:23:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693865_16072026122352_WEB.xml",
+      "record_id": "211416",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

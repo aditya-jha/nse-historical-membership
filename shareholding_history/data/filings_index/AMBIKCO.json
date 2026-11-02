@@ -1,8 +1,26 @@
 {
   "ticker": "AMBIKCO",
-  "fetched_at_utc": "2026-05-10T16:29:20.603669+00:00",
-  "n_filings": 74,
+  "fetched_at_utc": "2026-11-02T12:14:14.509394+00:00",
+  "n_filings": 76,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 11:32:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735812_12102026113204_WEB.xml",
+      "record_id": "213768",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 12:30:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690217_10072026122958_WEB.xml",
+      "record_id": "210753",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

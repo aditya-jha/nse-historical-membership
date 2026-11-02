@@ -1,6 +1,25 @@
 {
   "ticker": "MARINETRAN",
-  "fetched_at_utc": "2026-05-10T16:49:21.508389+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.674398+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 14:57:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736020_12102026025712_WEB.xml",
+      "record_id": "213820",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 18:51:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690010_09072026065151_WEB.xml",
+      "record_id": "210731",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

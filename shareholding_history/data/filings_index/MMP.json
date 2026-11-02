@@ -1,8 +1,26 @@
 {
   "ticker": "MMP",
-  "fetched_at_utc": "2026-05-10T16:50:02.727353+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.514956+00:00",
+  "n_filings": 33,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 17:33:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735471_10102026053323_WEB.xml",
+      "record_id": "213732",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "13-JUL-2026 11:38:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691152_13072026113646_WEB.xml",
+      "record_id": "210835",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

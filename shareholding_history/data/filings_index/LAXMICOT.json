@@ -1,8 +1,26 @@
 {
   "ticker": "LAXMICOT",
-  "fetched_at_utc": "2026-05-10T16:48:21.833112+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.253472+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:38:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740333_16102026063840_WEB.xml",
+      "record_id": "215093",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 17:39:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691610_13072026053954_WEB.xml",
+      "record_id": "210976",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

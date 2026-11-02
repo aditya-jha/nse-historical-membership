@@ -1,8 +1,26 @@
 {
   "ticker": "JYOTHYLAB",
-  "fetched_at_utc": "2026-05-10T16:46:59.475444+00:00",
-  "n_filings": 75,
+  "fetched_at_utc": "2026-11-02T12:14:14.385594+00:00",
+  "n_filings": 77,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:20:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738039_14102026062027_WEB.xml",
+      "record_id": "214427",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:56:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693920_16072026125604_WEB.xml",
+      "record_id": "211427",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

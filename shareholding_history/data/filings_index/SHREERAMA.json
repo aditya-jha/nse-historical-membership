@@ -1,8 +1,26 @@
 {
   "ticker": "SHREERAMA",
-  "fetched_at_utc": "2026-05-10T16:56:21.986033+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.387144+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:08:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738016_14102026060804_WEB.xml",
+      "record_id": "214421",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:37:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694273_16072026043659_WEB.xml",
+      "record_id": "211497",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

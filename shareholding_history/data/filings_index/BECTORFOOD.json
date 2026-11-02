@@ -1,8 +1,26 @@
 {
   "ticker": "BECTORFOOD",
-  "fetched_at_utc": "2026-05-10T16:26:55.673124+00:00",
-  "n_filings": 23,
+  "fetched_at_utc": "2026-11-02T12:14:14.214590+00:00",
+  "n_filings": 25,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 11:04:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741140_19102026110422_WEB.xml",
+      "record_id": "215346",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 14:45:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695047_17072026024457_WEB.xml",
+      "record_id": "211676",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",
@@ -175,6 +193,15 @@
       "format": null
     },
     {
+      "date": "31-DEC-2020",
+      "submission_date": "13-JAN-2021",
+      "broadcast_date": "06-JAN-2022 21:06:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_154210_386619_13012021115141_WEB.xml",
+      "record_id": "154210",
+      "revised": "Revised",
+      "format": null
+    },
+    {
       "date": "30-JUN-2021",
       "submission_date": null,
       "broadcast_date": "20-JUL-2021 12:10:15",
@@ -190,15 +217,6 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_157611_439759_19042021045352_WEB.xml",
       "record_id": "157611",
       "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2020",
-      "submission_date": "13-JAN-2021",
-      "broadcast_date": "06-JAN-2022 21:06:51",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_154210_386619_13012021115141_WEB.xml",
-      "record_id": "154210",
-      "revised": "Revised",
       "format": null
     },
     {

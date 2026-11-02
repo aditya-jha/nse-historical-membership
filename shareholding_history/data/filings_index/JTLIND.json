@@ -1,8 +1,26 @@
 {
   "ticker": "JTLIND",
-  "fetched_at_utc": "2026-05-10T16:46:54.855533+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.476923+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:49:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736597_13102026114921_WEB.xml",
+      "record_id": "213966",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:18:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689808_09072026041823_WEB.xml",
+      "record_id": "210702",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

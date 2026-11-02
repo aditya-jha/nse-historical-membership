@@ -1,8 +1,26 @@
 {
   "ticker": "NILASPACES",
-  "fetched_at_utc": "2026-05-10T16:51:13.792067+00:00",
-  "n_filings": 31,
+  "fetched_at_utc": "2026-11-02T12:14:14.055670+00:00",
+  "n_filings": 33,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:36:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743174_21102026053628_WEB.xml",
+      "record_id": "216158",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:59:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696121_18072026035950_WEB.xml",
+      "record_id": "212007",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

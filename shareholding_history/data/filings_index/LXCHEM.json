@@ -1,8 +1,26 @@
 {
   "ticker": "LXCHEM",
-  "fetched_at_utc": "2026-05-10T16:48:46.979712+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.283567+00:00",
+  "n_filings": 24,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:48:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739892_16102026034830_WEB.xml",
+      "record_id": "214927",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 16:11:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695226_17072026041150_WEB.xml",
+      "record_id": "211731",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

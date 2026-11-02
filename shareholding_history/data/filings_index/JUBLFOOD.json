@@ -1,8 +1,26 @@
 {
   "ticker": "JUBLFOOD",
-  "fetched_at_utc": "2026-05-10T16:46:55.994966+00:00",
-  "n_filings": 66,
+  "fetched_at_utc": "2026-11-02T12:14:14.378416+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 09:46:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738420_15102026094626_WEB.xml",
+      "record_id": "214465",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:04:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696717_20072026030416_WEB.xml",
+      "record_id": "212193",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

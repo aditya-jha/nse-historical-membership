@@ -1,8 +1,26 @@
 {
   "ticker": "SNOWMAN",
-  "fetched_at_utc": "2026-05-10T16:56:58.274458+00:00",
-  "n_filings": 48,
+  "fetched_at_utc": "2026-11-02T12:14:14.326395+00:00",
+  "n_filings": 50,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 17:38:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739132_15102026053843_WEB.xml",
+      "record_id": "214690",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 15:14:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693096_15072026031432_WEB.xml",
+      "record_id": "211249",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

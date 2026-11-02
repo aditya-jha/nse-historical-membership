@@ -1,8 +1,26 @@
 {
   "ticker": "KRONOX",
-  "fetched_at_utc": "2026-05-10T16:48:05.468279+00:00",
-  "n_filings": 9,
+  "fetched_at_utc": "2026-11-02T12:14:14.127135+00:00",
+  "n_filings": 11,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 17:17:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742329_20102026051730_WEB.xml",
+      "record_id": "215818",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 20:12:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690073_09072026081215_WEB.xml",
+      "record_id": "210732",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

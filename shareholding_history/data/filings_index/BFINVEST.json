@@ -1,8 +1,26 @@
 {
   "ticker": "BFINVEST",
-  "fetched_at_utc": "2026-05-10T16:30:39.952809+00:00",
-  "n_filings": 61,
+  "fetched_at_utc": "2026-11-02T12:14:14.483718+00:00",
+  "n_filings": 62,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 10:10:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735771_12102026101007_WEB.xml",
+      "record_id": "213748",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 14:03:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693002_15072026020324_WEB.xml",
+      "record_id": "211223",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",
@@ -370,15 +388,6 @@
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
       "record_id": "108670",
       "revised": "Revised",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2015",
-      "submission_date": null,
-      "broadcast_date": "18-JAN-2016 17:15:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-",
-      "record_id": "105218",
-      "revised": "N",
       "format": null
     },
     {

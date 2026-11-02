@@ -1,8 +1,26 @@
 {
   "ticker": "DEEPAKNTR",
-  "fetched_at_utc": "2026-05-10T16:32:53.339711+00:00",
-  "n_filings": 66,
+  "fetched_at_utc": "2026-11-02T12:14:14.321782+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:12:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739232_15102026061215_WEB.xml",
+      "record_id": "214719",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:05:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697750_21072026110530_WEB.xml",
+      "record_id": "212563",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "HSCL",
-  "fetched_at_utc": "2026-05-10T16:44:48.725387+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.460468+00:00",
+  "n_filings": 83,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 15:13:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736844_13102026031321_WEB.xml",
+      "record_id": "214057",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 15:29:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690977_11072026032909_WEB.xml",
+      "record_id": "210854",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

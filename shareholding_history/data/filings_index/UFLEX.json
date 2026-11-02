@@ -1,8 +1,26 @@
 {
   "ticker": "UFLEX",
-  "fetched_at_utc": "2026-05-10T16:59:32.377543+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.312528+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 11:01:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739499_16102026110112_WEB.xml",
+      "record_id": "214769",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 13:54:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694985_17072026015438_WEB.xml",
+      "record_id": "211655",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

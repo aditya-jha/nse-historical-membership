@@ -1,8 +1,26 @@
 {
   "ticker": "GMRAIRPORT",
-  "fetched_at_utc": "2026-05-10T16:43:17.927423+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.152530+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:19:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741974_19102026071903_WEB.xml",
+      "record_id": "215681",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 22:13:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698964_21072026101330_WEB.xml",
+      "record_id": "212943",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "AVALON",
-  "fetched_at_utc": "2026-05-10T16:26:38.930188+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.121204+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 23:54:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742402_20102026115416_WEB.xml",
+      "record_id": "215853",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 22:04:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697628_20072026100350_WEB.xml",
+      "record_id": "212508",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "MBLINFRA",
-  "fetched_at_utc": "2026-05-10T16:49:34.228756+00:00",
-  "n_filings": 72,
+  "fetched_at_utc": "2026-11-02T12:14:14.204260+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 13:05:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741269_19102026010552_WEB.xml",
+      "record_id": "215402",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 14:58:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696707_20072026025841_WEB.xml",
+      "record_id": "212189",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-MAY-2026",
+      "submission_date": "05-JUN-2026",
+      "broadcast_date": "05-JUN-2026 14:48:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679672_05062026024800_WEB.xml",
+      "record_id": "210378",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "11-APR-2026",
       "submission_date": "21-APR-2026",

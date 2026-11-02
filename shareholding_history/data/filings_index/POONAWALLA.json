@@ -1,8 +1,26 @@
 {
   "ticker": "POONAWALLA",
-  "fetched_at_utc": "2026-05-10T16:52:58.099700+00:00",
-  "n_filings": 90,
+  "fetched_at_utc": "2026-11-02T12:14:14.559863+00:00",
+  "n_filings": 92,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 15:06:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734248_08102026030556_WEB.xml",
+      "record_id": "213468",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 19:01:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690715_10072026070113_WEB.xml",
+      "record_id": "210820",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "13-APR-2026",
       "submission_date": "15-APR-2026",

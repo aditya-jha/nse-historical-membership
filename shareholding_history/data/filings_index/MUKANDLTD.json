@@ -1,8 +1,26 @@
 {
   "ticker": "MUKANDLTD",
-  "fetched_at_utc": "2026-05-10T16:50:25.666282+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.431776+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 10:01:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737346_14102026100145_WEB.xml",
+      "record_id": "214210",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 10:33:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695858_18072026103320_WEB.xml",
+      "record_id": "211917",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

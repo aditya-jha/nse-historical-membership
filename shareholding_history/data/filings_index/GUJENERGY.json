@@ -1,0 +1,34 @@
+{
+  "ticker": "GUJENERGY",
+  "fetched_at_utc": "2026-11-02T12:14:14.297952+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 14:01:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739704_16102026020058_WEB.xml",
+      "record_id": "214848",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 19:23:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698802_21072026072342_WEB.xml",
+      "record_id": "212899",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-MAY-2026",
+      "submission_date": "24-MAY-2026",
+      "broadcast_date": "24-MAY-2026 11:53:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1672170_24052026115326_WEB.xml",
+      "record_id": "210355",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

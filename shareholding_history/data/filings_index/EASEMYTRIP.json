@@ -1,8 +1,35 @@
 {
   "ticker": "EASEMYTRIP",
-  "fetched_at_utc": "2026-05-10T16:33:44.024479+00:00",
-  "n_filings": 24,
+  "fetched_at_utc": "2026-11-02T12:14:14.501248+00:00",
+  "n_filings": 27,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 14:57:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736021_12102026025713_WEB.xml",
+      "record_id": "213821",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 15:28:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693121_15072026032844_WEB.xml",
+      "record_id": "211259",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "26-MAY-2026",
+      "submission_date": "03-JUN-2026",
+      "broadcast_date": "03-JUN-2026 16:52:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679228_03062026045156_WEB.xml",
+      "record_id": "210371",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

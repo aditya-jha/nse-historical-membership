@@ -1,8 +1,26 @@
 {
   "ticker": "SHREEPUSHK",
-  "fetched_at_utc": "2026-05-10T16:56:21.444803+00:00",
-  "n_filings": 46,
+  "fetched_at_utc": "2026-11-02T12:14:14.164194+00:00",
+  "n_filings": 48,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:03:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741821_19102026060332_WEB.xml",
+      "record_id": "215619",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:37:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694275_16072026043727_WEB.xml",
+      "record_id": "211499",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

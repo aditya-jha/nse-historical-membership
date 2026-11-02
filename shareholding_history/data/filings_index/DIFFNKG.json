@@ -1,8 +1,26 @@
 {
   "ticker": "DIFFNKG",
-  "fetched_at_utc": "2026-05-10T16:33:13.955312+00:00",
-  "n_filings": 7,
+  "fetched_at_utc": "2026-11-02T12:14:14.459523+00:00",
+  "n_filings": 9,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 15:19:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736856_13102026031913_WEB.xml",
+      "record_id": "214063",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 12:41:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690229_10072026124121_WEB.xml",
+      "record_id": "210755",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

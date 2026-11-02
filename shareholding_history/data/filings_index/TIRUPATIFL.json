@@ -1,8 +1,44 @@
 {
   "ticker": "TIRUPATIFL",
-  "fetched_at_utc": "2026-05-10T16:59:01.259543+00:00",
-  "n_filings": 42,
+  "fetched_at_utc": "2026-11-02T12:14:14.582482+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 18:29:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733528_06102026062927_WEB.xml",
+      "record_id": "213333",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "07-SEP-2026",
+      "submission_date": "10-SEP-2026",
+      "broadcast_date": "10-SEP-2026 19:44:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1723416_10092026074412_WEB.xml",
+      "record_id": "213145",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "10-JUL-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 12:49:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695965_18072026124948_WEB.xml",
+      "record_id": "211954",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:36:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695625_17072026063633_WEB.xml",
+      "record_id": "211854",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "27-APR-2026",
       "submission_date": "06-MAY-2026",

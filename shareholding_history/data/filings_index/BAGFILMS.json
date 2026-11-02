@@ -1,8 +1,35 @@
 {
   "ticker": "BAGFILMS",
-  "fetched_at_utc": "2026-05-10T16:30:20.765929+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.323063+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:01:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739195_15102026060145_WEB.xml",
+      "record_id": "214710",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:50:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693450_15072026055005_WEB.xml",
+      "record_id": "211330",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "27-JUN-2026",
+      "submission_date": "03-JUL-2026",
+      "broadcast_date": "03-JUL-2026 15:26:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687814_03072026032642_WEB.xml",
+      "record_id": "210486",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

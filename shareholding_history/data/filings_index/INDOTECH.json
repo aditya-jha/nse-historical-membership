@@ -1,8 +1,26 @@
 {
   "ticker": "INDOTECH",
-  "fetched_at_utc": "2026-05-10T16:45:27.543642+00:00",
-  "n_filings": 81,
+  "fetched_at_utc": "2026-11-02T12:14:14.447969+00:00",
+  "n_filings": 83,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:51:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737026_13102026045152_WEB.xml",
+      "record_id": "214121",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 15:42:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691384_13072026034210_WEB.xml",
+      "record_id": "210928",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

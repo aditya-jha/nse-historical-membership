@@ -1,8 +1,26 @@
 {
   "ticker": "PIONEEREMB",
-  "fetched_at_utc": "2026-05-10T16:52:42.701733+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.349957+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 15:17:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738791_15102026031714_WEB.xml",
+      "record_id": "214585",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:28:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697320_20072026062831_WEB.xml",
+      "record_id": "212396",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

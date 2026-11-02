@@ -1,0 +1,25 @@
+{
+  "ticker": "GAJA",
+  "fetched_at_utc": "2026-11-02T12:14:14.491845+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:50:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736209_12102026045033_WEB.xml",
+      "record_id": "213875",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-AUG-2026",
+      "submission_date": "26-AUG-2026",
+      "broadcast_date": "27-AUG-2026 16:24:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1718035_26082026035240_WEB.xml",
+      "record_id": "213082",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

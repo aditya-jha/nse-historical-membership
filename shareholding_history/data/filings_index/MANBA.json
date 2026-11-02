@@ -1,8 +1,26 @@
 {
   "ticker": "MANBA",
-  "fetched_at_utc": "2026-05-10T16:49:09.905680+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.565946+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 12:25:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734138_08102026122535_WEB.xml",
+      "record_id": "213434",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 10:27:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694764_17072026102731_WEB.xml",
+      "record_id": "211593",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

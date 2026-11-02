@@ -1,8 +1,26 @@
 {
   "ticker": "CHEVIOT",
-  "fetched_at_utc": "2026-05-10T16:31:49.883009+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.486788+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 18:20:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736364_12102026061956_WEB.xml",
+      "record_id": "213904",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 18:59:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691755_13072026065908_WEB.xml",
+      "record_id": "210994",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

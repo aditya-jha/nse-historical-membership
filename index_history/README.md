@@ -16,7 +16,7 @@
 
 Reliable coverage: **2018-04 → today** for the first six. Best-effort earlier where PR PDFs are findable. Pre-2018 fills the membership but the cardinality gate flags drift. Microcap 250's NSE press-release coverage only begins **2021-10**, so it is reliable from then; its 2019–2021 stretch is seeded from the current snapshot and over-counts.
 
-The full tracked set is **42 indices** across broad / sector / strategy / thematic families. The 7 above are the broad family; for the complete per-index table — id, family, target size, current member count, and the date range actually present in the data — see the generated [`COVERAGE.md`](../COVERAGE.md) at the repo root (machine source of truth: `data/index_registry.json`).
+The full tracked set is **41 indices** across broad / sector / strategy / thematic families. The 7 above are the broad family; for the complete per-index table — id, family, target size, current member count, and the date range actually present in the data — see the generated [`COVERAGE.md`](../COVERAGE.md) at the repo root (machine source of truth: `data/index_registry.json`).
 
 ## Source
 
@@ -27,9 +27,11 @@ URL pattern discovered via `sitemap.xml`. The page `/Resources/Press-Release` is
 ## Pipeline
 
 ```
+fetch_nse_snapshot.py     # NSE's current published constituent lists → data/current_snapshot/ (the seed)
 fetch_press_releases.py   # union sitemap snapshots + probe-sweep → cache PDFs
 parse_press_release.py    # PDF → {effective_date, index, included[], excluded[]}
                           # falls back to pdftoppm + tesseract OCR for image-only PDFs
+parse_all.py              # run the parser over every cached PDF → data/parsed/*.json
 build_history.py          # walk-backward from current snapshot → intervals
 validate.py               # 5 gates G1–G5 (see below); writes docs/validation_report.md
 pit_cli.py                # `python -m index_history.code.pit_cli member --index 'Nifty 50' --as-of 2022-06-15`
@@ -39,7 +41,7 @@ pit_cli.py                # `python -m index_history.code.pit_cli member --index
 
 `validate.py` runs five gates (G1–G5); latest run is written to `docs/validation_report.md` and summarised in the main [README](../README.md#coverage-and-known-gaps).
 
-- **G1 — snapshot match:** `members(today, idx)` equals NSE's current published CSV for every index. **0/42 mismatches.**
+- **G1 — snapshot match:** `members(today, idx)` equals NSE's current published CSV for every index. **0/41 mismatches.**
 - **G2 — internal consistency:** structural invariants (Nifty 100 ⊆ Nifty 500, sectors ⊆ Nifty 500, Next 50 ⊆ Nifty 100, etc.). Holds today; some pre-2018 dates violate it from walk-back drift.
 - **G3 — famous transitions:** every documented real-world transition reconciles. **29/29 PASS**, e.g.:
    - HDFC absent from Nifty 50 on/after 2023-07-13 (HDFC–HDFCBANK merger)

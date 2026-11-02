@@ -1,8 +1,26 @@
 {
   "ticker": "IRCON",
-  "fetched_at_utc": "2026-05-10T16:45:53.597842+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.570284+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 17:23:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733881_07102026052257_WEB.xml",
+      "record_id": "213408",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 15:25:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689236_08072026032530_WEB.xml",
+      "record_id": "210619",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

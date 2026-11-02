@@ -1,6 +1,25 @@
 {
   "ticker": "EMAPARTNER",
-  "fetched_at_utc": "2026-05-10T16:34:04.251980+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.650755+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:52:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739016_15102026045236_WEB.xml",
+      "record_id": "214657",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "20-MAY-2026",
+      "submission_date": "28-MAY-2026",
+      "broadcast_date": "28-MAY-2026 21:12:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1675416_28052026091227_WEB.xml",
+      "record_id": "210363",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

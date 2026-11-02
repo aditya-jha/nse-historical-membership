@@ -1,6 +1,25 @@
 {
   "ticker": "MAYASHEEL",
-  "fetched_at_utc": "2026-05-10T16:49:30.966986+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.660333+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 10:58:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737383_14102026105856_WEB.xml",
+      "record_id": "214227",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 11:53:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688678_07072026115356_WEB.xml",
+      "record_id": "210544",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

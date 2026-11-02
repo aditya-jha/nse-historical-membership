@@ -1,8 +1,26 @@
 {
   "ticker": "CLSEL",
-  "fetched_at_utc": "2026-05-10T16:31:57.844501+00:00",
-  "n_filings": 21,
+  "fetched_at_utc": "2026-11-02T12:14:14.180235+00:00",
+  "n_filings": 23,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:47:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741619_19102026044747_WEB.xml",
+      "record_id": "215542",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:18:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696063_18072026031825_WEB.xml",
+      "record_id": "211989",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

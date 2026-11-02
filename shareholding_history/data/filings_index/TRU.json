@@ -1,8 +1,26 @@
 {
   "ticker": "TRU",
-  "fetched_at_utc": "2026-05-10T16:59:20.688471+00:00",
-  "n_filings": 13,
+  "fetched_at_utc": "2026-11-02T12:14:14.102558+00:00",
+  "n_filings": 15,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:59:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742632_21102026125904_WEB.xml",
+      "record_id": "215943",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:57:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692227_14072026035708_WEB.xml",
+      "record_id": "211076",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

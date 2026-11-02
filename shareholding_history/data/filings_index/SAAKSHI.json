@@ -1,6 +1,34 @@
 {
   "ticker": "SAAKSHI",
-  "fetched_at_utc": "2026-05-10T16:54:56.588836+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.609988+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:44:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742754_21102026024403_WEB.xml",
+      "record_id": "215988",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "21-AUG-2026",
+      "submission_date": "08-SEP-2026",
+      "broadcast_date": "08-SEP-2026 20:01:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722708_08092026080122_WEB.xml",
+      "record_id": "213138",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 19:16:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695683_17072026071630_WEB.xml",
+      "record_id": "211879",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

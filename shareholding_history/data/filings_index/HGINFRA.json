@@ -1,8 +1,26 @@
 {
   "ticker": "HGINFRA",
-  "fetched_at_utc": "2026-05-10T16:44:26.858734+00:00",
-  "n_filings": 34,
+  "fetched_at_utc": "2026-11-02T12:14:14.205169+00:00",
+  "n_filings": 36,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:51:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741248_19102026125117_WEB.xml",
+      "record_id": "215394",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 16:37:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692313_14072026043710_WEB.xml",
+      "record_id": "211087",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

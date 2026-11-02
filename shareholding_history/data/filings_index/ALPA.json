@@ -1,8 +1,26 @@
 {
   "ticker": "ALPA",
-  "fetched_at_utc": "2026-05-10T16:29:14.164209+00:00",
-  "n_filings": 74,
+  "fetched_at_utc": "2026-11-02T12:14:14.094296+00:00",
+  "n_filings": 76,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:26:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742723_21102026022638_WEB.xml",
+      "record_id": "215981",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 14:46:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693046_15072026024646_WEB.xml",
+      "record_id": "211233",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

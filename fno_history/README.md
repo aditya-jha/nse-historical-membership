@@ -17,11 +17,11 @@ F&O segment membership is governed by **NSE Exchange** (the trading exchange), w
 
 ## Coverage
 
-- 203 candidate F&O circulars discovered 2014→2026-10 (introduction, exclusion, withdrawal, discontinuation subjects); all cached PDFs incl. .zip bundles.
+- 207 candidate F&O circulars discovered 2014→2026-11 (introduction, exclusion, withdrawal, discontinuation subjects); all cached PDFs incl. .zip bundles.
 - 187 PDFs cached (11 of which were inside `.zip` bundles, extracted).
 - Events after de-duplication: introductions, exclusions (incl. 4 discontinuations), 5 withdrawals, 2 withdrawn circulars, 1 manual event.
-- 317 interval rows in `fno_membership_history.csv`, covering 278 distinct symbols (2026-10-09).
-- 134 currently-open intervals (vs. NSE's 210 stock F&O list — gap is symbols added pre-2014 and never excluded; we have no introduction event for them).
+- 317 interval rows in `fno_membership_history.csv`, covering 281 distinct symbols (2026-11-02).
+- 138 currently-open intervals (vs. NSE's 218 stock F&O list; IEX, IREDA, POLYCAB, INOXWIND are still trading until their announced Nov/Dec 2026 exits — gap is symbols added pre-2014 and never excluded; we have no introduction event for them).
 
 **Shipped & freshness:** the headline `fno_membership_history.csv` and the `parsed/*.json` intermediates are committed — read them directly, no rebuild needed. Raw circular PDFs are not redistributed (rebuild via `fetch_circulars.py`). Current data-through date is shown in the repo-root [`COVERAGE.md`](../COVERAGE.md).
 

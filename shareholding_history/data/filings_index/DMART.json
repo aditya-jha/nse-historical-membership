@@ -1,8 +1,26 @@
 {
   "ticker": "DMART",
-  "fetched_at_utc": "2026-05-10T16:33:24.897747+00:00",
-  "n_filings": 39,
+  "fetched_at_utc": "2026-11-02T12:14:14.156732+00:00",
+  "n_filings": 41,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:40:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741908_19102026063955_WEB.xml",
+      "record_id": "215656",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 17:23:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692414_14072026052337_WEB.xml",
+      "record_id": "211099",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

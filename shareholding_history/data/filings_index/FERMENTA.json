@@ -1,6 +1,25 @@
 {
   "ticker": "FERMENTA",
-  "fetched_at_utc": "2026-05-10T17:01:43.681105+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.205674+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:46:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741244_19102026124604_WEB.xml",
+      "record_id": "215391",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "03-AUG-2026",
+      "submission_date": "04-AUG-2026",
+      "broadcast_date": "25-AUG-2026 09:13:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1716016_19082026041553_WEB.xml",
+      "record_id": "213011",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
 }

@@ -1,24 +1,42 @@
 {
   "ticker": "BLUESTARCO",
-  "fetched_at_utc": "2026-05-10T16:27:03.938200+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.219991+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 20:46:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741009_17102026084603_WEB.xml",
+      "record_id": "215310",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "22-JUL-2026",
+      "broadcast_date": "22-JUL-2026 20:04:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1699615_22072026080442_WEB.xml",
+      "record_id": "212964",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",
-      "broadcast_date": "16-APR-2026 12:07:02",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651926_16042026120654_WEB.xml",
+      "broadcast_date": "11-SEP-2026 12:46:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722966_09092026045606_WEB.xml",
       "record_id": "208625",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
       "date": "31-DEC-2025",
       "submission_date": "21-JAN-2026",
-      "broadcast_date": "21-JAN-2026 18:58:08",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607588_21012026065800_WEB.xml",
+      "broadcast_date": "19-OCT-2026 09:52:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1729642_28092026043201_WEB.xml",
       "record_id": "207083",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -189,6 +207,24 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_161679_531075_13102021011624_WEB.xml",
       "record_id": "161679",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "16-APR-2026",
+      "broadcast_date": "16-APR-2026 12:07:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651926_16042026120654_WEB.xml",
+      "record_id": "208625",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "21-JAN-2026",
+      "broadcast_date": "21-JAN-2026 18:58:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1607588_21012026065800_WEB.xml",
+      "record_id": "207083",
       "revised": "N",
       "format": null
     },

@@ -1,8 +1,26 @@
 {
   "ticker": "AMDIND",
-  "fetched_at_utc": "2026-05-10T16:29:21.675654+00:00",
-  "n_filings": 77,
+  "fetched_at_utc": "2026-11-02T12:14:14.585941+00:00",
+  "n_filings": 79,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 15:59:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733418_06102026035922_WEB.xml",
+      "record_id": "213316",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 11:53:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689558_09072026115334_WEB.xml",
+      "record_id": "210656",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

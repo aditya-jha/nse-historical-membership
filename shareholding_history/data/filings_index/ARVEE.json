@@ -1,8 +1,26 @@
 {
   "ticker": "ARVEE",
-  "fetched_at_utc": "2026-05-10T16:29:49.393602+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.466112+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:06:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736770_13102026020621_WEB.xml",
+      "record_id": "214027",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 12:21:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693859_16072026122104_WEB.xml",
+      "record_id": "211412",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

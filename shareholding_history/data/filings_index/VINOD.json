@@ -1,0 +1,25 @@
+{
+  "ticker": "VINOD",
+  "fetched_at_utc": "2026-11-02T12:14:14.621927+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 17:15:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741699_19102026051511_WEB.xml",
+      "record_id": "215575",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "16-SEP-2026",
+      "submission_date": "18-SEP-2026",
+      "broadcast_date": "28-SEP-2026 11:23:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1728419_25092026052847_WEB.xml",
+      "record_id": "213192",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

@@ -1,8 +1,26 @@
 {
   "ticker": "NIPPOBATRY",
-  "fetched_at_utc": "2026-05-10T16:51:16.400054+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.339365+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:26:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738953_15102026042629_WEB.xml",
+      "record_id": "214634",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 15:30:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689722_09072026033040_WEB.xml",
+      "record_id": "210685",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

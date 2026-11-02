@@ -1,8 +1,26 @@
 {
   "ticker": "SAKHTISUG",
-  "fetched_at_utc": "2026-05-10T16:55:08.222727+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.367797+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:14:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738539_15102026121358_WEB.xml",
+      "record_id": "214509",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 12:34:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691974_14072026123431_WEB.xml",
+      "record_id": "211024",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

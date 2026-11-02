@@ -18,8 +18,8 @@ The NSE master endpoint exposes the **full disclosure history** — typically
 
 | | scope |
 |--|--|
-| Universe | Full NSE-listed universe (`data/_universe.csv`, ~2,910 symbols, self-contained) |
-| Committed | **2,261 symbols** parsed, periods **2001-03 → 2026-04** (108 quarters) |
+| Universe | Full NSE-listed universe (`data/_universe.csv`, ~3,217 symbols, self-contained) |
+| Committed | **3,021 symbols** parsed, periods **2001-03 → 2026-10**. 720 of them have only 2026-06+ filings so far: their older XBRL was never downloaded (`download_xbrl` without `--new-only` backfills it) |
 | Depth | All available filings per symbol (typically Dec-2005 → today) |
 | Format | XBRL V1.1 (post 2025-10-31) + older taxonomies |
 
@@ -45,7 +45,7 @@ cookies. Reuses `fno_history.code.fetch_circulars.make_session()`.
 fetch_filings.py    # API → data/filings_index/<TICKER>.json (per-ticker XBRL URL list)
 download_xbrl.py    # bulk fetch → data/xbrl/SHP_*.xml        (resumable)
 parse_xbrl.py       # XBRL → data/parsed/_flat.csv            (ticker, period, %)
-build_signals.py    # _qoq_delta.csv + _signals.csv           (deep history)
+build_signals.py    # _wide.csv + _qoq_delta.csv + _signals.csv           (deep history)
 validate.py         # OPTIONAL cross-check vs a --reference export you supply
 ```
 
@@ -56,11 +56,32 @@ validate.py         # OPTIONAL cross-check vs a --reference export you supply
 > re-fetch if you need to re-parse from raw XBRL: rerun `fetch_filings.py`
 > then `download_xbrl.py` (resumable) to repopulate `data/xbrl/`.
 
+### Quarterly refresh (incremental — no 16 GB re-download)
+
+```
+python -m shareholding_history.code.fetch_filings --since 01-05-2026   # 2 calls: every filing submitted since then
+python -m shareholding_history.code.download_xbrl --new-only      # only filings not yet in _flat.csv
+python -m shareholding_history.code.parse_xbrl --append           # adds them to _flat.csv
+python -m shareholding_history.code.build_signals
+```
+
+Do **not** run `parse_xbrl` without `--append` unless `data/xbrl/` holds the full
+corpus — it rebuilds `_flat.csv` from whatever XBRL is on disk. NSE's master
+endpoint now returns only ~23 recent filings per symbol (2026-11), so
+`fetch_filings` merges each fresh list into the committed one. `--since` asks the
+same endpoint for a submission-date window (main board + SME, one call each)
+instead of one call per symbol, and also picks up symbols listed after
+`_universe.csv` was built. Use `--all` only to rebuild a symbol's full history.
+
 ## Schema (output)
 
 ```
 data/parsed/_flat.csv
   ticker, period, promoter_pct, fii_pct, dii_pct, public_pct, pledge_pct
+
+data/parsed/_wide.csv
+  ticker, period, promoter_pct, fii_pct, dii_pct, public_pct, noninst_pct,
+  total_shares, taxonomy
 
 data/parsed/_qoq_delta.csv
   ticker, period, prev_period, d_promoter, d_fii, d_dii, d_public, d_pledge

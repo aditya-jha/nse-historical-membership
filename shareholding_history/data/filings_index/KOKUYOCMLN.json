@@ -1,8 +1,26 @@
 {
   "ticker": "KOKUYOCMLN",
-  "fetched_at_utc": "2026-05-10T16:47:48.150123+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.103355+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:56:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742620_21102026125601_WEB.xml",
+      "record_id": "215940",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:58:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694332_16072026045805_WEB.xml",
+      "record_id": "211513",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

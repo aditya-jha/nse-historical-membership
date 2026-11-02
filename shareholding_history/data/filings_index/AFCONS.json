@@ -1,8 +1,26 @@
 {
   "ticker": "AFCONS",
-  "fetched_at_utc": "2026-05-10T16:26:04.565864+00:00",
-  "n_filings": 7,
+  "fetched_at_utc": "2026-11-02T12:14:14.095929+00:00",
+  "n_filings": 9,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:13:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742713_21102026021326_WEB.xml",
+      "record_id": "215974",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 14:27:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698053_21072026022729_WEB.xml",
+      "record_id": "212670",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

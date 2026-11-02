@@ -1,0 +1,25 @@
+{
+  "ticker": "SIMBHALS",
+  "fetched_at_utc": "2026-11-02T12:14:14.110438+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 11:43:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742501_21102026114347_WEB.xml",
+      "record_id": "215905",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 15:36:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698183_21072026033657_WEB.xml",
+      "record_id": "212712",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

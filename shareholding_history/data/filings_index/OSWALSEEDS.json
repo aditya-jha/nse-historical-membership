@@ -1,8 +1,26 @@
 {
   "ticker": "OSWALSEEDS",
-  "fetched_at_utc": "2026-05-10T16:52:03.020359+00:00",
-  "n_filings": 24,
+  "fetched_at_utc": "2026-11-02T12:14:14.535695+00:00",
+  "n_filings": 26,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 16:07:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734913_09102026040723_WEB.xml",
+      "record_id": "213599",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:07:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693336_15072026050742_WEB.xml",
+      "record_id": "211305",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

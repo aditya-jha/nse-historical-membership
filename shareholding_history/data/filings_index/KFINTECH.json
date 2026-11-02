@@ -1,8 +1,26 @@
 {
   "ticker": "KFINTECH",
-  "fetched_at_utc": "2026-05-10T16:47:29.447986+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.032936+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:59:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743521_21102026075922_WEB.xml",
+      "record_id": "216254",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:58:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698390_21072026045844_WEB.xml",
+      "record_id": "212785",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

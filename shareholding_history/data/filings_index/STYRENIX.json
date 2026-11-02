@@ -1,8 +1,26 @@
 {
   "ticker": "STYRENIX",
-  "fetched_at_utc": "2026-05-10T16:57:39.359460+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.022439+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "22-OCT-2026",
+      "broadcast_date": "22-OCT-2026 09:42:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743659_22102026094252_WEB.xml",
+      "record_id": "216299",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:45:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696544_20072026124548_WEB.xml",
+      "record_id": "212134",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

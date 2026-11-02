@@ -1,8 +1,26 @@
 {
   "ticker": "SURANAT&P",
-  "fetched_at_utc": "2026-05-10T16:58:00.628842+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.075522+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:24:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742987_21102026042431_WEB.xml",
+      "record_id": "216073",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:26:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694395_16072026052623_WEB.xml",
+      "record_id": "211524",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

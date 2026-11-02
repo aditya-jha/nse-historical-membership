@@ -1,0 +1,25 @@
+{
+  "ticker": "CANDC",
+  "fetched_at_utc": "2026-11-02T12:14:14.108319+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:24:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742556_21102026122447_WEB.xml",
+      "record_id": "215919",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 10:24:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697707_21072026102446_WEB.xml",
+      "record_id": "212542",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

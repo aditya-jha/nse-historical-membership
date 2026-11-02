@@ -1,8 +1,26 @@
 {
   "ticker": "PUNJABCHEM",
-  "fetched_at_utc": "2026-05-10T16:53:34.062573+00:00",
-  "n_filings": 77,
+  "fetched_at_utc": "2026-11-02T12:14:14.358291+00:00",
+  "n_filings": 79,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 13:33:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738659_15102026013259_WEB.xml",
+      "record_id": "214551",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 09:44:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691112_13072026094440_WEB.xml",
+      "record_id": "210877",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

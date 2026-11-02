@@ -1,8 +1,26 @@
 {
   "ticker": "RADHIKAJWE",
-  "fetched_at_utc": "2026-05-10T16:53:47.090199+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.051743+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:59:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743215_21102026055905_WEB.xml",
+      "record_id": "216177",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "22-JUL-2026",
+      "broadcast_date": "22-JUL-2026 12:33:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1699088_22072026123343_WEB.xml",
+      "record_id": "212955",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

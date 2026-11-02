@@ -1,8 +1,26 @@
 {
   "ticker": "ASAHISONG",
-  "fetched_at_utc": "2026-05-10T16:29:50.839908+00:00",
-  "n_filings": 62,
+  "fetched_at_utc": "2026-11-02T12:14:14.287880+00:00",
+  "n_filings": 64,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:26:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739852_16102026032646_WEB.xml",
+      "record_id": "214905",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:19:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695419_17072026051937_WEB.xml",
+      "record_id": "211795",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

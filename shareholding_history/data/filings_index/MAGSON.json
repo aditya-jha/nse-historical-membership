@@ -1,6 +1,61 @@
 {
   "ticker": "MAGSON",
-  "fetched_at_utc": "2026-05-10T16:48:55.700794+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.604707+00:00",
+  "n_filings": 6,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:43:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743186_21102026054342_WEB.xml",
+      "record_id": "216162",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "03-SEP-2026",
+      "submission_date": "22-SEP-2026",
+      "broadcast_date": "22-SEP-2026 17:30:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726470_22092026053043_WEB.xml",
+      "record_id": "213207",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "25-AUG-2026",
+      "submission_date": "12-SEP-2026",
+      "broadcast_date": "12-SEP-2026 17:25:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1723943_12092026052457_WEB.xml",
+      "record_id": "213154",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "04-AUG-2026",
+      "submission_date": "21-AUG-2026",
+      "broadcast_date": "21-AUG-2026 12:50:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1716706_21082026125021_WEB.xml",
+      "record_id": "213069",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "28-JUL-2026",
+      "submission_date": "12-AUG-2026",
+      "broadcast_date": "12-AUG-2026 14:08:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1712376_12082026020800_WEB.xml",
+      "record_id": "213037",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "15-JUL-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "22-JUL-2026 10:48:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696619_20072026014807_WEB.xml",
+      "record_id": "212020",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

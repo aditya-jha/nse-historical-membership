@@ -1,8 +1,26 @@
 {
   "ticker": "SVLL",
-  "fetched_at_utc": "2026-05-10T16:58:06.028680+00:00",
-  "n_filings": 23,
+  "fetched_at_utc": "2026-11-02T12:14:14.407983+00:00",
+  "n_filings": 25,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:32:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737685_14102026033156_WEB.xml",
+      "record_id": "214318",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:57:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698388_21072026045748_WEB.xml",
+      "record_id": "212784",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

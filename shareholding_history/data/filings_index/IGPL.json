@@ -1,8 +1,26 @@
 {
   "ticker": "IGPL",
-  "fetched_at_utc": "2026-05-10T16:45:07.746717+00:00",
-  "n_filings": 77,
+  "fetched_at_utc": "2026-11-02T12:14:14.287356+00:00",
+  "n_filings": 79,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:30:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739857_16102026033006_WEB.xml",
+      "record_id": "214907",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:32:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696773_20072026033244_WEB.xml",
+      "record_id": "212218",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

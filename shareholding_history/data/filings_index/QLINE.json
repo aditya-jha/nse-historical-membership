@@ -1,0 +1,25 @@
+{
+  "ticker": "QLINE",
+  "fetched_at_utc": "2026-11-02T12:14:14.617102+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 11:55:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742195_20102026115555_WEB.xml",
+      "record_id": "215750",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "28-MAY-2026",
+      "submission_date": "01-JUN-2026",
+      "broadcast_date": "17-JUN-2026 12:04:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682200_17062026115328_WEB.xml",
+      "record_id": "210367",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

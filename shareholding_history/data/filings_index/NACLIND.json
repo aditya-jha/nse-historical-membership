@@ -1,8 +1,26 @@
 {
   "ticker": "NACLIND",
-  "fetched_at_utc": "2026-05-10T16:50:32.947358+00:00",
-  "n_filings": 43,
+  "fetched_at_utc": "2026-11-02T12:14:14.054586+00:00",
+  "n_filings": 45,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:43:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743187_21102026054350_WEB.xml",
+      "record_id": "216163",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 08:41:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697693_21072026084119_WEB.xml",
+      "record_id": "212533",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

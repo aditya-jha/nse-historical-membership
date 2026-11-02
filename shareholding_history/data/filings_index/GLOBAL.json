@@ -1,8 +1,26 @@
 {
   "ticker": "GLOBAL",
-  "fetched_at_utc": "2026-05-10T16:43:11.191080+00:00",
-  "n_filings": 34,
+  "fetched_at_utc": "2026-11-02T12:14:14.258874+00:00",
+  "n_filings": 36,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:01:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740250_16102026060119_WEB.xml",
+      "record_id": "215065",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 12:13:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688350_06072026121339_WEB.xml",
+      "record_id": "210515",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "04-APR-2026",

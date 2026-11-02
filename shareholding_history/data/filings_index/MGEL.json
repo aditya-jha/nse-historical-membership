@@ -1,8 +1,26 @@
 {
   "ticker": "MGEL",
-  "fetched_at_utc": "2026-05-10T16:49:50.635140+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.526676+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 18:19:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735133_09102026061950_WEB.xml",
+      "record_id": "213660",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 17:20:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696208_18072026051957_WEB.xml",
+      "record_id": "212032",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

@@ -1,6 +1,25 @@
 {
   "ticker": "ENSER",
-  "fetched_at_utc": "2026-05-10T16:34:14.381405+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.654825+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:06:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738528_15102026120642_WEB.xml",
+      "record_id": "214506",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 12:09:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692871_15072026120909_WEB.xml",
+      "record_id": "211197",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

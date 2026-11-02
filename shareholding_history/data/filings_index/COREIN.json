@@ -1,0 +1,25 @@
+{
+  "ticker": "COREIN",
+  "fetched_at_utc": "2026-11-02T12:14:14.609303+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:57:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742784_21102026025736_WEB.xml",
+      "record_id": "216002",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "29-SEP-2026",
+      "submission_date": "30-SEP-2026",
+      "broadcast_date": "05-OCT-2026 19:27:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733148_05102026065922_WEB.xml",
+      "record_id": "213233",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

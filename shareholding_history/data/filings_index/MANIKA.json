@@ -1,0 +1,25 @@
+{
+  "ticker": "MANIKA",
+  "fetched_at_utc": "2026-11-02T12:14:14.477816+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:35:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736583_13102026113547_WEB.xml",
+      "record_id": "213960",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-SEP-2026",
+      "submission_date": "21-SEP-2026",
+      "broadcast_date": "25-SEP-2026 12:13:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725903_21092026025023_WEB.xml",
+      "record_id": "213199",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

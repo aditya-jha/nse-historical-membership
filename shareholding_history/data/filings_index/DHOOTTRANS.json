@@ -1,0 +1,25 @@
+{
+  "ticker": "DHOOTTRANS",
+  "fetched_at_utc": "2026-11-02T12:14:14.230144+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:13:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740804_17102026041328_WEB.xml",
+      "record_id": "215244",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "14-AUG-2026",
+      "submission_date": "18-AUG-2026",
+      "broadcast_date": "19-AUG-2026 16:42:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1715828_18082026062824_WEB.xml",
+      "record_id": "213056",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

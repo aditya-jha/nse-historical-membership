@@ -1,8 +1,26 @@
 {
   "ticker": "MAHESHWARI",
-  "fetched_at_utc": "2026-05-10T16:48:58.456057+00:00",
-  "n_filings": 35,
+  "fetched_at_utc": "2026-11-02T12:14:14.200157+00:00",
+  "n_filings": 37,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 14:00:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741320_19102026015955_WEB.xml",
+      "record_id": "215425",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:40:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693282_15072026043954_WEB.xml",
+      "record_id": "211294",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

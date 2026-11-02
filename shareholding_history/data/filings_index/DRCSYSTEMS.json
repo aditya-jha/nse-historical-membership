@@ -1,8 +1,26 @@
 {
   "ticker": "DRCSYSTEMS",
-  "fetched_at_utc": "2026-05-10T16:33:32.336137+00:00",
-  "n_filings": 26,
+  "fetched_at_utc": "2026-11-02T12:14:14.515252+00:00",
+  "n_filings": 28,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 17:29:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735466_10102026052916_WEB.xml",
+      "record_id": "213730",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:38:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693425_15072026053800_WEB.xml",
+      "record_id": "211325",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

@@ -1,6 +1,16 @@
 {
   "ticker": "C2C",
-  "fetched_at_utc": "2026-05-10T16:31:13.015646+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.607904+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:51:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742908_21102026035058_WEB.xml",
+      "record_id": "216047",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

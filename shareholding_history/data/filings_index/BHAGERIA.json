@@ -1,8 +1,26 @@
 {
   "ticker": "BHAGERIA",
-  "fetched_at_utc": "2026-05-10T16:30:42.455313+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.353900+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 14:39:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738736_15102026023903_WEB.xml",
+      "record_id": "214568",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:17:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695409_17072026051722_WEB.xml",
+      "record_id": "211791",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

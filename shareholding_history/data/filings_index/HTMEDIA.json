@@ -1,8 +1,26 @@
 {
   "ticker": "HTMEDIA",
-  "fetched_at_utc": "2026-05-10T16:44:49.241017+00:00",
-  "n_filings": 83,
+  "fetched_at_utc": "2026-11-02T12:14:14.305214+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 12:22:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739589_16102026122226_WEB.xml",
+      "record_id": "214808",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "07-AUG-2026 16:05:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1707547_04082026041155_WEB.xml",
+      "record_id": "212155",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

@@ -149,6 +149,7 @@
         "ZFCVINDIA"
       ],
       "included": [
+        "360ONE",
         "ATGL",
         "APARINDS",
         "BHEL",
@@ -171,6 +172,7 @@
       "index_name": "Nifty Smallcap 250",
       "index_id": 227,
       "excluded": [
+        "360ONE",
         "APARINDS",
         "ACI",
         "AVANTIFEED",
@@ -274,6 +276,7 @@
       "index_name": "Nifty Smallcap 50",
       "index_id": 2010,
       "excluded": [
+        "360ONE",
         "APARINDS",
         "ATUL",
         "BLUESTARCO",
@@ -647,13 +650,22 @@
       "included": [
         "INDIGO"
       ]
+    },
+    {
+      "index_name": "Nifty50 Value 20",
+      "index_id": 2005,
+      "excluded": [
+        "BPCL",
+        "BRITANNIA"
+      ],
+      "included": [
+        "CIPLA",
+        "MARUTI"
+      ]
     }
   ],
   "notes": [
     "Nifty Next 50: |excluded|=8 != |included|=7 (may be legitimate for off-cycle events but flag for review)",
-    "Nifty Midcap 150: |excluded|=17 != |included|=16 (may be legitimate for off-cycle events but flag for review)",
-    "Nifty Smallcap 250: |excluded|=32 != |included|=33 (may be legitimate for off-cycle events but flag for review)",
-    "Nifty Smallcap 50: |excluded|=16 != |included|=17 (may be legitimate for off-cycle events but flag for review)",
     "Nifty India Defence: |excluded|=1 != |included|=3 (may be legitimate for off-cycle events but flag for review)",
     "Nifty India Manufacturing: |excluded|=6 != |included|=5 (may be legitimate for off-cycle events but flag for review)"
   ]

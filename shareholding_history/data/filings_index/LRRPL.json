@@ -1,6 +1,34 @@
 {
   "ticker": "LRRPL",
-  "fetched_at_utc": "2026-05-10T16:48:39.987185+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.614311+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 18:34:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742354_20102026063422_WEB.xml",
+      "record_id": "215832",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "07-JUL-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 02:04:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693737_16072026020439_WEB.xml",
+      "record_id": "211368",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "10-JUL-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 02:05:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693738_16072026020547_WEB.xml",
+      "record_id": "211369",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

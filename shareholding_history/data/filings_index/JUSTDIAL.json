@@ -1,8 +1,26 @@
 {
   "ticker": "JUSTDIAL",
-  "fetched_at_utc": "2026-05-10T16:46:58.457258+00:00",
-  "n_filings": 56,
+  "fetched_at_utc": "2026-11-02T12:14:14.250397+00:00",
+  "n_filings": 58,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:16:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740395_16102026071645_WEB.xml",
+      "record_id": "215110",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:25:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697310_20072026062546_WEB.xml",
+      "record_id": "212394",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

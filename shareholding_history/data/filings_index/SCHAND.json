@@ -1,8 +1,26 @@
 {
   "ticker": "SCHAND",
-  "fetched_at_utc": "2026-05-10T16:55:38.126174+00:00",
-  "n_filings": 37,
+  "fetched_at_utc": "2026-11-02T12:14:14.241358+00:00",
+  "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 12:32:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740604_17102026123235_WEB.xml",
+      "record_id": "215171",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:49:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695649_17072026064931_WEB.xml",
+      "record_id": "211862",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

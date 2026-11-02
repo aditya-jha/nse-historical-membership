@@ -1,6 +1,16 @@
 {
   "ticker": "AKIKO",
-  "fetched_at_utc": "2026-05-10T16:29:05.899124+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.664376+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:30:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736984_13102026043055_WEB.xml",
+      "record_id": "214103",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

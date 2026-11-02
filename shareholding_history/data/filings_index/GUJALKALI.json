@@ -1,8 +1,26 @@
 {
   "ticker": "GUJALKALI",
-  "fetched_at_utc": "2026-05-10T16:43:56.979831+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.560802+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 14:31:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734223_08102026023115_WEB.xml",
+      "record_id": "213461",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 15:52:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690400_10072026035237_WEB.xml",
+      "record_id": "210774",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

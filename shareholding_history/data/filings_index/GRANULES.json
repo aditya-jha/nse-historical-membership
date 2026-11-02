@@ -1,8 +1,35 @@
 {
   "ticker": "GRANULES",
-  "fetched_at_utc": "2026-05-10T16:43:36.293968+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.534685+00:00",
+  "n_filings": 91,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 16:19:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734932_09102026041953_WEB.xml",
+      "record_id": "213604",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "16-SEP-2026",
+      "submission_date": "23-SEP-2026",
+      "broadcast_date": "23-SEP-2026 14:24:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726791_23092026022448_WEB.xml",
+      "record_id": "213210",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "03-JUL-2026",
+      "broadcast_date": "03-JUL-2026 16:23:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687827_03072026042257_WEB.xml",
+      "record_id": "210488",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",

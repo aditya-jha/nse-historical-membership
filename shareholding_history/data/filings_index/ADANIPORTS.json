@@ -1,8 +1,26 @@
 {
   "ticker": "ADANIPORTS",
-  "fetched_at_utc": "2026-05-10T16:26:01.730322+00:00",
-  "n_filings": 78,
+  "fetched_at_utc": "2026-11-02T12:14:14.517687+00:00",
+  "n_filings": 80,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 15:51:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735409_10102026035052_WEB.xml",
+      "record_id": "213718",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "10-JUL-2026",
+      "broadcast_date": "10-JUL-2026 20:40:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690812_10072026084030_WEB.xml",
+      "record_id": "210827",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

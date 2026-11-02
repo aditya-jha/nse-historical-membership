@@ -1,6 +1,25 @@
 {
   "ticker": "UHTL",
-  "fetched_at_utc": "2026-05-10T16:59:34.274115+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.599309+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "12-OCT-2026",
+      "submission_date": "22-OCT-2026",
+      "broadcast_date": "22-OCT-2026 18:55:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1744188_22102026065515_WEB.xml",
+      "record_id": "216313",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:03:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742525_21102026120351_WEB.xml",
+      "record_id": "215911",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

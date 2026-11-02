@@ -1,6 +1,34 @@
 {
   "ticker": "IPSL",
-  "fetched_at_utc": "2026-05-10T16:45:52.466683+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.685791+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 16:41:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733847_07102026044113_WEB.xml",
+      "record_id": "213400",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:17:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698442_21072026051711_WEB.xml",
+      "record_id": "212799",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "05-MAY-2026",
+      "submission_date": "08-MAY-2026",
+      "broadcast_date": "08-MAY-2026 16:21:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1664896_08052026042115_WEB.xml",
+      "record_id": "210322",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

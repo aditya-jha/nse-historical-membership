@@ -1,6 +1,25 @@
 {
   "ticker": "MPTODAY",
-  "fetched_at_utc": "2026-05-10T16:50:19.609159+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.623083+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:39:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741594_19102026043905_WEB.xml",
+      "record_id": "215534",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 17:24:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696214_18072026052418_WEB.xml",
+      "record_id": "212035",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

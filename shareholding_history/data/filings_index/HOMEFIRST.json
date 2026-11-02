@@ -1,8 +1,26 @@
 {
   "ticker": "HOMEFIRST",
-  "fetched_at_utc": "2026-05-10T16:44:43.809268+00:00",
-  "n_filings": 23,
+  "fetched_at_utc": "2026-11-02T12:14:14.181768+00:00",
+  "n_filings": 25,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:39:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741595_19102026043910_WEB.xml",
+      "record_id": "215535",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "19-JUL-2026",
+      "broadcast_date": "19-JUL-2026 21:01:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696367_19072026090147_WEB.xml",
+      "record_id": "212076",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "KANPRPLA",
-  "fetched_at_utc": "2026-05-10T16:47:11.242172+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.443574+00:00",
+  "n_filings": 32,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:13:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737082_13102026051319_WEB.xml",
+      "record_id": "214147",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-AUG-2026",
+      "submission_date": "22-AUG-2026",
+      "broadcast_date": "22-AUG-2026 15:27:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1717099_22082026032740_WEB.xml",
+      "record_id": "213076",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 17:07:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689882_09072026050754_WEB.xml",
+      "record_id": "210715",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

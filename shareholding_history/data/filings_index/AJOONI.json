@@ -1,8 +1,35 @@
 {
   "ticker": "AJOONI",
-  "fetched_at_utc": "2026-05-10T16:29:02.349585+00:00",
-  "n_filings": 36,
+  "fetched_at_utc": "2026-11-02T12:14:14.209655+00:00",
+  "n_filings": 39,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:05:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741193_19102026120541_WEB.xml",
+      "record_id": "215371",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "12-AUG-2026",
+      "submission_date": "22-AUG-2026",
+      "broadcast_date": "22-AUG-2026 12:56:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1717063_22082026125554_WEB.xml",
+      "record_id": "213075",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:43:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692835_15072026114256_WEB.xml",
+      "record_id": "211182",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

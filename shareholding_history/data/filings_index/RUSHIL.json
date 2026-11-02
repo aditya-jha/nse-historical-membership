@@ -1,8 +1,26 @@
 {
   "ticker": "RUSHIL",
-  "fetched_at_utc": "2026-05-10T16:54:53.677195+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.581251+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 10:22:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733628_07102026102234_WEB.xml",
+      "record_id": "213340",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 12:53:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688704_07072026125255_WEB.xml",
+      "record_id": "210548",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

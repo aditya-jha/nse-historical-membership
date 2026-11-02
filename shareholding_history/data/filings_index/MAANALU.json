@@ -1,8 +1,26 @@
 {
   "ticker": "MAANALU",
-  "fetched_at_utc": "2026-05-10T16:48:49.518565+00:00",
-  "n_filings": 77,
+  "fetched_at_utc": "2026-11-02T12:14:14.380700+00:00",
+  "n_filings": 79,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 22:31:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738195_14102026103138_WEB.xml",
+      "record_id": "214454",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 19:24:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697466_20072026072449_WEB.xml",
+      "record_id": "212446",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "NESCO",
-  "fetched_at_utc": "2026-05-10T16:51:00.197253+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.293565+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 14:47:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739771_16102026024654_WEB.xml",
+      "record_id": "214875",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 19:24:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694617_16072026072356_WEB.xml",
+      "record_id": "211569",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

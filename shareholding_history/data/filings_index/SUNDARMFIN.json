@@ -1,8 +1,26 @@
 {
   "ticker": "SUNDARMFIN",
-  "fetched_at_utc": "2026-05-10T16:57:47.085629+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.320172+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:24:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739250_15102026062428_WEB.xml",
+      "record_id": "214727",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 19:37:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695722_17072026073731_WEB.xml",
+      "record_id": "211891",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

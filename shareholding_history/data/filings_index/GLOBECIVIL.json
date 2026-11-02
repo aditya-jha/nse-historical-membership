@@ -1,8 +1,26 @@
 {
   "ticker": "GLOBECIVIL",
-  "fetched_at_utc": "2026-05-10T16:43:13.763729+00:00",
-  "n_filings": 5,
+  "fetched_at_utc": "2026-11-02T12:14:14.498732+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 15:39:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736073_12102026033907_WEB.xml",
+      "record_id": "213836",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "03-JUL-2026",
+      "broadcast_date": "03-JUL-2026 12:38:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687770_03072026123815_WEB.xml",
+      "record_id": "210480",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

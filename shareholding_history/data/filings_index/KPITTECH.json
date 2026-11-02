@@ -1,8 +1,26 @@
 {
   "ticker": "KPITTECH",
-  "fetched_at_utc": "2026-05-10T16:47:57.376424+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.322131+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:07:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739221_15102026060712_WEB.xml",
+      "record_id": "214717",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "21-SEP-2026 16:33:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724959_17092026033128_WEB.xml",
+      "record_id": "211892",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

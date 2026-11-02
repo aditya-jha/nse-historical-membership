@@ -1,8 +1,26 @@
 {
   "ticker": "DCI",
-  "fetched_at_utc": "2026-05-10T16:32:44.375606+00:00",
-  "n_filings": 28,
+  "fetched_at_utc": "2026-11-02T12:14:14.237172+00:00",
+  "n_filings": 30,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 13:36:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740667_17102026013638_WEB.xml",
+      "record_id": "215197",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:59:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697813_21072026115915_WEB.xml",
+      "record_id": "212589",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

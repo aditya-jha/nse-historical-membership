@@ -1,6 +1,34 @@
 {
   "ticker": "VMARCIND",
-  "fetched_at_utc": "2026-05-10T17:00:35.189729+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.668938+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:00:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736543_13102026110038_WEB.xml",
+      "record_id": "213949",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "08-JUL-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:20:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689813_09072026042053_WEB.xml",
+      "record_id": "210703",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:17:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689803_09072026041719_WEB.xml",
+      "record_id": "210700",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

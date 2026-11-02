@@ -1,8 +1,26 @@
 {
   "ticker": "UNICHEMLAB",
-  "fetched_at_utc": "2026-05-10T16:59:38.075415+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.442758+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 17:21:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737099_13102026052140_WEB.xml",
+      "record_id": "214151",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 17:02:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692369_14072026050227_WEB.xml",
+      "record_id": "211095",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

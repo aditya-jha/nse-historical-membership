@@ -1,6 +1,25 @@
 {
   "ticker": "SMARTEN",
-  "fetched_at_utc": "2026-05-10T16:56:53.060402+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.678767+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 13:08:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735337_10102026010840_WEB.xml",
+      "record_id": "213696",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:12:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692806_15072026111227_WEB.xml",
+      "record_id": "211169",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

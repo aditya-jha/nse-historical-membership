@@ -1,8 +1,35 @@
 {
   "ticker": "BETA",
-  "fetched_at_utc": "2026-05-10T16:26:58.276814+00:00",
-  "n_filings": 34,
+  "fetched_at_utc": "2026-11-02T12:14:14.403405+00:00",
+  "n_filings": 37,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 16:11:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737759_14102026041148_WEB.xml",
+      "record_id": "214339",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 11:00:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694796_17072026105957_WEB.xml",
+      "record_id": "211606",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-MAY-2026",
+      "submission_date": "11-JUN-2026",
+      "broadcast_date": "11-JUN-2026 17:52:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680972_11062026055201_WEB.xml",
+      "record_id": "210390",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",

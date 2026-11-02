@@ -1,8 +1,26 @@
 {
   "ticker": "FILATFASH",
-  "fetched_at_utc": "2026-05-10T16:42:21.811908+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.594860+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "03-SEP-2026",
+      "broadcast_date": "03-SEP-2026 19:05:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720988_03092026070526_WEB.xml",
+      "record_id": "213122",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "21-MAY-2026",
+      "submission_date": "28-MAY-2026",
+      "broadcast_date": "28-MAY-2026 18:09:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1675100_28052026060919_WEB.xml",
+      "record_id": "210362",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

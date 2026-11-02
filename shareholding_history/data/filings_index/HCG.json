@@ -1,8 +1,26 @@
 {
   "ticker": "HCG",
-  "fetched_at_utc": "2026-05-10T16:44:14.142956+00:00",
-  "n_filings": 45,
+  "fetched_at_utc": "2026-11-02T12:14:14.361579+00:00",
+  "n_filings": 47,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:54:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738611_15102026125414_WEB.xml",
+      "record_id": "214536",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 18:24:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692539_14072026062355_WEB.xml",
+      "record_id": "211118",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

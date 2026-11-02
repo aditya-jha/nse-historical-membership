@@ -1,8 +1,35 @@
 {
   "ticker": "MOTISONS",
-  "fetched_at_utc": "2026-05-10T16:50:16.532583+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.061990+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:13:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743135_21102026051256_WEB.xml",
+      "record_id": "216129",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 11:24:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695891_18072026112406_WEB.xml",
+      "record_id": "211928",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "11-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 13:32:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689618_09072026013246_WEB.xml",
+      "record_id": "210671",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

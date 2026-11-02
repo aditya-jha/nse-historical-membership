@@ -1,8 +1,26 @@
 {
   "ticker": "BANSALWIRE",
-  "fetched_at_utc": "2026-05-10T16:30:30.465812+00:00",
-  "n_filings": 9,
+  "fetched_at_utc": "2026-11-02T12:14:14.250195+00:00",
+  "n_filings": 11,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:19:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740400_16102026071911_WEB.xml",
+      "record_id": "215112",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:46:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698363_21072026044631_WEB.xml",
+      "record_id": "212779",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
@@ -67,21 +85,21 @@
       "format": null
     },
     {
-      "date": "09-JUL-2024",
-      "submission_date": "12-JUL-2024",
-      "broadcast_date": "18-JUL-2024 15:50:37",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_189246_1182170_12072024033816_WEB.xml",
-      "record_id": "189246",
-      "revised": "N",
-      "format": null
-    },
-    {
       "date": "30-JUN-2024",
       "submission_date": "20-JUL-2024",
       "broadcast_date": "06-AUG-2024 15:31:41",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_190696_1203834_26072024064625_WEB.xml",
       "record_id": "190696",
       "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "09-JUL-2024",
+      "submission_date": "12-JUL-2024",
+      "broadcast_date": "18-JUL-2024 15:50:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_189246_1182170_12072024033816_WEB.xml",
+      "record_id": "189246",
+      "revised": "N",
       "format": null
     }
   ]

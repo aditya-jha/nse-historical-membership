@@ -1,8 +1,26 @@
 {
   "ticker": "RKDL",
-  "fetched_at_utc": "2026-05-10T16:54:29.520313+00:00",
-  "n_filings": 63,
+  "fetched_at_utc": "2026-11-02T12:14:14.515466+00:00",
+  "n_filings": 65,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 17:19:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735460_10102026051934_WEB.xml",
+      "record_id": "213729",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 15:21:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698149_21072026032106_WEB.xml",
+      "record_id": "212704",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

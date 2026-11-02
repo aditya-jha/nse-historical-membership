@@ -1,8 +1,35 @@
 {
   "ticker": "SPMLINFRA",
-  "fetched_at_utc": "2026-05-10T16:57:18.158628+00:00",
-  "n_filings": 99,
+  "fetched_at_utc": "2026-11-02T12:14:14.415570+00:00",
+  "n_filings": 102,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:23:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737541_14102026012308_WEB.xml",
+      "record_id": "214280",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-JUL-2026",
+      "submission_date": "27-JUL-2026",
+      "broadcast_date": "27-JUL-2026 15:35:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1701956_27072026033511_WEB.xml",
+      "record_id": "212984",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 14:56:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696702_20072026025556_WEB.xml",
+      "record_id": "212187",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "22-APR-2026",
       "submission_date": "28-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "ARROWGREEN",
-  "fetched_at_utc": "2026-05-10T16:29:46.013122+00:00",
-  "n_filings": 46,
+  "fetched_at_utc": "2026-11-02T12:14:14.410221+00:00",
+  "n_filings": 49,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 15:00:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737643_14102026030052_WEB.xml",
+      "record_id": "214308",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:49:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696971_20072026044911_WEB.xml",
+      "record_id": "212283",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
@@ -15,10 +33,10 @@
     {
       "date": "31-DEC-2025",
       "submission_date": "20-JAN-2026",
-      "broadcast_date": "20-JAN-2026 17:17:47",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605830_20012026051744_WEB.xml",
+      "broadcast_date": "01-JUN-2026 11:52:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1674811_28052026025352_WEB.xml",
       "record_id": "206577",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -180,6 +198,15 @@
       "broadcast_date": "07-JAN-2022 00:10:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_162540_538164_19102021035518_WEB.xml",
       "record_id": "162540",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "20-JAN-2026",
+      "broadcast_date": "20-JAN-2026 17:17:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1605830_20012026051744_WEB.xml",
+      "record_id": "206577",
       "revised": "N",
       "format": null
     },

@@ -1,8 +1,26 @@
 {
   "ticker": "KCP",
-  "fetched_at_utc": "2026-05-10T16:47:21.011517+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.573947+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 15:24:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733778_07102026032359_WEB.xml",
+      "record_id": "213383",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 09:30:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692748_15072026093025_WEB.xml",
+      "record_id": "211144",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "06-APR-2026",

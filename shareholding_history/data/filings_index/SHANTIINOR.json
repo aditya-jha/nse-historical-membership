@@ -1,0 +1,25 @@
+{
+  "ticker": "SHANTIINOR",
+  "fetched_at_utc": "2026-11-02T12:14:14.656427+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:43:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737959_14102026054327_WEB.xml",
+      "record_id": "214408",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "04-SEP-2026",
+      "submission_date": "07-SEP-2026",
+      "broadcast_date": "08-SEP-2026 17:18:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722405_08092026114233_WEB.xml",
+      "record_id": "213129",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

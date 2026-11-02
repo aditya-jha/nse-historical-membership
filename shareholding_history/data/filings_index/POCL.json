@@ -1,8 +1,26 @@
 {
   "ticker": "POCL",
-  "fetched_at_utc": "2026-05-10T16:52:52.086306+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.137354+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 12:43:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742220_20102026124316_WEB.xml",
+      "record_id": "215763",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 12:26:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696510_20072026122616_WEB.xml",
+      "record_id": "212118",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

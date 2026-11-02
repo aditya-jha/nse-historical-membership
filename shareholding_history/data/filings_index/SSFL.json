@@ -1,6 +1,16 @@
 {
   "ticker": "SSFL",
-  "fetched_at_utc": "2026-05-10T16:57:26.087496+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.600879+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 21:32:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743616_21102026093234_WEB.xml",
+      "record_id": "216281",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

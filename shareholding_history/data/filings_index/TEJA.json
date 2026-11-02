@@ -1,0 +1,25 @@
+{
+  "ticker": "TEJA",
+  "fetched_at_utc": "2026-11-02T12:14:14.630679+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "18-OCT-2026",
+      "broadcast_date": "18-OCT-2026 15:25:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741064_18102026032550_WEB.xml",
+      "record_id": "215323",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "06-JUL-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "04-AUG-2026 15:41:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1705117_30072026040450_WEB.xml",
+      "record_id": "210546",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

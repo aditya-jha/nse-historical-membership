@@ -1,8 +1,26 @@
 {
   "ticker": "TNPETRO",
-  "fetched_at_utc": "2026-05-10T16:59:04.622762+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.132150+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 15:31:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742276_20102026033121_WEB.xml",
+      "record_id": "215791",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:23:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697091_20072026052354_WEB.xml",
+      "record_id": "212322",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

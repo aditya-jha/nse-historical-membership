@@ -1,8 +1,26 @@
 {
   "ticker": "KOTARISUG",
-  "fetched_at_utc": "2026-05-10T16:47:52.422362+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.275461+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:30:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740020_16102026043016_WEB.xml",
+      "record_id": "214974",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 16:35:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693271_15072026043534_WEB.xml",
+      "record_id": "211292",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

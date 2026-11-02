@@ -1,14 +1,50 @@
 {
   "ticker": "BIOCON",
-  "fetched_at_utc": "2026-05-10T16:27:01.834709+00:00",
-  "n_filings": 89,
+  "fetched_at_utc": "2026-11-02T12:14:14.038732+00:00",
+  "n_filings": 92,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:03:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743438_21102026070347_WEB.xml",
+      "record_id": "216227",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 12:59:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697926_21072026125942_WEB.xml",
+      "record_id": "212634",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "29-JUN-2026",
+      "submission_date": "01-JUL-2026",
+      "broadcast_date": "01-JUL-2026 17:47:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687298_01072026054704_WEB.xml",
+      "record_id": "210465",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
       "broadcast_date": "21-APR-2026 20:12:10",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1656787_21042026081203_WEB.xml",
       "record_id": "210245",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-DEC-2025",
+      "submission_date": "19-JAN-2026",
+      "broadcast_date": "19-JAN-2026 15:29:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604138_19012026032941_WEB.xml",
+      "record_id": "206133",
       "revised": "N",
       "format": null
     },
@@ -27,15 +63,6 @@
       "broadcast_date": "06-JAN-2026 19:52:58",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1595788_06012026075251_WEB.xml",
       "record_id": "204799",
-      "revised": "N",
-      "format": null
-    },
-    {
-      "date": "31-DEC-2025",
-      "submission_date": "19-JAN-2026",
-      "broadcast_date": "19-JAN-2026 15:29:48",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1604138_19012026032941_WEB.xml",
-      "record_id": "206133",
       "revised": "N",
       "format": null
     },

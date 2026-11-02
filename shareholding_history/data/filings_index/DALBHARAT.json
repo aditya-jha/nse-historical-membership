@@ -1,8 +1,26 @@
 {
   "ticker": "DALBHARAT",
-  "fetched_at_utc": "2026-05-10T16:32:33.337080+00:00",
-  "n_filings": 32,
+  "fetched_at_utc": "2026-11-02T12:14:14.105109+00:00",
+  "n_filings": 34,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:47:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742601_21102026124726_WEB.xml",
+      "record_id": "215934",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 15:03:36",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698105_21072026030329_WEB.xml",
+      "record_id": "212692",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

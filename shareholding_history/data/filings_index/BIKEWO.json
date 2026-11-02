@@ -1,6 +1,25 @@
 {
   "ticker": "BIKEWO",
-  "fetched_at_utc": "2026-05-10T16:30:47.408316+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.669430+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 20:30:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736473_12102026083025_WEB.xml",
+      "record_id": "213924",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "10-AUG-2026",
+      "submission_date": "18-AUG-2026",
+      "broadcast_date": "18-AUG-2026 20:19:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1715881_18082026081940_WEB.xml",
+      "record_id": "213058",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

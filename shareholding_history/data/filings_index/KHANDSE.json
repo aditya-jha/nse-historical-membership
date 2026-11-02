@@ -1,8 +1,26 @@
 {
   "ticker": "KHANDSE",
-  "fetched_at_utc": "2026-05-10T16:47:31.555166+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.274643+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:32:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740024_16102026043256_WEB.xml",
+      "record_id": "214977",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:55:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696994_20072026045538_WEB.xml",
+      "record_id": "212289",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

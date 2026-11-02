@@ -1,8 +1,26 @@
 {
   "ticker": "FCSSOFT",
-  "fetched_at_utc": "2026-05-10T16:34:39.313649+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.284318+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:44:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739886_16102026034359_WEB.xml",
+      "record_id": "214923",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:03:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697021_20072026050340_WEB.xml",
+      "record_id": "212299",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

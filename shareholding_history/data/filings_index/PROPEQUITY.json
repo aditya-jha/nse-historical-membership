@@ -1,6 +1,25 @@
 {
   "ticker": "PROPEQUITY",
-  "fetched_at_utc": "2026-05-10T16:53:24.020822+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.676895+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "11-OCT-2026",
+      "broadcast_date": "11-OCT-2026 15:28:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735753_11102026032853_WEB.xml",
+      "record_id": "213744",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "03-JUL-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 15:57:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689259_08072026035720_WEB.xml",
+      "record_id": "210625",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

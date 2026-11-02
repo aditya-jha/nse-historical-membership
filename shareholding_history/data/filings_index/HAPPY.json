@@ -1,0 +1,25 @@
+{
+  "ticker": "HAPPY",
+  "fetched_at_utc": "2026-11-02T12:14:14.638534+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 23:11:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740517_16102026111150_WEB.xml",
+      "record_id": "215146",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "15-JUL-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "23-JUL-2026 18:37:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698776_21072026071606_WEB.xml",
+      "record_id": "212063",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

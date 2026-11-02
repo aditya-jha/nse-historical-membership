@@ -1,8 +1,26 @@
 {
   "ticker": "MENONBE",
-  "fetched_at_utc": "2026-05-10T16:49:46.354625+00:00",
-  "n_filings": 47,
+  "fetched_at_utc": "2026-11-02T12:14:14.465125+00:00",
+  "n_filings": 49,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:21:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736782_13102026022118_WEB.xml",
+      "record_id": "214031",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "25-JUL-2026",
+      "broadcast_date": "25-JUL-2026 10:08:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1701367_25072026100816_WEB.xml",
+      "record_id": "212982",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "19-APR-2026",

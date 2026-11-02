@@ -1,15 +1,33 @@
 {
   "ticker": "CALSOFT",
-  "fetched_at_utc": "2026-05-10T16:31:13.506367+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.129184+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 16:35:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742312_20102026043524_WEB.xml",
+      "record_id": "215808",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:55:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698931_21072026085542_WEB.xml",
+      "record_id": "212935",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",
-      "broadcast_date": "21-APR-2026 11:30:24",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655786_21042026113022_WEB.xml",
+      "broadcast_date": "17-JUL-2026 12:22:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692976_15072026013108_WEB.xml",
       "record_id": "209906",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +189,15 @@
       "broadcast_date": "07-JAN-2022 02:25:01",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_163073_543154_21102021040148_WEB.xml",
       "record_id": "163073",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "21-APR-2026",
+      "broadcast_date": "21-APR-2026 11:30:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1655786_21042026113022_WEB.xml",
+      "record_id": "209906",
       "revised": "N",
       "format": null
     },

@@ -1,8 +1,26 @@
 {
   "ticker": "THEMISMED",
-  "fetched_at_utc": "2026-05-10T16:58:49.815846+00:00",
-  "n_filings": 77,
+  "fetched_at_utc": "2026-11-02T12:14:14.208643+00:00",
+  "n_filings": 79,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 12:27:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741215_19102026122743_WEB.xml",
+      "record_id": "215378",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "09-OCT-2026 11:30:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734600_08102026092405_WEB.xml",
+      "record_id": "212854",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

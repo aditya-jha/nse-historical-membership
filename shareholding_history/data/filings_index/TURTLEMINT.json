@@ -1,0 +1,34 @@
+{
+  "ticker": "TURTLEMINT",
+  "fetched_at_utc": "2026-11-02T12:14:14.210221+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 11:51:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741184_19102026115108_WEB.xml",
+      "record_id": "215368",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 20:20:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694668_16072026082015_WEB.xml",
+      "record_id": "211576",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-JUN-2026",
+      "submission_date": "29-JUN-2026",
+      "broadcast_date": "01-JUL-2026 19:21:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1685968_29062026034758_WEB.xml",
+      "record_id": "210434",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

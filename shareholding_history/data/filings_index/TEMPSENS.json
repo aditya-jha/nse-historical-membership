@@ -1,0 +1,25 @@
+{
+  "ticker": "TEMPSENS",
+  "fetched_at_utc": "2026-11-02T12:14:14.243126+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 11:22:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740565_17102026112241_WEB.xml",
+      "record_id": "215161",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "27-AUG-2026",
+      "submission_date": "28-AUG-2026",
+      "broadcast_date": "01-SEP-2026 15:13:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719708_01092026125208_WEB.xml",
+      "record_id": "213096",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

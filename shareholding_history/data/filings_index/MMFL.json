@@ -1,8 +1,26 @@
 {
   "ticker": "MMFL",
-  "fetched_at_utc": "2026-05-10T16:50:02.191576+00:00",
-  "n_filings": 80,
+  "fetched_at_utc": "2026-11-02T12:14:14.416220+00:00",
+  "n_filings": 82,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:13:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737530_14102026011322_WEB.xml",
+      "record_id": "214278",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 23:38:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697679_20072026113820_WEB.xml",
+      "record_id": "212524",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

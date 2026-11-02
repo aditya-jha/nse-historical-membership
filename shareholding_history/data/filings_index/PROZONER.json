@@ -1,8 +1,26 @@
 {
   "ticker": "PROZONER",
-  "fetched_at_utc": "2026-05-10T16:53:27.481600+00:00",
-  "n_filings": 55,
+  "fetched_at_utc": "2026-11-02T12:14:14.155540+00:00",
+  "n_filings": 57,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:52:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741926_19102026065223_WEB.xml",
+      "record_id": "215660",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 15:59:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693189_15072026035952_WEB.xml",
+      "record_id": "211273",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

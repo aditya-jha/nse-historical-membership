@@ -1,8 +1,26 @@
 {
   "ticker": "SHIVAUM",
-  "fetched_at_utc": "2026-05-10T16:56:15.332037+00:00",
-  "n_filings": 16,
+  "fetched_at_utc": "2026-11-02T12:14:14.259622+00:00",
+  "n_filings": 18,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:58:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740240_16102026055846_WEB.xml",
+      "record_id": "215061",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 13:41:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696610_20072026014059_WEB.xml",
+      "record_id": "212156",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

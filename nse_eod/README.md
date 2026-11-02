@@ -33,6 +33,7 @@ Schema (`sec_bhavdata_full`):
 | LAST_PRICE / AVG_PRICE / PREV_CLOSE | aux |
 | TTL_TRD_QNTY | volume (shares) |
 | TURNOVER_LACS | ₹ turnover in lacs (= ₹100k) — use for liquidity gates |
+| NO_OF_TRADES | number of trades → `n_trades` |
 
 ## Pipeline
 

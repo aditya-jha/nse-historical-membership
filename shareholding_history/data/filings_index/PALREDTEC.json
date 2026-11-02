@@ -1,8 +1,26 @@
 {
   "ticker": "PALREDTEC",
-  "fetched_at_utc": "2026-05-10T16:52:07.040441+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.242502+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 12:07:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740583_17102026120737_WEB.xml",
+      "record_id": "215165",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:44:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692837_15072026114426_WEB.xml",
+      "record_id": "211183",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

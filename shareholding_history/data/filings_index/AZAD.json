@@ -1,8 +1,26 @@
 {
   "ticker": "AZAD",
-  "fetched_at_utc": "2026-05-10T16:30:19.303532+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.427859+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 11:03:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737385_14102026110317_WEB.xml",
+      "record_id": "214229",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 15:16:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693098_15072026031607_WEB.xml",
+      "record_id": "211250",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

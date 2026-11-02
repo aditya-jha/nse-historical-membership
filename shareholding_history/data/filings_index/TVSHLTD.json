@@ -1,8 +1,26 @@
 {
   "ticker": "TVSHLTD",
-  "fetched_at_utc": "2026-05-10T16:59:25.940531+00:00",
-  "n_filings": 55,
+  "fetched_at_utc": "2026-11-02T12:14:14.248895+00:00",
+  "n_filings": 57,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:49:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740445_16102026074922_WEB.xml",
+      "record_id": "215120",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:31:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696083_18072026033048_WEB.xml",
+      "record_id": "211994",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

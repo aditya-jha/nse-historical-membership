@@ -1,8 +1,26 @@
 {
   "ticker": "SCILAL",
-  "fetched_at_utc": "2026-05-10T16:55:39.641771+00:00",
-  "n_filings": 10,
+  "fetched_at_utc": "2026-11-02T12:14:14.573172+00:00",
+  "n_filings": 12,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 15:43:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733793_07102026034303_WEB.xml",
+      "record_id": "213390",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 11:56:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688681_07072026115630_WEB.xml",
+      "record_id": "210545",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "09-APR-2026",

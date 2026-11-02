@@ -1,8 +1,26 @@
 {
   "ticker": "MAHLIFE",
-  "fetched_at_utc": "2026-05-10T16:48:59.585445+00:00",
-  "n_filings": 91,
+  "fetched_at_utc": "2026-11-02T12:14:14.042108+00:00",
+  "n_filings": 93,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:46:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743404_21102026064558_WEB.xml",
+      "record_id": "216213",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:04:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698257_21072026040410_WEB.xml",
+      "record_id": "212739",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

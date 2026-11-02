@@ -1,8 +1,26 @@
 {
   "ticker": "TRIVENI",
-  "fetched_at_utc": "2026-05-10T16:59:19.168989+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.365795+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:25:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738561_15102026122525_WEB.xml",
+      "record_id": "214518",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 15:40:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698196_21072026034011_WEB.xml",
+      "record_id": "212717",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

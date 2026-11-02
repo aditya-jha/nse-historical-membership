@@ -1,0 +1,34 @@
+{
+  "ticker": "HEGAM",
+  "fetched_at_utc": "2026-11-02T12:14:14.366956+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 12:20:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738553_15102026122031_WEB.xml",
+      "record_id": "214513",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "08-SEP-2026",
+      "submission_date": "17-SEP-2026",
+      "broadcast_date": "17-SEP-2026 15:12:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724946_17092026031225_WEB.xml",
+      "record_id": "213171",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "06-JUL-2026 21:49:05",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688625_06072026094857_WEB.xml",
+      "record_id": "210539",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

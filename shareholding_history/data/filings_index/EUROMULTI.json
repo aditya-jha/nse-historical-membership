@@ -1,0 +1,25 @@
+{
+  "ticker": "EUROMULTI",
+  "fetched_at_utc": "2026-11-02T12:14:14.064131+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:06:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743118_21102026050558_WEB.xml",
+      "record_id": "216120",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:36:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698672_21072026063653_WEB.xml",
+      "record_id": "212860",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

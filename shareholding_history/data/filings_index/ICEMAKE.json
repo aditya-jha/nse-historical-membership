@@ -1,8 +1,35 @@
 {
   "ticker": "ICEMAKE",
-  "fetched_at_utc": "2026-05-10T16:44:54.438447+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.295435+00:00",
+  "n_filings": 32,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 14:35:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739745_16102026023510_WEB.xml",
+      "record_id": "214866",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "10-SEP-2026",
+      "submission_date": "11-SEP-2026",
+      "broadcast_date": "11-SEP-2026 15:28:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1723595_11092026032817_WEB.xml",
+      "record_id": "213150",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 13:58:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693000_15072026015803_WEB.xml",
+      "record_id": "211222",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

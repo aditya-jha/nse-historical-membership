@@ -1,8 +1,26 @@
 {
   "ticker": "TNTELE",
-  "fetched_at_utc": "2026-05-10T16:59:05.671458+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.026058+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 21:40:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743618_21102026094039_WEB.xml",
+      "record_id": "216282",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:12:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698886_21072026081218_WEB.xml",
+      "record_id": "212920",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

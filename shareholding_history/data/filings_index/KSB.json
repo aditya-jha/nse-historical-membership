@@ -1,8 +1,26 @@
 {
   "ticker": "KSB",
-  "fetched_at_utc": "2026-05-10T16:48:07.551720+00:00",
-  "n_filings": 83,
+  "fetched_at_utc": "2026-11-02T12:14:14.117424+00:00",
+  "n_filings": 85,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 10:28:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742426_21102026102812_WEB.xml",
+      "record_id": "215867",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 13:33:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697984_21072026013349_WEB.xml",
+      "record_id": "212648",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

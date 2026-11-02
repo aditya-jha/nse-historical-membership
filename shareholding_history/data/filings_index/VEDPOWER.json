@@ -1,0 +1,34 @@
+{
+  "ticker": "VEDPOWER",
+  "fetched_at_utc": "2026-11-02T12:14:14.109392+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:10:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742537_21102026121042_WEB.xml",
+      "record_id": "215913",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 16:36:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696163_18072026043611_WEB.xml",
+      "record_id": "212021",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "12-JUN-2026",
+      "submission_date": "16-JUN-2026",
+      "broadcast_date": "17-JUN-2026 14:42:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1682023_16062026035619_WEB.xml",
+      "record_id": "210404",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

@@ -1,8 +1,26 @@
 {
   "ticker": "LANDSMILL",
-  "fetched_at_utc": "2026-05-10T16:48:18.653805+00:00",
-  "n_filings": 68,
+  "fetched_at_utc": "2026-11-02T12:14:14.309112+00:00",
+  "n_filings": 70,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 11:42:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739540_16102026114212_WEB.xml",
+      "record_id": "214788",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "05-AUG-2026",
+      "broadcast_date": "05-AUG-2026 19:23:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708599_05082026072325_WEB.xml",
+      "record_id": "213016",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

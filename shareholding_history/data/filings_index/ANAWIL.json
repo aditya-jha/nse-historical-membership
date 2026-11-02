@@ -1,0 +1,25 @@
+{
+  "ticker": "ANAWIL",
+  "fetched_at_utc": "2026-11-02T12:14:14.668472+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 11:29:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736573_13102026112905_WEB.xml",
+      "record_id": "213957",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "07-AUG-2026",
+      "submission_date": "10-AUG-2026",
+      "broadcast_date": "19-AUG-2026 12:34:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714346_14082026030952_WEB.xml",
+      "record_id": "213030",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

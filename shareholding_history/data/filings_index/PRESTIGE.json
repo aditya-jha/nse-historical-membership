@@ -1,8 +1,26 @@
 {
   "ticker": "PRESTIGE",
-  "fetched_at_utc": "2026-05-10T16:53:16.511289+00:00",
-  "n_filings": 66,
+  "fetched_at_utc": "2026-11-02T12:14:14.255176+00:00",
+  "n_filings": 68,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:25:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740306_16102026062520_WEB.xml",
+      "record_id": "215084",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:48:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697174_20072026054826_WEB.xml",
+      "record_id": "212354",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

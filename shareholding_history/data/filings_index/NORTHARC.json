@@ -1,8 +1,26 @@
 {
   "ticker": "NORTHARC",
-  "fetched_at_utc": "2026-05-10T16:51:25.526180+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.037797+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:11:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743453_21102026071103_WEB.xml",
+      "record_id": "216231",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:57:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697402_20072026065717_WEB.xml",
+      "record_id": "212427",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "10-APR-2026",

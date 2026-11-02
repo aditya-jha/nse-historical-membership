@@ -1,8 +1,26 @@
 {
   "ticker": "INDOAMIN",
-  "fetched_at_utc": "2026-05-10T16:45:24.241227+00:00",
-  "n_filings": 18,
+  "fetched_at_utc": "2026-11-02T12:14:14.015373+00:00",
+  "n_filings": 20,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "26-OCT-2026",
+      "broadcast_date": "26-OCT-2026 15:34:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1745777_26102026033416_WEB.xml",
+      "record_id": "216328",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:37:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697352_20072026063723_WEB.xml",
+      "record_id": "212406",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

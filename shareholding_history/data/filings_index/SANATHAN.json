@@ -1,8 +1,26 @@
 {
   "ticker": "SANATHAN",
-  "fetched_at_utc": "2026-05-10T16:55:14.596202+00:00",
-  "n_filings": 7,
+  "fetched_at_utc": "2026-11-02T12:14:14.590569+00:00",
+  "n_filings": 9,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 10:55:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733234_06102026105527_WEB.xml",
+      "record_id": "213282",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 16:39:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689843_09072026043951_WEB.xml",
+      "record_id": "210710",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

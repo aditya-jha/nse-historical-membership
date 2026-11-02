@@ -1,8 +1,26 @@
 {
   "ticker": "SUKHJITS",
-  "fetched_at_utc": "2026-05-10T16:57:43.104231+00:00",
-  "n_filings": 15,
+  "fetched_at_utc": "2026-11-02T12:14:14.431239+00:00",
+  "n_filings": 17,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 10:08:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737349_14102026100802_WEB.xml",
+      "record_id": "214212",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 13:06:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695977_18072026010608_WEB.xml",
+      "record_id": "211959",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

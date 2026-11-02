@@ -1,0 +1,25 @@
+{
+  "ticker": "MADHURKNIT",
+  "fetched_at_utc": "2026-11-02T12:14:14.604330+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:50:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743194_21102026055012_WEB.xml",
+      "record_id": "216169",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "31-AUG-2026",
+      "submission_date": "01-SEP-2026",
+      "broadcast_date": "04-SEP-2026 11:16:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720949_03092026063008_WEB.xml",
+      "record_id": "213107",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

@@ -1,15 +1,33 @@
 {
   "ticker": "AARVI",
-  "fetched_at_utc": "2026-05-10T16:28:30.103381+00:00",
-  "n_filings": 32,
+  "fetched_at_utc": "2026-11-02T12:14:14.493229+00:00",
+  "n_filings": 35,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 16:29:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736183_12102026042910_WEB.xml",
+      "record_id": "213866",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "06-AUG-2026 11:30:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706052_31072026045341_WEB.xml",
+      "record_id": "211449",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",
-      "broadcast_date": "15-APR-2026 15:36:33",
-      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651313_15042026033630_WEB.xml",
+      "broadcast_date": "06-AUG-2026 11:30:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706045_31072026045015_WEB.xml",
       "record_id": "208472",
-      "revised": "N",
+      "revised": "Revised",
       "format": null
     },
     {
@@ -171,6 +189,15 @@
       "broadcast_date": "06-JAN-2022 21:06:51",
       "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_160849_522983_06102021032511_WEB.xml",
       "record_id": "160849",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-MAR-2026",
+      "submission_date": "15-APR-2026",
+      "broadcast_date": "15-APR-2026 15:36:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1651313_15042026033630_WEB.xml",
+      "record_id": "208472",
       "revised": "N",
       "format": null
     },

@@ -1,8 +1,35 @@
 {
   "ticker": "NARMADA",
-  "fetched_at_utc": "2026-05-10T16:50:39.456075+00:00",
-  "n_filings": 33,
+  "fetched_at_utc": "2026-11-02T12:14:14.358841+00:00",
+  "n_filings": 36,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 13:31:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738657_15102026013156_WEB.xml",
+      "record_id": "214549",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "31-JUL-2026",
+      "submission_date": "10-AUG-2026",
+      "broadcast_date": "10-AUG-2026 17:02:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1711060_10082026050210_WEB.xml",
+      "record_id": "213034",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "11-JUL-2026",
+      "broadcast_date": "11-JUL-2026 13:43:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690933_11072026014310_WEB.xml",
+      "record_id": "210844",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

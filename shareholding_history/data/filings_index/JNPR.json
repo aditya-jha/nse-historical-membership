@@ -1,0 +1,25 @@
+{
+  "ticker": "JNPR",
+  "fetched_at_utc": "2026-11-02T12:14:14.143836+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 23:05:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742132_19102026110508_WEB.xml",
+      "record_id": "215727",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "05-AUG-2026",
+      "submission_date": "06-AUG-2026",
+      "broadcast_date": "08-SEP-2026 17:04:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722538_08092026042505_WEB.xml",
+      "record_id": "213020",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

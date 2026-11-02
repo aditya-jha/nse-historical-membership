@@ -1,0 +1,25 @@
+{
+  "ticker": "SRPL",
+  "fetched_at_utc": "2026-11-02T12:14:14.180800+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:45:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741612_19102026044539_WEB.xml",
+      "record_id": "215539",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-SEP-2026",
+      "broadcast_date": "08-SEP-2026 10:50:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1722389_08092026104951_WEB.xml",
+      "record_id": "213135",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

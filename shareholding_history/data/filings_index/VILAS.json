@@ -1,6 +1,16 @@
 {
   "ticker": "VILAS",
-  "fetched_at_utc": "2026-05-10T17:00:19.674180+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.680132+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 17:33:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735044_09102026053303_WEB.xml",
+      "record_id": "213638",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "TATACOMM",
-  "fetched_at_utc": "2026-05-10T16:58:25.253958+00:00",
-  "n_filings": 86,
+  "fetched_at_utc": "2026-11-02T12:14:14.249978+00:00",
+  "n_filings": 88,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:30:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740422_16102026072955_WEB.xml",
+      "record_id": "215115",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 16:28:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698308_21072026042805_WEB.xml",
+      "record_id": "212758",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

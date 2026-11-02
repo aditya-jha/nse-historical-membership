@@ -1,8 +1,26 @@
 {
   "ticker": "JLHL",
-  "fetched_at_utc": "2026-05-10T16:46:45.380225+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.568827+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 18:36:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733979_07102026063559_WEB.xml",
+      "record_id": "213416",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 15:49:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696807_20072026034928_WEB.xml",
+      "record_id": "212223",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

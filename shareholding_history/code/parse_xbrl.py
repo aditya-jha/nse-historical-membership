@@ -20,6 +20,7 @@ that is the period the filing reports on).
 Run:
     python -m shareholding_history.code.parse_xbrl
     python -m shareholding_history.code.parse_xbrl --tickers RELIANCE
+    python -m shareholding_history.code.parse_xbrl --append   # add new filings to _flat.csv
 """
 from __future__ import annotations
 
@@ -167,10 +168,21 @@ def parse_xbrl(path: Path) -> dict | None:
     return out
 
 
+def merge_rows(old: list[dict], new: list[dict]) -> list[dict]:
+    """Existing rows plus freshly parsed ones; a re-parsed filing (same ticker + XBRL file)
+    replaces its old row. NSE lists some filings twice, so new rows are de-duplicated."""
+    key = lambda r: (r["ticker"], r["source_filename"])
+    fresh = {key(r): r for r in new}
+    return [r for r in old if key(r) not in fresh] + list(fresh.values())
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tickers", help="Comma-separated subset (default: all)")
     ap.add_argument("--out", default=str(OUT_DIR / "_flat.csv"), help="Output CSV path")
+    ap.add_argument("--append", action="store_true",
+                    help="Keep existing rows in --out and add/replace only filings parsed now "
+                         "(incremental refresh; data/xbrl/ need only hold the new files)")
     args = ap.parse_args()
 
     targets = set(t.strip().upper() for t in args.tickers.split(",")) if args.tickers else None
@@ -227,6 +239,9 @@ def main():
     fields = ["ticker", "period", "filing_date", "submission_date",
               "promoter_pct", "fii_pct", "dii_pct", "public_pct", "noninst_pct",
               "total_shares", "taxonomy", "source_filename"]
+    if args.append and out_path.exists():
+        with out_path.open() as f:
+            rows = merge_rows(list(csv.DictReader(f)), rows)
     with out_path.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()

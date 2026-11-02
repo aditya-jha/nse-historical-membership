@@ -1,8 +1,26 @@
 {
   "ticker": "RPOWER",
-  "fetched_at_utc": "2026-05-10T16:54:41.707010+00:00",
-  "n_filings": 79,
+  "fetched_at_utc": "2026-11-02T12:14:14.251295+00:00",
+  "n_filings": 81,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:10:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740388_16102026071007_WEB.xml",
+      "record_id": "215106",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 19:14:35",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695680_17072026071430_WEB.xml",
+      "record_id": "211878",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

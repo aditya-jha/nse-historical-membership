@@ -1,8 +1,26 @@
 {
   "ticker": "PRAKASH",
-  "fetched_at_utc": "2026-05-10T16:53:06.910769+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.137923+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 12:37:58",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742218_20102026123750_WEB.xml",
+      "record_id": "215761",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 12:13:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689116_08072026121304_WEB.xml",
+      "record_id": "210586",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

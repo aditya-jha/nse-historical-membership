@@ -1,8 +1,26 @@
 {
   "ticker": "HLVLTD",
-  "fetched_at_utc": "2026-05-10T16:44:40.029934+00:00",
-  "n_filings": 27,
+  "fetched_at_utc": "2026-11-02T12:14:14.588521+00:00",
+  "n_filings": 29,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 12:41:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733299_06102026124112_WEB.xml",
+      "record_id": "213291",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "04-JUL-2026",
+      "broadcast_date": "04-JUL-2026 14:12:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1688193_04072026021213_WEB.xml",
+      "record_id": "210503",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

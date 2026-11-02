@@ -1,0 +1,25 @@
+{
+  "ticker": "SHANKESH",
+  "fetched_at_utc": "2026-11-02T12:14:14.149254+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:59:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742039_19102026075906_WEB.xml",
+      "record_id": "215701",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "24-AUG-2026",
+      "submission_date": "25-AUG-2026",
+      "broadcast_date": "04-SEP-2026 10:17:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1721038_03092026083101_WEB.xml",
+      "record_id": "213080",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

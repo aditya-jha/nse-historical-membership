@@ -1,6 +1,25 @@
 {
   "ticker": "MPEL",
-  "fetched_at_utc": "2026-05-10T16:50:18.200894+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.608363+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:36:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742875_21102026033629_WEB.xml",
+      "record_id": "216030",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "25-SEP-2026",
+      "submission_date": "26-SEP-2026",
+      "broadcast_date": "26-SEP-2026 15:01:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1728900_26092026030102_WEB.xml",
+      "record_id": "213226",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

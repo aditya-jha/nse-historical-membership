@@ -1,0 +1,25 @@
+{
+  "ticker": "SUMAX",
+  "fetched_at_utc": "2026-11-02T12:14:14.620903+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 18:11:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741848_19102026061151_WEB.xml",
+      "record_id": "215627",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "01-SEP-2026",
+      "submission_date": "02-SEP-2026",
+      "broadcast_date": "03-SEP-2026 17:32:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720837_03092026050459_WEB.xml",
+      "record_id": "213114",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

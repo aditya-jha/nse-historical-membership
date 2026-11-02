@@ -1,8 +1,26 @@
 {
   "ticker": "BHARATRAS",
-  "fetched_at_utc": "2026-05-10T16:30:44.955661+00:00",
-  "n_filings": 88,
+  "fetched_at_utc": "2026-11-02T12:14:14.462725+00:00",
+  "n_filings": 90,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 14:51:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736815_13102026025111_WEB.xml",
+      "record_id": "214045",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 15:54:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692222_14072026035358_WEB.xml",
+      "record_id": "211075",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "14-APR-2026",

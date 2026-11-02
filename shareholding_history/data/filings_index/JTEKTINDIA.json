@@ -1,8 +1,26 @@
 {
   "ticker": "JTEKTINDIA",
-  "fetched_at_utc": "2026-05-10T16:46:54.089790+00:00",
-  "n_filings": 87,
+  "fetched_at_utc": "2026-11-02T12:14:14.472739+00:00",
+  "n_filings": 89,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:21:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736638_13102026122110_WEB.xml",
+      "record_id": "213987",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 16:31:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694257_16072026043104_WEB.xml",
+      "record_id": "211494",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

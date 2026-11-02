@@ -1,8 +1,26 @@
 {
   "ticker": "KITEX",
-  "fetched_at_utc": "2026-05-10T16:47:40.477716+00:00",
-  "n_filings": 58,
+  "fetched_at_utc": "2026-11-02T12:14:14.171155+00:00",
+  "n_filings": 60,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 17:31:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741745_19102026053057_WEB.xml",
+      "record_id": "215592",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 17:10:53",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696200_18072026051048_WEB.xml",
+      "record_id": "212029",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "18-APR-2026",

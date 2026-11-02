@@ -1,0 +1,25 @@
+{
+  "ticker": "VMOBILE",
+  "fetched_at_utc": "2026-11-02T12:14:14.639377+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 18:14:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740276_16102026061443_WEB.xml",
+      "record_id": "215075",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "06-JUL-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "17-JUL-2026 19:37:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695357_17072026050116_WEB.xml",
+      "record_id": "210729",
+      "revised": null,
+      "format": null
+    }
+  ]
+}

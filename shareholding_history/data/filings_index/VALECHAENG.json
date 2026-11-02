@@ -1,0 +1,25 @@
+{
+  "ticker": "VALECHAENG",
+  "fetched_at_utc": "2026-11-02T12:14:14.322243+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 18:06:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739219_15102026060643_WEB.xml",
+      "record_id": "214716",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:41:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697151_20072026054145_WEB.xml",
+      "record_id": "212342",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

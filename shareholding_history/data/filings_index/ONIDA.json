@@ -1,0 +1,25 @@
+{
+  "ticker": "ONIDA",
+  "fetched_at_utc": "2026-11-02T12:14:14.066175+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:59:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743102_21102026045951_WEB.xml",
+      "record_id": "216108",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 17:25:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698466_21072026052504_WEB.xml",
+      "record_id": "212805",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

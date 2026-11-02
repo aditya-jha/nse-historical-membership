@@ -1,6 +1,34 @@
 {
   "ticker": "PHANTOMFX",
-  "fetched_at_utc": "2026-05-10T16:52:37.398966+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.613575+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "18-OCT-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 23:30:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742401_20102026113033_WEB.xml",
+      "record_id": "215852",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 23:12:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742399_20102026111228_WEB.xml",
+      "record_id": "215851",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 13:53:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698009_21072026015319_WEB.xml",
+      "record_id": "212657",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

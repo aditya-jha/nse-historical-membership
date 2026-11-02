@@ -1,8 +1,26 @@
 {
   "ticker": "VIDHIING",
-  "fetched_at_utc": "2026-05-10T17:00:14.420538+00:00",
-  "n_filings": 41,
+  "fetched_at_utc": "2026-11-02T12:14:14.270611+00:00",
+  "n_filings": 43,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:53:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740082_16102026045312_WEB.xml",
+      "record_id": "215003",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 17:32:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695452_17072026053241_WEB.xml",
+      "record_id": "211805",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

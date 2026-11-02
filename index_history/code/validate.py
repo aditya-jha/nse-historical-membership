@@ -244,11 +244,6 @@ FAMOUS = [
     # Strategy — Nifty Alpha 50 — symbols cycle quickly so today-only checks
     # would be fragile; check the snapshot match instead (already in Gate 1).
 
-    # Strategy — Nifty100 Equal Weight: it equals Nifty 100 by construction,
-    # so members(t, 2006) == members(t, 219) — captured implicitly via Gate 2
-    # subset invariants. Also assert today's count == 100.
-    # (We test this in Gate 4 cardinality.)
-
     # Thematic — Nifty CPSE
     ("ONGC is in Nifty CPSE today",                         3003, "ONGC",       date.today(),       True),
     ("COALINDIA is in Nifty CPSE today",                    3003, "COALINDIA",  date.today(),       True),

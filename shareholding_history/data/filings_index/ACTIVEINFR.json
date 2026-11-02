@@ -1,6 +1,25 @@
 {
   "ticker": "ACTIVEINFR",
-  "fetched_at_utc": "2026-05-10T16:28:39.235011+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.610147+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 14:30:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742727_21102026023015_WEB.xml",
+      "record_id": "215983",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 17:55:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696252_18072026055517_WEB.xml",
+      "record_id": "212044",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

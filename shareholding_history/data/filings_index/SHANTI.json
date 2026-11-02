@@ -1,8 +1,26 @@
 {
   "ticker": "SHANTI",
-  "fetched_at_utc": "2026-05-10T16:56:01.118912+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.168144+00:00",
+  "n_filings": 31,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 17:52:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741794_19102026055210_WEB.xml",
+      "record_id": "215605",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:04:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698874_21072026080415_WEB.xml",
+      "record_id": "212916",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

@@ -1,8 +1,26 @@
 {
   "ticker": "RATEGAIN",
-  "fetched_at_utc": "2026-05-10T16:54:04.059183+00:00",
-  "n_filings": 20,
+  "fetched_at_utc": "2026-11-02T12:14:14.120282+00:00",
+  "n_filings": 22,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 05:20:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742405_21102026052016_WEB.xml",
+      "record_id": "215856",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 11:39:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696442_20072026113923_WEB.xml",
+      "record_id": "212101",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

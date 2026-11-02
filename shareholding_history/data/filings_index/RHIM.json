@@ -1,8 +1,26 @@
 {
   "ticker": "RHIM",
-  "fetched_at_utc": "2026-05-10T16:54:24.441405+00:00",
-  "n_filings": 60,
+  "fetched_at_utc": "2026-11-02T12:14:14.426188+00:00",
+  "n_filings": 62,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 11:25:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737404_14102026112540_WEB.xml",
+      "record_id": "214235",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 15:18:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694094_16072026031806_WEB.xml",
+      "record_id": "211467",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

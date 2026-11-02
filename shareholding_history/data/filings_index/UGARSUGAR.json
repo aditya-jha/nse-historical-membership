@@ -1,8 +1,26 @@
 {
   "ticker": "UGARSUGAR",
-  "fetched_at_utc": "2026-05-10T16:59:33.317028+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.472252+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 12:28:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736648_13102026122835_WEB.xml",
+      "record_id": "213989",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 13:11:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693945_16072026011123_WEB.xml",
+      "record_id": "211433",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

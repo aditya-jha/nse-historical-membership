@@ -1,8 +1,26 @@
 {
   "ticker": "ISFT",
-  "fetched_at_utc": "2026-05-10T16:45:58.686360+00:00",
-  "n_filings": 65,
+  "fetched_at_utc": "2026-11-02T12:14:14.500515+00:00",
+  "n_filings": 67,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 15:12:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736034_12102026031217_WEB.xml",
+      "record_id": "213825",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:36:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695623_17072026063617_WEB.xml",
+      "record_id": "211853",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

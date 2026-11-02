@@ -1,8 +1,35 @@
 {
   "ticker": "RKFORGE",
-  "fetched_at_utc": "2026-05-10T16:54:30.499009+00:00",
-  "n_filings": 92,
+  "fetched_at_utc": "2026-11-02T12:14:14.375508+00:00",
+  "n_filings": 95,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 10:41:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738449_15102026104118_WEB.xml",
+      "record_id": "214475",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "19-SEP-2026",
+      "submission_date": "28-SEP-2026",
+      "broadcast_date": "28-SEP-2026 19:06:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1729995_28092026070620_WEB.xml",
+      "record_id": "213229",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "14-AUG-2026 18:07:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1714356_14082026032220_WEB.xml",
+      "record_id": "211768",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

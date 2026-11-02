@@ -1,8 +1,26 @@
 {
   "ticker": "TCI",
-  "fetched_at_utc": "2026-05-10T16:58:31.977411+00:00",
-  "n_filings": 85,
+  "fetched_at_utc": "2026-11-02T12:14:14.190156+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:44:10",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741480_19102026034409_WEB.xml",
+      "record_id": "215488",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:26:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696900_20072026042602_WEB.xml",
+      "record_id": "212258",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "15-APR-2026",

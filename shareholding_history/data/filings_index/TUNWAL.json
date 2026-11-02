@@ -1,6 +1,25 @@
 {
   "ticker": "TUNWAL",
-  "fetched_at_utc": "2026-05-10T16:59:25.010799+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.633833+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:33:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740832_17102026043345_WEB.xml",
+      "record_id": "215253",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 13:21:00",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697964_21072026012054_WEB.xml",
+      "record_id": "212643",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

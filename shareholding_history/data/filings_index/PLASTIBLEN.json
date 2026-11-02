@@ -1,8 +1,26 @@
 {
   "ticker": "PLASTIBLEN",
-  "fetched_at_utc": "2026-05-10T16:52:46.191822+00:00",
-  "n_filings": 79,
+  "fetched_at_utc": "2026-11-02T12:14:14.593532+00:00",
+  "n_filings": 81,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "03-OCT-2026",
+      "broadcast_date": "03-OCT-2026 19:08:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1732791_03102026070759_WEB.xml",
+      "record_id": "213252",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "07-JUL-2026",
+      "broadcast_date": "07-JUL-2026 20:24:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689039_07072026082409_WEB.xml",
+      "record_id": "210575",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "03-APR-2026",

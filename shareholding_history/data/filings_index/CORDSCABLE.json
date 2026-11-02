@@ -1,8 +1,26 @@
 {
   "ticker": "CORDSCABLE",
-  "fetched_at_utc": "2026-05-10T16:32:13.113875+00:00",
-  "n_filings": 73,
+  "fetched_at_utc": "2026-11-02T12:14:14.414346+00:00",
+  "n_filings": 75,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 14:04:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737575_14102026020436_WEB.xml",
+      "record_id": "214288",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 12:27:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689575_09072026122730_WEB.xml",
+      "record_id": "210660",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "08-APR-2026",

@@ -1,8 +1,35 @@
 {
   "ticker": "CYIENT",
-  "fetched_at_utc": "2026-05-10T16:32:31.016563+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.069728+00:00",
+  "n_filings": 87,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:42:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743051_21102026044240_WEB.xml",
+      "record_id": "216094",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "15-JUL-2026",
+      "submission_date": "24-JUL-2026",
+      "broadcast_date": "24-JUL-2026 20:23:50",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1701276_24072026082345_WEB.xml",
+      "record_id": "212980",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "04-AUG-2026 15:26:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1707393_04082026012341_WEB.xml",
+      "record_id": "212629",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

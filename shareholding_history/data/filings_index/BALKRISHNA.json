@@ -1,8 +1,26 @@
 {
   "ticker": "BALKRISHNA",
-  "fetched_at_utc": "2026-05-10T16:30:26.588742+00:00",
-  "n_filings": 44,
+  "fetched_at_utc": "2026-11-02T12:14:14.542806+00:00",
+  "n_filings": 46,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 12:48:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734721_09102026124806_WEB.xml",
+      "record_id": "213560",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 11:50:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693826_16072026115001_WEB.xml",
+      "record_id": "211403",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "11-APR-2026",

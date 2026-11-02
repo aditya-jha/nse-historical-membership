@@ -1,8 +1,35 @@
 {
   "ticker": "JSWENERGY",
-  "fetched_at_utc": "2026-05-10T16:46:51.716085+00:00",
-  "n_filings": 68,
+  "fetched_at_utc": "2026-11-02T12:14:14.034435+00:00",
+  "n_filings": 71,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 19:45:33",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743505_21102026074527_WEB.xml",
+      "record_id": "216248",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "07-AUG-2026 15:56:29",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1708681_05082026084803_WEB.xml",
+      "record_id": "211900",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "25-MAY-2026",
+      "submission_date": "03-JUN-2026",
+      "broadcast_date": "03-JUN-2026 19:22:57",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679309_03062026072249_WEB.xml",
+      "record_id": "210372",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

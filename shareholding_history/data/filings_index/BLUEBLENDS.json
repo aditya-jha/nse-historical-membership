@@ -1,0 +1,34 @@
+{
+  "ticker": "BLUEBLENDS",
+  "fetched_at_utc": "2026-11-02T12:14:14.116306+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 10:51:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742439_21102026105141_WEB.xml",
+      "record_id": "215871",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "18-AUG-2026",
+      "submission_date": "27-AUG-2026",
+      "broadcast_date": "27-AUG-2026 18:13:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1718565_27082026061329_WEB.xml",
+      "record_id": "213094",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 18:42:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695636_17072026064159_WEB.xml",
+      "record_id": "211859",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

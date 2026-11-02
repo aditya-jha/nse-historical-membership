@@ -1,6 +1,25 @@
 {
   "ticker": "SHAIVAL",
-  "fetched_at_utc": "2026-05-10T16:55:58.142861+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.644982+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 13:23:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739683_16102026012305_WEB.xml",
+      "record_id": "214838",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "08-JUL-2026",
+      "broadcast_date": "08-JUL-2026 14:19:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689194_08072026021919_WEB.xml",
+      "record_id": "210609",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

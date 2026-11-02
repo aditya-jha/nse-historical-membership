@@ -1,8 +1,35 @@
 {
   "ticker": "BLUEJET",
-  "fetched_at_utc": "2026-05-10T16:30:57.306402+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.568022+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "08-OCT-2026",
+      "broadcast_date": "08-OCT-2026 10:59:23",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734093_08102026105918_WEB.xml",
+      "record_id": "213424",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "09-JUL-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 10:16:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691876_14072026101642_WEB.xml",
+      "record_id": "211004",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "06-JUL-2026",
+      "broadcast_date": "17-JUL-2026 10:49:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1690387_10072026034642_WEB.xml",
+      "record_id": "210512",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "16-APR-2026",

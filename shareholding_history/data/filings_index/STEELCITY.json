@@ -1,8 +1,26 @@
 {
   "ticker": "STEELCITY",
-  "fetched_at_utc": "2026-05-10T16:57:32.383790+00:00",
-  "n_filings": 34,
+  "fetched_at_utc": "2026-11-02T12:14:14.490276+00:00",
+  "n_filings": 36,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 17:29:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736268_12102026052917_WEB.xml",
+      "record_id": "213885",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "27-OCT-2026 18:09:14",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736266_12102026052843_WEB.xml",
+      "record_id": "211200",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

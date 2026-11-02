@@ -1,6 +1,25 @@
 {
   "ticker": "GRAPHISAD",
-  "fetched_at_utc": "2026-05-10T16:43:36.781672+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.674874+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "12-OCT-2026",
+      "broadcast_date": "12-OCT-2026 13:25:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735950_12102026012518_WEB.xml",
+      "record_id": "213801",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "13-JUL-2026",
+      "broadcast_date": "13-JUL-2026 16:58:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1691518_13072026045816_WEB.xml",
+      "record_id": "210957",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

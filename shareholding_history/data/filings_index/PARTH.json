@@ -1,6 +1,25 @@
 {
   "ticker": "PARTH",
-  "fetched_at_utc": "2026-05-10T16:52:17.715470+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.688926+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 16:26:41",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733445_06102026042639_WEB.xml",
+      "record_id": "213320",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "11-JUL-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:07:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697755_21072026110745_WEB.xml",
+      "record_id": "212566",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

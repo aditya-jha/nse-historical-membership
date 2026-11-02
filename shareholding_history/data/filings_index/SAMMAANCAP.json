@@ -1,8 +1,26 @@
 {
   "ticker": "SAMMAANCAP",
-  "fetched_at_utc": "2026-05-10T16:55:13.592303+00:00",
-  "n_filings": 59,
+  "fetched_at_utc": "2026-11-02T12:14:14.340512+00:00",
+  "n_filings": 61,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 16:25:47",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738951_15102026042542_WEB.xml",
+      "record_id": "214632",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 18:50:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697387_20072026065045_WEB.xml",
+      "record_id": "212420",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "03-APR-2026",

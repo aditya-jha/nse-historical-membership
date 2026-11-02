@@ -1,6 +1,25 @@
 {
   "ticker": "RICHA",
-  "fetched_at_utc": "2026-05-10T16:54:25.420594+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.641444+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:01:04",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739917_16102026040059_WEB.xml",
+      "record_id": "214942",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "25-AUG-2026",
+      "submission_date": "02-SEP-2026",
+      "broadcast_date": "02-SEP-2026 20:19:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1720427_02092026081901_WEB.xml",
+      "record_id": "213117",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

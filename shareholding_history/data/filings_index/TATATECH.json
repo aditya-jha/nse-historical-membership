@@ -1,8 +1,26 @@
 {
   "ticker": "TATATECH",
-  "fetched_at_utc": "2026-05-10T16:58:28.392295+00:00",
-  "n_filings": 11,
+  "fetched_at_utc": "2026-11-02T12:14:14.291885+00:00",
+  "n_filings": 13,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:02:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739800_16102026030236_WEB.xml",
+      "record_id": "214886",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 17:48:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693443_15072026054836_WEB.xml",
+      "record_id": "211328",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

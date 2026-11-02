@@ -1,8 +1,26 @@
 {
   "ticker": "JARO",
-  "fetched_at_utc": "2026-05-10T16:46:18.976393+00:00",
-  "n_filings": 4,
+  "fetched_at_utc": "2026-11-02T12:14:14.106256+00:00",
+  "n_filings": 6,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 12:37:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742588_21102026123737_WEB.xml",
+      "record_id": "215928",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 21:02:37",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697589_20072026090230_WEB.xml",
+      "record_id": "212490",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

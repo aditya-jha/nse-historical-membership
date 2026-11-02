@@ -1,6 +1,34 @@
 {
   "ticker": "OBSCP",
-  "fetched_at_utc": "2026-05-10T16:51:36.733370+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.659800+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 13:02:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737516_14102026010215_WEB.xml",
+      "record_id": "214274",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "11-SEP-2026",
+      "submission_date": "23-SEP-2026",
+      "broadcast_date": "23-SEP-2026 14:12:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726783_23092026021200_WEB.xml",
+      "record_id": "213209",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "07-OCT-2026 19:49:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1726270_22092026015545_WEB.xml",
+      "record_id": "211229",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

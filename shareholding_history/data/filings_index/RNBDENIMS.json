@@ -1,8 +1,26 @@
 {
   "ticker": "RNBDENIMS",
-  "fetched_at_utc": "2026-05-10T16:54:32.964444+00:00",
-  "n_filings": 5,
+  "fetched_at_utc": "2026-11-02T12:14:14.453257+00:00",
+  "n_filings": 7,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 16:21:19",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1736969_13102026042113_WEB.xml",
+      "record_id": "214096",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "07-AUG-2026 16:58:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1704942_30072026020552_WEB.xml",
+      "record_id": "211753",
+      "revised": "Revised",
+      "format": null
+    },
     {
       "date": "06-APR-2026",
       "submission_date": "13-APR-2026",

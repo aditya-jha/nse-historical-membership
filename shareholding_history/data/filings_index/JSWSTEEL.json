@@ -1,8 +1,26 @@
 {
   "ticker": "JSWSTEEL",
-  "fetched_at_utc": "2026-05-10T16:46:53.582394+00:00",
-  "n_filings": 84,
+  "fetched_at_utc": "2026-11-02T12:14:14.052355+00:00",
+  "n_filings": 86,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:58:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743210_21102026055808_WEB.xml",
+      "record_id": "216175",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 18:20:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698632_21072026062045_WEB.xml",
+      "record_id": "212848",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

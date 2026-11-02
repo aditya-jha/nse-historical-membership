@@ -1,8 +1,26 @@
 {
   "ticker": "FILATEX",
-  "fetched_at_utc": "2026-05-10T16:42:21.288004+00:00",
-  "n_filings": 62,
+  "fetched_at_utc": "2026-11-02T12:14:14.191629+00:00",
+  "n_filings": 64,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 15:33:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741453_19102026033349_WEB.xml",
+      "record_id": "215479",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 11:54:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697808_21072026115418_WEB.xml",
+      "record_id": "212585",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

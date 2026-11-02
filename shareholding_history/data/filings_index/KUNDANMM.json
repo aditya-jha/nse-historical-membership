@@ -1,0 +1,25 @@
+{
+  "ticker": "KUNDANMM",
+  "fetched_at_utc": "2026-11-02T12:14:14.199729+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 14:03:31",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741327_19102026020327_WEB.xml",
+      "record_id": "215427",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:37:22",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696934_20072026043718_WEB.xml",
+      "record_id": "212270",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

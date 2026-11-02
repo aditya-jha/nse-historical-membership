@@ -1,8 +1,26 @@
 {
   "ticker": "RADIANTCMS",
-  "fetched_at_utc": "2026-05-10T16:53:47.640499+00:00",
-  "n_filings": 14,
+  "fetched_at_utc": "2026-11-02T12:14:14.273984+00:00",
+  "n_filings": 16,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 16:37:32",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740039_16102026043729_WEB.xml",
+      "record_id": "214983",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 17:47:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694416_16072026054738_WEB.xml",
+      "record_id": "211532",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

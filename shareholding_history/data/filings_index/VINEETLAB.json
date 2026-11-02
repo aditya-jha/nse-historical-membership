@@ -1,8 +1,26 @@
 {
   "ticker": "VINEETLAB",
-  "fetched_at_utc": "2026-05-10T17:00:22.638577+00:00",
-  "n_filings": 22,
+  "fetched_at_utc": "2026-11-02T12:14:14.187136+00:00",
+  "n_filings": 24,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 16:03:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741518_19102026040320_WEB.xml",
+      "record_id": "215505",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "31-JUL-2026",
+      "broadcast_date": "31-JUL-2026 17:17:01",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1706083_31072026051653_WEB.xml",
+      "record_id": "213002",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

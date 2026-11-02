@@ -1,8 +1,26 @@
 {
   "ticker": "GRINDWELL",
-  "fetched_at_utc": "2026-05-10T16:43:44.785068+00:00",
-  "n_filings": 79,
+  "fetched_at_utc": "2026-11-02T12:14:14.589715+00:00",
+  "n_filings": 81,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 12:22:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733278_06102026122240_WEB.xml",
+      "record_id": "213286",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "14-JUL-2026",
+      "broadcast_date": "14-JUL-2026 13:21:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692032_14072026012117_WEB.xml",
+      "record_id": "211036",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "07-APR-2026",

@@ -1,0 +1,25 @@
+{
+  "ticker": "AJRINFRA",
+  "fetched_at_utc": "2026-11-02T12:14:14.282767+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 15:51:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1739904_16102026035127_WEB.xml",
+      "record_id": "214932",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 11:22:12",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694819_17072026112207_WEB.xml",
+      "record_id": "211614",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

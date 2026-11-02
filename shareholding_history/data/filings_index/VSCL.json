@@ -1,6 +1,25 @@
 {
   "ticker": "VSCL",
-  "fetched_at_utc": "2026-05-10T17:00:40.423078+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.629988+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "18-OCT-2026",
+      "broadcast_date": "18-OCT-2026 17:56:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741084_18102026055651_WEB.xml",
+      "record_id": "215330",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 16:38:25",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696937_20072026043821_WEB.xml",
+      "record_id": "212271",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

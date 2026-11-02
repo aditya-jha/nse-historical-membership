@@ -1,8 +1,35 @@
 {
   "ticker": "DAVANGERE",
-  "fetched_at_utc": "2026-05-10T16:32:38.050791+00:00",
-  "n_filings": 10,
+  "fetched_at_utc": "2026-11-02T12:14:14.080404+00:00",
+  "n_filings": 13,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 15:52:42",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742915_21102026035238_WEB.xml",
+      "record_id": "216048",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "25-AUG-2026",
+      "submission_date": "31-AUG-2026",
+      "broadcast_date": "31-AUG-2026 13:32:11",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719280_31082026013206_WEB.xml",
+      "record_id": "213102",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 20:10:16",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1698882_21072026081012_WEB.xml",
+      "record_id": "212918",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

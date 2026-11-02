@@ -1,8 +1,26 @@
 {
   "ticker": "SSDL",
-  "fetched_at_utc": "2026-05-10T16:57:25.100203+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.517884+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "10-OCT-2026",
+      "broadcast_date": "10-OCT-2026 15:40:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1735404_10102026034004_WEB.xml",
+      "record_id": "213717",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 18:19:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696276_18072026061941_WEB.xml",
+      "record_id": "212049",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

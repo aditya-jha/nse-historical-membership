@@ -1,6 +1,34 @@
 {
   "ticker": "OLIL",
-  "fetched_at_utc": "2026-05-10T16:51:40.908060+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.613691+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "20-OCT-2026",
+      "broadcast_date": "20-OCT-2026 20:19:03",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742379_20102026081859_WEB.xml",
+      "record_id": "215844",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "15-OCT-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 19:52:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740449_16102026075242_WEB.xml",
+      "record_id": "215122",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "10-JUL-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 20:19:45",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696321_18072026081943_WEB.xml",
+      "record_id": "212060",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "PANACHE",
-  "fetched_at_utc": "2026-05-10T16:52:08.281573+00:00",
-  "n_filings": 40,
+  "fetched_at_utc": "2026-11-02T12:14:14.144601+00:00",
+  "n_filings": 42,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 22:25:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742124_19102026102500_WEB.xml",
+      "record_id": "215724",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 15:39:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1695146_17072026033924_WEB.xml",
+      "record_id": "211708",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

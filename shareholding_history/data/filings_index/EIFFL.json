@@ -1,8 +1,35 @@
 {
   "ticker": "EIFFL",
-  "fetched_at_utc": "2026-05-10T16:33:52.041535+00:00",
-  "n_filings": 29,
+  "fetched_at_utc": "2026-11-02T12:14:14.046721+00:00",
+  "n_filings": 32,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 18:18:07",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743344_21102026061803_WEB.xml",
+      "record_id": "216196",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "13-AUG-2026",
+      "submission_date": "22-AUG-2026",
+      "broadcast_date": "22-AUG-2026 16:45:48",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1717111_22082026044543_WEB.xml",
+      "record_id": "213077",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 16:28:56",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696154_18072026042855_WEB.xml",
+      "record_id": "212016",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

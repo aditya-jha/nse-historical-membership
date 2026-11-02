@@ -1,6 +1,25 @@
 {
   "ticker": "LLOYDS",
-  "fetched_at_utc": "2026-05-10T16:48:32.990217+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.688156+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "07-OCT-2026",
+      "broadcast_date": "07-OCT-2026 11:03:46",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733641_07102026110338_WEB.xml",
+      "record_id": "213344",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "17-JUL-2026",
+      "broadcast_date": "17-JUL-2026 11:17:02",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694814_17072026111656_WEB.xml",
+      "record_id": "211610",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

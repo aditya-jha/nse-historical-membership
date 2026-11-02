@@ -1,6 +1,16 @@
 {
   "ticker": "POSITRON",
-  "fetched_at_utc": "2026-05-10T16:52:59.043582+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.656951+00:00",
+  "n_filings": 1,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 17:17:28",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737896_14102026051724_WEB.xml",
+      "record_id": "214391",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,0 +1,34 @@
+{
+  "ticker": "MERCURYEV",
+  "fetched_at_utc": "2026-11-02T12:14:14.263531+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "16-OCT-2026",
+      "broadcast_date": "16-OCT-2026 17:27:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740161_16102026052711_WEB.xml",
+      "record_id": "215037",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:52:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697191_20072026055223_WEB.xml",
+      "record_id": "212360",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "01-JUN-2026",
+      "submission_date": "04-JUN-2026",
+      "broadcast_date": "09-JUN-2026 18:28:15",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1680441_09062026033436_WEB.xml",
+      "record_id": "210375",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

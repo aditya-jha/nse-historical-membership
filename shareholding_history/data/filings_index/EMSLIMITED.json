@@ -1,8 +1,26 @@
 {
   "ticker": "EMSLIMITED",
-  "fetched_at_utc": "2026-05-10T16:34:09.869287+00:00",
-  "n_filings": 12,
+  "fetched_at_utc": "2026-11-02T12:14:14.589018+00:00",
+  "n_filings": 14,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "06-OCT-2026",
+      "broadcast_date": "06-OCT-2026 12:36:43",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1733296_06102026123639_WEB.xml",
+      "record_id": "213288",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "02-JUL-2026",
+      "broadcast_date": "02-JUL-2026 15:44:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1687520_02072026034402_WEB.xml",
+      "record_id": "210471",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "03-APR-2026",

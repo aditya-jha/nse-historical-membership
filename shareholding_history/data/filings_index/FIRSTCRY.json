@@ -1,8 +1,26 @@
 {
   "ticker": "FIRSTCRY",
-  "fetched_at_utc": "2026-05-10T16:42:25.834933+00:00",
-  "n_filings": 8,
+  "fetched_at_utc": "2026-11-02T12:14:14.438749+00:00",
+  "n_filings": 10,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 18:17:17",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737199_13102026061712_WEB.xml",
+      "record_id": "214174",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "16-JUL-2026",
+      "broadcast_date": "16-JUL-2026 15:20:39",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1694104_16072026032035_WEB.xml",
+      "record_id": "211468",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "21-APR-2026",

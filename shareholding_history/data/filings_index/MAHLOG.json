@@ -1,8 +1,26 @@
 {
   "ticker": "MAHLOG",
-  "fetched_at_utc": "2026-05-10T16:49:00.201995+00:00",
-  "n_filings": 36,
+  "fetched_at_utc": "2026-11-02T12:14:14.154299+00:00",
+  "n_filings": 38,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "19-OCT-2026",
+      "broadcast_date": "19-OCT-2026 19:04:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1741950_19102026070401_WEB.xml",
+      "record_id": "215669",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 23:04:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697659_20072026110401_WEB.xml",
+      "record_id": "212519",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

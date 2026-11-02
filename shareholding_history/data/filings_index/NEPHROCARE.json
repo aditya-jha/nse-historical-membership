@@ -1,6 +1,25 @@
 {
   "ticker": "NEPHROCARE",
-  "fetched_at_utc": "2026-05-10T16:50:58.625809+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.681586+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "09-OCT-2026",
+      "broadcast_date": "09-OCT-2026 15:25:49",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1734858_09102026032545_WEB.xml",
+      "record_id": "213591",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 12:39:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692912_15072026123948_WEB.xml",
+      "record_id": "211209",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

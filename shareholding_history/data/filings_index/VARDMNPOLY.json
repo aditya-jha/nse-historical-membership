@@ -1,8 +1,35 @@
 {
   "ticker": "VARDMNPOLY",
-  "fetched_at_utc": "2026-05-10T16:59:58.267769+00:00",
-  "n_filings": 92,
+  "fetched_at_utc": "2026-11-02T12:14:14.412575+00:00",
+  "n_filings": 95,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 14:34:24",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737603_14102026023418_WEB.xml",
+      "record_id": "214297",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "17-SEP-2026",
+      "submission_date": "21-SEP-2026",
+      "broadcast_date": "21-SEP-2026 15:01:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725913_21092026030131_WEB.xml",
+      "record_id": "213200",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "09-JUL-2026",
+      "broadcast_date": "09-JUL-2026 15:31:59",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1689725_09072026033154_WEB.xml",
+      "record_id": "210687",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

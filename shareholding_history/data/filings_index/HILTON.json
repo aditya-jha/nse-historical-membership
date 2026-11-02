@@ -1,8 +1,26 @@
 {
   "ticker": "HILTON",
-  "fetched_at_utc": "2026-05-10T16:44:30.720941+00:00",
-  "n_filings": 82,
+  "fetched_at_utc": "2026-11-02T12:14:14.227933+00:00",
+  "n_filings": 84,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:58:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740860_17102026045801_WEB.xml",
+      "record_id": "215265",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:54:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697198_20072026055405_WEB.xml",
+      "record_id": "212363",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "06-APR-2026",
       "submission_date": "09-APR-2026",

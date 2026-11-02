@@ -1,0 +1,25 @@
+{
+  "ticker": "GLASSWALL",
+  "fetched_at_utc": "2026-11-02T12:14:14.438884+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "13-OCT-2026",
+      "broadcast_date": "13-OCT-2026 18:14:30",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737196_13102026061424_WEB.xml",
+      "record_id": "214173",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "15-SEP-2026",
+      "submission_date": "16-SEP-2026",
+      "broadcast_date": "18-SEP-2026 10:29:52",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1724773_16092026071434_WEB.xml",
+      "record_id": "213168",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

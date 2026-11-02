@@ -1,8 +1,35 @@
 {
   "ticker": "SAMPANN",
-  "fetched_at_utc": "2026-05-10T16:55:14.068069+00:00",
-  "n_filings": 56,
+  "fetched_at_utc": "2026-11-02T12:14:14.351041+00:00",
+  "n_filings": 59,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 15:08:55",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738775_15102026030850_WEB.xml",
+      "record_id": "214580",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "04-AUG-2026",
+      "submission_date": "08-AUG-2026",
+      "broadcast_date": "21-AUG-2026 16:44:20",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1710888_10082026022512_WEB.xml",
+      "record_id": "213027",
+      "revised": "Revised",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "18-JUL-2026",
+      "broadcast_date": "18-JUL-2026 15:24:40",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696082_18072026032436_WEB.xml",
+      "record_id": "211993",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "17-APR-2026",

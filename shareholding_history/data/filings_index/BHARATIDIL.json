@@ -1,0 +1,25 @@
+{
+  "ticker": "BHARATIDIL",
+  "fetched_at_utc": "2026-11-02T12:14:14.076336+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 16:16:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742966_21102026041607_WEB.xml",
+      "record_id": "216066",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "20-JUL-2026",
+      "broadcast_date": "20-JUL-2026 17:38:13",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697140_20072026053807_WEB.xml",
+      "record_id": "212338",
+      "revised": "N",
+      "format": null
+    }
+  ]
+}

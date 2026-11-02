@@ -1,6 +1,34 @@
 {
   "ticker": "VIAZ",
-  "fetched_at_utc": "2026-05-10T17:00:13.476092+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.634030+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "17-OCT-2026",
+      "broadcast_date": "17-OCT-2026 16:26:38",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1740824_17102026042634_WEB.xml",
+      "record_id": "215251",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "12-AUG-2026",
+      "submission_date": "29-AUG-2026",
+      "broadcast_date": "29-AUG-2026 23:51:51",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1719185_29082026115145_WEB.xml",
+      "record_id": "213101",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "11-JUL-2026",
+      "submission_date": "22-JUL-2026",
+      "broadcast_date": "28-JUL-2026 13:01:18",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1701236_24072026075049_WEB.xml",
+      "record_id": "212950",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

@@ -1,8 +1,26 @@
 {
   "ticker": "RAJRILTD",
-  "fetched_at_utc": "2026-05-10T16:53:54.958482+00:00",
-  "n_filings": 19,
+  "fetched_at_utc": "2026-11-02T12:14:14.424019+00:00",
+  "n_filings": 21,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 11:51:34",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1737429_14102026115131_WEB.xml",
+      "record_id": "214244",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 11:59:09",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1692858_15072026115907_WEB.xml",
+      "record_id": "211192",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "13-APR-2026",

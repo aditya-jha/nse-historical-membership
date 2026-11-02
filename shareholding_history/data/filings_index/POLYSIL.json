@@ -1,6 +1,34 @@
 {
   "ticker": "POLYSIL",
-  "fetched_at_utc": "2026-05-10T16:52:56.424379+00:00",
-  "n_filings": 0,
-  "filings": []
+  "fetched_at_utc": "2026-11-02T12:14:14.652989+00:00",
+  "n_filings": 3,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "15-OCT-2026",
+      "broadcast_date": "15-OCT-2026 13:58:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738683_15102026015849_WEB.xml",
+      "record_id": "214554",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "15-JUL-2026",
+      "broadcast_date": "15-JUL-2026 19:07:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1693612_15072026070749_WEB.xml",
+      "record_id": "211353",
+      "revised": null,
+      "format": null
+    },
+    {
+      "date": "21-MAY-2026",
+      "submission_date": "02-JUN-2026",
+      "broadcast_date": "02-JUN-2026 22:33:06",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1679099_02062026103257_WEB.xml",
+      "record_id": "210368",
+      "revised": null,
+      "format": null
+    }
+  ]
 }

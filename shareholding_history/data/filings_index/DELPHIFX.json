@@ -1,8 +1,26 @@
 {
   "ticker": "DELPHIFX",
-  "fetched_at_utc": "2026-05-10T16:32:55.522286+00:00",
-  "n_filings": 64,
+  "fetched_at_utc": "2026-11-02T12:14:14.099657+00:00",
+  "n_filings": 66,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 13:38:27",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742677_21102026013822_WEB.xml",
+      "record_id": "215958",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "19-JUL-2026",
+      "broadcast_date": "19-JUL-2026 23:04:54",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1696373_19072026110448_WEB.xml",
+      "record_id": "212079",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",

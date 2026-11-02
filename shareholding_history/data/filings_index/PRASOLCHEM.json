@@ -1,0 +1,25 @@
+{
+  "ticker": "PRASOLCHEM",
+  "fetched_at_utc": "2026-11-02T12:14:14.385144+00:00",
+  "n_filings": 2,
+  "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "14-OCT-2026",
+      "broadcast_date": "14-OCT-2026 18:22:08",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1738044_14102026062200_WEB.xml",
+      "record_id": "214430",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "15-SEP-2026",
+      "submission_date": "16-SEP-2026",
+      "broadcast_date": "24-SEP-2026 16:33:44",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1725445_18092026054949_WEB.xml",
+      "record_id": "213170",
+      "revised": "Revised",
+      "format": null
+    }
+  ]
+}

@@ -1,8 +1,26 @@
 {
   "ticker": "JNKINDIA",
-  "fetched_at_utc": "2026-05-10T16:46:46.960997+00:00",
-  "n_filings": 9,
+  "fetched_at_utc": "2026-11-02T12:14:14.058743+00:00",
+  "n_filings": 11,
   "filings": [
+    {
+      "date": "30-SEP-2026",
+      "submission_date": "21-OCT-2026",
+      "broadcast_date": "21-OCT-2026 17:25:26",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1743152_21102026052520_WEB.xml",
+      "record_id": "216144",
+      "revised": "N",
+      "format": null
+    },
+    {
+      "date": "30-JUN-2026",
+      "submission_date": "21-JUL-2026",
+      "broadcast_date": "21-JUL-2026 12:30:21",
+      "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1697866_21072026123016_WEB.xml",
+      "record_id": "212619",
+      "revised": "N",
+      "format": null
+    },
     {
       "date": "31-MAR-2026",
       "submission_date": "20-APR-2026",
