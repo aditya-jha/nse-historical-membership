@@ -60,6 +60,8 @@ def test_breach_rate_flags_wrong_band():
 
 
 def test_holiday_copy_is_detected():
+    import pytest
+    pytest.importorskip("requests")  # rebuild-side dependency; CI installs consumer deps only
     from nse_eod.code.fetch_bhavcopy import _file_date
     # What NSE serves for 26-Jan-2024 (Republic Day): the 25-Jan session.
     text = ("SYMBOL, SERIES, DATE1, PREV_CLOSE\n"
