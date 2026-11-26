@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+**`nse_eod` — point-in-time market cap and NSE's band-hitter list.** `fetch_bhavcopy --dataset pr`
+keeps the `bh` (band hitters), `bc` (corporate actions) and `mcap` (issue size, from 2024-02)
+files of NSE's daily PR zip. New `build_market_cap` gives every daily OHLC row a share count and
+market cap from NSE's `mcap`, else quarterly shareholding (renames followed), else a backfill
+through bonuses and splits; the sources agree to a median 0.00% where they overlap. README
+documents how the price-based circuit flags compare with NSE's `bh` list (99% recall, ~80% precision).
+
 **`nse_eod` — daily price bands and circuit flags.** `fetch_bhavcopy --dataset bands`
 downloads NSE's daily `sec_list_DDMMYYYY.csv` (each security's 2/5/10/20 % band; NSE
 publishes file D after the close for the next session, and the build re-dates it). `build_daily_ohlc` joins it and adds `band_pct`, `upper_hit`, `upper_close`, `lower_hit`,
