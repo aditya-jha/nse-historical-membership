@@ -4,6 +4,9 @@ Datasets (``--dataset``):
   bhavcopy  `sec_bhavdata_full_DDMMYYYY.csv`  OHLC, volume, turnover, delivery
   bands     `sec_list_DDMMYYYY.csv`           price band (2/5/10/20 % or "No Band"), published
                                               after the close for the NEXT session
+  pr        `PRddmmyy.zip` → keeps `bh` (securities that hit their price band that day), `bc`
+            (corporate actions: ex-dates of splits, bonuses, dividends) and,
+            from mid-2024, `mcap` (issue size and market cap of every listed security)
 
 Resumable (skip if cached). Iterates weekdays in a date range and 404s
 indicate non-trading days (holidays) — recorded in summary, not retried.
@@ -11,14 +14,17 @@ indicate non-trading days (holidays) — recorded in summary, not retried.
 Run:
     python -m nse_eod.code.fetch_bhavcopy --start 2020-01-01 --end today
     python -m nse_eod.code.fetch_bhavcopy --dataset bands --start 2020-01-01 --end today
+    python -m nse_eod.code.fetch_bhavcopy --dataset pr --start 2020-01-01 --end today
     python -m nse_eod.code.fetch_bhavcopy --start 2025-01-01 --end 2025-01-31  # smoke
 """
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import sys
 import time
+import zipfile
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -27,15 +33,19 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 BHAVCOPY_DIR = ROOT / "data" / "bhavcopy"
 BANDS_DIR = ROOT / "data" / "price_bands"
+PR_DIR = ROOT / "data" / "pr"
 
 PROJECT_ROOT = ROOT.parent
 URL_TMPL = "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_{ddmmyyyy}.csv"
 BANDS_URL_TMPL = "https://nsearchives.nseindia.com/content/equities/sec_list_{ddmmyyyy}.csv"
+PR_URL_TMPL = "https://nsearchives.nseindia.com/archives/equities/bhavcopy/pr/PR{ddmmyy}.zip"
+PR_MEMBERS = ("bh", "mcap", "bc")  # bc = corporate actions; kept from the zip, saved as {member}_DDMMYYYY.csv
 
 # name -> (url template, output dir, file prefix, expected first bytes of a valid file)
 DATASETS = {
     "bhavcopy": (URL_TMPL, BHAVCOPY_DIR, "sec_bhavdata_full", "SYMBOL"),
     "bands": (BANDS_URL_TMPL, BANDS_DIR, "sec_list", "Symbol"),
+    "pr": (PR_URL_TMPL, PR_DIR, "bh", "PK"),
 }
 DATASET = "bhavcopy"  # set by main()
 LEGACY_URL_TMPL = (
@@ -79,18 +89,20 @@ def _is_holiday_marker(p: Path) -> bool:
 
 def _fetch_one(s: requests.Session, d: date) -> dict:
     out = _path_for(d)
-    if out.exists() and out.stat().st_size > 5000:
+    if out.exists() and out.stat().st_size > (0 if DATASET == "pr" else 5000):
         return {"date": d.isoformat(), "status": "cached", "size": out.stat().st_size}
     if _is_holiday_marker(out):
         return {"date": d.isoformat(), "status": "holiday_cached"}
 
     url_tmpl, _, _, header = DATASETS[DATASET]
-    url = url_tmpl.format(ddmmyyyy=d.strftime("%d%m%Y"))
+    url = url_tmpl.format(ddmmyyyy=d.strftime("%d%m%Y"), ddmmyy=d.strftime("%d%m%y"))
     try:
         r = s.get(url, timeout=30, headers={"Referer": "https://www.nseindia.com/"})
     except requests.RequestException as e:
         return {"date": d.isoformat(), "status": f"err_{type(e).__name__}", "error": str(e)[:80]}
 
+    if DATASET == "pr" and r.status_code == 200 and r.content[:2] == b"PK":
+        return _save_pr(r.content, d, out)
     if r.status_code == 200 and len(r.content) > 5000 and r.text.startswith(header):
         if DATASET == "bhavcopy" and _file_date(r.text) != d:
             # NSE answers some weekday holidays (e.g. 26-Jan-2024) with the previous
@@ -105,6 +117,25 @@ def _fetch_one(s: requests.Session, d: date) -> dict:
         return {"date": d.isoformat(), "status": "holiday"}
     return {"date": d.isoformat(), "status": f"http_{r.status_code}",
             "error": r.text[:80]}
+
+
+def _save_pr(content: bytes, d: date, out: Path) -> dict:
+    """Keep the `bh` and `mcap` members of a PR zip whose member names carry date `d`."""
+    z = zipfile.ZipFile(io.BytesIO(content))
+    tags = (d.strftime("%d%m%y"), d.strftime("%d%m%Y"))
+    kept = {}
+    for name in z.namelist():
+        low = name.lower()
+        for m in PR_MEMBERS:
+            if low.startswith(m) and low.endswith(".csv") and low[len(m):-4] in tags:
+                kept[m] = z.read(name)
+    if "bh" not in kept:
+        # No same-dated bh member: a holiday copy of another session (or a changed layout).
+        out.write_text("")
+        return {"date": d.isoformat(), "status": "holiday", "members": z.namelist()[:3]}
+    for m, data in kept.items():
+        (out.parent / f"{m}_{d.strftime('%d%m%Y')}.csv").write_bytes(data)
+    return {"date": d.isoformat(), "status": "ok", "size": len(content), "members": sorted(kept)}
 
 
 def main():

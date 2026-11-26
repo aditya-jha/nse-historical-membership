@@ -25,6 +25,9 @@ venv/
 # nse_eod bulk data (raw bhavcopies + consolidated parquet — rebuild via fetch scripts)
 nse_eod/data/bhavcopy/
 nse_eod/data/price_bands/
+nse_eod/data/pr/
+nse_eod/data/_market_cap.parquet
+nse_eod/data/symbolchange.csv
 nse_eod/data/_daily_ohlc.parquet
 nse_eod/data/*.json
 nse_eod/data/*.log

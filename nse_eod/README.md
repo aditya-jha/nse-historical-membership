@@ -70,6 +70,35 @@ Limits: on an ex-date (split, bonus) NSE sets the band off an adjusted base pric
 `PREV_CLOSE` in the bhavcopy is not adjusted, so flags are unreliable on those days. About 8% of
 sub-₹250 closes were on ₹0.01 steps before 2024-06-10 too; they get the looser ₹0.05 slack.
 
+## Market cap (`build_market_cap`)
+
+`fetch_bhavcopy --dataset pr` keeps three files from NSE's daily PR zip: `bh` (securities that
+hit their price band), `bc` (corporate actions) and, from 2024-02-01, `mcap` (every listed
+company's issue size and market cap). `build_market_cap` then gives every row of
+`_daily_ohlc.parquet` a share count, as of that date:
+
+| `shares_source` | rule |
+|--|--|
+| `nse_mcap` | NSE's issue size that day (2024-02 →) |
+| `shareholding` | `shareholding_history` `total_shares`, from the day after the filing's broadcast date; renames followed through NSE's `symbolchange.csv` |
+| `backfill` | the first `mcap` issue size, carried back through bonuses (`BONUS a:b` → ×(a+b)/b) and face-value splits; stops at capital reductions and consolidations; misses fresh issues |
+
+Agreement where sources overlap (2020-01 → 2026-11 build): shareholding vs `nse_mcap` median
+difference 0.00%, 95.4% of 1.49M rows within 5%; backfill vs shareholding median 0.00%, 88.9% of
+1.60M rows within 10%. SME rows have a share count 94-99% of the time in every year (most of
+2020-23 SME is `backfill`). Rows left without one are almost all ETFs, which have no market cap.
+
+Output `data/_market_cap.parquet`: `symbol, date, series, shares, mcap_inr, shares_source`.
+
+## NSE's own band-hitter list (`bh`)
+
+Cross-check of the price-based flags against NSE's daily `bh` list, banded stocks, 2020-01 →
+2024-02: `upper_hit` finds 98.9% of NSE's upper hitters and `lower_hit` 99.8% of its lower ones,
+but only 80.8% / 75.9% of our flags are on NSE's list. The extras are mostly 5% and 2% band
+stocks whose high equals the band price rounded down to the tick, and penny stocks whose band is
+smaller than one tick. Rounding the band price up instead finds only 8% of NSE's list, so it is
+not the rounding. Treat `bh` as the exchange's definition and the flags as a superset.
+
 ## Pipeline
 
 ```
