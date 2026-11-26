@@ -5,6 +5,7 @@ pytest>=7.0
 # For rebuilding from source:
 pdfplumber>=0.10
 requests>=2.31
+pyarrow>=14  # nse_eod parquet output
 
 # Optional — only if you want to write to a Postgres backend
 # (the --csv-out path doesn't need these):

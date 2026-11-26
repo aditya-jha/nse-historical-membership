@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+**`nse_eod` — daily price bands and circuit flags.** `fetch_bhavcopy --dataset bands`
+downloads NSE's daily `sec_list_DDMMYYYY.csv` (each security's 2/5/10/20 % band; NSE
+publishes file D after the close for the next session, and the build re-dates it). `build_daily_ohlc` joins it and adds `band_pct`, `upper_hit`, `upper_close`, `lower_hit`,
+`lower_close`, and now keeps `deliv_qty` / `deliv_pct` from the bhavcopy.
+- Fix: on some weekday holidays (e.g. 26-Jan-2024) NSE returns the previous session's
+  bhavcopy with HTTP 200; the fetcher saved it under the holiday's date and the build counted
+  that session twice. The fetcher now checks the file's own date, and the build drops
+  duplicate (symbol, date, series) rows.
+
 **Data license: CC BY 4.0 → CC0 1.0.** The data files are now dedicated to the public
 domain — use them however you like. Code stays MIT.
 
