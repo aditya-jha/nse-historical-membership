@@ -136,7 +136,7 @@ The parsed CSVs are committed, so for most uses you don't need to rebuild anythi
 
 ### `nse_eod/` — cash-market daily OHLC (code-only)
 
-A daily NSE cash-market bhavcopy → consolidated long-format OHLC + turnover table covering the full universe (main board + SME Emerge), no auth, no Cloudflare. **Unlike the other three modules, no output data is committed** — the consolidated table is ~half a GB, so you rebuild it locally from NSE's bhavcopies. Supported window: **2020-01-01 → today** via `sec_bhavdata_full`. Output schema (`data/_daily_ohlc.parquet`): `symbol, date, series, open, high, low, close, last, prev_close, avg_price, volume_shares, turnover_inr, n_trades`. See `nse_eod/README.md`.
+A daily NSE cash-market bhavcopy → consolidated long-format OHLC + turnover table covering the full universe (main board + SME Emerge), no auth, no Cloudflare. **Unlike the other three modules, no output data is committed** — the consolidated table is ~half a GB, so you rebuild it locally from NSE's bhavcopies. Supported window: **2020-01-01 → today** via `sec_bhavdata_full`. Output schema (`data/_daily_ohlc.parquet`): `symbol, date, series, open, high, low, close, last, prev_close, avg_price, volume_shares, turnover_inr, n_trades, deliv_qty, deliv_pct`, plus each day's **price band** (`band_pct`) and **circuit flags** (`upper_hit, upper_close, lower_hit, lower_close`) when the band files are fetched. See `nse_eod/README.md`.
 
 ## Data dictionary
 
@@ -233,6 +233,7 @@ python -m shareholding_history.code.build_signals         # -> _qoq_delta.csv + 
 
 # EOD cash-market OHLC (no data shipped — this generates it)
 python -m nse_eod.code.fetch_bhavcopy --start 2020-01-01 --end today   # daily bhavcopies (resumable)
+python -m nse_eod.code.fetch_bhavcopy --dataset bands --start 2020-01-01 --end today  # daily price bands
 python -m nse_eod.code.build_daily_ohlc                   # union -> data/_daily_ohlc.parquet
 ```
 
